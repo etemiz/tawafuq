@@ -1,0 +1,128 @@
+{
+  "version": "handwritten-scan-first-ink-trim-labels-v6",
+  "plan_sha256": "9aa206afbd44c647b7a2b3cdfa656edbb3df88a4f8b1711fc92f8c0e0bce474e",
+  "reader": "One AI reader, 2026-10-19, after f032a12. All six pages read as scan-only 2x row crops with original-coordinate rulers before inspecting selected predictions. Canonical text confirms the handwritten normalized row transcriptions. No independent second reader.",
+  "protocol": "Physical Quran rows 2/7/12; lexical positions 1/4/7 from the right, ignoring verse rosettes. All scheduled slots retained. Independent letter cores score centers. Separate whitespace partitions retain letters and vowels of either ink color. Ambiguous ownership is explicit; only designated optional pixels permit an exact all-subset certificate. Generic unresolved ownership is unscorable. Initial partitions may be refined from scan-only context before labels and evaluator are locked; none are revised after comparison in this artifact.",
+  "pages": [
+    {
+      "page": 36,
+      "rows": [
+        {"physical_row":2,"first_verse":"2:231","first_word_in_verse":8,"transcription":["او","سرحوهن","بمعروف","ولا","تمسكوهن","ضرارا","لتعتدوا"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[968,168,994,210],"partition":[960,135,1008,231],"ink_class":"black","mark_ownership":"clear","note":"Rightmost aw; isolate both letters and its upper hamza/vowel from sarrihuhunna on the left."},
+          {"lexical_position_rtl":4,"core_rect":[608,168,659,211],"partition":[603,135,682,232],"ink_class":"black","mark_ownership":"clear","note":"Wa-la between the colored bi-maruf and tumsikuhunna; keep the separate waw and lam-alif as one token. Scan-only enlargement separates tumsikuhunna ending at x601 from this word starting x614, and includes its waw fatha through x676."},
+          {"lexical_position_rtl":7,"core_rect":[235,171,320,211],"partition":[232,135,333,231],"ink_class":"black","mark_ownership":"clear","note":"Li-tatadu before wa-man; the separate magenta jim is outside. Scan-only components separate the following waw ending x230 from this word starting x235 and retain this word's lower kasra ending x330."}
+        ]},
+        {"physical_row":7,"first_verse":"2:232","first_word_in_verse":10,"transcription":["ازوجهن","اذا","ترضوا","بينهم","بالمعروف","ذلك","يوعظ"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[848,722,994,766],"partition":[826,685,1008,783],"ink_class":"mixed","mark_ownership":"clear","note":"Azwajahunna has black initial letters and a magenta lexical hunna suffix; all are mandatory word ink."},
+          {"lexical_position_rtl":4,"core_rect":[519,723,621,766],"partition":[508,685,632,785],"ink_class":"black","mark_ownership":"clear","note":"Baynahum between taradaw and bi-l-maruf; include upper dots/vowels and lower ya marks."},
+          {"lexical_position_rtl":7,"core_rect":[149,722,236,767],"partition":[140,685,246,785],"ink_class":"black","mark_ownership":"clear","note":"Yuazu between dhalika and bihi; retain its raised vowel marks and final za stroke."}
+        ]},
+        {"physical_row":12,"first_verse":"2:233","first_word_in_verse":25,"transcription":["بولدها","ولا","مولود","له","بولده","وعلي","الوارث"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[890,1273,998,1320],"partition":[879,1241,1010,1340],"ink_class":"black","mark_ownership":"clear","note":"Bi-waladiha at the right margin; retain its lower ba/kasra and all separated letters."},
+          {"lexical_position_rtl":4,"core_rect":[670,1273,700,1312],"partition":[661,1242,713,1340],"ink_class":"black","mark_ownership":"clear","note":"Lahu is the small separate token between mawlud and bi-waladihi. Enlarged reading isolates its letter core at x668..701 and own upper damma/fatha; neighboring bi-waladihi's lower kasra ends x657 and is excluded."},
+          {"lexical_position_rtl":7,"core_rect":[350,1270,448,1320],"partition":[341,1242,455,1340],"ink_class":"black","mark_ownership":"clear","note":"Al-warith between wa-ala and mithlu; upper alif/lam and lower final-tha kasra belong to this token."}
+        ]}
+      ]
+    },
+    {
+      "page": 124,
+      "rows": [
+        {"physical_row":2,"first_verse":"5:104","first_word_in_verse":11,"transcription":["قالوا","حسبنا","ما","وجدنا","عليه","ءاباءنا","اولو"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[930,166,995,213],"partition":[920,134,1008,235],"ink_class":"black","mark_ownership":"clear","note":"Qalu at the right margin; the final waw/alif remain part of the word, before hasbuna."},
+          {"lexical_position_rtl":4,"core_rect":[599,165,704,213],"partition":[589,134,713,235],"ink_class":"black","mark_ownership":"clear","note":"Wajadna between ma and alayhi; preserve its separated initial waw and full final na."},
+          {"lexical_position_rtl":7,"core_rect":[286,166,352,213],"partition":[277,134,364,233],"ink_class":"colored","mark_ownership":"clear","note":"Awa-law is fully magenta lexical ink. The separate ta stop sign above neighboring abaana lies to the right of this partition."}
+        ]},
+        {"physical_row":7,"first_verse":"5:106","first_word_in_verse":13,"transcription":["ذوا","عدل","منكم","او","ءاخران","من","غيركم"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[954,723,997,766],"partition":[948,688,1008,785],"ink_class":"black","mark_ownership":"clear","note":"Dhawa at the right edge, including its initial dhal dot and upper strokes; adl begins separately on the left."},
+          {"lexical_position_rtl":4,"core_rect":[711,723,742,766],"partition":[704,687,752,785],"ink_class":"black","mark_ownership":"clear","note":"Aw is the separate short token between minkum and akharan; keep its upper hamza/vowel."},
+          {"lexical_position_rtl":7,"core_rect":[438,722,529,766],"partition":[429,685,539,785],"ink_class":"black","mark_ownership":"clear","note":"Ghayrikum between min and in; its ghayn dot and ya/kasra marks are included."}
+        ]},
+        {"physical_row":12,"first_verse":"5:107","first_word_in_verse":14,"transcription":["الاولين","فيقسمان","بالله","لشهدتنا","احق","من","شهدتهما"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[887,1275,1000,1318],"partition":[877,1241,1008,1340],"ink_class":"black","mark_ownership":"clear","note":"Al-awlayan at the right margin, represented by the canonical Uthmani token al-awlayn; preserve its full black letters/vowels."},
+          {"lexical_position_rtl":4,"core_rect":[459,1271,612,1318],"partition":[445,1234,625,1340],"ink_class":"black","mark_ownership":"clear","note":"La-shahadatuna follows the colored bi-llah; retain all black initial lam and final na ink, including its own upper elongation beginning x450/y1240 and initial-lam fatha ending x619."},
+          {"lexical_position_rtl":7,"core_rect":[118,1272,264,1318],"partition":[108,1240,272,1340],"ink_class":"black","mark_ownership":"clear","note":"Shahadatihima between min and wa-ma; lower kasra strokes and both final pronoun letters are included."}
+        ]}
+      ]
+    },
+    {
+      "page": 298,
+      "rows": [
+        {"physical_row":2,"first_verse":"18:46","first_word_in_verse":10,"transcription":["ربك","ثوابا","وخير","املا","ويوم","نسير","الجبال"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[929,168,1000,213],"partition":[920,134,1010,236],"ink_class":"colored","mark_ownership":"clear","note":"Rabbika is magenta lexical ink at the right margin, including the final kaf's lower kasra."},
+          {"lexical_position_rtl":4,"core_rect":[633,167,702,215],"partition":[623,134,710,235],"ink_class":"black","mark_ownership":"clear","note":"Amala ends verse 46. Its left-side whitespace separates it from the verse-46 rosette, which is outside the partition."},
+          {"lexical_position_rtl":7,"core_rect":[258,164,343,216],"partition":[248,134,354,235],"ink_class":"black","mark_ownership":"clear","note":"Al-jibal in verse 47 is the seventh lexical token after ignoring the rosette; keep its separated upper strokes and lower jim mark."}
+        ]},
+        {"physical_row":7,"first_verse":"18:49","first_word_in_verse":15,"transcription":["صغيره","ولا","كبيره","الا","احصيها","ووجدوا","ما"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[880,723,998,766],"partition":[873,685,1008,785],"ink_class":"black","mark_ownership":"clear","note":"Saghiratan at the right margin; retain ghayn dot, tanwin and lower ya/ta vowel marks."},
+          {"lexical_position_rtl":4,"core_rect":[683,717,715,766],"partition":[658,675,725,785],"ink_class":"black","mark_ownership":"uncertain","note":"Illa's letter core is clear, but no simple vertical whitespace cut isolates all of its overhanging upper extension and lower kasra from ahsaha's fatha/initial alif on the left and kabira's tanwin on the right. The broad partition contains the full target with neighboring ink; full horizontal ownership remains unresolved and unscorable. No exact optional mask is asserted."},
+          {"lexical_position_rtl":7,"core_rect":[369,722,399,766],"partition":[361,689,404,785],"ink_class":"black","mark_ownership":"clear","note":"Ma is the short separate token between wa-wajadu and amilu; its upper fatha and final alif remain included."}
+        ]},
+        {"physical_row":12,"first_verse":"18:51","first_word_in_verse":6,"transcription":["ولا","خلق","انفسهم","وما","كنت","متخذ","المضلين"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[928,1273,999,1318],"partition":[925,1241,1010,1340],"ink_class":"black","mark_ownership":"clear","note":"Wa-la at the right margin includes the separate waw and lam-alif, before khalqa. Scan-only enlargement excludes khalqa's final stroke ending x919; wa-la begins at x931."},
+          {"lexical_position_rtl":4,"core_rect":[592,1272,659,1318],"partition":[583,1240,668,1340],"ink_class":"black","mark_ownership":"clear","note":"Wa-ma includes both visibly separated parts as one canonical token; neighboring anfusihim and kuntu stay outside."},
+          {"lexical_position_rtl":7,"core_rect":[220,1274,349,1318],"partition":[210,1240,357,1340],"ink_class":"black","mark_ownership":"clear","note":"Al-mudillin between muttakhidha and aduda; retain upper shadda and lower vowel/ya strokes."}
+        ]}
+      ]
+    },
+    {
+      "page": 366,
+      "rows": [
+        {"physical_row":2,"first_verse":"26:1","first_word_in_verse":1,"transcription":["طسم","تلك","ءايت","الكتب","المبين","لعلك","بخع"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[907,171,998,215],"partition":[895,134,1010,235],"ink_class":"black","mark_ownership":"clear","note":"Ta-sin-mim is one canonical token; both upper black elongation marks belong to its printed letters. The verse-1 rosette and magenta stop sign lie to the left outside this partition."},
+          {"lexical_position_rtl":4,"core_rect":[584,169,679,214],"partition":[572,134,691,234],"ink_class":"black","mark_ownership":"clear","note":"Al-kitab is the fourth lexical token ignoring the verse-1 rosette; retain its lower kaf/ba and upper vowel strokes."},
+          {"lexical_position_rtl":7,"core_rect":[234,170,299,219],"partition":[219,134,309,238],"ink_class":"black","mark_ownership":"clear","note":"Bakhiun in verse 3 is the seventh token after both rosettes are ignored; its descending final ayn remains part of the word."}
+        ]},
+        {"physical_row":7,"first_verse":"26:7","first_word_in_verse":10,"transcription":["زوج","كريم","ان","في","ذلك","لايه","وما"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[929,722,998,766],"partition":[921,685,1008,785],"ink_class":"black","mark_ownership":"clear","note":"Zawjin at the right margin; its lower jim/kasra and upper zay dot are included before karim."},
+          {"lexical_position_rtl":4,"core_rect":[687,722,712,765],"partition":[678,686,719,785],"ink_class":"black","mark_ownership":"clear","note":"Fi follows inna after the verse-7 rosette. Its upper fa dot and lower ya/kasra belong to the short token."},
+          {"lexical_position_rtl":7,"core_rect":[435,722,495,765],"partition":[425,685,502,785],"ink_class":"black","mark_ownership":"clear","note":"Wa-ma is one token containing its separated waw; the magenta ta stop sign above la-aya lies to the right outside the partition."}
+        ]},
+        {"physical_row":12,"first_verse":"26:15","first_word_in_verse":2,"transcription":["كلا","فاذهبا","بايتنا","انا","معكم","مستمعون","فاتيا"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[928,1273,1000,1318],"partition":[914,1243,1010,1340],"ink_class":"black","mark_ownership":"clear","note":"Kalla at the right margin; retain its own black shadda/elongation. The isolated magenta jim is stop notation and excluded by the black-ink class."},
+          {"lexical_position_rtl":4,"core_rect":[629,1273,663,1318],"partition":[628,1240,677,1340],"ink_class":"black","mark_ownership":"clear","note":"Inna is the small black token after magenta bi-ayatina; retain its initial alif/hamza, shadda and lower kasra through x673. The left cut excludes ma-akum's fatha ending x622; neighboring magenta ink is excluded by class."},
+          {"lexical_position_rtl":7,"core_rect":[242,1273,306,1318],"partition":[232,1240,320,1340],"ink_class":"black","mark_ownership":"clear","note":"Fatiya starts verse 16 after the verse-15 rosette. Its initial-fa fatha ends x316 and remains included; rosette numeral ink begins x331 outside the partition. Firawn is excluded on the left."}
+        ]}
+      ]
+    },
+    {
+      "page": 500,
+      "rows": [
+        {"physical_row":2,"first_verse":"45:23","first_word_in_verse":13,"transcription":["وقلبه","وجعل","علي","بصره","غشوه","فمن","يهديه"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[899,169,1000,216],"partition":[889,134,1010,235],"ink_class":"black","mark_ownership":"clear","note":"Wa-qalbihi at the right margin includes its separated initial waw and full lower vowel marks."},
+          {"lexical_position_rtl":4,"core_rect":[603,169,687,216],"partition":[594,134,697,235],"ink_class":"black","mark_ownership":"clear","note":"Basarihi between ala and ghishawa; preserve upper fatha strokes, initial ba dot and the final ha's kasra."},
+          {"lexical_position_rtl":7,"core_rect":[258,170,359,216],"partition":[248,134,374,235],"ink_class":"black","mark_ownership":"clear","note":"Yahdihi between fa-man and min; retain the initial-ya fatha through x369, final ha and lower vowels. Neighboring fa-man starts x381 and min's lower stroke ends x242, both outside."}
+        ]},
+        {"physical_row":7,"first_verse":"45:26","first_word_in_verse":8,"transcription":["الي","يوم","القيمه","لا","ريب","فيه","ولكن"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[960,723,998,763],"partition":[954,686,1012,785],"ink_class":"black","mark_ownership":"clear","note":"Ila at the right margin has a lower initial-alif kasra and final ya shape. Scan-only enlargement keeps its ink x959..1004 and excludes yawm's fatha ending x951."},
+          {"lexical_position_rtl":4,"core_rect":[752,719,777,765],"partition":[751,685,785,785],"ink_class":"black","mark_ownership":"clear","note":"La is the independent lam-alif between al-qiyama and rayba. Its own ink is x755..779; rayba's neighboring fatha ends x749 and is excluded."},
+          {"lexical_position_rtl":7,"core_rect":[515,722,600,767],"partition":[511,685,611,785],"ink_class":"black","mark_ownership":"clear","note":"Wa-lakinna includes initial waw and black lexical shadda. Scan-only components isolate its ink x513..607, excluding akthara's fatha ending x510 and fihi's kasra beginning x614."}
+        ]},
+        {"physical_row":12,"first_verse":"45:30","first_word_in_verse":8,"transcription":["في","رحمته","ذلك","هو","الفوز","المبين","واما"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[969,1275,997,1318],"partition":[959,1241,1008,1340],"ink_class":"black","mark_ownership":"clear","note":"Fi is the rightmost short token, including the lower ya/kasra and upper fa dot."},
+          {"lexical_position_rtl":4,"core_rect":[653,1274,694,1318],"partition":[643,1241,702,1340],"ink_class":"black","mark_ownership":"clear","note":"Huwa is the short separate token between dhalika and al-fawz, including both raised dammas."},
+          {"lexical_position_rtl":7,"core_rect":[285,1273,355,1318],"partition":[276,1240,370,1340],"ink_class":"black","mark_ownership":"clear","note":"Wa-amma starts verse 31 after the rosette. Its separated waw and amma are one token; include the waw's fatha through x364, before rosette numeral ink beginning x387."}
+        ]}
+      ]
+    },
+    {
+      "page": 508,
+      "rows": [
+        {"physical_row":2,"first_verse":"47:20","first_word_in_verse":10,"transcription":["محكمه","وذكر","فيها","القتال","رايت","الذين","في"],"samples":[
+          {"lexical_position_rtl":1,"core_rect":[886,168,999,215],"partition":[877,135,1010,234],"ink_class":"black","mark_ownership":"clear","note":"Muhkamatun at the right margin; preserve upper shadda/tanwin and all black letter ink."},
+          {"lexical_position_rtl":4,"core_rect":[574,170,672,215],"partition":[559,124,682,236],"ink_class":"black","mark_ownership":"uncertain","optional_rects":[[561,131,577,160]],"note":"The isolated superscript la above al-qital's ending is auxiliary notation. Scan-only components isolate it at [563,134,576,158], 138 thresholded pixels. Only its enclosing rectangle is optional; the lexical final-lam damma at [579,145,588,160] and all other letters/vowels stay mandatory. Test every ownership subset rather than choosing a preferred edge."},
+          {"lexical_position_rtl":7,"core_rect":[313,171,337,214],"partition":[304,135,345,234],"ink_class":"black","mark_ownership":"clear","note":"Fi is the short black token following magenta alladhina, with a separate lower kasra and ya."}
+        ]},
+        {"physical_row":7,"first_verse":"47:23","first_word_in_verse":5,"transcription":["فاصمهم","واعمي","ابصرهم","افلا","يتدبرون","القرءان"],"row_complete":true,"samples":[
+          {"lexical_position_rtl":1,"core_rect":[831,723,999,767],"partition":[818,686,1010,785],"ink_class":"black","mark_ownership":"clear","note":"Fa-asammahum is the rightmost token. Its shadda, dots and separated final letters are retained."},
+          {"lexical_position_rtl":4,"core_rect":[338,718,390,766],"partition":[328,685,412,785],"ink_class":"black","mark_ownership":"clear","note":"Afala starts verse 24 after the verse-23 rosette. Retain its initial-alif fatha ending x406; rosette numeral ink begins x425 and remains outside. The rosette is not counted as a word."},
+          {"lexical_position_rtl":7,"status":"unavailable","reason":"The complete physical row contains six canonical lexical tokens: fa-asammahum, wa-ama, absarahum, afala, yatadabbaruna, al-Quran. The separate waw and ama are one canonical token. No seventh word is present; no replacement."}
+        ]},
+        {"physical_row":12,"first_verse":"47:27","first_word_in_verse":1,"transcription":["فكيف","اذا","توفتهم","الملئكه","يضربون","وجوههم"],"row_complete":true,"samples":[
+          {"lexical_position_rtl":1,"core_rect":[806,1275,925,1317],"partition":[794,1243,941,1340],"ink_class":"black","mark_ownership":"clear","note":"Fa-kayfa is the first lexical word after the rightmost verse-26 rosette. Retain its initial-fa fatha through x935; rosette numeral ink begins x963 outside the partition."},
+          {"lexical_position_rtl":4,"core_rect":[416,1273,550,1318],"partition":[399,1231,558,1340],"ink_class":"black","mark_ownership":"clear","note":"Al-malaika includes its high black elongation mark, lower kasra and complete final-ta shape beginning x406. Neighboring yadribuna on the left and tawaffathum on the right remain outside."},
+          {"lexical_position_rtl":7,"status":"unavailable","reason":"The complete physical row contains only six lexical tokens of 47:27 through wujuhahum; wa-adbarahum begins on the next physical row. No seventh word here; no replacement."}
+        ]}
+      ]
+    }
+  ]
+}

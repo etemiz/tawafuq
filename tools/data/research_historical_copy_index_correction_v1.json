@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-19",
+  "timing": "After all seven first-route IA images were inspected and before corrected-route downloads.",
+  "observed_failure": "OPenn image 9372_0105_web.jpg is explicitly labelled 50r in TEI and shows handwritten foliation 50, beginning at 4:123. IA page/n105.jpg instead begins at 4:129, on the following verso. IA page/n613.jpg is blank rather than the intended colophon. The assumed zero-based page/n URL was therefore wrong.",
+  "correction": "Try n104,n204,n304,n404,n504,n604,n612, retaining the previous images and logs. These are retrieval correction candidates for the unchanged target folios, not replacement sample selections. Confirm foliation/content before treating them as the planned targets.",
+  "scope": "No alignment scores have been generated. Sample/evaluation rules remain unchanged. OPenn first-recto visual evidence shows its printed scan differs from the IA derivative crop; comparison must be by content/folio, not byte identity."
+}

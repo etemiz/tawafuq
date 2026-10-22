@@ -1,0 +1,264 @@
+{
+  "page": 567,
+  "annotated": 28,
+  "detected": 28,
+  "digit_count_matches": 25,
+  "inferred_assignments_matching": 12,
+  "sequence": "data/rosette_seq.npz",
+  "detections": "rosettes_v2/rosette_digits.json",
+  "rows": [
+    {
+      "verse": "69:35",
+      "cx": 574.5,
+      "cy": 83.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "no localized rosette",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:36",
+      "cx": 164.0,
+      "cy": 82.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "no localized rosette",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:37",
+      "cx": 803.0,
+      "cy": 190.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:38",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:38",
+      "cx": 403.0,
+      "cy": 192.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:40",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:39",
+      "cx": 101.0,
+      "cy": 190.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:39",
+      "assignment_matches": true
+    },
+    {
+      "verse": "69:40",
+      "cx": 718.0,
+      "cy": 303.0,
+      "detected_digits": 1,
+      "digit_count_matches": false,
+      "inferred_label": "69:42",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:41",
+      "cx": 105.0,
+      "cy": 300.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:41",
+      "assignment_matches": true
+    },
+    {
+      "verse": "69:42",
+      "cx": 446.0,
+      "cy": 409.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:43",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:43",
+      "cx": 45.0,
+      "cy": 411.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:44",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:44",
+      "cx": 464.0,
+      "cy": 523.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:45",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:45",
+      "cx": 96.0,
+      "cy": 524.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:46",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:46",
+      "cx": 677.0,
+      "cy": 632.5,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:48",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:47",
+      "cx": 128.0,
+      "cy": 632.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:47",
+      "assignment_matches": true
+    },
+    {
+      "verse": "69:48",
+      "cx": 728.0,
+      "cy": 743.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:50",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:49",
+      "cx": 221.0,
+      "cy": 742.5,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:49",
+      "assignment_matches": true
+    },
+    {
+      "verse": "69:50",
+      "cx": 764.0,
+      "cy": 852.0,
+      "detected_digits": 1,
+      "digit_count_matches": false,
+      "inferred_label": "70:1",
+      "assignment_matches": false
+    },
+    {
+      "verse": "69:51",
+      "cx": 457.0,
+      "cy": 849.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:51",
+      "assignment_matches": true
+    },
+    {
+      "verse": "69:52",
+      "cx": 42.5,
+      "cy": 850.0,
+      "detected_digits": 2,
+      "digit_count_matches": true,
+      "inferred_label": "69:52",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:1",
+      "cx": 662.5,
+      "cy": 1292.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:3",
+      "assignment_matches": false
+    },
+    {
+      "verse": "70:2",
+      "cx": 326.0,
+      "cy": 1291.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:2",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:3",
+      "cx": 979.5,
+      "cy": 1403.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:5",
+      "assignment_matches": false
+    },
+    {
+      "verse": "70:4",
+      "cx": 44.0,
+      "cy": 1402.5,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:4",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:5",
+      "cx": 707.0,
+      "cy": 1513.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:8",
+      "assignment_matches": false
+    },
+    {
+      "verse": "70:6",
+      "cx": 405.0,
+      "cy": 1512.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:6",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:7",
+      "cx": 187.0,
+      "cy": 1512.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:7",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:8",
+      "cx": 772.0,
+      "cy": 1623.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:11",
+      "assignment_matches": false
+    },
+    {
+      "verse": "70:9",
+      "cx": 389.5,
+      "cy": 1620.0,
+      "detected_digits": 1,
+      "digit_count_matches": true,
+      "inferred_label": "70:9",
+      "assignment_matches": true
+    },
+    {
+      "verse": "70:10",
+      "cx": 42.0,
+      "cy": 1622.0,
+      "detected_digits": 1,
+      "digit_count_matches": false,
+      "inferred_label": "70:10",
+      "assignment_matches": true
+    }
+  ],
+  "caveat": "One visually transcribed page; not population accuracy or CV."
+}

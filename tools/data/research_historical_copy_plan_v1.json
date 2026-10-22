@@ -1,0 +1,39 @@
+{
+  "study": "historical-copy-ms-or-422-development-pilot-v1",
+  "date": "2026-10-19",
+  "status_at_creation": "Before downloading or visually inspecting manuscript page images; catalogue metadata and image link inventory exposed.",
+  "selection": {
+    "manuscript": "Columbia University Rare Book and Manuscript Library MS Or 422",
+    "reason": "First newly recovered complete, explicitly dated, 15-line Quran with accessible public-domain scans in this continuation. Not randomly selected from historical Qurans.",
+    "catalogue_date_ce": 1779,
+    "catalogue_date_ah": 1193,
+    "scribe": "Ismail ibn Salih (catalogue attribution)",
+    "folios": ["50r", "100r", "150r", "200r", "250r", "300r"],
+    "rule": "Six evenly spaced rectos, fixed by foliation rather than target alignment, plus the catalogued colophon 304r for dating inspection.",
+    "replacement_rule": "No replacement for missing, unreadable, incompatible or zero-name pages. Retain failures."
+  },
+  "sources": {
+    "hathitrust": "https://catalog.hathitrust.org/Record/102811738",
+    "hathitrust_marc": "https://catalog.hathitrust.org/Record/102811738.marc",
+    "openn_tei": "https://openn.library.upenn.edu/Data/0032/ms_or_422/data/ms_or_422_TEI.xml",
+    "openn_catalogue": "https://openn.library.upenn.edu/Data/0032/html/ms_or_422.html",
+    "internet_archive": "https://archive.org/metadata/ldpd_14642794_000"
+  },
+  "feasibility_gate": [
+    "Check item identity, catalogue date versus directly legible colophon, exact folio-to-image mapping and image hashes.",
+    "Read first/last canonical verse text and count main-text rows on all six pages; do not assume 15 lines means same page or row contents.",
+    "Record whole-token horizontal intervals for every legible Allah-name-form in the main text, including prefixes; omit margin catchwords, notes and headings from the token population.",
+    "Compare modern page/row membership for the same canonical tokens, retaining boundary and identification uncertainty. If correspondence fails, report that rather than forcing a matched-layout comparison."
+  ],
+  "scoring_if_feasible": {
+    "primary": "Allah-name-family endpoints with at least one family partner on a different row of the same historical page; each endpoint counted once.",
+    "secondary": "Exact standalone Allah endpoints paired only with exact standalone Allah.",
+    "center": "Midpoint of manually read whole-token horizontal ink interval, including prefixes. Main text frame measured independently of name positions.",
+    "distance": "Absolute center difference divided by the main text-frame width; primary tolerance 0.02, sensitivity 0.015.",
+    "uncertainty": "Retain coordinate uncertainty. An alignment is guaranteed only if every allowed pair of centers passes the threshold; possible if some allowed centers pass. Report endpoint lower/upper bounds rather than force borderline decisions.",
+    "modern_comparison": "Use unchanged mapped modern whole-token centers for exactly the same identified canonical occurrences. Report missing modern positions, different page/row assignments and any denominator changes. Do not transfer the original 15px conditional p-values.",
+    "inference": "Descriptive exposed-development pilot only. No significance test, origin posterior, corpus-wide historical rate or historical-copy independence claim."
+  },
+  "scope": "A historical source/compatibility and small annotation pilot. A catalogue and its mirrored exports are one descriptive authority, not independent dating replications. Shared exemplars or intentional older layout remain possible even if historical alignments occur.",
+  "execution": "Public read-only network requests; no paid OCR or API; local images and raw metadata under logs/historical-copy-ms-or-422-v1/."
+}

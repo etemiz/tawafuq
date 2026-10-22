@@ -1,0 +1,2919 @@
+{
+  "study": "historical-copy-ms-or-422-development-pilot-v1",
+  "inputs": {
+    "research_historical_copy_plan_v1.json": "3001664a76f7cb832e69c80479cf42709dd2055fe5258b23c0837da55a065e64",
+    "research_historical_copy_annotations_v1.json": "60f04af04f63895c563ad9f57e9a69dbad3bcd14f1ab0aad249ce29db63861e7",
+    "research_same_word_alignment_v1.json": "43c2f1e4a7e3e881a329f2ea4ce62ef06bbed58b3875db65b2b95dffe9abb909",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c",
+    "historical_copy_analysis.py": "c17243dc7035aac35f9218fa8ab878a9849aeed7229c58720ff8d4b03a7dddb1",
+    "same_word_alignment.py": "67cacc96aa7cf004ef6a17eb58cb1e36861cd672cdd542142690fdf181636603"
+  },
+  "methods": {
+    "modern_frame": "All accepted mapped verse-token box extents on each modern page, independent of selected name alignment.",
+    "modern_partner_population": "Only the same canonical names selected on the six historical pages; no outside partners.",
+    "uncertainty": "Historical lower/upper are pairwise coordinate envelopes under the assumed allowances, not confidence intervals or joint sharp bounds.",
+    "comparison": "Descriptive unmatched page/row layouts; historical manual ink midpoints and modern detector-box midpoints differ in measurement method."
+  },
+  "pages": [
+    {
+      "folio": "50r",
+      "file": "ia-leaf-104.jpg",
+      "names": 8,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        97,
+        98
+      ],
+      "tokens": [
+        {
+          "t": 12323,
+          "verse": "4:123",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 2,
+          "modern_page": 97,
+          "modern_seeded_row": 4,
+          "modern_center": 518.5,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12349,
+          "verse": "4:125",
+          "ordinal": 1,
+          "word": "لله",
+          "historical_row": 5,
+          "modern_page": 97,
+          "modern_seeded_row": 7,
+          "modern_center": 515.0,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12357,
+          "verse": "4:125",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 6,
+          "modern_page": 97,
+          "modern_seeded_row": 8,
+          "modern_center": 526.0,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12360,
+          "verse": "4:126",
+          "ordinal": 1,
+          "word": "ولله",
+          "historical_row": 6,
+          "modern_page": 97,
+          "modern_seeded_row": 8,
+          "modern_center": 78.5,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12368,
+          "verse": "4:126",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 7,
+          "modern_page": 97,
+          "modern_seeded_row": 9,
+          "modern_center": 62.0,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12376,
+          "verse": "4:127",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 8,
+          "modern_page": 97,
+          "modern_seeded_row": 10,
+          "modern_center": 65.0,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12408,
+          "verse": "4:127",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 11,
+          "modern_page": 97,
+          "modern_seeded_row": 14,
+          "modern_center": 518.5,
+          "modern_frame_width": 986.0
+        },
+        {
+          "t": 12436,
+          "verse": "4:128",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 15,
+          "modern_page": 98,
+          "modern_seeded_row": 3,
+          "modern_center": 958.0,
+          "modern_frame_width": 989.0
+        }
+      ]
+    },
+    {
+      "folio": "100r",
+      "file": "ia-leaf-204.jpg",
+      "names": 6,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        197
+      ],
+      "tokens": [
+        {
+          "t": 25108,
+          "verse": "9:70",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 8,
+          "modern_page": 197,
+          "modern_seeded_row": 7,
+          "modern_center": 598.5,
+          "modern_frame_width": 992.0
+        },
+        {
+          "t": 25129,
+          "verse": "9:71",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 11,
+          "modern_page": 197,
+          "modern_seeded_row": 10,
+          "modern_center": 387.0,
+          "modern_frame_width": 992.0
+        },
+        {
+          "t": 25133,
+          "verse": "9:71",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 12,
+          "modern_page": 197,
+          "modern_seeded_row": 11,
+          "modern_center": 754.0,
+          "modern_frame_width": 992.0
+        },
+        {
+          "t": 25135,
+          "verse": "9:71",
+          "ordinal": 3,
+          "word": "الله",
+          "historical_row": 12,
+          "modern_page": 197,
+          "modern_seeded_row": 11,
+          "modern_center": 591.0,
+          "modern_frame_width": 992.0
+        },
+        {
+          "t": 25139,
+          "verse": "9:72",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 13,
+          "modern_page": 197,
+          "modern_seeded_row": 11,
+          "modern_center": 67.0,
+          "modern_frame_width": 992.0
+        },
+        {
+          "t": 25156,
+          "verse": "9:72",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 15,
+          "modern_page": 197,
+          "modern_seeded_row": 14,
+          "modern_center": 747.0,
+          "modern_frame_width": 992.0
+        }
+      ]
+    },
+    {
+      "folio": "150r",
+      "file": "ia-leaf-304.jpg",
+      "names": 6,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        297
+      ],
+      "tokens": [
+        {
+          "t": 38154,
+          "verse": "18:38",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 5,
+          "modern_page": 297,
+          "modern_seeded_row": 4,
+          "modern_center": 804.0,
+          "modern_frame_width": 997.0
+        },
+        {
+          "t": 38167,
+          "verse": "18:39",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 6,
+          "modern_page": 297,
+          "modern_seeded_row": 5,
+          "modern_center": 442.0,
+          "modern_frame_width": 997.0
+        },
+        {
+          "t": 38171,
+          "verse": "18:39",
+          "ordinal": 2,
+          "word": "بالله",
+          "historical_row": 6,
+          "modern_page": 297,
+          "modern_seeded_row": 5,
+          "modern_center": 172.5,
+          "modern_frame_width": 997.0
+        },
+        {
+          "t": 38228,
+          "verse": "18:43",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 12,
+          "modern_page": 297,
+          "modern_seeded_row": 11,
+          "modern_center": 813.0,
+          "modern_frame_width": 997.0
+        },
+        {
+          "t": 38234,
+          "verse": "18:44",
+          "ordinal": 1,
+          "word": "لله",
+          "historical_row": 13,
+          "modern_page": 297,
+          "modern_seeded_row": 11,
+          "modern_center": 190.5,
+          "modern_frame_width": 997.0
+        },
+        {
+          "t": 38259,
+          "verse": "18:45",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 15,
+          "modern_page": 297,
+          "modern_seeded_row": 14,
+          "modern_center": 441.5,
+          "modern_frame_width": 997.0
+        }
+      ]
+    },
+    {
+      "folio": "200r",
+      "file": "ia-leaf-404.jpg",
+      "names": 10,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        397
+      ],
+      "tokens": [
+        {
+          "t": 51209,
+          "verse": "29:16",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 2,
+          "modern_page": 397,
+          "modern_seeded_row": 1,
+          "modern_center": 664.5,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51221,
+          "verse": "29:17",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 3,
+          "modern_page": 397,
+          "modern_seeded_row": 2,
+          "modern_center": 344.5,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51230,
+          "verse": "29:17",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 4,
+          "modern_page": 397,
+          "modern_seeded_row": 3,
+          "modern_center": 340.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51237,
+          "verse": "29:17",
+          "ordinal": 3,
+          "word": "الله",
+          "historical_row": 5,
+          "modern_page": 397,
+          "modern_seeded_row": 4,
+          "modern_center": 342.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51261,
+          "verse": "29:19",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 8,
+          "modern_page": 397,
+          "modern_seeded_row": 7,
+          "modern_center": 347.5,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51268,
+          "verse": "29:19",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 9,
+          "modern_page": 397,
+          "modern_seeded_row": 8,
+          "modern_center": 662.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51279,
+          "verse": "29:20",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 10,
+          "modern_page": 397,
+          "modern_seeded_row": 9,
+          "modern_center": 343.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51284,
+          "verse": "29:20",
+          "ordinal": 2,
+          "word": "الله",
+          "historical_row": 10,
+          "modern_page": 397,
+          "modern_seeded_row": 10,
+          "modern_center": 665.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51309,
+          "verse": "29:22",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 13,
+          "modern_page": 397,
+          "modern_seeded_row": 12,
+          "modern_center": 338.0,
+          "modern_frame_width": 993.0
+        },
+        {
+          "t": 51317,
+          "verse": "29:23",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 14,
+          "modern_page": 397,
+          "modern_seeded_row": 13,
+          "modern_center": 342.0,
+          "modern_frame_width": 993.0
+        }
+      ]
+    },
+    {
+      "folio": "250r",
+      "file": "ia-leaf-504.jpg",
+      "names": 2,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        497,
+        498
+      ],
+      "tokens": [
+        {
+          "t": 64132,
+          "verse": "44:42",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 2,
+          "modern_page": 497,
+          "modern_seeded_row": 1,
+          "modern_center": 70.5,
+          "modern_frame_width": 980.0
+        },
+        {
+          "t": 64222,
+          "verse": "45:2",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 15,
+          "modern_page": 498,
+          "modern_seeded_row": 1,
+          "modern_center": 565.5,
+          "modern_frame_width": 990.0
+        }
+      ]
+    },
+    {
+      "folio": "300r",
+      "file": "ia-leaf-604.jpg",
+      "names": 1,
+      "canonical_name_inventory_complete": true,
+      "modern_pages_for_full_verse_range": [
+        596,
+        597
+      ],
+      "tokens": [
+        {
+          "t": 76846,
+          "verse": "95:8",
+          "ordinal": 1,
+          "word": "الله",
+          "historical_row": 9,
+          "modern_page": 597,
+          "modern_seeded_row": 1,
+          "modern_center": 392.0,
+          "modern_frame_width": 985.0
+        }
+      ]
+    }
+  ],
+  "scores": {
+    "0.02": {
+      "allah_name_family": {
+        "historical": {
+          "occurrences": 33,
+          "guaranteed_aligned": 0,
+          "midpoint_aligned": 8,
+          "possibly_aligned": 14,
+          "guaranteed_token_ids": [],
+          "midpoint_token_ids": [
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12349,
+            12357,
+            12368,
+            12376,
+            12436,
+            38154,
+            38234,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12349,
+                12368
+              ],
+              "distance": 16.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                12357,
+                12376
+              ],
+              "distance": 21.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                12376,
+                12436
+              ],
+              "distance": 7.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38154,
+                38234
+              ],
+              "distance": 22.5,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 3.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51237
+              ],
+              "distance": 20.5,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 3.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 11.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            }
+          ]
+        },
+        "matched_modern": {
+          "occurrences": 33,
+          "guaranteed_aligned": 27,
+          "midpoint_aligned": 27,
+          "possibly_aligned": 27,
+          "guaranteed_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38171,
+            38228,
+            38234,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "midpoint_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38171,
+            38228,
+            38234,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38171,
+            38228,
+            38234,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12323,
+                12349
+              ],
+              "distance": 3.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12357
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12349,
+                12357
+              ],
+              "distance": 11.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12360,
+                12368
+              ],
+              "distance": 16.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12360,
+                12376
+              ],
+              "distance": 13.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12368,
+                12376
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12408
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12349,
+                12408
+              ],
+              "distance": 3.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12357,
+                12408
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25108,
+                25135
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25133,
+                25156
+              ],
+              "distance": 7.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38154,
+                38228
+              ],
+              "distance": 9.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38171,
+                38234
+              ],
+              "distance": 18.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38167,
+                38259
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51237
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51237
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51261
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51261
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51261
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51268
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51279
+              ],
+              "distance": 1.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51279
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51279
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51279
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51284
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51268,
+                51284
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51309
+              ],
+              "distance": 6.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51309
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51309
+              ],
+              "distance": 9.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51309
+              ],
+              "distance": 5.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51317
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51317
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51317
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51317
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51309,
+                51317
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            }
+          ]
+        }
+      },
+      "standalone_allah": {
+        "historical": {
+          "occurrences": 29,
+          "guaranteed_aligned": 0,
+          "midpoint_aligned": 8,
+          "possibly_aligned": 10,
+          "guaranteed_token_ids": [],
+          "midpoint_token_ids": [
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12357,
+            12376,
+            12436,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12357,
+                12376
+              ],
+              "distance": 21.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                12376,
+                12436
+              ],
+              "distance": 7.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 3.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51237
+              ],
+              "distance": 20.5,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 3.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 11.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            }
+          ]
+        },
+        "matched_modern": {
+          "occurrences": 29,
+          "guaranteed_aligned": 23,
+          "midpoint_aligned": 23,
+          "possibly_aligned": 23,
+          "guaranteed_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "midpoint_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12323,
+                12357
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12368,
+                12376
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12408
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12357,
+                12408
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25108,
+                25135
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25133,
+                25156
+              ],
+              "distance": 7.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38154,
+                38228
+              ],
+              "distance": 9.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38167,
+                38259
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51237
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51237
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51261
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51261
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51261
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51268
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51279
+              ],
+              "distance": 1.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51279
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51279
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51279
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51284
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51268,
+                51284
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51309
+              ],
+              "distance": 6.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51309
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51309
+              ],
+              "distance": 9.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51309
+              ],
+              "distance": 5.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51317
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51317
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51317
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51317
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51309,
+                51317
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            }
+          ]
+        }
+      }
+    },
+    "0.015": {
+      "allah_name_family": {
+        "historical": {
+          "occurrences": 33,
+          "guaranteed_aligned": 0,
+          "midpoint_aligned": 6,
+          "possibly_aligned": 10,
+          "guaranteed_token_ids": [],
+          "midpoint_token_ids": [
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51309
+          ],
+          "possible_token_ids": [
+            12349,
+            12368,
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12349,
+                12368
+              ],
+              "distance": 16.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            },
+            {
+              "tokens": [
+                12376,
+                12436
+              ],
+              "distance": 7.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 3.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 3.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 11.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            }
+          ]
+        },
+        "matched_modern": {
+          "occurrences": 33,
+          "guaranteed_aligned": 25,
+          "midpoint_aligned": 25,
+          "possibly_aligned": 25,
+          "guaranteed_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "midpoint_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12323,
+            12349,
+            12357,
+            12360,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12323,
+                12349
+              ],
+              "distance": 3.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12357
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12349,
+                12357
+              ],
+              "distance": 11.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12360,
+                12376
+              ],
+              "distance": 13.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12368,
+                12376
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12408
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12349,
+                12408
+              ],
+              "distance": 3.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12357,
+                12408
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25108,
+                25135
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25133,
+                25156
+              ],
+              "distance": 7.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38154,
+                38228
+              ],
+              "distance": 9.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38167,
+                38259
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51237
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51237
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51261
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51261
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51261
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51268
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51279
+              ],
+              "distance": 1.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51279
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51279
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51279
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51284
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51268,
+                51284
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51309
+              ],
+              "distance": 6.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51309
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51309
+              ],
+              "distance": 9.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51309
+              ],
+              "distance": 5.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51317
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51317
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51317
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51317
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51309,
+                51317
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            }
+          ]
+        }
+      },
+      "standalone_allah": {
+        "historical": {
+          "occurrences": 29,
+          "guaranteed_aligned": 0,
+          "midpoint_aligned": 6,
+          "possibly_aligned": 8,
+          "guaranteed_token_ids": [],
+          "midpoint_token_ids": [
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51309
+          ],
+          "possible_token_ids": [
+            12376,
+            12436,
+            51221,
+            51230,
+            51237,
+            51261,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12376,
+                12436
+              ],
+              "distance": 7.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 3.0,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 3.5,
+              "guaranteed": false,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 11.0,
+              "guaranteed": false,
+              "midpoint_match": false
+            }
+          ]
+        },
+        "matched_modern": {
+          "occurrences": 29,
+          "guaranteed_aligned": 23,
+          "midpoint_aligned": 23,
+          "possibly_aligned": 23,
+          "guaranteed_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "midpoint_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_token_ids": [
+            12323,
+            12357,
+            12368,
+            12376,
+            12408,
+            25108,
+            25133,
+            25135,
+            25156,
+            38154,
+            38167,
+            38228,
+            38259,
+            51209,
+            51221,
+            51230,
+            51237,
+            51261,
+            51268,
+            51279,
+            51284,
+            51309,
+            51317
+          ],
+          "possible_pairs": [
+            {
+              "tokens": [
+                12323,
+                12357
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12368,
+                12376
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12323,
+                12408
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                12357,
+                12408
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25108,
+                25135
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                25133,
+                25156
+              ],
+              "distance": 7.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38154,
+                38228
+              ],
+              "distance": 9.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                38167,
+                38259
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51230
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51237
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51237
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51261
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51261
+              ],
+              "distance": 7.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51261
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51268
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51279
+              ],
+              "distance": 1.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51279
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51279
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51279
+              ],
+              "distance": 4.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51209,
+                51284
+              ],
+              "distance": 0.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51268,
+                51284
+              ],
+              "distance": 3.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51309
+              ],
+              "distance": 6.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51309
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51309
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51309
+              ],
+              "distance": 9.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51309
+              ],
+              "distance": 5.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51221,
+                51317
+              ],
+              "distance": 2.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51230,
+                51317
+              ],
+              "distance": 2.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51237,
+                51317
+              ],
+              "distance": 0.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51261,
+                51317
+              ],
+              "distance": 5.5,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51279,
+                51317
+              ],
+              "distance": 1.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            },
+            {
+              "tokens": [
+                51309,
+                51317
+              ],
+              "distance": 4.0,
+              "guaranteed": true,
+              "midpoint_match": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "historical_occurrences": [
+    {
+      "t": 12323,
+      "page": "50r",
+      "row": 2,
+      "word": "الله",
+      "center": 544.0,
+      "frame_width": 659
+    },
+    {
+      "t": 12349,
+      "page": "50r",
+      "row": 5,
+      "word": "لله",
+      "center": 620.0,
+      "frame_width": 659
+    },
+    {
+      "t": 12357,
+      "page": "50r",
+      "row": 6,
+      "word": "الله",
+      "center": 691.5,
+      "frame_width": 659
+    },
+    {
+      "t": 12360,
+      "page": "50r",
+      "row": 6,
+      "word": "ولله",
+      "center": 429.5,
+      "frame_width": 659
+    },
+    {
+      "t": 12368,
+      "page": "50r",
+      "row": 7,
+      "word": "الله",
+      "center": 636.0,
+      "frame_width": 659
+    },
+    {
+      "t": 12376,
+      "page": "50r",
+      "row": 8,
+      "word": "الله",
+      "center": 712.5,
+      "frame_width": 659
+    },
+    {
+      "t": 12408,
+      "page": "50r",
+      "row": 11,
+      "word": "الله",
+      "center": 332.0,
+      "frame_width": 659
+    },
+    {
+      "t": 12436,
+      "page": "50r",
+      "row": 15,
+      "word": "الله",
+      "center": 720.0,
+      "frame_width": 659
+    },
+    {
+      "t": 25108,
+      "page": "100r",
+      "row": 8,
+      "word": "الله",
+      "center": 623.5,
+      "frame_width": 644
+    },
+    {
+      "t": 25129,
+      "page": "100r",
+      "row": 11,
+      "word": "الله",
+      "center": 271.5,
+      "frame_width": 644
+    },
+    {
+      "t": 25133,
+      "page": "100r",
+      "row": 12,
+      "word": "الله",
+      "center": 477.0,
+      "frame_width": 644
+    },
+    {
+      "t": 25135,
+      "page": "100r",
+      "row": 12,
+      "word": "الله",
+      "center": 400.5,
+      "frame_width": 644
+    },
+    {
+      "t": 25139,
+      "page": "100r",
+      "row": 13,
+      "word": "الله",
+      "center": 771.0,
+      "frame_width": 644
+    },
+    {
+      "t": 25156,
+      "page": "100r",
+      "row": 15,
+      "word": "الله",
+      "center": 676.5,
+      "frame_width": 644
+    },
+    {
+      "t": 38154,
+      "page": "150r",
+      "row": 5,
+      "word": "الله",
+      "center": 589.0,
+      "frame_width": 645
+    },
+    {
+      "t": 38167,
+      "page": "150r",
+      "row": 6,
+      "word": "الله",
+      "center": 414.0,
+      "frame_width": 645
+    },
+    {
+      "t": 38171,
+      "page": "150r",
+      "row": 6,
+      "word": "بالله",
+      "center": 259.0,
+      "frame_width": 645
+    },
+    {
+      "t": 38228,
+      "page": "150r",
+      "row": 12,
+      "word": "الله",
+      "center": 367.5,
+      "frame_width": 645
+    },
+    {
+      "t": 38234,
+      "page": "150r",
+      "row": 13,
+      "word": "لله",
+      "center": 566.5,
+      "frame_width": 645
+    },
+    {
+      "t": 38259,
+      "page": "150r",
+      "row": 15,
+      "word": "الله",
+      "center": 507.5,
+      "frame_width": 645
+    },
+    {
+      "t": 51209,
+      "page": "200r",
+      "row": 2,
+      "word": "الله",
+      "center": 414.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51221,
+      "page": "200r",
+      "row": 3,
+      "word": "الله",
+      "center": 261.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51230,
+      "page": "200r",
+      "row": 4,
+      "word": "الله",
+      "center": 258.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51237,
+      "page": "200r",
+      "row": 5,
+      "word": "الله",
+      "center": 435.0,
+      "frame_width": 630
+    },
+    {
+      "t": 51261,
+      "page": "200r",
+      "row": 8,
+      "word": "الله",
+      "center": 534.0,
+      "frame_width": 630
+    },
+    {
+      "t": 51268,
+      "page": "200r",
+      "row": 9,
+      "word": "الله",
+      "center": 788.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51279,
+      "page": "200r",
+      "row": 10,
+      "word": "الله",
+      "center": 677.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51284,
+      "page": "200r",
+      "row": 10,
+      "word": "الله",
+      "center": 353.0,
+      "frame_width": 630
+    },
+    {
+      "t": 51309,
+      "page": "200r",
+      "row": 13,
+      "word": "الله",
+      "center": 438.5,
+      "frame_width": 630
+    },
+    {
+      "t": 51317,
+      "page": "200r",
+      "row": 14,
+      "word": "الله",
+      "center": 545.0,
+      "frame_width": 630
+    },
+    {
+      "t": 64132,
+      "page": "250r",
+      "row": 2,
+      "word": "الله",
+      "center": 634.0,
+      "frame_width": 645
+    },
+    {
+      "t": 64222,
+      "page": "250r",
+      "row": 15,
+      "word": "الله",
+      "center": 488.5,
+      "frame_width": 645
+    },
+    {
+      "t": 76846,
+      "page": "300r",
+      "row": 9,
+      "word": "الله",
+      "center": 569.0,
+      "frame_width": 667
+    }
+  ],
+  "matched_modern_occurrences": [
+    {
+      "t": 12323,
+      "page": 97,
+      "row": 4,
+      "word": "الله",
+      "center": 518.5,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12349,
+      "page": 97,
+      "row": 7,
+      "word": "لله",
+      "center": 515.0,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12357,
+      "page": 97,
+      "row": 8,
+      "word": "الله",
+      "center": 526.0,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12360,
+      "page": 97,
+      "row": 8,
+      "word": "ولله",
+      "center": 78.5,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12368,
+      "page": 97,
+      "row": 9,
+      "word": "الله",
+      "center": 62.0,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12376,
+      "page": 97,
+      "row": 10,
+      "word": "الله",
+      "center": 65.0,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12408,
+      "page": 97,
+      "row": 14,
+      "word": "الله",
+      "center": 518.5,
+      "frame_width": 986.0
+    },
+    {
+      "t": 12436,
+      "page": 98,
+      "row": 3,
+      "word": "الله",
+      "center": 958.0,
+      "frame_width": 989.0
+    },
+    {
+      "t": 25108,
+      "page": 197,
+      "row": 7,
+      "word": "الله",
+      "center": 598.5,
+      "frame_width": 992.0
+    },
+    {
+      "t": 25129,
+      "page": 197,
+      "row": 10,
+      "word": "الله",
+      "center": 387.0,
+      "frame_width": 992.0
+    },
+    {
+      "t": 25133,
+      "page": 197,
+      "row": 11,
+      "word": "الله",
+      "center": 754.0,
+      "frame_width": 992.0
+    },
+    {
+      "t": 25135,
+      "page": 197,
+      "row": 11,
+      "word": "الله",
+      "center": 591.0,
+      "frame_width": 992.0
+    },
+    {
+      "t": 25139,
+      "page": 197,
+      "row": 11,
+      "word": "الله",
+      "center": 67.0,
+      "frame_width": 992.0
+    },
+    {
+      "t": 25156,
+      "page": 197,
+      "row": 14,
+      "word": "الله",
+      "center": 747.0,
+      "frame_width": 992.0
+    },
+    {
+      "t": 38154,
+      "page": 297,
+      "row": 4,
+      "word": "الله",
+      "center": 804.0,
+      "frame_width": 997.0
+    },
+    {
+      "t": 38167,
+      "page": 297,
+      "row": 5,
+      "word": "الله",
+      "center": 442.0,
+      "frame_width": 997.0
+    },
+    {
+      "t": 38171,
+      "page": 297,
+      "row": 5,
+      "word": "بالله",
+      "center": 172.5,
+      "frame_width": 997.0
+    },
+    {
+      "t": 38228,
+      "page": 297,
+      "row": 11,
+      "word": "الله",
+      "center": 813.0,
+      "frame_width": 997.0
+    },
+    {
+      "t": 38234,
+      "page": 297,
+      "row": 11,
+      "word": "لله",
+      "center": 190.5,
+      "frame_width": 997.0
+    },
+    {
+      "t": 38259,
+      "page": 297,
+      "row": 14,
+      "word": "الله",
+      "center": 441.5,
+      "frame_width": 997.0
+    },
+    {
+      "t": 51209,
+      "page": 397,
+      "row": 1,
+      "word": "الله",
+      "center": 664.5,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51221,
+      "page": 397,
+      "row": 2,
+      "word": "الله",
+      "center": 344.5,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51230,
+      "page": 397,
+      "row": 3,
+      "word": "الله",
+      "center": 340.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51237,
+      "page": 397,
+      "row": 4,
+      "word": "الله",
+      "center": 342.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51261,
+      "page": 397,
+      "row": 7,
+      "word": "الله",
+      "center": 347.5,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51268,
+      "page": 397,
+      "row": 8,
+      "word": "الله",
+      "center": 662.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51279,
+      "page": 397,
+      "row": 9,
+      "word": "الله",
+      "center": 343.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51284,
+      "page": 397,
+      "row": 10,
+      "word": "الله",
+      "center": 665.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51309,
+      "page": 397,
+      "row": 12,
+      "word": "الله",
+      "center": 338.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 51317,
+      "page": 397,
+      "row": 13,
+      "word": "الله",
+      "center": 342.0,
+      "frame_width": 993.0
+    },
+    {
+      "t": 64132,
+      "page": 497,
+      "row": 1,
+      "word": "الله",
+      "center": 70.5,
+      "frame_width": 980.0
+    },
+    {
+      "t": 64222,
+      "page": 498,
+      "row": 1,
+      "word": "الله",
+      "center": 565.5,
+      "frame_width": 990.0
+    },
+    {
+      "t": 76846,
+      "page": 597,
+      "row": 1,
+      "word": "الله",
+      "center": 392.0,
+      "frame_width": 985.0
+    }
+  ],
+  "modern_unresolved": []
+}

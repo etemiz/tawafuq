@@ -1,0 +1,8 @@
+{
+  "version": "white-alpha-full-height-v2",
+  "pages": 604,
+  "rosettes": 6229,
+  "digit_crops": 12270,
+  "source_sha256": "b5eef8317badfe994b48bea6d9f0023bee2e54a19154dca6b3ac47bc71895406",
+  "caveat": "Detected rosettes and digit images, not independently verified identities."
+}

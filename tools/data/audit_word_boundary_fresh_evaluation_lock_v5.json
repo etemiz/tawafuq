@@ -1,0 +1,14 @@
+{
+  "version": "scan-first-v5-evaluation-lock",
+  "stage": "labels_saved_before_selected_predictions_read",
+  "inputs": {
+    "audit_word_boundary_fresh_plan_v5.json": "5e6c5889fe90f872095d91ebfacd2243a7d876d9964b80b5a459ce8d74aa94b7",
+    "audit_word_boundary_fresh_labels_v5.json": "967409fcd0e786cc0ebf32e5c51618cd340496855169bc9bcdb15d8260215e18",
+    "audit_manual_word_boundary_fresh_v5.json": "aa339de88ad87ccb8fb5802563a4c246f10cc6b42a9d3fd4909b03cd72591626"
+  },
+  "evaluation_sources": {
+    "word_boundary_fresh_validation.py": "7c29f455402f6baba7810e4892740436032959bca974ae4dd2784f6298acb15a",
+    "word_localization_validation.py": "ad15b1f4ee7bb5f7d1c6f058ccf3671d7d44f12bb1e576c6698ef8a1fc6bc2a9"
+  },
+  "protocol": "Lock created after saving all 54 scan-first slots, before first selected-prediction comparison. Core inclusion scores centers; earlier 12px horizontal edge convention is retained. Unavailable positions stay outside the word denominator; label-eligible boundaries stay in the boundary denominator even if a mapper abstains. All failures retained. Any later label correction must be explicitly post-exposure with the original result retained."
+}

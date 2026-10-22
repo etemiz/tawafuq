@@ -1,0 +1,41 @@
+{
+  "version": "phrase-structure-control-plan-v1",
+  "date": "2026-10-19",
+  "question": "Does the broader word/phrase excess remain when verse-boundary gaps and repeated-phrase internal geometry are preserved? Quantify remaining randomization and guaranteed alignment.",
+  "inputs": {
+    "phrase_structure_controls.py": "f2b33f7379acba47dc4753653098a8603062cd630b4a8dc3db62dea547f631de",
+    "test_phrase_structure_controls.py": "9069a968e22ec6304a4bcf804f184b7256f8059ed2edd83d9f576d56e5fca9a0",
+    "research_broad_phrase_alignment_v1.json": "0025586719a7d7ff3f6e38b0da09d748ebc100d3219361ffaa63ffb3c228233b",
+    "research_broad_phrase_feasibility_v1.json": "68431438d06444f1b2169bbcb10671a3b4dc299e88e5963c62c19047836f4bd2",
+    "research_broad_phrase_plan_v1.json": "a52d7640d81a82752fbfd72ec413e94b7a7327c447eaa113d520a87d618ff353",
+    "broad_phrase_alignment.py": "0a1e33495e8011e91d866a72922c2f5924c44561f56b7de5ad574d8ebe914804",
+    "same_word_alignment.py": "67cacc96aa7cf004ef6a17eb58cb1e36861cd672cdd542142690fdf181636603",
+    "map_tokens.py": "c1a3f14c75519e01c4bd70e53a8901081b7b1642f33192320f10ced238a45dd4",
+    "ocr_corpus_map.py": "27fc722f21ca6730ddac6d3e2e76a7aa10360b669d6dd9ca5549c19eb97b0bf0",
+    "audit_stats.py": "4f835652b212076c46ca915199c5617131efb281fae9ae69b2a3b2d3ac1f0a4f",
+    "semantic_validation.py": "78dcb3af1289d1b1aa95c93604aaad0ac7ef936133f6cab076d4497579b5a80a",
+    "divine_census.py": "5f1797cf1cbf01cc3b9deaefea4eada3890bfca2b263e1416321ec143730f4d4",
+    "audit_ocr_word_boundary_map_v5.json": "331b60f641794a45f01b6a173137e77c047c42af22acf38035412bf9e5a07c8f",
+    "audit_word_boundary_sites_v5.json": "14a26d6bffe05c27bce778fa3ac5da87afb770f1a74643f0697e4fd5cd745fd2",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c"
+  },
+  "models": [
+    "verse_internal",
+    "repeated_phrase_blocks"
+  ],
+  "population": "Exactly the prior broad study's complete eligible rows and occurrences. Same actual text/order, widths, row/page membership, outer row edges and strict corresponding-word <=15px statistic. No color selection.",
+  "verse_internal": "Fix all gaps between different canonical verses. Uniformly permute only internal gaps of each single verse fragment within its row, preserving each fragment's total internal spacing.",
+  "repeated_phrase_blocks": "Within each verse fragment, partition canonical text greedily from the first RTL word into the longest repeated 2..6-word block available (otherwise a singleton). Repetition vocabulary is canonical within-verse counts >=2 anywhere, with no geometric score. Fix gaps inside these nonoverlapping blocks and between verses. Uniformly permute only inter-block gaps within the same row/verse fragment. This inherits observed block geometry; it does not generate it independently.",
+  "deterministic": "Equalize each verse-internal gap group to integer floor/ceiling of its mean; allocate remainder to earliest RTL gaps. Preserve verse-boundary gaps. Descriptive outcome only; no probability assigned.",
+  "primary": "Six strict non-Allah-form length metrics 1..6 under each of two models, twelve comparisons total. Retain all/inclusive outcomes and complete per-type/page accounting. Adjust plus-one Monte Carlo summaries by Bonferroni factor 12; do not multiply tails.",
+  "simulation": {
+    "replicates": 5000,
+    "seed": 20261022,
+    "generator": "numpy.default_rng/PCG64",
+    "model_seed_offset": "zero-based model index"
+  },
+  "diagnostics": "Exact attainable center extrema from smallest/largest stratum prefix sums; guaranteed pair certificates when every possible corresponding center separation <=15px. Report all fixed/movable gap and word counts, guaranteed endpoints, full model outcomes and retained non-excesses.",
+  "limits": "Exposed development controls; retained widths, line breaks, verse-fragment anchors and phrase shapes may contain design. Conditioning can leave very little freedom. These are interval renderers, not historical calligraphy, independent copies or origin likelihoods.",
+  "completion": "Verify code on exhaustive tiny group permutations, reproduce original packing and old observed counts, fully replay both simulation sets, audit guarantee/freedom arithmetic, and report the causal limitations and separately sourced historical-copy leads."
+}

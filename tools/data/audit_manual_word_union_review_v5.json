@@ -1,0 +1,24 @@
+{
+  "version": "single-reader-rejected-union-annotations-v5",
+  "plan_sha256": "1d98258391d099049bdfac4fed2f08449914688d0e5b7d33b7edb3415e3f32e6",
+  "protocol": "2026-10-19: one AI reader inspected the 17 hash-selected context crops without predicted-box overlays, with canonical target identities visible. Coordinates below are independently selected target-letter cores in original scan coordinates. Extent categories are coarse visual judgments after comparison with the saved rejected boxes, not certified diacritic boundaries. The p67 name is already exposed development. No inference rules were changed.",
+  "labels": [
+    {"sample_id":"u01","page":105,"v_id":13386,"core_rect":[380,827,985,868],"extent":"plausible_word","note":"The greatly elongated basmala bism is one printed word. The rejected union follows its right-hand letters and long connecting stroke; no adjacent Allah letters included."},
+    {"sample_id":"u02","page":242,"v_id":31117,"core_rect":[640,825,711,878],"extent":"plausible_word","note":"Ya bani follows wa qala on the middle row. OCR writes the pronounced long alif that the normalized corpus omits."},
+    {"sample_id":"u03","page":79,"v_id":10108,"core_rect":[565,1150,691,1200],"extent":"plausible_word","note":"Ya ayyuha between the verse-18 rosette and alladhina; union is at the correct vocative."},
+    {"sample_id":"u04","page":556,"v_id":72117,"core_rect":[414,605,524,649],"extent":"plausible_word","note":"Ya ayyuha immediately after the verse-13 rosette; text mismatch is the written vocative alif."},
+    {"sample_id":"u05","page":351,"v_id":45393,"core_rect":[264,1376,377,1420],"extent":"plausible_word","note":"Ya ayyuha at the start of verse 24:27, left of the verse-26 rosette."},
+    {"sample_id":"u06","page":227,"v_id":29116,"core_rect":[770,814,926,862],"extent":"partial_word","note":"The center lies in najjaynahum on the middle row, but the leading canonical waw at approximately x960..995 is outside the rejected box ending at x935."},
+    {"sample_id":"u07","page":603,"v_id":77776,"core_rect":[900,1043,995,1092],"extent":"includes_neighbor","note":"Afwaja is correctly centered at the right of the second row. The union extends left to x849 and includes the adjacent verse-2 rosette; this is not a clean word box."},
+    {"sample_id":"u08","page":494,"v_id":63949,"core_rect":[110,492,244,540],"extent":"plausible_word","note":"Wa najwahum between sirrahum and bala on the middle row; canonical word identity is supported despite OCR letter substitutions."},
+    {"sample_id":"u09","page":470,"v_id":60858,"core_rect":[160,610,289,653],"extent":"plausible_word","note":"Ya Haman follows Firawn on the middle row. The normalized canonical token omits two pronounced long alifs supplied in OCR."},
+    {"sample_id":"u10","page":228,"v_id":29219,"core_rect":[887,274,989,320],"extent":"plausible_word","note":"Wa ya qawmi at the right of the middle row, before hadhihi; the vocative alif causes nonexact text."},
+    {"sample_id":"u11","page":230,"v_id":29521,"core_rect":[483,607,612,648],"extent":"plausible_word","note":"Wa ya qawmi immediately left of the verse-84 rosette, before awfu."},
+    {"sample_id":"u12","page":469,"v_id":60781,"core_rect":[382,1376,502,1423],"extent":"plausible_word","note":"Wa ya qawmi immediately left of the verse-31 rosette, before inni."},
+    {"sample_id":"u13","page":151,"v_id":19434,"core_rect":[216,715,310,760],"extent":"plausible_word","note":"Wa ya Adam immediately left of the verse-18 rosette; the union includes the canonical vocative rather than neighboring uskun."},
+    {"sample_id":"u14","page":80,"v_id":10193,"core_rect":[245,828,461,868],"extent":"plausible_word","note":"Wa khalatikum on the middle row, between wa ammatikum and wa banatu; normalized canonical spelling omits long alifs."},
+    {"sample_id":"u15","page":193,"v_id":24727,"core_rect":[618,1487,762,1526],"extent":"partial_word","note":"La awdau is correctly centered on the middle row, but the initial canonical waw at about x800..820 is outside the union ending at x773."},
+    {"sample_id":"u16","page":369,"v_id":47707,"core_rect":[620,1157,815,1200],"extent":"plausible_word","note":"Wa aba'ukum between antum and al-aqdamun on the middle row; union follows the intended word, including the initial waw."},
+    {"sample_id":"u17","page":67,"v_id":8603,"core_rect":[326,1585,393,1638],"extent":"wrong_location","note":"The real wa Allah is magenta at x326..420 on the bottom row. The rejected box at x17..239 covers al-muhsinin and the verse-end rosette instead. This failure was already known before v5."}
+  ]
+}

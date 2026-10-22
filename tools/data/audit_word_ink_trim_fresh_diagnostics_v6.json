@@ -1,0 +1,622 @@
+{
+  "version": "post-comparison-fresh-ink-trim-failure-provenance-v6",
+  "cases": [
+    {
+      "page": 36,
+      "physical_row": 2,
+      "lexical_position_rtl": 7,
+      "verse": "2:231",
+      "form": "لتعتدوا",
+      "t": 4486,
+      "v_id": 4490,
+      "core_rect": [
+        235,
+        171,
+        320,
+        211
+      ],
+      "partition": [
+        232,
+        135,
+        333,
+        231
+      ],
+      "ink_class": "black",
+      "mark_ownership": "clear",
+      "x_edges": [
+        235,
+        330
+      ],
+      "x_edge_tolerance": 12,
+      "note": "Li-tatadu before wa-man; the separate magenta jim is outside. Scan-only components separate the following waw ending x230 from this word starting x235 and retain this word's lower kasra ending x330.",
+      "outcomes": {
+        "original_broad": {
+          "bbox": [
+            201,
+            146,
+            328,
+            216
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -34,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 34,
+            "worst_max_abs_error": 34,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_broad": {
+          "bbox": [
+            207,
+            146,
+            328,
+            216
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -28,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 28,
+            "worst_max_abs_error": 28,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "original_conservative": {
+          "bbox": [
+            201,
+            146,
+            328,
+            216
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -34,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 34,
+            "worst_max_abs_error": 34,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_conservative": {
+          "bbox": [
+            207,
+            146,
+            328,
+            216
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -28,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 28,
+            "worst_max_abs_error": 28,
+            "ownership_outcome": "all_fail"
+          }
+        }
+      },
+      "normalized_text_exact": true,
+      "mandatory_regions": [
+        {
+          "source_region": 14,
+          "text": "لِتَعْتَدُوا",
+          "bbox": [
+            201,
+            146,
+            328,
+            216
+          ],
+          "confidence": 0.8935554,
+          "bbox_valid": true
+        }
+      ],
+      "image_sha256": "0864d0977a82365ee7c36651fdb6f658503a54574cb2b70816ac503d1d94a1ce"
+    },
+    {
+      "page": 124,
+      "physical_row": 2,
+      "lexical_position_rtl": 1,
+      "verse": "5:104",
+      "form": "قالوا",
+      "t": 15761,
+      "v_id": 15777,
+      "core_rect": [
+        930,
+        166,
+        995,
+        213
+      ],
+      "partition": [
+        920,
+        134,
+        1008,
+        235
+      ],
+      "ink_class": "black",
+      "mark_ownership": "clear",
+      "x_edges": [
+        931,
+        997
+      ],
+      "x_edge_tolerance": 12,
+      "note": "Qalu at the right margin; the final waw/alif remain part of the word, before hasbuna.",
+      "outcomes": {
+        "original_broad": {
+          "bbox": [
+            916,
+            146,
+            995,
+            215
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -15,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 15,
+            "worst_max_abs_error": 15,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_broad": {
+          "bbox": [
+            931,
+            146,
+            995,
+            215
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -2
+          ],
+          "all_ownership_boundary_pass": true,
+          "ownership_error": {
+            "best_max_abs_error": 2,
+            "worst_max_abs_error": 2,
+            "ownership_outcome": "all_pass"
+          }
+        },
+        "original_conservative": {
+          "bbox": [
+            916,
+            146,
+            995,
+            215
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -15,
+            -2
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 15,
+            "worst_max_abs_error": 15,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_conservative": {
+          "bbox": [
+            931,
+            146,
+            995,
+            215
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -2
+          ],
+          "all_ownership_boundary_pass": true,
+          "ownership_error": {
+            "best_max_abs_error": 2,
+            "worst_max_abs_error": 2,
+            "ownership_outcome": "all_pass"
+          }
+        }
+      },
+      "normalized_text_exact": true,
+      "mandatory_regions": [
+        {
+          "source_region": 10,
+          "text": "قالُوا",
+          "bbox": [
+            916,
+            146,
+            995,
+            215
+          ],
+          "confidence": 0.9255733,
+          "bbox_valid": true
+        }
+      ],
+      "image_sha256": "6e66b1677fa679185362fe7a887d652d91495a609f2cb30510545c9d48017020"
+    },
+    {
+      "page": 366,
+      "physical_row": 2,
+      "lexical_position_rtl": 1,
+      "verse": "26:1",
+      "form": "طسم",
+      "t": 47123,
+      "v_id": 47219,
+      "core_rect": [
+        907,
+        171,
+        998,
+        215
+      ],
+      "partition": [
+        895,
+        134,
+        1010,
+        235
+      ],
+      "ink_class": "black",
+      "mark_ownership": "clear",
+      "x_edges": [
+        896,
+        989
+      ],
+      "x_edge_tolerance": 12,
+      "note": "Ta-sin-mim is one canonical token; both upper black elongation marks belong to its printed letters. The verse-1 rosette and magenta stop sign lie to the left outside this partition.",
+      "outcomes": {
+        "original_broad": {
+          "bbox": [
+            857,
+            145,
+            989,
+            222
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -39,
+            0
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 39,
+            "worst_max_abs_error": 39,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_broad": {
+          "bbox": [
+            867,
+            145,
+            989,
+            222
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -29,
+            0
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 29,
+            "worst_max_abs_error": 29,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "original_conservative": {
+          "bbox": [
+            857,
+            145,
+            989,
+            222
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -39,
+            0
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 39,
+            "worst_max_abs_error": 39,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_conservative": {
+          "bbox": [
+            867,
+            145,
+            989,
+            222
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -29,
+            0
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 29,
+            "worst_max_abs_error": 29,
+            "ownership_outcome": "all_fail"
+          }
+        }
+      },
+      "normalized_text_exact": false,
+      "mandatory_regions": [
+        {
+          "source_region": 4,
+          "text": "لسمل",
+          "bbox": [
+            857,
+            145,
+            989,
+            222
+          ],
+          "confidence": 0.5299585,
+          "bbox_valid": true
+        }
+      ],
+      "image_sha256": "e93d1d59d1b5d667b47748c243fd17a4ec7b733268bc96d8693703a5b589b4a5"
+    },
+    {
+      "page": 508,
+      "physical_row": 12,
+      "lexical_position_rtl": 1,
+      "verse": "47:27",
+      "form": "فكيف",
+      "t": 65734,
+      "v_id": 65914,
+      "core_rect": [
+        806,
+        1275,
+        925,
+        1317
+      ],
+      "partition": [
+        794,
+        1243,
+        941,
+        1340
+      ],
+      "ink_class": "black",
+      "mark_ownership": "clear",
+      "x_edges": [
+        802,
+        935
+      ],
+      "x_edge_tolerance": 12,
+      "note": "Fa-kayfa is the first lexical word after the rightmost verse-26 rosette. Retain its initial-fa fatha through x935; rosette numeral ink begins x963 outside the partition.",
+      "outcomes": {
+        "original_broad": {
+          "bbox": [
+            787,
+            1247,
+            928,
+            1318
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -15,
+            -7
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 15,
+            "worst_max_abs_error": 15,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_broad": {
+          "bbox": [
+            802,
+            1247,
+            928,
+            1318
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -7
+          ],
+          "all_ownership_boundary_pass": true,
+          "ownership_error": {
+            "best_max_abs_error": 7,
+            "worst_max_abs_error": 7,
+            "ownership_outcome": "all_pass"
+          }
+        },
+        "original_conservative": {
+          "bbox": [
+            787,
+            1247,
+            928,
+            1318
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -15,
+            -7
+          ],
+          "all_ownership_boundary_pass": false,
+          "ownership_error": {
+            "best_max_abs_error": 15,
+            "worst_max_abs_error": 15,
+            "ownership_outcome": "all_fail"
+          }
+        },
+        "trimmed_conservative": {
+          "bbox": [
+            802,
+            1247,
+            928,
+            1318
+          ],
+          "accepted": true,
+          "center_correct": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -7
+          ],
+          "all_ownership_boundary_pass": true,
+          "ownership_error": {
+            "best_max_abs_error": 7,
+            "worst_max_abs_error": 7,
+            "ownership_outcome": "all_pass"
+          }
+        }
+      },
+      "normalized_text_exact": true,
+      "mandatory_regions": [
+        {
+          "source_region": 99,
+          "text": "فَكَيْفَ",
+          "bbox": [
+            787,
+            1247,
+            928,
+            1318
+          ],
+          "confidence": 0.87629807,
+          "bbox_valid": true
+        }
+      ],
+      "image_sha256": "8b7042294a1bf98a07a8edf1ba5dd3299bab21bcabecf42d27f47408c542c9ac"
+    }
+  ],
+  "ambiguous_scan_labels": [
+    {
+      "page": 298,
+      "physical_row": 7,
+      "lexical_position_rtl": 4,
+      "verse": "18:49",
+      "form": "الا",
+      "partition": [
+        658,
+        675,
+        725,
+        785
+      ],
+      "note": "Illa's letter core is clear, but no simple vertical whitespace cut isolates all of its overhanging upper extension and lower kasra from ahsaha's fatha/initial alif on the left and kabira's tanwin on the right. The broad partition contains the full target with neighboring ink; full horizontal ownership remains unresolved and unscorable. No exact optional mask is asserted.",
+      "boundary_eligible": false,
+      "ownership_evaluable": false,
+      "ownership_bounds": {
+        "x_edge_ranges": [
+          [
+            658,
+            658
+          ],
+          [
+            725,
+            725
+          ]
+        ],
+        "horizontal_invariant": true,
+        "mandatory_ink_pixels": 955,
+        "optional_ink_pixels": 0,
+        "alternatives_specified": false
+      },
+      "edge_support": null
+    },
+    {
+      "page": 508,
+      "physical_row": 2,
+      "lexical_position_rtl": 4,
+      "verse": "47:20",
+      "form": "القتال",
+      "partition": [
+        559,
+        124,
+        682,
+        236
+      ],
+      "note": "The isolated superscript la above al-qital's ending is auxiliary notation. Scan-only components isolate it at [563,134,576,158], 138 thresholded pixels. Only its enclosing rectangle is optional; the lexical final-lam damma at [579,145,588,160] and all other letters/vowels stay mandatory. Test every ownership subset rather than choosing a preferred edge.",
+      "boundary_eligible": false,
+      "ownership_evaluable": true,
+      "ownership_bounds": {
+        "x_edge_ranges": [
+          [
+            563,
+            571
+          ],
+          [
+            667,
+            667
+          ]
+        ],
+        "horizontal_invariant": false,
+        "mandatory_ink_pixels": 1290,
+        "optional_ink_pixels": 138,
+        "alternatives_specified": true
+      },
+      "edge_support": [
+        [
+          563,
+          564,
+          565,
+          566,
+          567,
+          568,
+          569,
+          570,
+          571
+        ],
+        [
+          667
+        ]
+      ]
+    }
+  ],
+  "broad_conservative_sample_boxes_identical": true,
+  "selection": "Union of every failure in all four locked methods, deduplicated by physical slot. Original labels and scores copied unchanged.",
+  "inputs": {
+    "audit_word_ink_trim_fresh_validation_v6.json": "f2ee4c0191b0278a6e5472eb6d1ffed16ffa23eff23b6584ed4ab5d58b1fc659",
+    "audit_manual_word_ink_trim_fresh_v6.json": "3a8740b58e99eb131134995976fb987a324817378d09f3e8aae926604b379045",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "audit_ocr_word_boundary_map_v5.json": "331b60f641794a45f01b6a173137e77c047c42af22acf38035412bf9e5a07c8f",
+    "word_ink_trim_fresh_diagnostics.py": "27a9b5deb4a94a1ceb50c84d4cda0e9cead292eccf328d9965e0f5a09f4ab31e"
+  },
+  "caveat": "Post-comparison diagnostic provenance, not additional fresh annotation or independent verification of linguistic ownership. Identical broad/conservative outcomes on this sample are not independent replications. No labels, inference rules or acceptance policies changed."
+}

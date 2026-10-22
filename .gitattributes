@@ -1,0 +1,11 @@
+# Preserve the byte hashes used by the CPU audit on every checkout platform.
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.npz binary
+*.npy binary
+*.png binary
+*.pdf binary
+*.odt binary
+*.ods binary

@@ -1,0 +1,110 @@
+{
+  "version": "scan-first-physical-position-labels-v5",
+  "plan_sha256": "5e6c5889fe90f872095d91ebfacd2243a7d876d9964b80b5a459ce8d74aa94b7",
+  "reader": "One AI reader, 2026-10-19; no second-reader independence claimed.",
+  "stage": "Full scans and full-width ruled crops read before selected v5 predictions. Row lexical sequences were read from scans, then checked and written in normalized canonical spelling. Geometry and mark-ownership decisions use scans only. Physical rows are the fixed printed 110px row slots, including a top basmala slot where present. All 54 scheduled positions are retained; two seventh words do not exist on their rows.",
+  "pages": [
+    {"page":66,"rows":[
+      {"physical_row":2,"first_verse":"3:133","first_word_in_verse":9,"transcription":["والارض","اعدت","للمتقين","الذين","ينفقون","في","السراء","والضراء"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[878,165,995,211],"partition":[866,125,1010,235],"ink_class":"black","mark_ownership":"clear","note":"Whole wa-al-ard at the right edge; surrounding whitespace separates u'iddat."},
+        {"lexical_position_rtl":4,"core_rect":[480,162,565,212],"partition":[470,125,581,235],"ink_class":"black","mark_ownership":"clear","note":"Alladhina follows the verse-133 rosette; marker excluded from the partition."},
+        {"lexical_position_rtl":7,"core_rect":[185,159,278,212],"partition":[171,125,289,235],"ink_class":"black","mark_ownership":"clear","note":"Al-sarra', between fi and wa-al-darra'."}
+      ]},
+      {"physical_row":7,"first_verse":"3:136","first_word_in_verse":2,"transcription":["جزاؤهم","مغفره","من","ربهم","وجنت","تجري","من","تحتها"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[820,716,990,761],"partition":[802,685,1010,790],"ink_class":"mixed","mark_ownership":"uncertain","note":"Jaza'uhum is unambiguous as a word; the small magenta sign below its middle is not independently resolved as linguistic ink versus a recitation sign."},
+        {"lexical_position_rtl":4,"core_rect":[463,719,538,758],"partition":[449,685,550,790],"ink_class":"colored","mark_ownership":"clear","note":"Magenta rabbihim; clear gaps on either side."},
+        {"lexical_position_rtl":7,"core_rect":[146,720,189,758],"partition":[136,685,203,790],"ink_class":"black","mark_ownership":"clear","note":"Min immediately before tahtiha; separate from the preceding tajri."}
+      ]},
+      {"physical_row":12,"first_verse":"3:139","first_word_in_verse":5,"transcription":["وانتم","الاعلون","ان","كنتم","مؤمنين","ان"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[859,1266,994,1311],"partition":[848,1235,1010,1338],"ink_class":"black","mark_ownership":"clear","note":"Wa-antum at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[389,1269,533,1311],"partition":[375,1235,546,1338],"ink_class":"black","mark_ownership":"clear","note":"Kuntum between in and mu'minin."},
+        {"lexical_position_rtl":7,"status":"unavailable","reason":"The row has only six lexical words: wa-antum, al-a'lawna, in, kuntum, mu'minin, then verse-140 in. The verse-139 rosette is not a word; no replacement."}
+      ]}
+    ]},
+    {"page":157,"rows":[
+      {"physical_row":2,"first_verse":"7:58","first_word_in_verse":9,"transcription":["لا","يخرج","الا","نكدا","كذلك","نصرف","الايت","لقوم","يشكرون"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[955,161,993,212],"partition":[945,125,1010,235],"ink_class":"black","mark_ownership":"clear","note":"La at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[711,169,799,212],"partition":[694,125,810,235],"ink_class":"mixed","mark_ownership":"uncertain","note":"Nakidan; small magenta superscript near the left-hand ending is not independently assigned as a word mark versus recitation notation."},
+        {"lexical_position_rtl":7,"core_rect":[340,162,425,212],"partition":[325,125,438,235],"ink_class":"black","mark_ownership":"clear","note":"Al-ayat between nusarrifu and liqawmin; written long alifs do not change lexical position."}
+      ]},
+      {"physical_row":7,"first_verse":"7:62","first_word_in_verse":1,"transcription":["ابلغكم","رسلت","ربي","وانصح","لكم","واعلم","من","الله"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[855,716,993,762],"partition":[840,685,1010,790],"ink_class":"black","mark_ownership":"clear","note":"Uballighukum, including the initial alif."},
+        {"lexical_position_rtl":4,"core_rect":[479,718,599,760],"partition":[462,685,615,790],"ink_class":"black","mark_ownership":"clear","note":"Wa-ansahu, with the initial waw included as part of the lexical token."},
+        {"lexical_position_rtl":7,"core_rect":[128,720,178,759],"partition":[115,685,193,790],"ink_class":"colored","mark_ownership":"clear","note":"Magenta min before Allah."}
+      ]},
+      {"physical_row":12,"first_verse":"7:64","first_word_in_verse":13,"transcription":["قوما","عمين","والي","عاد","اخاهم","هودا","قال","يقوم","اعبدوا","الله"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[933,1273,995,1312],"partition":[920,1235,1010,1338],"ink_class":"black","mark_ownership":"clear","note":"Qawman before 'amin and the verse-64 rosette."},
+        {"lexical_position_rtl":4,"core_rect":[630,1270,681,1312],"partition":[615,1235,692,1338],"ink_class":"black","mark_ownership":"clear","note":"'Ad immediately after wa-ila at the start of verse 65."},
+        {"lexical_position_rtl":7,"core_rect":[359,1265,416,1312],"partition":[341,1235,425,1338],"ink_class":"colored","mark_ownership":"clear","note":"Magenta qala between Hudan and ya qawmi."}
+      ]}
+    ]},
+    {"page":229,"rows":[
+      {"physical_row":2,"first_verse":"11:72","first_word_in_verse":10,"transcription":["هذا","لشيء","عجيب","قالوا","اتعجبين","من","امر","الله","رحمت"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[913,160,984,211],"partition":[897,125,1005,237],"ink_class":"black","mark_ownership":"clear","note":"Hadha at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[521,159,586,212],"partition":[505,125,603,237],"ink_class":"black","mark_ownership":"clear","note":"Qalu after the verse-72 rosette."},
+        {"lexical_position_rtl":7,"core_rect":[215,163,264,216],"partition":[200,125,278,237],"ink_class":"black","mark_ownership":"clear","note":"Amri between min and Allah; lower kasra belongs inside this partition."}
+      ]},
+      {"physical_row":7,"first_verse":"11:77","first_word_in_verse":3,"transcription":["رسلنا","لوطا","سيء","بهم","وضاق","بهم","ذرعا","وقال","هذا","يوم","عصيب"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[865,717,993,762],"partition":[847,685,1009,790],"ink_class":"black","mark_ownership":"clear","note":"Rusuluna at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[680,720,730,764],"partition":[662,685,742,790],"ink_class":"black","mark_ownership":"clear","note":"First bihim on this row, immediately after si'a; the second occurrence is position 6."},
+        {"lexical_position_rtl":7,"core_rect":[386,713,451,762],"partition":[370,685,466,790],"ink_class":"black","mark_ownership":"clear","note":"Dhar'an between the second bihim and wa-qala."}
+      ]},
+      {"physical_row":12,"first_verse":"11:80","first_word_in_verse":1,"transcription":["قال","لو","ان","لي","بكم","قوه","او","ءاوي","الي","ركن","شديد","قالوا"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[945,1262,988,1312],"partition":[929,1235,1009,1338],"ink_class":"colored","mark_ownership":"clear","note":"Magenta qala at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[783,1277,811,1314],"partition":[768,1235,826,1338],"ink_class":"black","mark_ownership":"clear","note":"Li, not the neighboring bikum; lower strokes are included."},
+        {"lexical_position_rtl":7,"core_rect":[525,1267,564,1312],"partition":[510,1235,578,1338],"ink_class":"black","mark_ownership":"clear","note":"Aw between quwwatan and awi; the latter is position 8."}
+      ]}
+    ]},
+    {"page":376,"rows":[
+      {"physical_row":2,"first_verse":"27:1","first_word_in_verse":1,"transcription":["طس","تلك","ءايت","القرءان","وكتاب","مبين","هدي","وبشري","للمؤمنين"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[924,168,988,214],"partition":[911,125,1007,237],"ink_class":"mixed","mark_ownership":"uncertain","note":"Ta-sin starts the second printed row, below the basmala. The small magenta superscript is recitation notation whose ownership is not separately resolved."},
+        {"lexical_position_rtl":4,"core_rect":[653,161,738,212],"partition":[638,125,751,237],"ink_class":"colored","mark_ownership":"clear","note":"Magenta al-Qur'an between ayat and wa-kitab."},
+        {"lexical_position_rtl":7,"core_rect":[305,172,372,211],"partition":[291,125,386,237],"ink_class":"black","mark_ownership":"clear","note":"Hudan after the verse-1 rosette; the marker is not counted as a word."}
+      ]},
+      {"physical_row":7,"first_verse":"27:6","first_word_in_verse":7,"transcription":["عليم","اذ","قال","موسي","لاهله","اني","ءانست","نارا","ساتيكم","منها","بخبر"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[916,718,992,765],"partition":[901,685,1009,790],"ink_class":"black","mark_ownership":"clear","note":"'Alim ends verse 6; the following rosette is outside the partition."},
+        {"lexical_position_rtl":4,"core_rect":[672,723,752,764],"partition":[650,685,765,790],"ink_class":"black","mark_ownership":"clear","note":"Musa after idh qala, not the following li-ahlihi."},
+        {"lexical_position_rtl":7,"core_rect":[406,714,485,761],"partition":[387,685,497,790],"ink_class":"black","mark_ownership":"clear","note":"Anastu before naran; the initial hamza/alif is included."}
+      ]},
+      {"physical_row":12,"first_verse":"27:10","first_word_in_verse":16,"transcription":["لا","يخاف","لدي","المرسلون","الا","من","ظلم","ثم","بدل","حسنا","بعد","سوء"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[975,1267,997,1312],"partition":[961,1235,1009,1338],"ink_class":"black","mark_ownership":"clear","note":"La at the row's right edge; verse 10 continues from the preceding row."},
+        {"lexical_position_rtl":4,"core_rect":[669,1271,815,1313],"partition":[650,1235,831,1338],"ink_class":"black","mark_ownership":"clear","note":"Al-mursalun before the verse-10 rosette."},
+        {"lexical_position_rtl":7,"core_rect":[444,1275,505,1316],"partition":[426,1235,517,1338],"ink_class":"black","mark_ownership":"clear","note":"Zalama after illa man, before thumma."}
+      ]}
+    ]},
+    {"page":445,"rows":[
+      {"physical_row":2,"first_verse":"37:1","first_word_in_verse":1,"transcription":["والصفت","صفا","فالزجرت","زجرا","فالتليت","ذكرا"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[823,159,991,214],"partition":[807,125,1009,237],"ink_class":"black","mark_ownership":"clear","note":"Wa-al-saffat, including the initial waw, on the second printed row below the basmala."},
+        {"lexical_position_rtl":4,"core_rect":[402,157,461,214],"partition":[386,125,477,237],"ink_class":"black","mark_ownership":"clear","note":"Zajran before the verse-2 rosette."},
+        {"lexical_position_rtl":7,"status":"unavailable","reason":"The row contains exactly six lexical words spanning verses 37:1-3. Neither verse marker is a word; no replacement for the absent seventh word."}
+      ]},
+      {"physical_row":7,"first_verse":"37:10","first_word_in_verse":5,"transcription":["فاتبعه","شهاب","ثاقب","فاستفتهم","اهم","اشد","خلقا","ام","من"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[872,718,990,766],"partition":[853,685,1009,790],"ink_class":"black","mark_ownership":"clear","note":"Fa-atba'ahu; mark from the preceding row above the left-hand gap is excluded vertically."},
+        {"lexical_position_rtl":4,"core_rect":[416,719,576,765],"partition":[397,685,592,790],"ink_class":"black","mark_ownership":"clear","note":"Fa-istaftihim after the verse-10 rosette."},
+        {"lexical_position_rtl":7,"core_rect":[148,713,216,762],"partition":[134,685,229,790],"ink_class":"black","mark_ownership":"clear","note":"Khalqan between ashaddu and am."}
+      ]},
+      {"physical_row":12,"first_verse":"37:19","first_word_in_verse":3,"transcription":["زجره","وحده","فاذا","هم","ينظرون","وقالوا","يويلنا","هذا","يوم","الدين"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[893,1266,990,1312],"partition":[878,1235,1009,1338],"ink_class":"black","mark_ownership":"clear","note":"Zajratun at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[667,1273,720,1314],"partition":[650,1235,735,1338],"ink_class":"colored","mark_ownership":"clear","note":"Magenta hum after fa-idha."},
+        {"lexical_position_rtl":7,"core_rect":[282,1267,367,1314],"partition":[265,1235,383,1338],"ink_class":"black","mark_ownership":"clear","note":"Ya-waylana is one canonical lexical token after wa-qalu, although its vocative is visually separated."}
+      ]}
+    ]},
+    {"page":545,"rows":[
+      {"physical_row":2,"first_verse":"59:4","first_word_in_verse":11,"transcription":["شديد","العقاب","ما","قطعتم","من","لينه","او","تركتموها","قائمه"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[906,171,991,212],"partition":[887,125,1009,237],"ink_class":"colored","mark_ownership":"clear","note":"Magenta shadid at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[536,168,636,215],"partition":[518,125,650,237],"ink_class":"black","mark_ownership":"clear","note":"Qata'tum after ma at the start of verse 5."},
+        {"lexical_position_rtl":7,"core_rect":[310,165,334,212],"partition":[299,125,345,237],"ink_class":"black","mark_ownership":"clear","note":"Aw between linatin and taraktumuha."}
+      ]},
+      {"physical_row":7,"first_verse":"59:7","first_word_in_verse":10,"transcription":["وللرسول","ولذي","القربي","واليتمي","والمسكين","وابن","السبيل"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[848,718,991,765],"partition":[829,685,1009,790],"ink_class":"black","mark_ownership":"clear","note":"Wa-lil-rasuli includes the initial waw."},
+        {"lexical_position_rtl":4,"core_rect":[460,716,575,765],"partition":[442,685,590,790],"ink_class":"black","mark_ownership":"clear","note":"Wa-al-yatama, including its waw, between al-qurba and wa-al-masakin."},
+        {"lexical_position_rtl":7,"core_rect":[30,718,145,767],"partition":[14,685,158,790],"ink_class":"black","mark_ownership":"uncertain","note":"Al-sabil at the row's left edge; a small superscript la is recitation notation, so full word-ink ownership is not certified."}
+      ]},
+      {"physical_row":12,"first_verse":"59:8","first_word_in_verse":13,"transcription":["وينصرون","الله","ورسوله","اولئك","هم","الصدقون","والذين","تبوءو"],"samples":[
+        {"lexical_position_rtl":1,"core_rect":[855,1269,990,1314],"partition":[837,1235,1009,1338],"ink_class":"black","mark_ownership":"clear","note":"Wa-yansuruna at the row's right edge."},
+        {"lexical_position_rtl":4,"core_rect":[511,1265,600,1316],"partition":[497,1235,615,1338],"ink_class":"mixed","mark_ownership":"uncertain","note":"Ula'ika has a small magenta sign below its middle; independent ownership of that sign remains unresolved."},
+        {"lexical_position_rtl":7,"core_rect":[115,1267,222,1314],"partition":[98,1235,236,1338],"ink_class":"black","mark_ownership":"clear","note":"Wa-alladhina begins verse 9 after the rosette; the rosette and its magenta stop sign are excluded."}
+      ]}
+    ]}
+  ]
+}

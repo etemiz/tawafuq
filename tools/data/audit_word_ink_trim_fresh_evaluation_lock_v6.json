@@ -1,0 +1,21 @@
+{
+  "version": "scan-first-ink-trim-evaluation-lock-v6",
+  "stage": "all_scan_labels_saved_before_selected_predictions_read",
+  "inputs": {
+    "audit_word_ink_trim_fresh_plan_v6.json": "9aa206afbd44c647b7a2b3cdfa656edbb3df88a4f8b1711fc92f8c0e0bce474e",
+    "audit_word_ink_trim_fresh_labels_v6.json": "355f14bc6f79d22ae462ed2d59dc8c1ad2af90d532bb542bc648f068bcc3968d",
+    "audit_manual_word_ink_trim_fresh_v6.json": "3a8740b58e99eb131134995976fb987a324817378d09f3e8aae926604b379045"
+  },
+  "evaluation_sources": {
+    "word_ink_trim_fresh_validation.py": "b7caa05cd76ed91b649bb73208dd6711d9fdc98c048301013842a77061b65bd4",
+    "word_ink_trim_fresh_sample.py": "83798960f254f21003f722a32a49fe6b0f5989229f54a4616b111bd0758226ae",
+    "word_boundary_extent_review.py": "38ae193785ef7cc76dd97d07a73d31885012e196a5aa3faf189df82cdf9f4ad8",
+    "word_boundary_fresh_sample.py": "1b8778e6df5bad759ed9dc896ab345f5a9451e378f0bf8f4e8cf8a681413ce38",
+    "word_boundary_ownership_policy.py": "0cd50bb4b3d5cca6810ed783a582aed858c185ce16e11eadb0811238230d873c",
+    "word_localization_validation.py": "ad15b1f4ee7bb5f7d1c6f058ccf3671d7d44f12bb1e576c6698ef8a1fc6bc2a9",
+    "ocr_ink_trim.py": "322ec8ec85c38df853e45bd2cf853e91ef885ba7ac01e01ce2bf54f0be4f52f7",
+    "semantic_validation.py": "78dcb3af1289d1b1aa95c93604aaad0ac7ef936133f6cab076d4497579b5a80a",
+    "image_io.py": "3a162f81aee756c24c87ba60349e2d011fdd6ebd4b4561cc8162f93f43c9c9b0"
+  },
+  "protocol": "All 54 scheduled slots labelled or explicitly unavailable before first selected prediction comparison. Letter-core inclusion scores centers, recomputed after horizontal trimming. The earlier 12px tolerance, fixed-edge denominator and exact all-ownership denominator are retained, including abstentions. Generic unresolved ownership and partition contact remain unscorable. Four paired dependent methods: original/trimmed broad and original/trimmed conservative. Every failure and regression is retained. No subsequent label/evaluator/inference retuning in this report; corrections require a separate post-exposure artifact."
+}

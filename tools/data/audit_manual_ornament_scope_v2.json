@@ -1,0 +1,142 @@
+{
+  "version": "fresh-ornament-scope-annotation-v2",
+  "seed": "t2-gold-ornament-scope-v2-2026-10-18",
+  "excluded_pages": [
+    1,
+    11,
+    15,
+    26,
+    49,
+    74,
+    128,
+    130,
+    148,
+    154,
+    186,
+    199,
+    201,
+    206,
+    207,
+    239,
+    276,
+    286,
+    304,
+    342,
+    365,
+    393,
+    402,
+    412,
+    422,
+    447,
+    462,
+    489,
+    513,
+    529,
+    567,
+    570,
+    588,
+    604
+  ],
+  "excluded_log_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      580,
+      604
+    ]
+  ],
+  "rule_sha256": "66a1856f130a179750340a746f036a0b4c958cf596d70d807f903e2ecc7ccd50",
+  "pages": [
+    {
+      "page": 160,
+      "stratum": [
+        101,
+        180
+      ],
+      "first_verse": "7:82",
+      "last_verse": "7:87",
+      "head_basmala_names": [],
+      "image_sha256": "c12326d6b87c12b7e8a98e3d84c0b2bd1c239551abaa9cefa6768d3908575d76"
+    },
+    {
+      "page": 188,
+      "stratum": [
+        181,
+        260
+      ],
+      "first_verse": "9:14",
+      "last_verse": "9:20",
+      "head_basmala_names": [],
+      "image_sha256": "f95a5b7611f6537e2520dca17d5fe41ef2591daa265b69ca9c0dc5401e6df837"
+    },
+    {
+      "page": 272,
+      "stratum": [
+        261,
+        340
+      ],
+      "first_verse": "16:55",
+      "last_verse": "16:64",
+      "head_basmala_names": [],
+      "image_sha256": "f36035167af19e0337e99c96d8d423f1b8255b4bfa8d89bdaabdae2fa91d1c8f"
+    },
+    {
+      "page": 391,
+      "stratum": [
+        341,
+        420
+      ],
+      "first_verse": "28:51",
+      "last_verse": "28:59",
+      "head_basmala_names": [],
+      "image_sha256": "775b749300181decdaf387e3f648a299b791428a71cae02408d55a27755cfd71"
+    },
+    {
+      "page": 427,
+      "stratum": [
+        421,
+        500
+      ],
+      "first_verse": "34:1",
+      "last_verse": "34:7",
+      "head_basmala_names": [
+        {
+          "verse": "34:0",
+          "word_in_verse": 2,
+          "rect": [
+            230,
+            245,
+            330,
+            340
+          ]
+        }
+      ],
+      "image_sha256": "0cbb2f8fbe371c2faf418a6ca7b2164044d4a5ce165273afca52e3269abd9d0b"
+    },
+    {
+      "page": 517,
+      "stratum": [
+        501,
+        579
+      ],
+      "first_verse": "50:1",
+      "last_verse": "50:15",
+      "head_basmala_names": [
+        {
+          "verse": "50:0",
+          "word_in_verse": 2,
+          "rect": [
+            230,
+            245,
+            330,
+            340
+          ]
+        }
+      ],
+      "image_sha256": "09bbb803319c60679ba61e0425405caa425b0b57f58cfa54199e099bcc8eae8a"
+    }
+  ],
+  "protocol": "One AI reader, unlabelled scans before masked-v2 predictions. First/last complete verse independently recorded. Two header/basmala pages included by fixed hash selection. Earlier v1 scope predictions were not inspected for these pages. No word-boundary or whole-corpus accuracy claim. p304 development failure is excluded."
+}

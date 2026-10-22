@@ -1,0 +1,66 @@
+{
+  "study":"historical-second-copy-1776-ocr-development-v1",
+  "date":"2026-10-19",
+  "reader":"Single assistant scan reading with raw local Surya OCR as an aid; not independent adjudication.",
+  "coordinate_schema":"names = [verse, ordinal_name_in_full_canonical_verse, spelling, physical_row, left_body_edge, right_body_edge]. Coordinates at 1000px sheet width.",
+  "pages":[
+    {"folio":"33r","first_verse":"4:123","first_word":2,"last_verse":"4:132","last_word":null,"frame":[302,854],"names":[
+      ["4:123",1,"الله",2,737,762], ["4:125",1,"لله",4,568,591],
+      ["4:125",2,"الله",5,714,741], ["4:126",1,"ولله",5,541,580],
+      ["4:126",2,"الله",6,772,797], ["4:127",1,"الله",6,372,397],
+      ["4:127",2,"الله",9,421,448], ["4:128",1,"الله",12,776,803],
+      ["4:129",1,"الله",14,714,741], ["4:130",1,"الله",14,383,409],
+      ["4:130",2,"الله",15,673,700], ["4:131",1,"ولله",15,498,536],
+      ["4:131",2,"الله",16,306,328], ["4:131",3,"لله",17,679,705],
+      ["4:131",4,"الله",17,378,405], ["4:132",1,"ولله",18,722,761],
+      ["4:132",2,"بالله",18,403,433]
+    ]},
+    {"folio":"66r","first_verse":"9:100","first_word":22,"last_verse":"9:111","last_word":18,"frame":[312,881],"names":[
+      ["9:102",1,"الله",4,733,760], ["9:102",2,"الله",4,558,583],
+      ["9:103",1,"والله",5,380,417], ["9:104",1,"الله",6,739,765],
+      ["9:104",2,"الله",6,321,347], ["9:105",1,"الله",7,536,561],
+      ["9:106",1,"الله",9,676,704], ["9:106",2,"والله",9,361,400],
+      ["9:107",1,"الله",11,649,676], ["9:107",2,"والله",12,819,858],
+      ["9:108",1,"والله",13,316,354], ["9:109",1,"الله",14,431,456],
+      ["9:109",2,"والله",15,366,402], ["9:110",1,"والله",17,733,770],
+      ["9:111",1,"الله",17,600,626], ["9:111",2,"الله",18,548,575]
+    ]},
+    {"folio":"99r","first_verse":"19:47","first_word":5,"last_verse":"19:65","last_word":2,"boundary_note":"Only the initial waw of the following canonical token والأرض appears at the left end. It is a page-split non-name token, excluded from the complete-token span.","frame":[324,899],"names":[
+      ["19:48",1,"الله",1,347,371], ["19:49",1,"الله",3,519,544],
+      ["19:58",1,"الله",10,791,816]
+    ]},
+    {"folio":"132r","first_verse":"31:18","first_word":4,"last_verse":"31:31","last_word":13,"frame":[323,902],"names":[
+      ["31:18",1,"الله",1,565,590], ["31:20",1,"الله",3,691,717],
+      ["31:20",2,"الله",4,329,353], ["31:21",1,"الله",5,328,352],
+      ["31:22",1,"الله",7,551,574], ["31:22",2,"الله",8,697,720],
+      ["31:23",1,"الله",9,582,609], ["31:25",1,"الله",11,614,642],
+      ["31:25",2,"لله",11,510,538], ["31:26",1,"لله",11,342,368],
+      ["31:26",2,"الله",12,617,642], ["31:27",1,"الله",13,323,350],
+      ["31:27",2,"الله",14,849,875], ["31:28",1,"الله",14,325,351],
+      ["31:29",1,"الله",15,654,682], ["31:29",2,"الله",16,522,549],
+      ["31:30",1,"الله",17,703,728], ["31:30",2,"الله",17,351,379],
+      ["31:31",1,"الله",18,644,672]
+    ]},
+    {"folio":"165r","first_verse":"48:16","first_word":1,"last_verse":"48:26","last_word":6,"frame":[323,886],"names":[
+      ["48:16",1,"الله",2,609,637], ["48:17",1,"الله",4,549,576],
+      ["48:18",1,"الله",5,327,352], ["48:19",1,"الله",8,775,800],
+      ["48:20",1,"الله",8,584,610], ["48:21",1,"الله",10,409,434],
+      ["48:21",2,"الله",10,333,360], ["48:23",1,"الله",12,633,660],
+      ["48:23",2,"الله",12,326,353], ["48:24",1,"الله",14,516,543],
+      ["48:25",1,"الله",17,530,557]
+    ]}
+  ],
+  "colophon":{"initial_ia_page_n":402,"visual_result":"Back cover, not colophon. First five target folio numbers are visibly correct. Original acquisition retained.","corrected_candidate_n":398,"candidate_foliation_read":"197, whereas catalogue cites 199r; discrepancy unresolved","candidate_content":"Actual completion statement, beginning وقع الفراغ من كتابة هذا القرآن المجيد; month wording supports late second ten-day period of Dhu al-Qadah, date phrase supports 1189 AH (eighty-nine and one hundred after one thousand). Single-reader reading agrees with catalogue year; not independent material dating or a resolved foliation mapping.","date_visually_supported_ah":1189},
+  "phrase_candidates":[
+    {"id":"99r-remember-in-the-book","folio":"99r","canonical_words":["واذكر","فى","الكتب"],"display":"واذكر في الكتاب","selection":"Post-hoc ordinary-word phrase noticed on the fixed 99r scan; name is outside the phrase.","occurrences":[
+      {"verse":"19:51","phrase_ordinal_in_verse":1,"row":4,"bodies":[[393,439],[372,396],[328,371]]},
+      {"verse":"19:56","phrase_ordinal_in_verse":1,"row":8,"bodies":[[391,431],[372,393],[326,371]]}
+    ],"other_in_page_occurrence":{"verse":"19:54","status":"Crosses physical rows 6/7; no single-row three-word body measurement supplied. Retained explicitly, outside this pair's strict same-row phrase score."}},
+    {"id":"33r-heavens-nonmatch","folio":"33r","canonical_words":["ما","فى","السموت"],"display":"ما في السماوات","selection":"Visible repeated wording on fixed 33r; retain all four complete in-row instances even when geometry differs.","occurrences":[
+      {"verse":"4:126","phrase_ordinal_in_verse":1,"row":5,"bodies":[[513,538],[493,512],[420,491]]},
+      {"verse":"4:131","phrase_ordinal_in_verse":1,"row":15,"bodies":[[476,499],[460,477],[403,459]]},
+      {"verse":"4:131","phrase_ordinal_in_verse":2,"row":17,"bodies":[[656,680],[635,654],[568,632]]},
+      {"verse":"4:132","phrase_ordinal_in_verse":1,"row":18,"bodies":[[697,721],[677,695],[600,674]]}
+    ]}
+  ]
+}

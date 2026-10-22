@@ -1,0 +1,57 @@
+{
+  "version": "text-order-spacing-pilot-plan-v1",
+  "date": "2026-10-19",
+  "pages": [
+    36,
+    124,
+    298,
+    366,
+    500,
+    508
+  ],
+  "development_only": true,
+  "inputs": {
+    "research_text_layout_feasibility_v1.json": "31a30429d0a58f5aa33056ddcb93bbbf237e74d5f4b956c911c50abc63f91046",
+    "text_layout_comparator.py": "385796f2edba79bd026ad5531b9226b676b60b02cb6f77a14867b9e5b41ff7b3",
+    "text_layout_pilot.py": "f0c0eab6e29f380d17bd626551a2556b990397224c9d101eaefaf5426da7f1ea",
+    "same_word_alignment.py": "67cacc96aa7cf004ef6a17eb58cb1e36861cd672cdd542142690fdf181636603",
+    "audit_ocr_word_boundary_map_v5.json": "331b60f641794a45f01b6a173137e77c047c42af22acf38035412bf9e5a07c8f",
+    "audit_word_boundary_sites_v5.json": "14a26d6bffe05c27bce778fa3ac5da87afb770f1a74643f0697e4fd5cd745fd2",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c",
+    "audit_stats.py": "4f835652b212076c46ca915199c5617131efb281fae9ae69b2a3b2d3ac1f0a4f",
+    "test_text_layout.py": "61c598f4dc5b6f258099d894f231899cfac80b4ff730c32829f0572be9cb854e"
+  },
+  "feasibility": "Use exactly eligible=true rows in the saved feasibility report. Every excluded row and its words stays in the coverage ledger, never counted as generated.",
+  "fixed": [
+    "canonical token identity and order",
+    "page and seeded row membership",
+    "original horizontal detector/support widths",
+    "outermost word-box edges per eligible row"
+  ],
+  "generators": {
+    "equal_gaps": "Set all n-1 gaps to their exact rational average; no score is consulted.",
+    "empirical_gap_permutation": "Independently uniformly permute the observed n-1 nonnegative gaps per eligible row; keep their multiset and sum. Duplicate gap values give repeated permutations with equal multiset probability."
+  },
+  "parameters": {
+    "replicates": 5000,
+    "seed": 20261020,
+    "rng": "numpy.default_rng/PCG64",
+    "tolerance_pixels": 15
+  },
+  "evaluation": {
+    "primary": [
+      "standalone_allah",
+      "all_identical_words"
+    ],
+    "secondary": [
+      "allah_name_family"
+    ],
+    "population": "Eligible rows only, partners restricted to that same population. Report actual excluded-row name counts separately; never impute a full-page comparison.",
+    "statistic": "Count each endpoint once with an identical-word (or declared family) partner on another row of its page, horizontal center distance <=15px. Original support centers; equal-gap centers exact rational, random centers exact half-pixel.",
+    "outputs": "Observed/equal-gap endpoints and pairs; all per-page and pooled random scores; first random trial centers per page, selected before scoring; finite-MC summaries; exact possible center ranges; gap-arrangement counts and exclusions. Report both successful and unsuccessful comparisons.",
+    "selection": "No target-score optimization, parameter search, favorable page removal, or additional tolerance search."
+  },
+  "interpretation": "Gap exchangeability is a declared toy assumption, not independently established historical evidence. Gaps may contain verse/stop markers or diacritics; this interval renderer does not reconstruct their ink, kashida, glyph joins or vertical placement. Frozen widths and line breaks may already encode design. Success establishes interval feasibility only; failure excludes only these spacing rules, not human production. Neither outcome supplies origin likelihoods.",
+  "stop_rule": "Complete this six-page feasibility and spacing report, verify it, and decide whether a more realistic independently validated comparator merits held-out evaluation. No automatic corpus expansion."
+}

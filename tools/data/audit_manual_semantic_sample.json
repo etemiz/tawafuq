@@ -1,0 +1,159 @@
+{
+  "version": "independent-semantic-sample-v1",
+  "date": "2026-10-18",
+  "seed": "t2-independent-semantic-validation-v1-2026-10-18",
+  "method": "One AI reader inspected six unlabelled full-resolution scans before opening their predicted semantic pins or verse maps. Verse text was then checked against the exact Uthmani corpus. All Allah-form occurrences and all verse-end rosettes on these six pages are recorded. Rectangles are manually localized review windows around the divine-name ink core, not certified exact word boundaries; attached black prefixes may lie outside them. Rosette coordinates are manual approximate centers. No pipeline-predicted labels were used to create these annotations.",
+  "scope": "Exhaustive within these six sampled pages for Allah forms and verse-end rosettes only. Other colored words, pause marks and ornamental ink are not an annotated word census. One-reader validation; no human double annotation or corpus-wide accuracy certificate.",
+  "pages": [
+    {
+      "page": 15,
+      "stratum": [1, 100],
+      "image_sha256": "fd67a366f7eec7f0d11fe4bc028cca7927804f47c8f4e4ac1fc67de0381455e8",
+      "first_verse": "2:102",
+      "last_verse": "2:105",
+      "complete_verses": true,
+      "names": [
+        {"verse": "2:102", "occurrence": 1, "form": "الله", "rect": [242, 580, 324, 665], "visually_colored": true},
+        {"verse": "2:103", "occurrence": 1, "form": "الله", "rect": [447, 1025, 530, 1110], "visually_colored": true},
+        {"verse": "2:105", "occurrence": 1, "form": "والله", "rect": [243, 1465, 325, 1545], "visually_colored": true},
+        {"verse": "2:105", "occurrence": 2, "form": "والله", "rect": [447, 1570, 530, 1655], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "2:102", "cx": 400, "cy": 960},
+        {"verse": "2:103", "cx": 976, "cy": 1178},
+        {"verse": "2:104", "cx": 290, "cy": 1288},
+        {"verse": "2:105", "cx": 48, "cy": 1620}
+      ]
+    },
+    {
+      "page": 148,
+      "stratum": [101, 200],
+      "image_sha256": "1ecf33733fb03c98f850ce0cc8d2ac40ee035c7745250e7b750aabc14e84eaed",
+      "first_verse": "6:152",
+      "last_verse": "6:157",
+      "complete_verses": true,
+      "names": [
+        {"verse": "6:152", "occurrence": 1, "form": "الله", "rect": [610, 355, 683, 440], "visually_colored": true},
+        {"verse": "6:157", "occurrence": 1, "form": "الله", "rect": [610, 1460, 687, 1540], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "6:152", "cx": 830, "cy": 518},
+        {"verse": "6:153", "cx": 856, "cy": 741},
+        {"verse": "6:154", "cx": 733, "cy": 960},
+        {"verse": "6:155", "cx": 542, "cy": 1070},
+        {"verse": "6:156", "cx": 47, "cy": 1179},
+        {"verse": "6:157", "cx": 48, "cy": 1618}
+      ]
+    },
+    {
+      "page": 276,
+      "stratum": [201, 300],
+      "image_sha256": "208be66c31129bfa7e7483e196d10ba3cbbc426cb2eb303945b264174b09e151",
+      "first_verse": "16:88",
+      "last_verse": "16:93",
+      "complete_verses": true,
+      "names": [
+        {"verse": "16:88", "occurrence": 1, "form": "الله", "rect": [328, 25, 405, 115], "visually_colored": true},
+        {"verse": "16:90", "occurrence": 1, "form": "الله", "rect": [328, 465, 405, 550], "visually_colored": true},
+        {"verse": "16:91", "occurrence": 1, "form": "الله", "rect": [818, 800, 905, 880], "visually_colored": true},
+        {"verse": "16:91", "occurrence": 2, "form": "الله", "rect": [818, 905, 905, 990], "visually_colored": true},
+        {"verse": "16:91", "occurrence": 3, "form": "الله", "rect": [328, 905, 405, 990], "visually_colored": true},
+        {"verse": "16:92", "occurrence": 1, "form": "الله", "rect": [328, 1240, 405, 1320], "visually_colored": true},
+        {"verse": "16:93", "occurrence": 1, "form": "الله", "rect": [818, 1460, 905, 1540], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "16:88", "cx": 422, "cy": 185},
+        {"verse": "16:89", "cx": 488, "cy": 518},
+        {"verse": "16:90", "cx": 176, "cy": 741},
+        {"verse": "16:91", "cx": 970, "cy": 1068},
+        {"verse": "16:92", "cx": 157, "cy": 1400},
+        {"verse": "16:93", "cx": 48, "cy": 1620}
+      ]
+    },
+    {
+      "page": 365,
+      "stratum": [301, 400],
+      "image_sha256": "8870632a5c5977e6426dbb9d498375a4eacdbbb1a536a612898860a9acab7574",
+      "first_verse": "25:68",
+      "last_verse": "25:77",
+      "complete_verses": true,
+      "names": [
+        {"verse": "25:68", "occurrence": 1, "form": "الله", "rect": [613, 25, 688, 115], "visually_colored": true},
+        {"verse": "25:68", "occurrence": 2, "form": "الله", "rect": [919, 130, 1002, 225], "visually_colored": true},
+        {"verse": "25:70", "occurrence": 1, "form": "الله", "rect": [919, 465, 1002, 550], "visually_colored": true},
+        {"verse": "25:70", "occurrence": 2, "form": "الله", "rect": [305, 465, 385, 550], "visually_colored": true},
+        {"verse": "25:71", "occurrence": 1, "form": "الله", "rect": [305, 575, 385, 665], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "25:68", "cx": 972, "cy": 301},
+        {"verse": "25:69", "cx": 973, "cy": 408},
+        {"verse": "25:70", "cx": 50, "cy": 519},
+        {"verse": "25:71", "cx": 175, "cy": 629},
+        {"verse": "25:72", "cx": 170, "cy": 740},
+        {"verse": "25:73", "cx": 973, "cy": 959},
+        {"verse": "25:74", "cx": 328, "cy": 1069},
+        {"verse": "25:75", "cx": 171, "cy": 1177},
+        {"verse": "25:76", "cx": 383, "cy": 1289},
+        {"verse": "25:77", "cx": 48, "cy": 1399}
+      ]
+    },
+    {
+      "page": 412,
+      "stratum": [401, 500],
+      "image_sha256": "b0df46b3272f89f061e15b619f72f64961115ea862eb84775125a266d5e53000",
+      "first_verse": "31:20",
+      "last_verse": "31:28",
+      "complete_verses": true,
+      "names": [
+        {"verse": "31:20", "occurrence": 1, "form": "الله", "rect": [700, 25, 780, 115], "visually_colored": true},
+        {"verse": "31:20", "occurrence": 2, "form": "الله", "rect": [919, 245, 1002, 330], "visually_colored": true},
+        {"verse": "31:21", "occurrence": 1, "form": "الله", "rect": [700, 355, 780, 440], "visually_colored": true},
+        {"verse": "31:22", "occurrence": 1, "form": "الله", "rect": [919, 575, 1002, 665], "visually_colored": true},
+        {"verse": "31:22", "occurrence": 2, "form": "الله", "rect": [919, 685, 1002, 775], "visually_colored": true},
+        {"verse": "31:23", "occurrence": 1, "form": "الله", "rect": [278, 795, 365, 885], "visually_colored": true},
+        {"verse": "31:25", "occurrence": 1, "form": "الله", "rect": [919, 1130, 1002, 1220], "visually_colored": true},
+        {"verse": "31:25", "occurrence": 2, "form": "لله", "rect": [696, 1130, 781, 1220], "visually_colored": true},
+        {"verse": "31:26", "occurrence": 1, "form": "لله", "rect": [270, 1130, 352, 1220], "visually_colored": true},
+        {"verse": "31:26", "occurrence": 2, "form": "الله", "rect": [700, 1240, 780, 1330], "visually_colored": true},
+        {"verse": "31:27", "occurrence": 1, "form": "الله", "rect": [700, 1460, 780, 1550], "visually_colored": true},
+        {"verse": "31:27", "occurrence": 2, "form": "الله", "rect": [547, 1460, 628, 1550], "visually_colored": true},
+        {"verse": "31:28", "occurrence": 1, "form": "الله", "rect": [278, 1570, 365, 1660], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "31:20", "cx": 282, "cy": 298},
+        {"verse": "31:21", "cx": 410, "cy": 518},
+        {"verse": "31:22", "cx": 650, "cy": 740},
+        {"verse": "31:23", "cx": 973, "cy": 958},
+        {"verse": "31:24", "cx": 48, "cy": 958},
+        {"verse": "31:25", "cx": 368, "cy": 1179},
+        {"verse": "31:26", "cx": 374, "cy": 1288},
+        {"verse": "31:27", "cx": 264, "cy": 1509},
+        {"verse": "31:28", "cx": 48, "cy": 1618}
+      ]
+    },
+    {
+      "page": 513,
+      "stratum": [501, 604],
+      "image_sha256": "7e3c1e3352cd392edf6654bdf105118bb5c3227b9a318635c251bacfb076a8a1",
+      "first_verse": "48:24",
+      "last_verse": "48:28",
+      "complete_verses": true,
+      "names": [
+        {"verse": "48:24", "occurrence": 1, "form": "الله", "rect": [278, 135, 363, 225], "visually_colored": true},
+        {"verse": "48:25", "occurrence": 1, "form": "الله", "rect": [684, 575, 768, 665], "visually_colored": true},
+        {"verse": "48:26", "occurrence": 1, "form": "الله", "rect": [278, 795, 363, 885], "visually_colored": true},
+        {"verse": "48:26", "occurrence": 2, "form": "الله", "rect": [278, 1015, 363, 1105], "visually_colored": true},
+        {"verse": "48:27", "occurrence": 1, "form": "الله", "rect": [680, 1125, 765, 1215], "visually_colored": true},
+        {"verse": "48:27", "occurrence": 2, "form": "الله", "rect": [680, 1235, 765, 1325], "visually_colored": true},
+        {"verse": "48:28", "occurrence": 1, "form": "بالله", "rect": [275, 1565, 372, 1655], "visually_colored": true}
+      ],
+      "rosettes": [
+        {"verse": "48:24", "cx": 972, "cy": 297},
+        {"verse": "48:25", "cx": 480, "cy": 740},
+        {"verse": "48:26", "cx": 976, "cy": 1178},
+        {"verse": "48:27", "cx": 787, "cy": 1508},
+        {"verse": "48:28", "cx": 48, "cy": 1618}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4303 @@
+{
+  "version": "scan-first-ink-trim-physical-position-annotations-v6",
+  "pages": [
+    {
+      "page": 36,
+      "image_sha256": "0864d0977a82365ee7c36651fdb6f658503a54574cb2b70816ac503d1d94a1ce",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            968,
+            168,
+            994,
+            210
+          ],
+          "partition": [
+            960,
+            135,
+            1008,
+            231
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Rightmost aw; isolate both letters and its upper hamza/vowel from sarrihuhunna on the left.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 4480,
+          "v_id": 4484,
+          "verse": "2:231",
+          "word_in_verse": 8,
+          "form": "او",
+          "rect": [
+            968,
+            168,
+            994,
+            210
+          ],
+          "pixels": {
+            "ink_pixels": 420,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              968,
+              152,
+              1002,
+              212
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                968,
+                968
+              ],
+              [
+                1002,
+                1002
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 420,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              968
+            ],
+            [
+              1002
+            ]
+          ],
+          "edge_support": [
+            [
+              968
+            ],
+            [
+              1002
+            ]
+          ],
+          "x_edges": [
+            968,
+            1002
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            608,
+            168,
+            659,
+            211
+          ],
+          "partition": [
+            603,
+            135,
+            682,
+            232
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-la between the colored bi-maruf and tumsikuhunna; keep the separate waw and lam-alif as one token. Scan-only enlargement separates tumsikuhunna ending at x601 from this word starting x614, and includes its waw fatha through x676.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 4483,
+          "v_id": 4487,
+          "verse": "2:231",
+          "word_in_verse": 11,
+          "form": "ولا",
+          "rect": [
+            608,
+            168,
+            659,
+            211
+          ],
+          "pixels": {
+            "ink_pixels": 600,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              614,
+              151,
+              676,
+              212
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                614,
+                614
+              ],
+              [
+                676,
+                676
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 600,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              614
+            ],
+            [
+              676
+            ]
+          ],
+          "edge_support": [
+            [
+              614
+            ],
+            [
+              676
+            ]
+          ],
+          "x_edges": [
+            614,
+            676
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            235,
+            171,
+            320,
+            211
+          ],
+          "partition": [
+            232,
+            135,
+            333,
+            231
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Li-tatadu before wa-man; the separate magenta jim is outside. Scan-only components separate the following waw ending x230 from this word starting x235 and retain this word's lower kasra ending x330.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 4486,
+          "v_id": 4490,
+          "verse": "2:231",
+          "word_in_verse": 14,
+          "form": "لتعتدوا",
+          "rect": [
+            235,
+            171,
+            320,
+            211
+          ],
+          "pixels": {
+            "ink_pixels": 1145,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              235,
+              151,
+              330,
+              217
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                235,
+                235
+              ],
+              [
+                330,
+                330
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1145,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              235
+            ],
+            [
+              330
+            ]
+          ],
+          "edge_support": [
+            [
+              235
+            ],
+            [
+              330
+            ]
+          ],
+          "x_edges": [
+            235,
+            330
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            848,
+            722,
+            994,
+            766
+          ],
+          "partition": [
+            826,
+            685,
+            1008,
+            783
+          ],
+          "ink_class": "mixed",
+          "mark_ownership": "clear",
+          "note": "Azwajahunna has black initial letters and a magenta lexical hunna suffix; all are mandatory word ink.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 4527,
+          "v_id": 4531,
+          "verse": "2:232",
+          "word_in_verse": 10,
+          "form": "ازوجهن",
+          "rect": [
+            848,
+            722,
+            994,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 1859,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              847,
+              701,
+              1004,
+              765
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                847,
+                847
+              ],
+              [
+                1004,
+                1004
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1859,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              847
+            ],
+            [
+              1004
+            ]
+          ],
+          "edge_support": [
+            [
+              847
+            ],
+            [
+              1004
+            ]
+          ],
+          "x_edges": [
+            847,
+            1004
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            519,
+            723,
+            621,
+            766
+          ],
+          "partition": [
+            508,
+            685,
+            632,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Baynahum between taradaw and bi-l-maruf; include upper dots/vowels and lower ya marks.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 4530,
+          "v_id": 4534,
+          "verse": "2:232",
+          "word_in_verse": 13,
+          "form": "بينهم",
+          "rect": [
+            519,
+            723,
+            621,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 1158,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              526,
+              703,
+              631,
+              767
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                526,
+                526
+              ],
+              [
+                631,
+                631
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1158,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              526
+            ],
+            [
+              631
+            ]
+          ],
+          "edge_support": [
+            [
+              526
+            ],
+            [
+              631
+            ]
+          ],
+          "x_edges": [
+            526,
+            631
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            149,
+            722,
+            236,
+            767
+          ],
+          "partition": [
+            140,
+            685,
+            246,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Yuazu between dhalika and bihi; retain its raised vowel marks and final za stroke.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 4533,
+          "v_id": 4537,
+          "verse": "2:232",
+          "word_in_verse": 16,
+          "form": "يوعظ",
+          "rect": [
+            149,
+            722,
+            236,
+            767
+          ],
+          "pixels": {
+            "ink_pixels": 1062,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              147,
+              697,
+              243,
+              770
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                147,
+                147
+              ],
+              [
+                243,
+                243
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1062,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              147
+            ],
+            [
+              243
+            ]
+          ],
+          "edge_support": [
+            [
+              147
+            ],
+            [
+              243
+            ]
+          ],
+          "x_edges": [
+            147,
+            243
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            890,
+            1273,
+            998,
+            1320
+          ],
+          "partition": [
+            879,
+            1241,
+            1010,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Bi-waladiha at the right margin; retain its lower ba/kasra and all separated letters.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 4575,
+          "v_id": 4579,
+          "verse": "2:233",
+          "word_in_verse": 25,
+          "form": "بولدها",
+          "rect": [
+            890,
+            1273,
+            998,
+            1320
+          ],
+          "pixels": {
+            "ink_pixels": 1432,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              892,
+              1250,
+              1003,
+              1324
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                892,
+                892
+              ],
+              [
+                1003,
+                1003
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1432,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              892
+            ],
+            [
+              1003
+            ]
+          ],
+          "edge_support": [
+            [
+              892
+            ],
+            [
+              1003
+            ]
+          ],
+          "x_edges": [
+            892,
+            1003
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            670,
+            1273,
+            700,
+            1312
+          ],
+          "partition": [
+            661,
+            1242,
+            713,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Lahu is the small separate token between mawlud and bi-waladihi. Enlarged reading isolates its letter core at x668..701 and own upper damma/fatha; neighboring bi-waladihi's lower kasra ends x657 and is excluded.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 4578,
+          "v_id": 4582,
+          "verse": "2:233",
+          "word_in_verse": 28,
+          "form": "له",
+          "rect": [
+            670,
+            1273,
+            700,
+            1312
+          ],
+          "pixels": {
+            "ink_pixels": 490,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              668,
+              1252,
+              708,
+              1305
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                668,
+                668
+              ],
+              [
+                708,
+                708
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 490,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              668
+            ],
+            [
+              708
+            ]
+          ],
+          "edge_support": [
+            [
+              668
+            ],
+            [
+              708
+            ]
+          ],
+          "x_edges": [
+            668,
+            708
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            350,
+            1270,
+            448,
+            1320
+          ],
+          "partition": [
+            341,
+            1242,
+            455,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-warith between wa-ala and mithlu; upper alif/lam and lower final-tha kasra belong to this token.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 4581,
+          "v_id": 4585,
+          "verse": "2:233",
+          "word_in_verse": 31,
+          "form": "الوارث",
+          "rect": [
+            350,
+            1270,
+            448,
+            1320
+          ],
+          "pixels": {
+            "ink_pixels": 1199,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              353,
+              1248,
+              451,
+              1321
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                353,
+                353
+              ],
+              [
+                451,
+                451
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1199,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              353
+            ],
+            [
+              451
+            ]
+          ],
+          "edge_support": [
+            [
+              353
+            ],
+            [
+              451
+            ]
+          ],
+          "x_edges": [
+            353,
+            451
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        }
+      ]
+    },
+    {
+      "page": 124,
+      "image_sha256": "6e66b1677fa679185362fe7a887d652d91495a609f2cb30510545c9d48017020",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            930,
+            166,
+            995,
+            213
+          ],
+          "partition": [
+            920,
+            134,
+            1008,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Qalu at the right margin; the final waw/alif remain part of the word, before hasbuna.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 15761,
+          "v_id": 15777,
+          "verse": "5:104",
+          "word_in_verse": 11,
+          "form": "قالوا",
+          "rect": [
+            930,
+            166,
+            995,
+            213
+          ],
+          "pixels": {
+            "ink_pixels": 968,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              931,
+              147,
+              997,
+              216
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                931,
+                931
+              ],
+              [
+                997,
+                997
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 968,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              931
+            ],
+            [
+              997
+            ]
+          ],
+          "edge_support": [
+            [
+              931
+            ],
+            [
+              997
+            ]
+          ],
+          "x_edges": [
+            931,
+            997
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            599,
+            165,
+            704,
+            213
+          ],
+          "partition": [
+            589,
+            134,
+            713,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wajadna between ma and alayhi; preserve its separated initial waw and full final na.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 15764,
+          "v_id": 15780,
+          "verse": "5:104",
+          "word_in_verse": 14,
+          "form": "وجدنا",
+          "rect": [
+            599,
+            165,
+            704,
+            213
+          ],
+          "pixels": {
+            "ink_pixels": 1056,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              605,
+              149,
+              710,
+              214
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                605,
+                605
+              ],
+              [
+                710,
+                710
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1056,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              605
+            ],
+            [
+              710
+            ]
+          ],
+          "edge_support": [
+            [
+              605
+            ],
+            [
+              710
+            ]
+          ],
+          "x_edges": [
+            605,
+            710
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            286,
+            166,
+            352,
+            213
+          ],
+          "partition": [
+            277,
+            134,
+            364,
+            233
+          ],
+          "ink_class": "colored",
+          "mark_ownership": "clear",
+          "note": "Awa-law is fully magenta lexical ink. The separate ta stop sign above neighboring abaana lies to the right of this partition.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 15767,
+          "v_id": 15783,
+          "verse": "5:104",
+          "word_in_verse": 17,
+          "form": "اولو",
+          "rect": [
+            286,
+            166,
+            352,
+            213
+          ],
+          "pixels": {
+            "ink_pixels": 1193,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              279,
+              150,
+              360,
+              217
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                279,
+                279
+              ],
+              [
+                360,
+                360
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1193,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              279
+            ],
+            [
+              360
+            ]
+          ],
+          "edge_support": [
+            [
+              279
+            ],
+            [
+              360
+            ]
+          ],
+          "x_edges": [
+            279,
+            360
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            954,
+            723,
+            997,
+            766
+          ],
+          "partition": [
+            948,
+            688,
+            1008,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Dhawa at the right edge, including its initial dhal dot and upper strokes; adl begins separately on the left.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 15806,
+          "v_id": 15822,
+          "verse": "5:106",
+          "word_in_verse": 13,
+          "form": "ذوا",
+          "rect": [
+            954,
+            723,
+            997,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 551,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              956,
+              699,
+              1003,
+              759
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                956,
+                956
+              ],
+              [
+                1003,
+                1003
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 551,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              956
+            ],
+            [
+              1003
+            ]
+          ],
+          "edge_support": [
+            [
+              956
+            ],
+            [
+              1003
+            ]
+          ],
+          "x_edges": [
+            956,
+            1003
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            711,
+            723,
+            742,
+            766
+          ],
+          "partition": [
+            704,
+            687,
+            752,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Aw is the separate short token between minkum and akharan; keep its upper hamza/vowel.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 15809,
+          "v_id": 15825,
+          "verse": "5:106",
+          "word_in_verse": 16,
+          "form": "او",
+          "rect": [
+            711,
+            723,
+            742,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 424,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              710,
+              700,
+              747,
+              761
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                710,
+                710
+              ],
+              [
+                747,
+                747
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 424,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              710
+            ],
+            [
+              747
+            ]
+          ],
+          "edge_support": [
+            [
+              710
+            ],
+            [
+              747
+            ]
+          ],
+          "x_edges": [
+            710,
+            747
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            438,
+            722,
+            529,
+            766
+          ],
+          "partition": [
+            429,
+            685,
+            539,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Ghayrikum between min and in; its ghayn dot and ya/kasra marks are included.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 15812,
+          "v_id": 15828,
+          "verse": "5:106",
+          "word_in_verse": 19,
+          "form": "غيركم",
+          "rect": [
+            438,
+            722,
+            529,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 1211,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              442,
+              698,
+              533,
+              770
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                442,
+                442
+              ],
+              [
+                533,
+                533
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1211,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              442
+            ],
+            [
+              533
+            ]
+          ],
+          "edge_support": [
+            [
+              442
+            ],
+            [
+              533
+            ]
+          ],
+          "x_edges": [
+            442,
+            533
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            887,
+            1275,
+            1000,
+            1318
+          ],
+          "partition": [
+            877,
+            1241,
+            1008,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-awlayan at the right margin, represented by the canonical Uthmani token al-awlayn; preserve its full black letters/vowels.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 15858,
+          "v_id": 15874,
+          "verse": "5:107",
+          "word_in_verse": 14,
+          "form": "الاولين",
+          "rect": [
+            887,
+            1275,
+            1000,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1639,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              886,
+              1248,
+              997,
+              1318
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                886,
+                886
+              ],
+              [
+                997,
+                997
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1639,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              886
+            ],
+            [
+              997
+            ]
+          ],
+          "edge_support": [
+            [
+              886
+            ],
+            [
+              997
+            ]
+          ],
+          "x_edges": [
+            886,
+            997
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            459,
+            1271,
+            612,
+            1318
+          ],
+          "partition": [
+            445,
+            1234,
+            625,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "La-shahadatuna follows the colored bi-llah; retain all black initial lam and final na ink, including its own upper elongation beginning x450/y1240 and initial-lam fatha ending x619.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 15861,
+          "v_id": 15877,
+          "verse": "5:107",
+          "word_in_verse": 17,
+          "form": "لشهدتنا",
+          "rect": [
+            459,
+            1271,
+            612,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1982,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              450,
+              1238,
+              619,
+              1308
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                450,
+                450
+              ],
+              [
+                619,
+                619
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1982,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              450
+            ],
+            [
+              619
+            ]
+          ],
+          "edge_support": [
+            [
+              450
+            ],
+            [
+              619
+            ]
+          ],
+          "x_edges": [
+            450,
+            619
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            118,
+            1272,
+            264,
+            1318
+          ],
+          "partition": [
+            108,
+            1240,
+            272,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Shahadatihima between min and wa-ma; lower kasra strokes and both final pronoun letters are included.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 15864,
+          "v_id": 15880,
+          "verse": "5:107",
+          "word_in_verse": 20,
+          "form": "شهدتهما",
+          "rect": [
+            118,
+            1272,
+            264,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1907,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              114,
+              1250,
+              267,
+              1321
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                114,
+                114
+              ],
+              [
+                267,
+                267
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1907,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              114
+            ],
+            [
+              267
+            ]
+          ],
+          "edge_support": [
+            [
+              114
+            ],
+            [
+              267
+            ]
+          ],
+          "x_edges": [
+            114,
+            267
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        }
+      ]
+    },
+    {
+      "page": 298,
+      "image_sha256": "f054611755c382cc4ed5490eef3510b2c44c2373ec0e7c42ffdf49f734359196",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            929,
+            168,
+            1000,
+            213
+          ],
+          "partition": [
+            920,
+            134,
+            1010,
+            236
+          ],
+          "ink_class": "colored",
+          "mark_ownership": "clear",
+          "note": "Rabbika is magenta lexical ink at the right margin, including the final kaf's lower kasra.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 38273,
+          "v_id": 38337,
+          "verse": "18:46",
+          "word_in_verse": 10,
+          "form": "ربك",
+          "rect": [
+            929,
+            168,
+            1000,
+            213
+          ],
+          "pixels": {
+            "ink_pixels": 1125,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              928,
+              148,
+              1002,
+              227
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                928,
+                928
+              ],
+              [
+                1002,
+                1002
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1125,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              928
+            ],
+            [
+              1002
+            ]
+          ],
+          "edge_support": [
+            [
+              928
+            ],
+            [
+              1002
+            ]
+          ],
+          "x_edges": [
+            928,
+            1002
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            633,
+            167,
+            702,
+            215
+          ],
+          "partition": [
+            623,
+            134,
+            710,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Amala ends verse 46. Its left-side whitespace separates it from the verse-46 rosette, which is outside the partition.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 38276,
+          "v_id": 38340,
+          "verse": "18:46",
+          "word_in_verse": 13,
+          "form": "املا",
+          "rect": [
+            633,
+            167,
+            702,
+            215
+          ],
+          "pixels": {
+            "ink_pixels": 905,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              632,
+              144,
+              704,
+              205
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                632,
+                632
+              ],
+              [
+                704,
+                704
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 905,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              632
+            ],
+            [
+              704
+            ]
+          ],
+          "edge_support": [
+            [
+              632
+            ],
+            [
+              704
+            ]
+          ],
+          "x_edges": [
+            632,
+            704
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            258,
+            164,
+            343,
+            216
+          ],
+          "partition": [
+            248,
+            134,
+            354,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-jibal in verse 47 is the seventh lexical token after ignoring the rosette; keep its separated upper strokes and lower jim mark.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 38279,
+          "v_id": 38343,
+          "verse": "18:47",
+          "word_in_verse": 3,
+          "form": "الجبال",
+          "rect": [
+            258,
+            164,
+            343,
+            216
+          ],
+          "pixels": {
+            "ink_pixels": 1312,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              254,
+              144,
+              344,
+              225
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                254,
+                254
+              ],
+              [
+                344,
+                344
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1312,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              254
+            ],
+            [
+              344
+            ]
+          ],
+          "edge_support": [
+            [
+              254
+            ],
+            [
+              344
+            ]
+          ],
+          "x_edges": [
+            254,
+            344
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            880,
+            723,
+            998,
+            766
+          ],
+          "partition": [
+            873,
+            685,
+            1008,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Saghiratan at the right margin; retain ghayn dot, tanwin and lower ya/ta vowel marks.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 38318,
+          "v_id": 38382,
+          "verse": "18:49",
+          "word_in_verse": 15,
+          "form": "صغيره",
+          "rect": [
+            880,
+            723,
+            998,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 1230,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              877,
+              697,
+              996,
+              774
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                877,
+                877
+              ],
+              [
+                996,
+                996
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1230,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              877
+            ],
+            [
+              996
+            ]
+          ],
+          "edge_support": [
+            [
+              877
+            ],
+            [
+              996
+            ]
+          ],
+          "x_edges": [
+            877,
+            996
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            683,
+            717,
+            715,
+            766
+          ],
+          "partition": [
+            658,
+            675,
+            725,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "uncertain",
+          "note": "Illa's letter core is clear, but no simple vertical whitespace cut isolates all of its overhanging upper extension and lower kasra from ahsaha's fatha/initial alif on the left and kabira's tanwin on the right. The broad partition contains the full target with neighboring ink; full horizontal ownership remains unresolved and unscorable. No exact optional mask is asserted.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 38321,
+          "v_id": 38385,
+          "verse": "18:49",
+          "word_in_verse": 18,
+          "form": "الا",
+          "rect": [
+            683,
+            717,
+            715,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 955,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              658,
+              681,
+              725,
+              765
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                658,
+                658
+              ],
+              [
+                725,
+                725
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 955,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              658
+            ],
+            [
+              725
+            ]
+          ],
+          "edge_support": null,
+          "x_edges": [
+            658,
+            725
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": false,
+          "ownership_evaluable": false,
+          "boundary_exclusion_reasons": [
+            "unspecified_mark_ownership_alternatives",
+            "horizontal_partition_contact"
+          ]
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            369,
+            722,
+            399,
+            766
+          ],
+          "partition": [
+            361,
+            689,
+            404,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Ma is the short separate token between wa-wajadu and amilu; its upper fatha and final alif remain included.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 38324,
+          "v_id": 38388,
+          "verse": "18:49",
+          "word_in_verse": 21,
+          "form": "ما",
+          "rect": [
+            369,
+            722,
+            399,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 362,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              372,
+              697,
+              400,
+              754
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                372,
+                372
+              ],
+              [
+                400,
+                400
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 362,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              372
+            ],
+            [
+              400
+            ]
+          ],
+          "edge_support": [
+            [
+              372
+            ],
+            [
+              400
+            ]
+          ],
+          "x_edges": [
+            372,
+            400
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            928,
+            1273,
+            999,
+            1318
+          ],
+          "partition": [
+            925,
+            1241,
+            1010,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-la at the right margin includes the separate waw and lam-alif, before khalqa. Scan-only enlargement excludes khalqa's final stroke ending x919; wa-la begins at x931.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 38362,
+          "v_id": 38426,
+          "verse": "18:51",
+          "word_in_verse": 6,
+          "form": "ولا",
+          "rect": [
+            928,
+            1273,
+            999,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 620,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              931,
+              1249,
+              996,
+              1311
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                931,
+                931
+              ],
+              [
+                996,
+                996
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 620,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              931
+            ],
+            [
+              996
+            ]
+          ],
+          "edge_support": [
+            [
+              931
+            ],
+            [
+              996
+            ]
+          ],
+          "x_edges": [
+            931,
+            996
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            592,
+            1272,
+            659,
+            1318
+          ],
+          "partition": [
+            583,
+            1240,
+            668,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-ma includes both visibly separated parts as one canonical token; neighboring anfusihim and kuntu stay outside.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 38365,
+          "v_id": 38429,
+          "verse": "18:51",
+          "word_in_verse": 9,
+          "form": "وما",
+          "rect": [
+            592,
+            1272,
+            659,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 662,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              592,
+              1247,
+              663,
+              1311
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                592,
+                592
+              ],
+              [
+                663,
+                663
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 662,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              592
+            ],
+            [
+              663
+            ]
+          ],
+          "edge_support": [
+            [
+              592
+            ],
+            [
+              663
+            ]
+          ],
+          "x_edges": [
+            592,
+            663
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            220,
+            1274,
+            349,
+            1318
+          ],
+          "partition": [
+            210,
+            1240,
+            357,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-mudillin between muttakhidha and aduda; retain upper shadda and lower vowel/ya strokes.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 38368,
+          "v_id": 38432,
+          "verse": "18:51",
+          "word_in_verse": 12,
+          "form": "المضلين",
+          "rect": [
+            220,
+            1274,
+            349,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1607,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              217,
+              1248,
+              350,
+              1323
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                217,
+                217
+              ],
+              [
+                350,
+                350
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1607,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              217
+            ],
+            [
+              350
+            ]
+          ],
+          "edge_support": [
+            [
+              217
+            ],
+            [
+              350
+            ]
+          ],
+          "x_edges": [
+            217,
+            350
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        }
+      ]
+    },
+    {
+      "page": 366,
+      "image_sha256": "e93d1d59d1b5d667b47748c243fd17a4ec7b733268bc96d8693703a5b589b4a5",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            907,
+            171,
+            998,
+            215
+          ],
+          "partition": [
+            895,
+            134,
+            1010,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Ta-sin-mim is one canonical token; both upper black elongation marks belong to its printed letters. The verse-1 rosette and magenta stop sign lie to the left outside this partition.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 47123,
+          "v_id": 47219,
+          "verse": "26:1",
+          "word_in_verse": 1,
+          "form": "طسم",
+          "rect": [
+            907,
+            171,
+            998,
+            215
+          ],
+          "pixels": {
+            "ink_pixels": 909,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              896,
+              151,
+              989,
+              207
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                896,
+                896
+              ],
+              [
+                989,
+                989
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 909,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              896
+            ],
+            [
+              989
+            ]
+          ],
+          "edge_support": [
+            [
+              896
+            ],
+            [
+              989
+            ]
+          ],
+          "x_edges": [
+            896,
+            989
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            584,
+            169,
+            679,
+            214
+          ],
+          "partition": [
+            572,
+            134,
+            691,
+            234
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-kitab is the fourth lexical token ignoring the verse-1 rosette; retain its lower kaf/ba and upper vowel strokes.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 47126,
+          "v_id": 47222,
+          "verse": "26:2",
+          "word_in_verse": 3,
+          "form": "الكتب",
+          "rect": [
+            584,
+            169,
+            679,
+            214
+          ],
+          "pixels": {
+            "ink_pixels": 1400,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              581,
+              147,
+              684,
+              223
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                581,
+                581
+              ],
+              [
+                684,
+                684
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1400,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              581
+            ],
+            [
+              684
+            ]
+          ],
+          "edge_support": [
+            [
+              581
+            ],
+            [
+              684
+            ]
+          ],
+          "x_edges": [
+            581,
+            684
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            234,
+            170,
+            299,
+            219
+          ],
+          "partition": [
+            219,
+            134,
+            309,
+            238
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Bakhiun in verse 3 is the seventh token after both rosettes are ignored; its descending final ayn remains part of the word.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 47129,
+          "v_id": 47225,
+          "verse": "26:3",
+          "word_in_verse": 2,
+          "form": "بخع",
+          "rect": [
+            234,
+            170,
+            299,
+            219
+          ],
+          "pixels": {
+            "ink_pixels": 1035,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              226,
+              147,
+              307,
+              228
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                226,
+                226
+              ],
+              [
+                307,
+                307
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1035,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              226
+            ],
+            [
+              307
+            ]
+          ],
+          "edge_support": [
+            [
+              226
+            ],
+            [
+              307
+            ]
+          ],
+          "x_edges": [
+            226,
+            307
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            929,
+            722,
+            998,
+            766
+          ],
+          "partition": [
+            921,
+            685,
+            1008,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Zawjin at the right margin; its lower jim/kasra and upper zay dot are included before karim.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 47173,
+          "v_id": 47269,
+          "verse": "26:7",
+          "word_in_verse": 10,
+          "form": "زوج",
+          "rect": [
+            929,
+            722,
+            998,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 856,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              931,
+              705,
+              999,
+              775
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                931,
+                931
+              ],
+              [
+                999,
+                999
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 856,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              931
+            ],
+            [
+              999
+            ]
+          ],
+          "edge_support": [
+            [
+              931
+            ],
+            [
+              999
+            ]
+          ],
+          "x_edges": [
+            931,
+            999
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            687,
+            722,
+            712,
+            765
+          ],
+          "partition": [
+            678,
+            686,
+            719,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fi follows inna after the verse-7 rosette. Its upper fa dot and lower ya/kasra belong to the short token.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 47176,
+          "v_id": 47272,
+          "verse": "26:8",
+          "word_in_verse": 2,
+          "form": "في",
+          "rect": [
+            687,
+            722,
+            712,
+            765
+          ],
+          "pixels": {
+            "ink_pixels": 393,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              685,
+              707,
+              715,
+              774
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                685,
+                685
+              ],
+              [
+                715,
+                715
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 393,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              685
+            ],
+            [
+              715
+            ]
+          ],
+          "edge_support": [
+            [
+              685
+            ],
+            [
+              715
+            ]
+          ],
+          "x_edges": [
+            685,
+            715
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            435,
+            722,
+            495,
+            765
+          ],
+          "partition": [
+            425,
+            685,
+            502,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-ma is one token containing its separated waw; the magenta ta stop sign above la-aya lies to the right outside the partition.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 47179,
+          "v_id": 47275,
+          "verse": "26:8",
+          "word_in_verse": 5,
+          "form": "وما",
+          "rect": [
+            435,
+            722,
+            495,
+            765
+          ],
+          "pixels": {
+            "ink_pixels": 613,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              433,
+              700,
+              497,
+              762
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                433,
+                433
+              ],
+              [
+                497,
+                497
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 613,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              433
+            ],
+            [
+              497
+            ]
+          ],
+          "edge_support": [
+            [
+              433
+            ],
+            [
+              497
+            ]
+          ],
+          "x_edges": [
+            433,
+            497
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            928,
+            1273,
+            1000,
+            1318
+          ],
+          "partition": [
+            914,
+            1243,
+            1010,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Kalla at the right margin; retain its own black shadda/elongation. The isolated magenta jim is stop notation and excluded by the black-ink class.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 47221,
+          "v_id": 47317,
+          "verse": "26:15",
+          "word_in_verse": 2,
+          "form": "كلا",
+          "rect": [
+            928,
+            1273,
+            1000,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1005,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              920,
+              1248,
+              992,
+              1304
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                920,
+                920
+              ],
+              [
+                992,
+                992
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1005,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              920
+            ],
+            [
+              992
+            ]
+          ],
+          "edge_support": [
+            [
+              920
+            ],
+            [
+              992
+            ]
+          ],
+          "x_edges": [
+            920,
+            992
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            629,
+            1273,
+            663,
+            1318
+          ],
+          "partition": [
+            628,
+            1240,
+            677,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Inna is the small black token after magenta bi-ayatina; retain its initial alif/hamza, shadda and lower kasra through x673. The left cut excludes ma-akum's fatha ending x622; neighboring magenta ink is excluded by class.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 47224,
+          "v_id": 47320,
+          "verse": "26:15",
+          "word_in_verse": 5,
+          "form": "انا",
+          "rect": [
+            629,
+            1273,
+            663,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 619,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              637,
+              1247,
+              673,
+              1315
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                637,
+                637
+              ],
+              [
+                673,
+                673
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 619,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              637
+            ],
+            [
+              673
+            ]
+          ],
+          "edge_support": [
+            [
+              637
+            ],
+            [
+              673
+            ]
+          ],
+          "x_edges": [
+            637,
+            673
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            242,
+            1273,
+            306,
+            1318
+          ],
+          "partition": [
+            232,
+            1240,
+            320,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fatiya starts verse 16 after the verse-15 rosette. Its initial-fa fatha ends x316 and remains included; rosette numeral ink begins x331 outside the partition. Firawn is excluded on the left.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 47227,
+          "v_id": 47323,
+          "verse": "26:16",
+          "word_in_verse": 1,
+          "form": "فاتيا",
+          "rect": [
+            242,
+            1273,
+            306,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 1070,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              242,
+              1245,
+              316,
+              1321
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                242,
+                242
+              ],
+              [
+                316,
+                316
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1070,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              242
+            ],
+            [
+              316
+            ]
+          ],
+          "edge_support": [
+            [
+              242
+            ],
+            [
+              316
+            ]
+          ],
+          "x_edges": [
+            242,
+            316
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        }
+      ]
+    },
+    {
+      "page": 500,
+      "image_sha256": "2428dff265012220627610a656e77924b9880715e64d2385e394c389c829f0d1",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            899,
+            169,
+            1000,
+            216
+          ],
+          "partition": [
+            889,
+            134,
+            1010,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-qalbihi at the right margin includes its separated initial waw and full lower vowel marks.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 64500,
+          "v_id": 64672,
+          "verse": "45:23",
+          "word_in_verse": 13,
+          "form": "وقلبه",
+          "rect": [
+            899,
+            169,
+            1000,
+            216
+          ],
+          "pixels": {
+            "ink_pixels": 1252,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              899,
+              146,
+              1002,
+              226
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                899,
+                899
+              ],
+              [
+                1002,
+                1002
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1252,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              899
+            ],
+            [
+              1002
+            ]
+          ],
+          "edge_support": [
+            [
+              899
+            ],
+            [
+              1002
+            ]
+          ],
+          "x_edges": [
+            899,
+            1002
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            603,
+            169,
+            687,
+            216
+          ],
+          "partition": [
+            594,
+            134,
+            697,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Basarihi between ala and ghishawa; preserve upper fatha strokes, initial ba dot and the final ha's kasra.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 64503,
+          "v_id": 64675,
+          "verse": "45:23",
+          "word_in_verse": 16,
+          "form": "بصره",
+          "rect": [
+            603,
+            169,
+            687,
+            216
+          ],
+          "pixels": {
+            "ink_pixels": 867,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              605,
+              157,
+              695,
+              224
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                605,
+                605
+              ],
+              [
+                695,
+                695
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 867,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              605
+            ],
+            [
+              695
+            ]
+          ],
+          "edge_support": [
+            [
+              605
+            ],
+            [
+              695
+            ]
+          ],
+          "x_edges": [
+            605,
+            695
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            258,
+            170,
+            359,
+            216
+          ],
+          "partition": [
+            248,
+            134,
+            374,
+            235
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Yahdihi between fa-man and min; retain the initial-ya fatha through x369, final ha and lower vowels. Neighboring fa-man starts x381 and min's lower stroke ends x242, both outside.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 64506,
+          "v_id": 64678,
+          "verse": "45:23",
+          "word_in_verse": 19,
+          "form": "يهديه",
+          "rect": [
+            258,
+            170,
+            359,
+            216
+          ],
+          "pixels": {
+            "ink_pixels": 1150,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              251,
+              155,
+              369,
+              223
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                251,
+                251
+              ],
+              [
+                369,
+                369
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1150,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              251
+            ],
+            [
+              369
+            ]
+          ],
+          "edge_support": [
+            [
+              251
+            ],
+            [
+              369
+            ]
+          ],
+          "x_edges": [
+            251,
+            369
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            960,
+            723,
+            998,
+            763
+          ],
+          "partition": [
+            954,
+            686,
+            1012,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Ila at the right margin has a lower initial-alif kasra and final ya shape. Scan-only enlargement keeps its ink x959..1004 and excludes yawm's fatha ending x951.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 64556,
+          "v_id": 64728,
+          "verse": "45:26",
+          "word_in_verse": 8,
+          "form": "الي",
+          "rect": [
+            960,
+            723,
+            998,
+            763
+          ],
+          "pixels": {
+            "ink_pixels": 540,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              959,
+              697,
+              1004,
+              767
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                959,
+                959
+              ],
+              [
+                1004,
+                1004
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 540,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              959
+            ],
+            [
+              1004
+            ]
+          ],
+          "edge_support": [
+            [
+              959
+            ],
+            [
+              1004
+            ]
+          ],
+          "x_edges": [
+            959,
+            1004
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            752,
+            719,
+            777,
+            765
+          ],
+          "partition": [
+            751,
+            685,
+            785,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "La is the independent lam-alif between al-qiyama and rayba. Its own ink is x755..779; rayba's neighboring fatha ends x749 and is excluded.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 64559,
+          "v_id": 64731,
+          "verse": "45:26",
+          "word_in_verse": 11,
+          "form": "لا",
+          "rect": [
+            752,
+            719,
+            777,
+            765
+          ],
+          "pixels": {
+            "ink_pixels": 361,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              755,
+              699,
+              779,
+              753
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                755,
+                755
+              ],
+              [
+                779,
+                779
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 361,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              755
+            ],
+            [
+              779
+            ]
+          ],
+          "edge_support": [
+            [
+              755
+            ],
+            [
+              779
+            ]
+          ],
+          "x_edges": [
+            755,
+            779
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            515,
+            722,
+            600,
+            767
+          ],
+          "partition": [
+            511,
+            685,
+            611,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-lakinna includes initial waw and black lexical shadda. Scan-only components isolate its ink x513..607, excluding akthara's fatha ending x510 and fihi's kasra beginning x614.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 64562,
+          "v_id": 64734,
+          "verse": "45:26",
+          "word_in_verse": 14,
+          "form": "ولكن",
+          "rect": [
+            515,
+            722,
+            600,
+            767
+          ],
+          "pixels": {
+            "ink_pixels": 1314,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              513,
+              694,
+              607,
+              768
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                513,
+                513
+              ],
+              [
+                607,
+                607
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1314,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              513
+            ],
+            [
+              607
+            ]
+          ],
+          "edge_support": [
+            [
+              513
+            ],
+            [
+              607
+            ]
+          ],
+          "x_edges": [
+            513,
+            607
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            969,
+            1275,
+            997,
+            1318
+          ],
+          "partition": [
+            959,
+            1241,
+            1008,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fi is the rightmost short token, including the lower ya/kasra and upper fa dot.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 64609,
+          "v_id": 64781,
+          "verse": "45:30",
+          "word_in_verse": 8,
+          "form": "في",
+          "rect": [
+            969,
+            1275,
+            997,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 389,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              965,
+              1258,
+              995,
+              1322
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                965,
+                965
+              ],
+              [
+                995,
+                995
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 389,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              965
+            ],
+            [
+              995
+            ]
+          ],
+          "edge_support": [
+            [
+              965
+            ],
+            [
+              995
+            ]
+          ],
+          "x_edges": [
+            965,
+            995
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            653,
+            1274,
+            694,
+            1318
+          ],
+          "partition": [
+            643,
+            1241,
+            702,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Huwa is the short separate token between dhalika and al-fawz, including both raised dammas.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 64612,
+          "v_id": 64784,
+          "verse": "45:30",
+          "word_in_verse": 11,
+          "form": "هو",
+          "rect": [
+            653,
+            1274,
+            694,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 597,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              647,
+              1247,
+              696,
+              1315
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                647,
+                647
+              ],
+              [
+                696,
+                696
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 597,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              647
+            ],
+            [
+              696
+            ]
+          ],
+          "edge_support": [
+            [
+              647
+            ],
+            [
+              696
+            ]
+          ],
+          "x_edges": [
+            647,
+            696
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            285,
+            1273,
+            355,
+            1318
+          ],
+          "partition": [
+            276,
+            1240,
+            370,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Wa-amma starts verse 31 after the rosette. Its separated waw and amma are one token; include the waw's fatha through x364, before rosette numeral ink beginning x387.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 64615,
+          "v_id": 64787,
+          "verse": "45:31",
+          "word_in_verse": 1,
+          "form": "واما",
+          "rect": [
+            285,
+            1273,
+            355,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 911,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              283,
+              1248,
+              364,
+              1311
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                283,
+                283
+              ],
+              [
+                364,
+                364
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 911,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              283
+            ],
+            [
+              364
+            ]
+          ],
+          "edge_support": [
+            [
+              283
+            ],
+            [
+              364
+            ]
+          ],
+          "x_edges": [
+            283,
+            364
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        }
+      ]
+    },
+    {
+      "page": 508,
+      "image_sha256": "8b7042294a1bf98a07a8edf1ba5dd3299bab21bcabecf42d27f47408c542c9ac",
+      "word_samples": [
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            886,
+            168,
+            999,
+            215
+          ],
+          "partition": [
+            877,
+            135,
+            1010,
+            234
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Muhkamatun at the right margin; preserve upper shadda/tanwin and all black letter ink.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 65649,
+          "v_id": 65829,
+          "verse": "47:20",
+          "word_in_verse": 10,
+          "form": "محكمه",
+          "rect": [
+            886,
+            168,
+            999,
+            215
+          ],
+          "pixels": {
+            "ink_pixels": 1530,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              882,
+              146,
+              993,
+              205
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                882,
+                882
+              ],
+              [
+                993,
+                993
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1530,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              882
+            ],
+            [
+              993
+            ]
+          ],
+          "edge_support": [
+            [
+              882
+            ],
+            [
+              993
+            ]
+          ],
+          "x_edges": [
+            882,
+            993
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            574,
+            170,
+            672,
+            215
+          ],
+          "partition": [
+            559,
+            124,
+            682,
+            236
+          ],
+          "ink_class": "black",
+          "mark_ownership": "uncertain",
+          "optional_rects": [
+            [
+              561,
+              131,
+              577,
+              160
+            ]
+          ],
+          "note": "The isolated superscript la above al-qital's ending is auxiliary notation. Scan-only components isolate it at [563,134,576,158], 138 thresholded pixels. Only its enclosing rectangle is optional; the lexical final-lam damma at [579,145,588,160] and all other letters/vowels stay mandatory. Test every ownership subset rather than choosing a preferred edge.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 65652,
+          "v_id": 65832,
+          "verse": "47:20",
+          "word_in_verse": 13,
+          "form": "القتال",
+          "rect": [
+            574,
+            170,
+            672,
+            215
+          ],
+          "pixels": {
+            "ink_pixels": 1428,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              563,
+              134,
+              667,
+              218
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                563,
+                571
+              ],
+              [
+                667,
+                667
+              ]
+            ],
+            "horizontal_invariant": false,
+            "mandatory_ink_pixels": 1290,
+            "optional_ink_pixels": 138,
+            "alternatives_specified": true
+          },
+          "measured_edge_support": [
+            [
+              563,
+              564,
+              565,
+              566,
+              567,
+              568,
+              569,
+              570,
+              571
+            ],
+            [
+              667
+            ]
+          ],
+          "edge_support": [
+            [
+              563,
+              564,
+              565,
+              566,
+              567,
+              568,
+              569,
+              570,
+              571
+            ],
+            [
+              667
+            ]
+          ],
+          "x_edges": [
+            563,
+            667
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": false,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": [
+            "nonunique_horizontal_edges"
+          ]
+        },
+        {
+          "lexical_position_rtl": 7,
+          "core_rect": [
+            313,
+            171,
+            337,
+            214
+          ],
+          "partition": [
+            304,
+            135,
+            345,
+            234
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fi is the short black token following magenta alladhina, with a separate lower kasra and ya.",
+          "physical_row": 2,
+          "kind": "verse",
+          "t": 65655,
+          "v_id": 65835,
+          "verse": "47:20",
+          "word_in_verse": 16,
+          "form": "في",
+          "rect": [
+            313,
+            171,
+            337,
+            214
+          ],
+          "pixels": {
+            "ink_pixels": 382,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              311,
+              160,
+              341,
+              221
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                311,
+                311
+              ],
+              [
+                341,
+                341
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 382,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              311
+            ],
+            [
+              341
+            ]
+          ],
+          "edge_support": [
+            [
+              311
+            ],
+            [
+              341
+            ]
+          ],
+          "x_edges": [
+            311,
+            341
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            831,
+            723,
+            999,
+            767
+          ],
+          "partition": [
+            818,
+            686,
+            1010,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fa-asammahum is the rightmost token. Its shadda, dots and separated final letters are retained.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 65693,
+          "v_id": 65873,
+          "verse": "47:23",
+          "word_in_verse": 5,
+          "form": "فاصمهم",
+          "rect": [
+            831,
+            723,
+            999,
+            767
+          ],
+          "pixels": {
+            "ink_pixels": 1782,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              827,
+              698,
+              1002,
+              758
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                827,
+                827
+              ],
+              [
+                1002,
+                1002
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1782,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              827
+            ],
+            [
+              1002
+            ]
+          ],
+          "edge_support": [
+            [
+              827
+            ],
+            [
+              1002
+            ]
+          ],
+          "x_edges": [
+            827,
+            1002
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            338,
+            718,
+            390,
+            766
+          ],
+          "partition": [
+            328,
+            685,
+            412,
+            785
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Afala starts verse 24 after the verse-23 rosette. Retain its initial-alif fatha ending x406; rosette numeral ink begins x425 and remains outside. The rosette is not counted as a word.",
+          "physical_row": 7,
+          "kind": "verse",
+          "t": 65696,
+          "v_id": 65876,
+          "verse": "47:24",
+          "word_in_verse": 1,
+          "form": "افلا",
+          "rect": [
+            338,
+            718,
+            390,
+            766
+          ],
+          "pixels": {
+            "ink_pixels": 864,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              337,
+              700,
+              406,
+              753
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                337,
+                337
+              ],
+              [
+                406,
+                406
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 864,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              337
+            ],
+            [
+              406
+            ]
+          ],
+          "edge_support": [
+            [
+              337
+            ],
+            [
+              406
+            ]
+          ],
+          "x_edges": [
+            337,
+            406
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "status": "unavailable",
+          "reason": "The complete physical row contains six canonical lexical tokens: fa-asammahum, wa-ama, absarahum, afala, yatadabbaruna, al-Quran. The separate waw and ama are one canonical token. No seventh word is present; no replacement.",
+          "physical_row": 7
+        },
+        {
+          "lexical_position_rtl": 1,
+          "core_rect": [
+            806,
+            1275,
+            925,
+            1317
+          ],
+          "partition": [
+            794,
+            1243,
+            941,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Fa-kayfa is the first lexical word after the rightmost verse-26 rosette. Retain its initial-fa fatha through x935; rosette numeral ink begins x963 outside the partition.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 65734,
+          "v_id": 65914,
+          "verse": "47:27",
+          "word_in_verse": 1,
+          "form": "فكيف",
+          "rect": [
+            806,
+            1275,
+            925,
+            1317
+          ],
+          "pixels": {
+            "ink_pixels": 1459,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              802,
+              1253,
+              935,
+              1315
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                802,
+                802
+              ],
+              [
+                935,
+                935
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 1459,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              802
+            ],
+            [
+              935
+            ]
+          ],
+          "edge_support": [
+            [
+              802
+            ],
+            [
+              935
+            ]
+          ],
+          "x_edges": [
+            802,
+            935
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 4,
+          "core_rect": [
+            416,
+            1273,
+            550,
+            1318
+          ],
+          "partition": [
+            399,
+            1231,
+            558,
+            1340
+          ],
+          "ink_class": "black",
+          "mark_ownership": "clear",
+          "note": "Al-malaika includes its high black elongation mark, lower kasra and complete final-ta shape beginning x406. Neighboring yadribuna on the left and tawaffathum on the right remain outside.",
+          "physical_row": 12,
+          "kind": "verse",
+          "t": 65737,
+          "v_id": 65917,
+          "verse": "47:27",
+          "word_in_verse": 4,
+          "form": "الملئكه",
+          "rect": [
+            416,
+            1273,
+            550,
+            1318
+          ],
+          "pixels": {
+            "ink_pixels": 2068,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              406,
+              1236,
+              554,
+              1319
+            ]
+          },
+          "ownership_bounds": {
+            "x_edge_ranges": [
+              [
+                406,
+                406
+              ],
+              [
+                554,
+                554
+              ]
+            ],
+            "horizontal_invariant": true,
+            "mandatory_ink_pixels": 2068,
+            "optional_ink_pixels": 0,
+            "alternatives_specified": false
+          },
+          "measured_edge_support": [
+            [
+              406
+            ],
+            [
+              554
+            ]
+          ],
+          "edge_support": [
+            [
+              406
+            ],
+            [
+              554
+            ]
+          ],
+          "x_edges": [
+            406,
+            554
+          ],
+          "x_edge_tolerance": 12,
+          "boundary_eligible": true,
+          "ownership_evaluable": true,
+          "boundary_exclusion_reasons": []
+        },
+        {
+          "lexical_position_rtl": 7,
+          "status": "unavailable",
+          "reason": "The complete physical row contains only six lexical tokens of 47:27 through wujuhahum; wa-adbarahum begins on the next physical row. No seventh word here; no replacement.",
+          "physical_row": 12
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "scheduled": 54,
+    "labelled": 52,
+    "unavailable": 2,
+    "boundary_evaluable": 50,
+    "ownership_evaluable": 51,
+    "uncertain_mark_ownership": 2,
+    "horizontal_partition_contact": 1
+  },
+  "annotation_source_sha256": "83798960f254f21003f722a32a49fe6b0f5989229f54a4616b111bd0758226ae",
+  "inputs": {
+    "audit_word_ink_trim_fresh_plan_v6.json": "9aa206afbd44c647b7a2b3cdfa656edbb3df88a4f8b1711fc92f8c0e0bce474e",
+    "audit_word_ink_trim_fresh_labels_v6.json": "355f14bc6f79d22ae462ed2d59dc8c1ad2af90d532bb542bc648f068bcc3968d",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c"
+  },
+  "protocol": "One AI reader, scan-only enlarged rows with coordinate rulers and no OCR boxes, before selected predictions. Canonical corpus confirms independently transcribed identities. Original physical slots and 12px horizontal tolerance retained. Independent letter cores score recomputed centers. Full-ink partitions and explicit mandatory/possible alternatives determine fixed edges or exact all-ownership support; unspecified uncertainty or horizontal partition contact excludes scoring. Not independent double annotation, pixel-exact segmentation certification or uniform-word corpus accuracy."
+}

@@ -1,0 +1,98 @@
+{
+  "study": "historical-second-copy-1776-ocr-development-v1",
+  "plan_sha256": "cebd16487a687f54d022040f02409936d304a9dbb732a34e19b8849cbea59d6d",
+  "files": [
+    {
+      "file": "metadata.json",
+      "url": "https://archive.org/metadata/ldpd_13604207_000/metadata",
+      "sha256": "e6569f783ffafe5d1334eafe454ea5ce2747ad49601635ca86faae8c4868a9f4",
+      "bytes": 3014
+    },
+    {
+      "file": "scandata.xml",
+      "url": "https://archive.org/download/ldpd_13604207_000/ldpd_13604207_000_scandata.xml",
+      "sha256": "466973978a7b7eb946e3d76118422f1089616d45c9853cbfe20884ee6d100ff3",
+      "bytes": 129786
+    },
+    {
+      "file": "folio-33r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n70.jpg",
+      "sha256": "e70060aa1096bd8525fe602e471258193465a0fc4f1d7ef9922c1e9c7d8defb0",
+      "bytes": 1293838,
+      "target_folio": "33r",
+      "ia_page_n": 70,
+      "correspondence": "provisional pending visual reading"
+    },
+    {
+      "file": "folio-66r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n136.jpg",
+      "sha256": "7895e51cd9a8bf492db76371e42fa34e157cc4cdee306f32e515cabdef09caf4",
+      "bytes": 1144400,
+      "target_folio": "66r",
+      "ia_page_n": 136,
+      "correspondence": "provisional pending visual reading"
+    },
+    {
+      "file": "folio-99r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n202.jpg",
+      "sha256": "f854245849998f791e82b99c8b9387d0f3e9171b46ba83cdd26b187c6af62479",
+      "bytes": 1383966,
+      "target_folio": "99r",
+      "ia_page_n": 202,
+      "correspondence": "provisional pending visual reading"
+    },
+    {
+      "file": "folio-132r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n268.jpg",
+      "sha256": "93aeda93ee7f7d05bb26de5974b2526b3e46300e6d54da80ad5edfdffe9ed6cb",
+      "bytes": 1402633,
+      "target_folio": "132r",
+      "ia_page_n": 268,
+      "correspondence": "provisional pending visual reading"
+    },
+    {
+      "file": "folio-165r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n334.jpg",
+      "sha256": "81f73945619291ea709d97fcc67a7a51cb21b558565328db59807fd4ff3b1eb0",
+      "bytes": 1415566,
+      "target_folio": "165r",
+      "ia_page_n": 334,
+      "correspondence": "provisional pending visual reading"
+    },
+    {
+      "file": "folio-199r.jpg",
+      "url": "https://archive.org/download/ldpd_13604207_000/page/n402.jpg",
+      "sha256": "c2cb9dbfd5245eea15d727725d475e30f6392f6f48d98272c7c7dc5cf1be35ef",
+      "bytes": 1184577,
+      "target_folio": "199r",
+      "ia_page_n": 402,
+      "correspondence": "provisional pending visual reading"
+    }
+  ],
+  "catalogue": {
+    "title": "al-Qurʼān",
+    "date": "1776",
+    "description": [
+      "Benchmark for Faithful Digital Reproductions of Monographs and Serials. Version 1. December 2002",
+      "199 leaves : 185 x 117 (130 x 65) mm bound to 185 x 115 x 20 mm",
+      "Complete copy of the Qur'ān in an inset, color-contrast paper technique",
+      "Manuscript codex",
+      "Title from colophon (f. 199r)",
+      "Customs stamp dated A.H. 1312 (1895) (f. 3r)",
+      "Layout: 18 long lines",
+      "Script: Written in naskh in black ink; pointed and vocalized",
+      "Decoration: Polychrome [red, blue, green] and gold illuminated frontispiece (f. 3v-4r) with text in cloudbands; polychrome [gold, red, blue] marginal verse markers; textblock border ruled [gold, black]; page openings framed in black rules; readings in red and chapter titles in gold; gold roundels with red and blue dots mark verse endings",
+      "Foliation: Contains catchwords on the outer frame and folio numbers on the lower left corner of each inset verso. Modern foliation in pencil added, upper left recto. References in the record are to modern foliation",
+      "Shelfmark: MS Or 91",
+      "Former shelfmark: X893.7K84 I112",
+      "Origin: Copy completed at the end of the second part of the month of Dhū al-Qaʻdah, approximately 20 Dhū al-Qaʻdah 1189 A.H. (fī awākhir al-ʻushr al-thānī min shahr Dhū al-Qaʻdah 1189 AH)",
+      "Gift of David Eugene Smith, 1931-1934",
+      "Islamic binding. Painted lacquer over pasteboards with leather spine. Endbands with chevron-pattern secondary sewing",
+      "Item cataloged from digital facsimile and existing description",
+      "Digitized as part of the Muslim World Manuscripts Project, 2018-2020, funded by CLIR",
+      "<b>Columbia University Catalog: </b><a href=\"http://clio.columbia.edu/catalog/13604207\" rel=\"ugc nofollow\">go to CLIO</a>"
+    ],
+    "imagecount": "404"
+  },
+  "authority": "Columbia catalogue metadata mirrored by IA/OPenn, not independent dating replication"
+}

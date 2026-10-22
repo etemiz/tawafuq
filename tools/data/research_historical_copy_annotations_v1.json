@@ -1,0 +1,96 @@
+{
+  "study": "historical-copy-ms-or-422-development-pilot-v1",
+  "date": "2026-10-19",
+  "reader": "Single assistant visual reading; exposed development annotations, not independent palaeographic certification.",
+  "coordinate_frame": "Cached IA image resized with Pillow to exactly 1000px width and rounded proportional height, as in historical_copy_pilot.py --review.",
+  "coordinate_uncertainty": "Each whole-token midpoint has an assumed +/-5px uncertainty; each main-frame edge +/-3px. These are conservative working allowances, not calibrated confidence intervals. Coordinates are coarse visual ruler readings, not certified complete ink extents.",
+  "center_error": 5,
+  "frame_edge_error": 3,
+  "name_schema": ["verse", "ordinal_name_in_verse", "normalized_spelling", "physical_main_text_row", "whole_token_x_left", "whole_token_x_right"],
+  "colophon": {
+    "file": "ia-leaf-612.jpg",
+    "folio_visually_read": "304r",
+    "scribe_visually_read": "اسمعيل بن صالح",
+    "date_visually_read_ah": 1193,
+    "catalogue_ce": 1779,
+    "qualification": "Single-reader reading of the name and red numeral date agrees with catalogue; no material dating or acquisition-chain audit. Do not treat 1779 as seventh-century physical evidence."
+  },
+  "pages": [
+    {
+      "folio": "50r", "file": "ia-leaf-104.jpg", "frame": [232, 891],
+      "first_verse": "4:123", "last_verse": "4:128", "verse_text_rows": 15,
+      "opening": "ليس بأمانيكم ولا أمانى أهل الكتاب", "closing": "فإن الله كان بما تعملون خبيرا",
+      "names": [
+        ["4:123", 1, "الله", 2, 528, 560],
+        ["4:125", 1, "لله", 5, 602, 638],
+        ["4:125", 2, "الله", 6, 674, 709],
+        ["4:126", 1, "ولله", 6, 405, 454],
+        ["4:126", 2, "الله", 7, 619, 653],
+        ["4:127", 1, "الله", 8, 695, 730],
+        ["4:127", 2, "الله", 11, 316, 348],
+        ["4:128", 1, "الله", 15, 702, 738]
+      ]
+    },
+    {
+      "folio": "100r", "file": "ia-leaf-204.jpg", "frame": [228, 872],
+      "first_verse": "9:69", "last_verse": "9:72", "verse_text_rows": 15,
+      "opening": "كالذين من قبلكم كانوا أشد منكم قوة", "closing": "ذلك هو الفوز العظيم",
+      "names": [
+        ["9:70", 1, "الله", 8, 604, 643],
+        ["9:71", 1, "الله", 11, 244, 299],
+        ["9:71", 2, "الله", 12, 459, 495],
+        ["9:71", 3, "الله", 12, 383, 418],
+        ["9:72", 1, "الله", 13, 752, 790],
+        ["9:72", 2, "الله", 15, 654, 699]
+      ]
+    },
+    {
+      "folio": "150r", "file": "ia-leaf-304.jpg", "frame": [235, 880],
+      "first_verse": "18:35", "last_verse": "18:45", "verse_text_rows": 15,
+      "opening": "ودخل جنته وهو ظالم لنفسه", "closing": "وكان الله على كل شىء مقتدرا",
+      "names": [
+        ["18:38", 1, "الله", 5, 573, 605],
+        ["18:39", 1, "الله", 6, 397, 431],
+        ["18:39", 2, "بالله", 6, 240, 278],
+        ["18:43", 1, "الله", 12, 349, 386],
+        ["18:44", 1, "لله", 13, 551, 582],
+        ["18:45", 1, "الله", 15, 490, 525]
+      ]
+    },
+    {
+      "folio": "200r", "file": "ia-leaf-404.jpg", "frame": [234, 864],
+      "first_verse": "29:15", "last_verse": "29:23", "verse_text_rows": 15,
+      "opening": "فأنجيناه وأصحاب السفينة", "closing": "وأولئك لهم عذاب أليم",
+      "names": [
+        ["29:16", 1, "الله", 2, 396, 433],
+        ["29:17", 1, "الله", 3, 243, 280],
+        ["29:17", 2, "الله", 4, 240, 277],
+        ["29:17", 3, "الله", 5, 417, 453],
+        ["29:19", 1, "الله", 8, 516, 552],
+        ["29:19", 2, "الله", 9, 770, 807],
+        ["29:20", 1, "الله", 10, 658, 697],
+        ["29:20", 2, "الله", 10, 335, 371],
+        ["29:22", 1, "الله", 13, 421, 456],
+        ["29:23", 1, "الله", 14, 526, 564]
+      ]
+    },
+    {
+      "folio": "250r", "file": "ia-leaf-504.jpg", "frame": [239, 884],
+      "first_verse": "44:41", "last_verse": "45:2", "verse_text_rows": 13,
+      "opening": "يوم لا يغنى مولى عن مولى شيئا", "closing": "تنزيل الكتاب من الله العزيز الحكيم",
+      "excluded_head_basmalas": 1,
+      "names": [
+        ["44:42", 1, "الله", 2, 617, 651],
+        ["45:2", 1, "الله", 15, 469, 508]
+      ]
+    },
+    {
+      "folio": "300r", "file": "ia-leaf-604.jpg", "frame": [221, 888],
+      "first_verse": "94:4", "last_verse": "96:8", "verse_text_rows": 11,
+      "opening": "ورفعنا لك ذكرك", "closing": "إن إلى ربك الرجعى",
+      "excluded_head_basmalas": 2,
+      "names": [["95:8", 1, "الله", 9, 551, 587]]
+    }
+  ],
+  "scope": "All six folio labels are visually present in the upper left of corrected scans. Count includes canonical verse text only; three unencoded head basmalas are explicitly excluded. Original erroneous verso acquisitions are retained separately and are not extra selected pages."
+}

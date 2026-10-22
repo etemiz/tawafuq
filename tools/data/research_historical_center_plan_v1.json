@@ -1,0 +1,15 @@
+{
+  "study": "historical-modern-shared-letter-body-review-v1",
+  "date": "2026-10-19",
+  "status": "Exposed development remeasurement protocol, saved before revised measurements and scores. Original scans, annotations and aggregate scores have already been seen.",
+  "selection": "All 33 canonical names in the unchanged six-recto pilot and the same 33 modern tokens; no replacement or outside partners.",
+  "motivation": "Visual inspection suggests wrong-location historical annotations at 18:45 and 44:42. Audit every selected name, not only these cases.",
+  "convention": "Resize each source to 1000px width with Pillow and rounded proportional height. Manually read the left/right extent of the entire lexical token's baseline-connected letter bodies, including attached prefixes and elongations, excluding detached vocalization/recitation marks. Use the midpoint. This is an operational manual body-center convention, not a complete-ink or detector-box convention.",
+  "frame": "Manually read the horizontal envelope of verse-text letter bodies across the page; exclude frames, headings, head basmalas, markers and foliation. One constant width per physical page. No deskew or perspective correction.",
+  "uncertainty": {"center_error_pixels": 5, "frame_edge_error_pixels": 3, "interpretation": "Uncalibrated working allowances, not statistical confidence intervals."},
+  "metrics": {"primary_tolerance": 0.02, "sensitivity_tolerance": 0.015, "groups": ["allah_name_family", "standalone_allah"], "partners": "Selected names on different physical rows of the same physical page only; endpoint counts, not pair counts."},
+  "review": "Single assistant scan rereading. Full-page context and full-width row strips without old x boxes. Modern row-strip selection may use existing detector y support. Record physical rows and historical row-end anchors. Prior exposure prevents blind/independent status. Colophon adjudication, independent second reader, full lexical row transcription and historical production modeling remain separate requirements.",
+  "exclusions": "Keep every occurrence. Unreadable identity/body bounds must be explicitly unresolved rather than replaced. Do not calculate complete paired counts unless all 66 locations are supplied.",
+  "outputs": {"annotations": "research_historical_center_annotations_v1.json", "analysis": "research_historical_center_review_v1.json", "local_sheets": "logs/historical-center-review-v1"},
+  "inference": "Descriptive measurement sensitivity and annotation audit only; no p-value or origin probability. No held-out or independent-adjudication claim. Frozen earlier artifacts are not overwritten."
+}

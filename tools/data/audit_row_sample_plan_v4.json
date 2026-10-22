@@ -1,0 +1,105 @@
+{
+  "version": "seeded-row-fresh-sample-plan-v4",
+  "seed": "t2-seeded-rows-fresh-words-v4-2026-10-19",
+  "ordinary_pages": [
+    163,
+    252,
+    317,
+    355,
+    448,
+    543
+  ],
+  "basmala_pages": [
+    311,
+    321
+  ],
+  "strata": [
+    [
+      101,
+      180
+    ],
+    [
+      181,
+      260
+    ],
+    [
+      261,
+      340
+    ],
+    [
+      341,
+      420
+    ],
+    [
+      421,
+      500
+    ],
+    [
+      501,
+      579
+    ]
+  ],
+  "excluded_pages": [
+    1,
+    11,
+    15,
+    26,
+    49,
+    67,
+    74,
+    83,
+    128,
+    130,
+    148,
+    154,
+    160,
+    171,
+    186,
+    188,
+    199,
+    201,
+    204,
+    206,
+    207,
+    209,
+    231,
+    239,
+    272,
+    276,
+    286,
+    304,
+    315,
+    316,
+    342,
+    365,
+    378,
+    391,
+    393,
+    402,
+    412,
+    422,
+    427,
+    447,
+    457,
+    462,
+    489,
+    510,
+    513,
+    517,
+    529,
+    542,
+    567,
+    570,
+    574,
+    588,
+    604
+  ],
+  "rule_sources": {
+    "ocr_reading_order.py": "74dcc2aa124f055c132c375a83ea13d0e1c7a0947449f5cd8b9cfb934f3bab46",
+    "ocr_row_map.py": "056803eaabe438fab02e9115a2edaa8f713f0d6682d662426b86ee352c44c72e",
+    "ocr_observation_map.py": "6e9aefa90861cdddc878bf8107f38fa5ab896dfc9f8d1b34c60eabd1da8a9335",
+    "ocr_corpus_map.py": "27fc722f21ca6730ddac6d3e2e76a7aa10360b669d6dd9ca5549c19eb97b0bf0"
+  },
+  "ornament_sha256": "35db46ad7b0113b2a602a77496561f95294c6a8486490b926ad6cdf87c656e17",
+  "protocol": "Selection and inference code frozen before this reader inspects the selected pages' v4 word predictions. Six non-ornament pages, second canonical lexical word on text rows 3/8/13; two supplementary top-header basmala names. Prior labels and targeted failures excluded. Full v4 predictions may already exist on disk but are not read to supply annotation truth."
+}

@@ -1,0 +1,8 @@
+{
+  "version": "head-constrained-color-stroke-v3",
+  "candidates": 112,
+  "surah_head_intervals": 112,
+  "source_sha256": "0a7b022df3abbde1cd931a9536748e780bf3e98f48949ce7edbe4244705f7a83",
+  "rosettes_sha256": "55a3571fceba651e6717571d257285143b477e6ab033005a2b8fc37f7833b3c8",
+  "caveat": "Candidate geometric bands at inferred surah heads, not certified text recognition."
+}

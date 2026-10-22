@@ -1,0 +1,508 @@
+{
+  "version": "independent-corpus-page-anchor-sample-v1",
+  "seed": "t2-exact-corpus-page-anchoring-v1-2026-10-18",
+  "excluded_pages": [
+    1,
+    15,
+    26,
+    49,
+    74,
+    128,
+    130,
+    148,
+    154,
+    186,
+    201,
+    206,
+    207,
+    276,
+    286,
+    342,
+    365,
+    393,
+    412,
+    422,
+    447,
+    462,
+    489,
+    513,
+    529,
+    567,
+    588,
+    604
+  ],
+  "spec": {
+    "anchor_length": 20,
+    "minimum_anchor_coverage": 40,
+    "minimum_anchor_advantage": 20,
+    "retrieval_span_multiplier": 2,
+    "retrieval_extra_chars": 128,
+    "reference_margin": 64,
+    "maximum_edit_rate": 0.3
+  },
+  "rule_sha256": "b1c0d2cdbb779f769bb8b31e13747d4ab80655a72575dc1fcd32aea8732da954",
+  "pages": [
+    {
+      "page": 11,
+      "stratum": [
+        1,
+        100
+      ],
+      "first_verse": "2:77",
+      "last_verse": "2:83",
+      "image_sha256": "016d77db20bdf3ab7e381e9f9eb3054e3c803b6f99c0544d37bcfe1cb9c05e52",
+      "names": [
+        {
+          "verse": "2:77",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            661,
+            31,
+            743,
+            108
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:79",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            662,
+            361,
+            744,
+            440
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:80",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            662,
+            693,
+            745,
+            768
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:80",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            191,
+            693,
+            274,
+            770
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:80",
+          "occurrence": 3,
+          "form": "الله",
+          "rect": [
+            664,
+            805,
+            744,
+            879
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:83",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            207,
+            1247,
+            288,
+            1323
+          ],
+          "visually_colored": true
+        }
+      ],
+      "head_basmala_names": []
+    },
+    {
+      "page": 199,
+      "stratum": [
+        101,
+        200
+      ],
+      "first_verse": "9:80",
+      "last_verse": "9:86",
+      "image_sha256": "6d8ad8dac922ce90e29d3554e597749ff7578503263dcbe2da4d319f7b3396eb",
+      "names": [
+        {
+          "verse": "9:80",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            817,
+            140,
+            900,
+            218
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:80",
+          "occurrence": 2,
+          "form": "بالله",
+          "rect": [
+            313,
+            141,
+            409,
+            223
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:80",
+          "occurrence": 3,
+          "form": "والله",
+          "rect": [
+            23,
+            142,
+            104,
+            217
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:81",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            818,
+            362,
+            899,
+            439
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:81",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            818,
+            472,
+            900,
+            550
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:83",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            24,
+            694,
+            107,
+            768
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:84",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            315,
+            1135,
+            411,
+            1213
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:85",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            24,
+            1247,
+            106,
+            1321
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:86",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            348,
+            1467,
+            446,
+            1543
+          ],
+          "visually_colored": true
+        }
+      ],
+      "head_basmala_names": []
+    },
+    {
+      "page": 239,
+      "stratum": [
+        201,
+        300
+      ],
+      "first_verse": "12:38",
+      "last_verse": "12:43",
+      "image_sha256": "e8bfa3152bebd1f92e6442da87bf4df67eef58669e27e58a85ecf26ebbb05f76",
+      "names": [
+        {
+          "verse": "12:38",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            575,
+            140,
+            674,
+            222
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "12:38",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            24,
+            142,
+            105,
+            218
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "12:39",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            24,
+            363,
+            105,
+            438
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "12:40",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            585,
+            583,
+            665,
+            661
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "12:40",
+          "occurrence": 2,
+          "form": "لله",
+          "rect": [
+            23,
+            582,
+            105,
+            661
+          ],
+          "visually_colored": true
+        }
+      ],
+      "head_basmala_names": []
+    },
+    {
+      "page": 304,
+      "stratum": [
+        301,
+        400
+      ],
+      "first_verse": "19:1",
+      "last_verse": "19:11",
+      "image_sha256": "fed3247f253ee64076eb807eb6df6570292288c0ae6d5c2bb94731a8fcbea3ad",
+      "names": [],
+      "head_basmala_names": [
+        {
+          "verse": "19:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "rect": [
+            289,
+            252,
+            369,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "page": 402,
+      "stratum": [
+        401,
+        500
+      ],
+      "first_verse": "29:53",
+      "last_verse": "29:63",
+      "image_sha256": "418e6b7e90bfea97900ca2135534709fa7e118f5daa19a46defaf6349c8a65c1",
+      "names": [
+        {
+          "verse": "29:60",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            921,
+            1027,
+            998,
+            1100
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "29:61",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            921,
+            1248,
+            998,
+            1323
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "29:62",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            564,
+            1248,
+            644,
+            1323
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "29:62",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            565,
+            1358,
+            644,
+            1435
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "29:63",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            920,
+            1578,
+            998,
+            1652
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "29:63",
+          "occurrence": 2,
+          "form": "لله",
+          "rect": [
+            563,
+            1578,
+            643,
+            1652
+          ],
+          "visually_colored": true
+        }
+      ],
+      "head_basmala_names": []
+    },
+    {
+      "page": 570,
+      "stratum": [
+        501,
+        604
+      ],
+      "first_verse": "71:11",
+      "last_verse": "71:28",
+      "image_sha256": "805c961028a64811921ae1af26e209ffe31f4dc8b0f9e9f359c9fe3ad4e01c05",
+      "names": [
+        {
+          "verse": "71:13",
+          "occurrence": 1,
+          "form": "لله",
+          "rect": [
+            921,
+            249,
+            999,
+            329
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "71:15",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            24,
+            252,
+            107,
+            328
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "71:17",
+          "occurrence": 1,
+          "form": "والله",
+          "rect": [
+            917,
+            470,
+            999,
+            548
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "71:19",
+          "occurrence": 1,
+          "form": "والله",
+          "rect": [
+            917,
+            581,
+            999,
+            659
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "71:25",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            23,
+            1136,
+            106,
+            1213
+          ],
+          "visually_colored": true
+        }
+      ],
+      "head_basmala_names": []
+    }
+  ],
+  "protocol": "One AI reader read complete unlabelled scans before seeing corpus-map predictions for these pages. Names and first/last verse labels are recorded independently; exact corpus confirms spelling/counts. Basmala on p304 is separate from verse-name occurrences. Approximate name-core windows, not complete word boundaries. Earlier 18 pages are development."
+}

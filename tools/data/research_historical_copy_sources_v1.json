@@ -1,0 +1,184 @@
+{
+  "study": "historical-copy-ms-or-422-development-pilot-v1",
+  "plan_sha256": "3001664a76f7cb832e69c80479cf42709dd2055fe5258b23c0837da55a065e64",
+  "amendment_sha256": "d0a81cca39e77a90b09ccf128404355135504a2d4d83169eb1f1401a741a5e08",
+  "correction_sha256": "ee5706d428c9e1861025986e9b1958330485a48efb73e572d684037816900a42",
+  "acquisition_attempts": [
+    {
+      "study": "historical-copy-ms-or-422-development-pilot-v1",
+      "plan_sha256": "3001664a76f7cb832e69c80479cf42709dd2055fe5258b23c0837da55a065e64",
+      "files": [
+        {
+          "file": "internet-archive-metadata.json",
+          "url": "https://archive.org/metadata/ldpd_14642794_000",
+          "sha256": "5872948a461bfb327f6101439788786bfd996218b4f0c106880d93f69e27b195",
+          "bytes": 96547
+        },
+        {
+          "file": "internet-archive-scandata.xml",
+          "url": "https://archive.org/download/ldpd_14642794_000/ldpd_14642794_000_scandata.xml",
+          "sha256": "0bc12aff4c2c9707f87289caa46d12efccb00e830a36413cc7b00fd98f99863c",
+          "bytes": 199122
+        },
+        {
+          "file": "ia-leaf-105.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n105.jpg",
+          "sha256": "98b92caa2c3ce1a9ccd90c634fcf058e65f7bd6bcf0182148e4ad167e3fcd997",
+          "bytes": 2466953,
+          "target_folio": "50r",
+          "leaf_index": 105,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-205.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n205.jpg",
+          "sha256": "bb3d24b0a4fa6ba02a82abd847a895e3ecffe162c9b3ed3705045647c24077ec",
+          "bytes": 2588964,
+          "target_folio": "100r",
+          "leaf_index": 205,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-305.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n305.jpg",
+          "sha256": "8b0641414eb505cd698a1c91c89d6df460f0a6313f0a77843e8dbe9fa077eea5",
+          "bytes": 2434281,
+          "target_folio": "150r",
+          "leaf_index": 305,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-405.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n405.jpg",
+          "sha256": "1cdb1fe9da87f524911272a99bf53a1ac0603d74088357498a974b780c73b260",
+          "bytes": 2548040,
+          "target_folio": "200r",
+          "leaf_index": 405,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-505.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n505.jpg",
+          "sha256": "d7260595160a6360d8794ef6036b26aaeaa18ffc1c0ec18eacb55b4b623c3af6",
+          "bytes": 2639597,
+          "target_folio": "250r",
+          "leaf_index": 505,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-605.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n605.jpg",
+          "sha256": "08d3f8f7d70e85321ddacfd8d119cf3672cda137042da3596b1defb8915b77b4",
+          "bytes": 2704733,
+          "target_folio": "300r",
+          "leaf_index": 605,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-613.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n613.jpg",
+          "sha256": "26ab8059205dfb6c3943b4d0d4c3242dd94975e7de98ccacd5460a0fe81dff81",
+          "bytes": 1864738,
+          "target_folio": "304r",
+          "leaf_index": 613,
+          "folio_correspondence": "provisional"
+        }
+      ],
+      "amendment_sha256": "d0a81cca39e77a90b09ccf128404355135504a2d4d83169eb1f1401a741a5e08"
+    },
+    {
+      "study": "historical-copy-ms-or-422-development-pilot-v1",
+      "plan_sha256": "3001664a76f7cb832e69c80479cf42709dd2055fe5258b23c0837da55a065e64",
+      "files": [
+        {
+          "file": "internet-archive-metadata.json",
+          "url": "https://archive.org/metadata/ldpd_14642794_000",
+          "sha256": "5872948a461bfb327f6101439788786bfd996218b4f0c106880d93f69e27b195",
+          "bytes": 96547
+        },
+        {
+          "file": "internet-archive-scandata.xml",
+          "url": "https://archive.org/download/ldpd_14642794_000/ldpd_14642794_000_scandata.xml",
+          "sha256": "0bc12aff4c2c9707f87289caa46d12efccb00e830a36413cc7b00fd98f99863c",
+          "bytes": 199122
+        },
+        {
+          "file": "ia-leaf-104.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n104.jpg",
+          "sha256": "63bcc48771f49aabf7e98d912fb404b66287b701a20c3ff6a843820d889f1d5d",
+          "bytes": 2469589,
+          "target_folio": "50r",
+          "page_n_argument": 104,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-204.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n204.jpg",
+          "sha256": "b1df37af1993038236cf66e45666e4bd1e82780e7a3f32772a2f06585a4d8120",
+          "bytes": 2441425,
+          "target_folio": "100r",
+          "page_n_argument": 204,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-304.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n304.jpg",
+          "sha256": "d282bf1d42418575fecccaf1791ca61915c0c318768c962c60155d67db1c9bde",
+          "bytes": 2421063,
+          "target_folio": "150r",
+          "page_n_argument": 304,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-404.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n404.jpg",
+          "sha256": "15c671d08d7a10f5d61c2b8e7bde49b3d8fc8f9e0f39826082e27a6ba9efc648",
+          "bytes": 2649644,
+          "target_folio": "200r",
+          "page_n_argument": 404,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-504.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n504.jpg",
+          "sha256": "a7a70a3d3bdcb45aa06d23d34a1b576482f3051247a9dc11fcbf2bf7fc7442de",
+          "bytes": 2818774,
+          "target_folio": "250r",
+          "page_n_argument": 504,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-604.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n604.jpg",
+          "sha256": "adebdf47c28820db2bdc91ec8fb09fc8acb3502c8b7dc4ce6b1cc38b678bcb0c",
+          "bytes": 2431285,
+          "target_folio": "300r",
+          "page_n_argument": 604,
+          "folio_correspondence": "provisional"
+        },
+        {
+          "file": "ia-leaf-612.jpg",
+          "url": "https://archive.org/download/ldpd_14642794_000/page/n612.jpg",
+          "sha256": "8595c0373146f7c0fe8add50fc48b1a72099286cff2d91180803778ad05868f2",
+          "bytes": 2443982,
+          "target_folio": "304r",
+          "page_n_argument": 612,
+          "folio_correspondence": "provisional"
+        }
+      ],
+      "amendment_sha256": "d0a81cca39e77a90b09ccf128404355135504a2d4d83169eb1f1401a741a5e08",
+      "correction_sha256": "ee5706d428c9e1861025986e9b1958330485a48efb73e572d684037816900a42"
+    }
+  ],
+  "source_authority": "Columbia's descriptive catalogue, mirrored in OPenn, HathiTrust and Internet Archive; not independent dating authorities.",
+  "source_ids": {
+    "shelfmark": "MS Or 422",
+    "clio_original": "14258972",
+    "clio_digital": "14642794",
+    "hathitrust_record": "102811738",
+    "internet_archive": "ldpd_14642794_000",
+    "ark": "ark:/13960/t44r73r5w"
+  },
+  "folio_match": "Corrected candidates show 50,100,150,200,250,300,304 in upper-left foliation; first recto also matches exposed OPenn 9372_0105_web.jpg by text and foliation.",
+  "material_dating_or_acquisition_chain_verified": false
+}

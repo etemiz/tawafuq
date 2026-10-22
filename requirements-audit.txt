@@ -1,0 +1,5 @@
+# CPU-only environment used for the independent audit (Python 3.12.3).
+numpy==2.5.4
+scipy==1.18.1
+pillow==13.0.0
+rapidfuzz==3.14.3

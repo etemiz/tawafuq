@@ -1,0 +1,7 @@
+# Optional, isolated GPU pilot; install in .venv/ocr, not the CPU audit env.
+# This Surya version supplies line, character and word coordinates locally.
+surya-ocr==0.17.0
+transformers==4.57.1
+torch==2.8.0
+easyocr==1.7.2
+torchvision==0.23.0

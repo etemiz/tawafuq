@@ -1,0 +1,57 @@
+{
+  "engine": "easyocr",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "width_ths": 0.0,
+  "batch_size": 8,
+  "gpu": "NVIDIA RTX A6000",
+  "peak_allocated_bytes": 1664695808,
+  "packages": {
+    "easyocr": "1.7.2",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "pillow": "10.4.0"
+  },
+  "model_files": {
+    "arabic.pth": "2a9afd42c374deb98aed0b53c9b77d75e1d00d4e0501f3b0276c54190c89b1a8",
+    "craft_mlt_25k.pth": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17"
+  },
+  "manual_sha256": "54c1175353411350d100e13be887bc02257042a5a434170dacc98202ab888ac0",
+  "source_sha256": "33dd92f1ef588ddb73624b895a0e8d56d253a4d65fa543aaeb6b03534a077b00",
+  "elapsed_seconds": 17.28671312300139,
+  "pages": [
+    {
+      "page": 15,
+      "regions": 120,
+      "elapsed_seconds": 1.3216438949893927
+    },
+    {
+      "page": 148,
+      "regions": 127,
+      "elapsed_seconds": 1.2034010930074146
+    },
+    {
+      "page": 276,
+      "regions": 120,
+      "elapsed_seconds": 1.04927770201175
+    },
+    {
+      "page": 365,
+      "regions": 94,
+      "elapsed_seconds": 1.1850975650013424
+    },
+    {
+      "page": 412,
+      "regions": 113,
+      "elapsed_seconds": 1.6004293230071198
+    },
+    {
+      "page": 513,
+      "regions": 120,
+      "elapsed_seconds": 1.0512584039970534
+    }
+  ],
+  "status": "Raw Arabic OCR hypotheses; benchmark against exact text and manual locations."
+}

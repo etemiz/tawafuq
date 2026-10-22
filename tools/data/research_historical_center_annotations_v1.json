@@ -1,0 +1,30 @@
+{
+  "study": "historical-modern-shared-letter-body-review-v1",
+  "date": "2026-10-19",
+  "reader": "Single assistant visual rereading of all six historical full pages, full-width modern target strips and full-page context. Previously exposed annotations and scores; not independent double annotation.",
+  "schema": "names = [canonical_token_id, physical_row, left_body_edge, right_body_edge], all coordinates on 1000px-wide sheets. Frame = manual horizontal verse-letter-body envelope. Detached marks excluded. Row anchors use normalized reading, not diplomatic spelling.",
+  "confirmed_old_wrong_locations": [
+    {"t": 38259, "verse": "18:45", "folio": "150r", "old_interval": [490, 525], "new_interval": [350, 374], "finding": "Old interval is in the middle of the final line, not over Allah in وكان الله على كل شىء مقتدرا at the left end. The correct name is compressed near the line end."},
+    {"t": 64132, "verse": "44:42", "folio": "250r", "old_interval": [617, 651], "new_interval": [695, 730], "finding": "Old interval lies left of the name, over later text in إلا من رحم الله إنه هو العزيز الرحيم. Allah itself is at x695–730."}
+  ],
+  "historical": [
+    {"page": "50r", "frame": [237, 888], "row_end_anchors": ["سوءا", "نصيرا", "مؤمن", "أحسن", "إبراهيم", "السماوات", "ويستفتونك", "الكتاب", "وترغبون", "تقوموا", "بما", "إعراضا", "الصلح", "تحسنوا", "خبيرا"], "names": [[12323,2,528,558],[12349,5,604,637],[12357,6,676,713],[12360,6,405,453],[12368,7,620,653],[12376,8,695,732],[12408,11,317,350],[12436,15,703,738]]},
+    {"page": "100r", "frame": [235, 860], "row_end_anchors": ["وأكثر", "فاستمتعتم", "خلاقهم", "أعمالهم", "ألم", "وقوم", "رسلهم", "أنفسهم", "أولياء", "المنكر", "الله", "حكيم", "تحتها", "عدن", "العظيم"], "names": [[25108,8,609,643],[25129,11,247,301],[25133,12,459,495],[25135,12,383,417],[25139,13,754,789],[25156,15,655,699]]},
+    {"page": "150r", "frame": [240, 881], "row_end_anchors": ["تبيد", "إلى", "وهو", "ثم", "أحدا", "بالله", "يؤتين", "فتصبح", "له", "أنفق", "بربي", "وكان", "جند", "السماء", "مقتدرا"], "names": [[38154,5,577,608],[38167,6,394,429],[38171,6,240,278],[38228,12,350,387],[38234,13,553,582],[38259,15,350,374]]},
+    {"page": "200r", "frame": [236, 859], "row_end_anchors": ["للعالمين", "لكم", "الله", "الله", "واعبدوه", "كذب", "المبين", "ذلك", "كيف", "كل", "يشاء", "ولا", "نصير", "يئسوا", "أليم"], "names": [[51209,2,396,434],[51221,3,238,275],[51230,4,236,273],[51237,5,418,453],[51261,8,517,551],[51268,9,771,806],[51279,10,663,698],[51284,10,335,369],[51309,13,421,457],[51317,14,526,562]]},
+    {"page": "250r", "frame": [240, 879], "row_end_anchors": ["ينصرون", "الزقوم", "الحميم", "فوق", "الكريم", "مقام", "سندس", "عين", "الموت", "فضلا", "بلسانك", "مرتقبون", null, null, "الحكيم"], "nonverse_rows": {"13": "surah heading", "14": "unencoded head basmala"}, "names": [[64132,2,695,730],[64222,15,477,513]]},
+    {"page": "300r", "frame": [223, 882], "row_end_anchors": ["مع", "فارغب", null, null, "البلد", "تقويم", "وعملوا", "بالدين", "الحاكمين", null, null, "علق", "بالقلم", "ليطغى", "الرجعى"], "nonverse_rows": {"3": "surah heading", "4": "unencoded head basmala", "10": "surah heading", "11": "unencoded head basmala"}, "names": [[76846,9,551,588]]}
+  ],
+  "modern": [
+    {"page":97,"frame":[23,980],"names":[[12323,5,474,544],[12349,8,474,544],[12357,9,476,543],[12360,9,27,131],[12368,10,27,95],[12376,11,27,95],[12408,15,475,544]]},
+    {"page":98,"frame":[23,980],"names":[[12436,4,908,976]]},
+    {"page":197,"frame":[23,980],"names":[[25108,8,549,616],[25129,11,343,411],[25133,12,701,767],[25135,12,549,616],[25139,12,27,95],[25156,15,696,764]]},
+    {"page":297,"frame":[23,980],"names":[[38154,5,754,819],[38167,6,400,465],[38171,6,130,207],[38228,12,758,826],[38234,12,155,210],[38259,15,400,465]]},
+    {"page":397,"frame":[23,980],"names":[[51209,2,618,683],[51221,3,302,369],[51230,4,302,369],[51237,5,302,369],[51261,8,303,370],[51268,9,615,682],[51279,10,302,368],[51284,11,619,684],[51309,13,300,366],[51317,14,301,368]]},
+    {"page":497,"frame":[23,980],"names":[[64132,2,29,95]]},
+    {"page":498,"frame":[23,980],"names":[[64222,2,520,581]]},
+    {"page":597,"frame":[23,979],"names":[[76846,2,350,411]]}
+  ],
+  "phrase_candidate": {"folio":"200r", "verse":"29:17", "phrase":["من","دون","الله"], "occurrences":[{"row":3,"bodies":[[344,382],[280,343],[238,275]]},{"row":4,"bodies":[[337,372],[276,337],[236,273]]}], "reading":"Both instances occur within verse 29:17. Raw enlarged two-row context was inspected; these are three corresponding lexical words, not single phrase-hull midpoints. Post-hoc selected example, with near-line-end anchors."},
+  "unresolved": ["Independent second-reader adjudication and colophon review", "Full lexical row transcription", "Calibrated annotation uncertainty and auxiliary-mark ownership", "Material dating and copying-exemplar independence"]
+}

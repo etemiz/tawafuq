@@ -1,0 +1,4 @@
+# Optional service-account authentication for tools/arabic_ocr_cloud.py.
+# Install in .venv/ocr; the CPU audit environment does not need these.
+google-auth==2.62.0
+requests==2.34.2

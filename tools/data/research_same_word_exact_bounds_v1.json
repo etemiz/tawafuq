@@ -1,0 +1,55 @@
+{
+  "version": "same-word-exact-expectation-hoeffding-certificates-v1",
+  "certificates": {
+    "page_row": {
+      "standalone_allah": {
+        "expectation_numerator_hex": "0xa2744fbc9a6a4df148ab",
+        "expectation_denominator_hex": "0x73e9cb236135b8a000",
+        "expectation_integer_upper_bound": 359,
+        "observed": 1717,
+        "sum_squared_page_ranges": 12895,
+        "conservative_decimal_power": 124,
+        "statement": "P(T >= 1717) < 10^-124",
+        "proof": "Exact rational mean <= integer ceiling. ln(10)<2303/1000 certified by a 31-term rational exponential partial sum >10. Compare 2*(observed-ceiling)^2/sum_squared_page_ranges with power*2303/1000. Hoeffding uses independent page scores in [0,k_page]."
+      },
+      "allah_name_family": {
+        "expectation_numerator_hex": "0x98fc70bb2d84848b44cdb3",
+        "expectation_denominator_hex": "0x4750567a444e8d167000",
+        "expectation_integer_upper_bound": 550,
+        "observed": 2278,
+        "sum_squared_page_ranges": 19739,
+        "conservative_decimal_power": 131,
+        "statement": "P(T >= 2278) < 10^-131",
+        "proof": "Exact rational mean <= integer ceiling. ln(10)<2303/1000 certified by a 31-term rational exponential partial sum >10. Compare 2*(observed-ceiling)^2/sum_squared_page_ranges with power*2303/1000. Hoeffding uses independent page scores in [0,k_page]."
+      }
+    },
+    "page_row_width20": {
+      "standalone_allah": {
+        "expectation_numerator_hex": "0x16abb772bb",
+        "expectation_denominator_hex": "0x74cc640",
+        "expectation_integer_upper_bound": 796,
+        "observed": 1717,
+        "sum_squared_page_ranges": 12895,
+        "conservative_decimal_power": 57,
+        "statement": "P(T >= 1717) < 10^-57",
+        "proof": "Exact rational mean <= integer ceiling. ln(10)<2303/1000 certified by a 31-term rational exponential partial sum >10. Compare 2*(observed-ceiling)^2/sum_squared_page_ranges with power*2303/1000. Hoeffding uses independent page scores in [0,k_page]."
+      },
+      "allah_name_family": {
+        "expectation_numerator_hex": "0x1252950e65",
+        "expectation_denominator_hex": "0x42bdf00",
+        "expectation_integer_upper_bound": 1125,
+        "observed": 2278,
+        "sum_squared_page_ranges": 19739,
+        "conservative_decimal_power": 58,
+        "statement": "P(T >= 2278) < 10^-58",
+        "proof": "Exact rational mean <= integer ceiling. ln(10)<2303/1000 certified by a 31-term rational exponential partial sum >10. Compare 2*(observed-ceiling)^2/sum_squared_page_ranges with power*2303/1000. Hoeffding uses independent page scores in [0,k_page]."
+      }
+    }
+  },
+  "inputs": {
+    "research_same_word_alignment_v1.json": "43c2f1e4a7e3e881a329f2ea4ce62ef06bbed58b3875db65b2b95dffe9abb909",
+    "same_word_exact_bounds.py": "eabc6680d2afb02f48b323911f0427346c735d6f404cf64613032bb1f242541d",
+    "same_word_alignment.py": "67cacc96aa7cf004ef6a17eb58cb1e36861cd672cdd542142690fdf181636603"
+  },
+  "caveat": "Exact arithmetic certifies conservative decimal Hoeffding bounds under the already declared conditional word-position models. These are upper bounds, not exact tails or probabilities of Quranic composition/divinity. Location accuracy, missing words and observational model selection remain outside this mathematical certificate."
+}

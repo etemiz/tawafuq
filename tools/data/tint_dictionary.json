@@ -1,0 +1,1541 @@
+{
+ "meta": {
+  "date": "2026-10-18",
+  "session": "S16",
+  "pool": "tools/data/mag_runs.json (ALL 7153 mag runs, mark_identity.json segments)",
+  "method": "shape clustering (thresh 0.72, 2703 clusters) -> crop-by-crop reading of top-60 + tail 61-220 (n>=5)",
+  "honesty": "marked counts are LOWER BOUNDS: unread clusters (n<5 and unverified ids) not counted; variant clusters beyond those read may add",
+  "counts_basis": "runs in verified clusters only (each run = one mag ink run)"
+ },
+ "dictionary": [
+  {
+   "word": "inna_an",
+   "arabic": "إنْ/إنَّ/أنْ",
+   "clusters": [
+    7,
+    13,
+    110,
+    123,
+    199,
+    208,
+    215,
+    286,
+    332
+   ],
+   "n_marked_runs_lb": 772
+  },
+  {
+   "word": "fa_inna",
+   "arabic": "فَإِنَّ",
+   "clusters": [
+    2449,
+    2439,
+    2440
+   ],
+   "n_marked_runs_lb": 30
+  },
+  {
+   "word": "kuntum",
+   "arabic": "كُنْتُمْ",
+   "clusters": [
+    27
+   ],
+   "n_marked_runs_lb": 16
+  },
+  {
+   "word": "qala",
+   "arabic": "قَالَ",
+   "clusters": [
+    18,
+    981,
+    300,
+    60,
+    998,
+    945
+   ],
+   "n_marked_runs_lb": 190
+  },
+  {
+   "word": "qaloo",
+   "arabic": "قَالُوا",
+   "clusters": [
+    28,
+    53,
+    217,
+    54,
+    21,
+    1272
+   ],
+   "n_marked_runs_lb": 92
+  },
+  {
+   "word": "qul",
+   "arabic": "قُلْ",
+   "clusters": [
+    70,
+    822
+   ],
+   "n_marked_runs_lb": 46
+  },
+  {
+   "word": "qalat",
+   "arabic": "قَالَتْ",
+   "clusters": [
+    368
+   ],
+   "n_marked_runs_lb": 10
+  },
+  {
+   "word": "taqool",
+   "arabic": "تَقُولْ",
+   "clusters": [
+    1340
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "yaqoolu",
+   "arabic": "يَقُولُ",
+   "clusters": [
+    59
+   ],
+   "n_marked_runs_lb": 9
+  },
+  {
+   "word": "yaquloona",
+   "arabic": "يَقُولُونَ",
+   "clusters": [
+    67
+   ],
+   "n_marked_runs_lb": 20
+  },
+  {
+   "word": "alladhina",
+   "arabic": "الَّذِينَ",
+   "clusters": [
+    405,
+    17,
+    239,
+    1112,
+    1461,
+    330
+   ],
+   "n_marked_runs_lb": 287
+  },
+  {
+   "word": "allati",
+   "arabic": "الَّتِي",
+   "clusters": [
+    894
+   ],
+   "n_marked_runs_lb": 3
+  },
+  {
+   "word": "huwa",
+   "arabic": "هُوَ",
+   "clusters": [
+    441
+   ],
+   "n_marked_runs_lb": 29
+  },
+  {
+   "word": "wahuwa",
+   "arabic": "وَهُوَ",
+   "clusters": [
+    855,
+    813
+   ],
+   "n_marked_runs_lb": 17
+  },
+  {
+   "word": "hum",
+   "arabic": "هُمْ(suffix/inline)",
+   "clusters": [
+    2,
+    7,
+    11,
+    276
+   ],
+   "n_marked_runs_lb": 226
+  },
+  {
+   "word": "lahum",
+   "arabic": "لَهُمْ",
+   "clusters": [
+    606,
+    301
+   ],
+   "n_marked_runs_lb": 27
+  },
+  {
+   "word": "lahu",
+   "arabic": "لَهُ",
+   "clusters": [
+    576
+   ],
+   "n_marked_runs_lb": 15
+  },
+  {
+   "word": "lakum",
+   "arabic": "لَكُمْ",
+   "clusters": [
+    142
+   ],
+   "n_marked_runs_lb": 14
+  },
+  {
+   "word": "lakin",
+   "arabic": "لَكِنْ",
+   "clusters": [
+    141
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "min",
+   "arabic": "مِنْ",
+   "clusters": [
+    232,
+    2129,
+    210
+   ],
+   "n_marked_runs_lb": 89
+  },
+  {
+   "word": "minhum",
+   "arabic": "مِنْهُمْ",
+   "clusters": [
+    49,
+    570
+   ],
+   "n_marked_runs_lb": 21
+  },
+  {
+   "word": "minha",
+   "arabic": "مِنْهَا",
+   "clusters": [
+    64
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "wamin",
+   "arabic": "وَمِنْ",
+   "clusters": [
+    718,
+    158
+   ],
+   "n_marked_runs_lb": 15
+  },
+  {
+   "word": "wama",
+   "arabic": "وَمَا",
+   "clusters": [
+    1273
+   ],
+   "n_marked_runs_lb": 8
+  },
+  {
+   "word": "fi",
+   "arabic": "فِي",
+   "clusters": [
+    125,
+    16,
+    12,
+    15
+   ],
+   "n_marked_runs_lb": 216
+  },
+  {
+   "word": "fiha",
+   "arabic": "فِيهَا",
+   "clusters": [
+    247
+   ],
+   "n_marked_runs_lb": 22
+  },
+  {
+   "word": "ma",
+   "arabic": "مَا",
+   "clusters": [
+    58
+   ],
+   "n_marked_runs_lb": 31
+  },
+  {
+   "word": "maa",
+   "arabic": "مَعَ",
+   "clusters": [
+    221
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "maa_water",
+   "arabic": "مَاء",
+   "clusters": [
+    419
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "illa",
+   "arabic": "إِلَّا",
+   "clusters": [
+    458,
+    508
+   ],
+   "n_marked_runs_lb": 65
+  },
+  {
+   "word": "ila",
+   "arabic": "إِلَى",
+   "clusters": [
+    331
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "ilayhi",
+   "arabic": "إِلَيْهِ(ا)",
+   "clusters": [
+    1056
+   ],
+   "n_marked_runs_lb": 10
+  },
+  {
+   "word": "alayna",
+   "arabic": "عَلَيْنَا",
+   "clusters": [
+    303
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "ala",
+   "arabic": "عَلَى",
+   "clusters": [
+    111,
+    1688,
+    1201,
+    598
+   ],
+   "n_marked_runs_lb": 77
+  },
+  {
+   "word": "alayhim",
+   "arabic": "عَلَيْهِمْ",
+   "clusters": [
+    299,
+    889,
+    96
+   ],
+   "n_marked_runs_lb": 52
+  },
+  {
+   "word": "alaykum",
+   "arabic": "عَلَيْكُمْ",
+   "clusters": [
+    43
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "aw",
+   "arabic": "أَوْ",
+   "clusters": [
+    109
+   ],
+   "n_marked_runs_lb": 17
+  },
+  {
+   "word": "wala",
+   "arabic": "وَلَا",
+   "clusters": [
+    45
+   ],
+   "n_marked_runs_lb": 16
+  },
+  {
+   "word": "kana",
+   "arabic": "كَانَ",
+   "clusters": [
+    172,
+    152,
+    517
+   ],
+   "n_marked_runs_lb": 67
+  },
+  {
+   "word": "kanoo",
+   "arabic": "كَانُوا",
+   "clusters": [
+    163,
+    746
+   ],
+   "n_marked_runs_lb": 32
+  },
+  {
+   "word": "kanat",
+   "arabic": "كَانَتْ",
+   "clusters": [
+    1040
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "wakana",
+   "arabic": "وَكَانَ",
+   "clusters": [
+    634
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "aamanoo",
+   "arabic": "آمَنُوا",
+   "clusters": [
+    542
+   ],
+   "n_marked_runs_lb": 42
+  },
+  {
+   "word": "dhalika",
+   "arabic": "ذَٰلِكَ",
+   "clusters": [
+    749
+   ],
+   "n_marked_runs_lb": 15
+  },
+  {
+   "word": "hatha",
+   "arabic": "هَٰذَا",
+   "clusters": [
+    836,
+    830,
+    1078
+   ],
+   "n_marked_runs_lb": 26
+  },
+  {
+   "word": "antum",
+   "arabic": "وَأَنْتُمْ",
+   "clusters": [
+    47,
+    1658
+   ],
+   "n_marked_runs_lb": 10
+  },
+  {
+   "word": "duna",
+   "arabic": "دُونَ",
+   "clusters": [
+    828
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "dhu",
+   "arabic": "ذُو",
+   "clusters": [
+    345
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "idh",
+   "arabic": "إِذْ",
+   "clusters": [
+    375
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "idha",
+   "arabic": "إِذَا",
+   "clusters": [
+    2652
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "qad",
+   "arabic": "قَدْ",
+   "clusters": [
+    168
+   ],
+   "n_marked_runs_lb": 13
+  },
+  {
+   "word": "bal",
+   "arabic": "بَلْ",
+   "clusters": [
+    1648
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "ba'd",
+   "arabic": "بَعْد",
+   "clusters": [
+    115
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "inda",
+   "arabic": "عِنْدَ",
+   "clusters": [
+    119
+   ],
+   "n_marked_runs_lb": 9
+  },
+  {
+   "word": "shay",
+   "arabic": "شَيْء",
+   "clusters": [
+    113
+   ],
+   "n_marked_runs_lb": 8
+  },
+  {
+   "word": "yawm",
+   "arabic": "يَوْم",
+   "clusters": [
+    1397,
+    1578
+   ],
+   "n_marked_runs_lb": 12
+  },
+  {
+   "word": "yawmaidh",
+   "arabic": "يَوْمَئِذْ",
+   "clusters": [
+    2641
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "yashaa",
+   "arabic": "يَشَاءْ",
+   "clusters": [
+    244
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "an'aam",
+   "arabic": "أَنْعَام",
+   "clusters": [
+    881
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "yatama",
+   "arabic": "الْيَتَامَى",
+   "clusters": [
+    649
+   ],
+   "n_marked_runs_lb": 8
+  },
+  {
+   "word": "wakana2",
+   "arabic": "وَالله(multi)",
+   "clusters": [
+    415
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "rabb",
+   "arabic": "رَبّ",
+   "clusters": [
+    1063,
+    1281
+   ],
+   "n_marked_runs_lb": 12
+  },
+  {
+   "word": "rasul",
+   "arabic": "رَسُول",
+   "clusters": [
+    552,
+    1570
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "rahim",
+   "arabic": "رَحِيم(غفور+رحيم phrase)",
+   "clusters": [
+    363
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "hakeem",
+   "arabic": "حَكِيم",
+   "clusters": [
+    238,
+    2659
+   ],
+   "n_marked_runs_lb": 10
+  },
+  {
+   "word": "haleem",
+   "arabic": "حَلِيم",
+   "clusters": [
+    257
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "aleem",
+   "arabic": "عَلِيم",
+   "clusters": [
+    255
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "aziz",
+   "arabic": "عَزِيز",
+   "clusters": [
+    235
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "ghafur",
+   "arabic": "غَفُور",
+   "clusters": [
+    362,
+    601
+   ],
+   "n_marked_runs_lb": 22
+  },
+  {
+   "word": "musa",
+   "arabic": "مُوسَىٰ",
+   "clusters": [
+    713
+   ],
+   "n_marked_runs_lb": 11
+  },
+  {
+   "word": "ibrahim",
+   "arabic": "إِبْرَاهِيم",
+   "clusters": [
+    1132
+   ],
+   "n_marked_runs_lb": 1
+  },
+  {
+   "word": "yusuf",
+   "arabic": "يُوسُف",
+   "clusters": [
+    1290
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "muminin",
+   "arabic": "الْمُؤْمِنِين",
+   "clusters": [
+    1219,
+    433
+   ],
+   "n_marked_runs_lb": 12
+  },
+  {
+   "word": "muminat",
+   "arabic": "الْمُؤْمِنَات",
+   "clusters": [
+    526
+   ],
+   "n_marked_runs_lb": 7
+  },
+  {
+   "word": "yuminuna",
+   "arabic": "يُؤْمِنُونَ",
+   "clusters": [
+    1137,
+    409
+   ],
+   "n_marked_runs_lb": 14
+  },
+  {
+   "word": "ya'maloona",
+   "arabic": "يَعْمَلُونَ",
+   "clusters": [
+    868
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "taqtuloona",
+   "arabic": "تَقْتُلُونَ",
+   "clusters": [
+    74
+   ],
+   "n_marked_runs_lb": 2,
+   "member_split": {
+    "taqtuloona": [
+     "2:85",
+     "2:87"
+    ],
+    "tamaloona": [
+     "2:234",
+     "22:68",
+     "32:14",
+     "33:2",
+     "33:26",
+     "34:11"
+    ]
+   }
+  },
+  {
+   "word": "insan",
+   "arabic": "الْإِنْسَان",
+   "clusters": [
+    1390
+   ],
+   "n_marked_runs_lb": 9
+  },
+  {
+   "word": "ard",
+   "arabic": "الْأَرْض",
+   "clusters": [
+    20,
+    989
+   ],
+   "n_marked_runs_lb": 32
+  },
+  {
+   "word": "samaa",
+   "arabic": "السَّمَاء",
+   "clusters": [
+    1386
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "kitab",
+   "arabic": "الْكِتَاب",
+   "clusters": [
+    688
+   ],
+   "n_marked_runs_lb": 1
+  },
+  {
+   "word": "jahannam",
+   "arabic": "جَنْهَم(=جهنم)",
+   "clusters": [
+    138
+   ],
+   "n_marked_runs_lb": 23
+  },
+  {
+   "word": "naseeb",
+   "arabic": "نَصِيب",
+   "clusters": [
+    483
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "ja'ala",
+   "arabic": "جَعَلَ",
+   "clusters": [
+    503
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "ya'lam",
+   "arabic": "يَعْلَمْ",
+   "clusters": [
+    390
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "khalaqna",
+   "arabic": "خَلَقْنَا",
+   "clusters": [
+    1389
+   ],
+   "n_marked_runs_lb": 5
+  },
+  {
+   "word": "salihat",
+   "arabic": "الصَّالِحَات",
+   "clusters": [
+    751
+   ],
+   "n_marked_runs_lb": 6
+  },
+  {
+   "word": "ayat",
+   "arabic": "آيَات",
+   "clusters": [
+    112,
+    1365
+   ],
+   "n_marked_runs_lb": 8
+  },
+  {
+   "word": "takdhiban",
+   "arabic": "تُكَذِّبَانِ",
+   "clusters": [
+    2441,
+    2450,
+    2452
+   ],
+   "n_marked_runs_lb": 31
+  },
+  {
+   "word": "alai",
+   "arabic": "آلَاء",
+   "clusters": [
+    2451
+   ],
+   "n_marked_runs_lb": 16
+  },
+  {
+   "word": "tamaloona",
+   "arabic": "تَعْمَلُونَ",
+   "clusters": [],
+   "n_marked_runs_lb": 6,
+   "note": "shares shape cluster 74 with taqtuloona (dot-merge); split by verse"
+  },
+  {
+   "word": "thumma",
+   "arabic": "ثُمَّ",
+   "clusters": [
+    814
+   ],
+   "n_marked_runs_lb": 14,
+   "note": "earlier misread as duaa; fixed by full-line context crops"
+  }
+ ],
+ "unverified_clusters": [
+  124,
+  540,
+  638,
+  1196,
+  1226,
+  527,
+  692,
+  1096,
+  1214,
+  1633,
+  116,
+  198,
+  209,
+  267,
+  373,
+  1100,
+  1229,
+  65,
+  82,
+  90,
+  135,
+  279,
+  465,
+  709,
+  843,
+  1015,
+  1028,
+  1060,
+  1073,
+  1076,
+  1183,
+  1257,
+  1262,
+  1500,
+  1574,
+  1602,
+  56,
+  334,
+  335,
+  370,
+  392,
+  486,
+  497,
+  724,
+  1405,
+  1127,
+  316
+ ],
+ "unverified_n": 313,
+ "summary": {
+  "clusters_total": 2703,
+  "runs_total": 7153,
+  "clusters_read": 220,
+  "runs_verified_lb": 3139,
+  "runs_unverified": 313,
+  "runs_unread_lt5": 3701
+ },
+ "verified_counts": {
+  "inna_an": 772,
+  "alladhina": 287,
+  "hum": 226,
+  "fi": 216,
+  "qala": 190,
+  "qaloo": 92,
+  "min": 89,
+  "ala": 77,
+  "kana": 67,
+  "illa": 65,
+  "alayhim": 52,
+  "qul": 46,
+  "aamanoo": 42,
+  "kanoo": 32,
+  "ard": 32,
+  "ma": 31,
+  "takdhiban": 31,
+  "fa_inna": 30,
+  "huwa": 29,
+  "lahum": 27,
+  "hatha": 26,
+  "jahannam": 23,
+  "fiha": 22,
+  "ghafur": 22,
+  "minhum": 21,
+  "yaquloona": 20,
+  "wahuwa": 17,
+  "aw": 17,
+  "kuntum": 16,
+  "wala": 16,
+  "alai": 16,
+  "lahu": 15,
+  "wamin": 15,
+  "dhalika": 15,
+  "lakum": 14,
+  "yuminuna": 14,
+  "qad": 13,
+  "yawm": 12,
+  "rabb": 12,
+  "muminin": 12,
+  "minha": 11,
+  "ila": 11,
+  "idh": 11,
+  "ba'd": 11,
+  "an'aam": 11,
+  "rasul": 11,
+  "musa": 11,
+  "qalat": 10,
+  "ilayhi": 10,
+  "antum": 10,
+  "hakeem": 10,
+  "yaqoolu": 9,
+  "inda": 9,
+  "insan": 9,
+  "wama": 8,
+  "shay": 8,
+  "yatama": 8,
+  "taqtuloona": 2,
+  "ayat": 8,
+  "maa": 7,
+  "wakana2": 7,
+  "aleem": 7,
+  "aziz": 7,
+  "muminat": 7,
+  "taqool": 6,
+  "alayna": 6,
+  "idha": 6,
+  "bal": 6,
+  "yawmaidh": 6,
+  "yusuf": 6,
+  "ja'ala": 6,
+  "salihat": 6,
+  "lakin": 5,
+  "maa_water": 5,
+  "alaykum": 5,
+  "kanat": 5,
+  "wakana": 5,
+  "duna": 5,
+  "dhu": 5,
+  "yashaa": 5,
+  "raheem": 5,
+  "haleem": 5,
+  "ya'maloona": 5,
+  "samaa": 5,
+  "naseeb": 5,
+  "ya'lam": 5,
+  "khalaqna": 5,
+  "allati": 3,
+  "ibrahim": 1,
+  "kitab": 1,
+  "rahim": 12,
+  "tamaloona": 6,
+  "thumma": 14
+ },
+ "corpus_totals_approx": {
+  "note": "quran-uthmani text_uthmani, own normalization (dagger-alef->alef, diacritics stripped, hamza-prefix dropped, ٱأإآ->ا, ى->ي, ة->ه); exact-token match; Hayrat print may differ slightly on dagger-alef words; yatama=stem-contains; lakin=dagger-alef spelling",
+  "counts": {
+   "min": 2763,
+   "inna_an": 1605,
+   "fi": 1185,
+   "ma": 1013,
+   "alladhina": 811,
+   "illa": 763,
+   "ala": 689,
+   "wala": 658,
+   "wama": 646,
+   "ila": 430,
+   "qala": 416,
+   "lahum": 373,
+   "wamin": 342,
+   "lakum": 337,
+   "kana": 333,
+   "qul": 294,
+   "ard": 287,
+   "aw": 280,
+   "dhalika": 280,
+   "lahu": 275,
+   "huwa": 265,
+   "aamanoo": 263,
+   "hum": 261,
+   "qaloo": 250,
+   "fiha": 241,
+   "yawm": 233,
+   "kanoo": 229,
+   "kitab": 222,
+   "idha": 221,
+   "alayhim": 214,
+   "hatha": 190,
+   "shay": 190,
+   "kuntum": 188,
+   "fa_inna": 171,
+   "wahuwa": 171,
+   "idh": 165,
+   "alaykum": 164,
+   "aleem": 160,
+   "minhum": 153,
+   "ba'd": 149,
+   "antum": 128,
+   "rabb": 128,
+   "bal": 127,
+   "qad": 126,
+   "rasul": 120,
+   "inda": 119,
+   "yashaa": 116,
+   "rahim": 115,
+   "muminin": 112,
+   "samaa": 109,
+   "musa": 105,
+   "hakeem": 97,
+   "aziz": 95,
+   "duna": 91,
+   "minha": 86,
+   "yuminuna": 86,
+   "wakana": 84,
+   "ghafur": 83,
+   "ilayhi": 80,
+   "jahannam": 72,
+   "ya'lam": 71,
+   "yawmaidh": 65,
+   "salihat": 61,
+   "insan": 59,
+   "maa": 58,
+   "allati": 57,
+   "ya'maloona": 56,
+   "ayat": 52,
+   "yaquloona": 51,
+   "alayna": 51,
+   "ja'ala": 45,
+   "ibrahim": 43,
+   "yaqoolu": 39,
+   "maa_water": 35,
+   "alai": 34,
+   "takdhiban": 31,
+   "qalat": 29,
+   "kanat": 28,
+   "dhu": 27,
+   "yusuf": 21,
+   "khalaqna": 21,
+   "naseeb": 18,
+   "an'aam": 17,
+   "haleem": 14,
+   "taqool": 11,
+   "ata": 8,
+   "muminat": 7,
+   "duaa": 6,
+   "taqtuloona": 4,
+   "yatama": 14,
+   "lakin": 6,
+   "thumma": 340,
+   "tamaloona": 83
+  }
+ },
+ "rates_lb": {
+  "min": {
+   "corpus": 2763,
+   "marked_lb": 89,
+   "rate_lb": 0.032
+  },
+  "inna_an": {
+   "corpus": 1605,
+   "marked_lb": 772,
+   "rate_lb": 0.481
+  },
+  "fi": {
+   "corpus": 1185,
+   "marked_lb": 216,
+   "rate_lb": 0.182
+  },
+  "ma": {
+   "corpus": 1013,
+   "marked_lb": 31,
+   "rate_lb": 0.031
+  },
+  "alladhina": {
+   "corpus": 811,
+   "marked_lb": 287,
+   "rate_lb": 0.354
+  },
+  "illa": {
+   "corpus": 763,
+   "marked_lb": 65,
+   "rate_lb": 0.085
+  },
+  "ala": {
+   "corpus": 689,
+   "marked_lb": 77,
+   "rate_lb": 0.112
+  },
+  "wala": {
+   "corpus": 658,
+   "marked_lb": 16,
+   "rate_lb": 0.024
+  },
+  "wama": {
+   "corpus": 646,
+   "marked_lb": 8,
+   "rate_lb": 0.012
+  },
+  "ila": {
+   "corpus": 430,
+   "marked_lb": 11,
+   "rate_lb": 0.026
+  },
+  "qala": {
+   "corpus": 416,
+   "marked_lb": 190,
+   "rate_lb": 0.457
+  },
+  "lahum": {
+   "corpus": 373,
+   "marked_lb": 27,
+   "rate_lb": 0.072
+  },
+  "wamin": {
+   "corpus": 342,
+   "marked_lb": 15,
+   "rate_lb": 0.044
+  },
+  "lakum": {
+   "corpus": 337,
+   "marked_lb": 14,
+   "rate_lb": 0.042
+  },
+  "kana": {
+   "corpus": 333,
+   "marked_lb": 67,
+   "rate_lb": 0.201
+  },
+  "qul": {
+   "corpus": 294,
+   "marked_lb": 46,
+   "rate_lb": 0.156
+  },
+  "ard": {
+   "corpus": 287,
+   "marked_lb": 32,
+   "rate_lb": 0.111
+  },
+  "aw": {
+   "corpus": 280,
+   "marked_lb": 17,
+   "rate_lb": 0.061
+  },
+  "dhalika": {
+   "corpus": 280,
+   "marked_lb": 15,
+   "rate_lb": 0.054
+  },
+  "lahu": {
+   "corpus": 275,
+   "marked_lb": 15,
+   "rate_lb": 0.055
+  },
+  "huwa": {
+   "corpus": 265,
+   "marked_lb": 29,
+   "rate_lb": 0.109
+  },
+  "aamanoo": {
+   "corpus": 263,
+   "marked_lb": 42,
+   "rate_lb": 0.16
+  },
+  "hum": {
+   "corpus": 261,
+   "marked_lb": 226,
+   "rate_lb": 0.866
+  },
+  "qaloo": {
+   "corpus": 250,
+   "marked_lb": 92,
+   "rate_lb": 0.368
+  },
+  "fiha": {
+   "corpus": 241,
+   "marked_lb": 22,
+   "rate_lb": 0.091
+  },
+  "yawm": {
+   "corpus": 233,
+   "marked_lb": 12,
+   "rate_lb": 0.052
+  },
+  "kanoo": {
+   "corpus": 229,
+   "marked_lb": 32,
+   "rate_lb": 0.14
+  },
+  "kitab": {
+   "corpus": 222,
+   "marked_lb": 1,
+   "rate_lb": 0.005
+  },
+  "idha": {
+   "corpus": 221,
+   "marked_lb": 6,
+   "rate_lb": 0.027
+  },
+  "alayhim": {
+   "corpus": 214,
+   "marked_lb": 52,
+   "rate_lb": 0.243
+  },
+  "hatha": {
+   "corpus": 190,
+   "marked_lb": 26,
+   "rate_lb": 0.137
+  },
+  "shay": {
+   "corpus": 190,
+   "marked_lb": 8,
+   "rate_lb": 0.042
+  },
+  "kuntum": {
+   "corpus": 188,
+   "marked_lb": 16,
+   "rate_lb": 0.085
+  },
+  "fa_inna": {
+   "corpus": 171,
+   "marked_lb": 30,
+   "rate_lb": 0.175
+  },
+  "wahuwa": {
+   "corpus": 171,
+   "marked_lb": 17,
+   "rate_lb": 0.099
+  },
+  "idh": {
+   "corpus": 165,
+   "marked_lb": 11,
+   "rate_lb": 0.067
+  },
+  "alaykum": {
+   "corpus": 164,
+   "marked_lb": 5,
+   "rate_lb": 0.03
+  },
+  "aleem": {
+   "corpus": 160,
+   "marked_lb": 7,
+   "rate_lb": 0.044
+  },
+  "minhum": {
+   "corpus": 153,
+   "marked_lb": 21,
+   "rate_lb": 0.137
+  },
+  "ba'd": {
+   "corpus": 149,
+   "marked_lb": 11,
+   "rate_lb": 0.074
+  },
+  "antum": {
+   "corpus": 128,
+   "marked_lb": 10,
+   "rate_lb": 0.078
+  },
+  "rabb": {
+   "corpus": 128,
+   "marked_lb": 12,
+   "rate_lb": 0.094
+  },
+  "bal": {
+   "corpus": 127,
+   "marked_lb": 6,
+   "rate_lb": 0.047
+  },
+  "qad": {
+   "corpus": 126,
+   "marked_lb": 13,
+   "rate_lb": 0.103
+  },
+  "rasul": {
+   "corpus": 120,
+   "marked_lb": 11,
+   "rate_lb": 0.092
+  },
+  "inda": {
+   "corpus": 119,
+   "marked_lb": 9,
+   "rate_lb": 0.076
+  },
+  "yashaa": {
+   "corpus": 116,
+   "marked_lb": 5,
+   "rate_lb": 0.043
+  },
+  "rahim": {
+   "corpus": 115,
+   "marked_lb": 12,
+   "rate_lb": 0.104
+  },
+  "muminin": {
+   "corpus": 112,
+   "marked_lb": 12,
+   "rate_lb": 0.107
+  },
+  "samaa": {
+   "corpus": 109,
+   "marked_lb": 5,
+   "rate_lb": 0.046
+  },
+  "musa": {
+   "corpus": 105,
+   "marked_lb": 11,
+   "rate_lb": 0.105
+  },
+  "hakeem": {
+   "corpus": 97,
+   "marked_lb": 10,
+   "rate_lb": 0.103
+  },
+  "aziz": {
+   "corpus": 95,
+   "marked_lb": 7,
+   "rate_lb": 0.074
+  },
+  "duna": {
+   "corpus": 91,
+   "marked_lb": 5,
+   "rate_lb": 0.055
+  },
+  "minha": {
+   "corpus": 86,
+   "marked_lb": 11,
+   "rate_lb": 0.128
+  },
+  "yuminuna": {
+   "corpus": 86,
+   "marked_lb": 14,
+   "rate_lb": 0.163
+  },
+  "wakana": {
+   "corpus": 84,
+   "marked_lb": 5,
+   "rate_lb": 0.06
+  },
+  "ghafur": {
+   "corpus": 83,
+   "marked_lb": 22,
+   "rate_lb": 0.265
+  },
+  "ilayhi": {
+   "corpus": 80,
+   "marked_lb": 10,
+   "rate_lb": 0.125
+  },
+  "jahannam": {
+   "corpus": 72,
+   "marked_lb": 23,
+   "rate_lb": 0.319
+  },
+  "ya'lam": {
+   "corpus": 71,
+   "marked_lb": 5,
+   "rate_lb": 0.07
+  },
+  "yawmaidh": {
+   "corpus": 65,
+   "marked_lb": 6,
+   "rate_lb": 0.092
+  },
+  "salihat": {
+   "corpus": 61,
+   "marked_lb": 6,
+   "rate_lb": 0.098
+  },
+  "insan": {
+   "corpus": 59,
+   "marked_lb": 9,
+   "rate_lb": 0.153
+  },
+  "maa": {
+   "corpus": 58,
+   "marked_lb": 7,
+   "rate_lb": 0.121
+  },
+  "allati": {
+   "corpus": 57,
+   "marked_lb": 3,
+   "rate_lb": 0.053
+  },
+  "ya'maloona": {
+   "corpus": 56,
+   "marked_lb": 5,
+   "rate_lb": 0.089
+  },
+  "ayat": {
+   "corpus": 52,
+   "marked_lb": 8,
+   "rate_lb": 0.154
+  },
+  "yaquloona": {
+   "corpus": 51,
+   "marked_lb": 20,
+   "rate_lb": 0.392
+  },
+  "alayna": {
+   "corpus": 51,
+   "marked_lb": 6,
+   "rate_lb": 0.118
+  },
+  "ja'ala": {
+   "corpus": 45,
+   "marked_lb": 6,
+   "rate_lb": 0.133
+  },
+  "ibrahim": {
+   "corpus": 43,
+   "marked_lb": 1,
+   "rate_lb": 0.023
+  },
+  "yaqoolu": {
+   "corpus": 39,
+   "marked_lb": 9,
+   "rate_lb": 0.231
+  },
+  "maa_water": {
+   "corpus": 35,
+   "marked_lb": 5,
+   "rate_lb": 0.143
+  },
+  "alai": {
+   "corpus": 34,
+   "marked_lb": 16,
+   "rate_lb": 0.471
+  },
+  "takdhiban": {
+   "corpus": 31,
+   "marked_lb": 31,
+   "rate_lb": 1.0
+  },
+  "qalat": {
+   "corpus": 29,
+   "marked_lb": 10,
+   "rate_lb": 0.345
+  },
+  "kanat": {
+   "corpus": 28,
+   "marked_lb": 5,
+   "rate_lb": 0.179
+  },
+  "dhu": {
+   "corpus": 27,
+   "marked_lb": 5,
+   "rate_lb": 0.185
+  },
+  "yusuf": {
+   "corpus": 21,
+   "marked_lb": 6,
+   "rate_lb": 0.286
+  },
+  "khalaqna": {
+   "corpus": 21,
+   "marked_lb": 5,
+   "rate_lb": 0.238
+  },
+  "naseeb": {
+   "corpus": 18,
+   "marked_lb": 5,
+   "rate_lb": 0.278
+  },
+  "an'aam": {
+   "corpus": 17,
+   "marked_lb": 11,
+   "rate_lb": 0.647
+  },
+  "haleem": {
+   "corpus": 14,
+   "marked_lb": 5,
+   "rate_lb": 0.357
+  },
+  "taqool": {
+   "corpus": 11,
+   "marked_lb": 6,
+   "rate_lb": 0.545
+  },
+  "ata": {
+   "corpus": 8,
+   "marked_lb": null,
+   "rate_lb": null
+  },
+  "muminat": {
+   "corpus": 7,
+   "marked_lb": 7,
+   "rate_lb": 1.0
+  },
+  "duaa": {
+   "corpus": 6,
+   "marked_lb": null,
+   "rate_lb": null
+  },
+  "taqtuloona": {
+   "corpus": 4,
+   "marked_lb": 2,
+   "rate_lb": 0.5
+  },
+  "yatama": {
+   "corpus": 14,
+   "marked_lb": 8,
+   "rate_lb": 0.571
+  },
+  "lakin": {
+   "corpus": 6,
+   "marked_lb": 5,
+   "rate_lb": 0.833
+  },
+  "thumma": {
+   "corpus": 340,
+   "marked_lb": 14,
+   "rate_lb": 0.041
+  },
+  "tamaloona": {
+   "corpus": 83,
+   "marked_lb": 6,
+   "rate_lb": 0.072
+  }
+ }
+}

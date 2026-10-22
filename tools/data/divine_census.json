@@ -1,0 +1,68 @@
+{
+ "corpus_totals": {
+  "الله": 2152,
+  "والله": 240,
+  "بالله": 139,
+  "لله": 116,
+  "ولله": 27,
+  "تالله": 8,
+  "فالله": 6,
+  "فلله": 6,
+  "ءالله": 2,
+  "ابالله": 1,
+  "وتالله": 1
+ },
+ "false_friends_excluded": {
+  "اللهم": 5,
+  "يضلله": 1,
+  "وظللهم": 1,
+  "ظلله": 1,
+  "خللها": 2,
+  "خللهما": 1,
+  "خلله": 2,
+  "اللهو": 1,
+  "ظللها": 1,
+  "اللهب": 1,
+  "للهدي": 1
+ },
+ "note_basalas": "Excluding opening basmala means remove encoded 1:1 only; embedded 27:30 remains. Add 1 for the encoded corpus, then 112 for unencoded surah heads (113 heads total).",
+ "total_excluding_encoded_opening_basmala": 2698,
+ "encoded_opening_basmalas_removed": 1,
+ "total_encoded_corpus": 2699,
+ "total_with_all_surah_head_basmalas": 2811,
+ "interrogative_divine_name_references": [
+  "10:59",
+  "27:59"
+ ],
+ "pin_source": "mark_identity_semantic.json",
+ "pins_lafzullah": {
+  "الله/cri": 1615,
+  "لله/cri": 68,
+  "لله/mag": 6
+ },
+ "pins_total_lafzullah": 1689,
+ "pin_count_divided_by_encoded_corpus_total": 0.6258,
+ "coverage_caveat": "Not a certified lower bound: pin identities require independent validation; a token can carry both kinds.",
+ "other_crimson_members": {
+  "ربكم/cri": 81,
+  "ربهم/cri": 77,
+  "ربك/cri": 147,
+  "ربه/cri": 47,
+  "ربنا/cri": 74,
+  "هو/mag": 3,
+  "رب/cri": 67,
+  "ربي/cri": 60
+ },
+ "hamdallah": {
+  "status": "historical manual census; not recomputed by this script",
+  "total_instances": 23,
+  "measured": 22,
+  "cri_side": 15,
+  "mag_side": 12,
+  "dual": 5,
+  "unmeasured": [
+   "1:2 (Fatiha page is not among the 604 scans)"
+  ],
+  "see": "probability-model.md S16 A4.1 and A4.5"
+ }
+}

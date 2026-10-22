@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-19",
+  "timing": "After OPenn catalogue/TEI text retrieval through webfetch, before any manuscript images were visually inspected or downloaded successfully.",
+  "reason": "Direct OPenn HTTPS downloads time out from the shell; the webfetch route retrieved catalogue/TEI text but image retrieval failed. Internet Archive public downloads work.",
+  "unchanged": "Same six target folios, colophon, evaluation, no replacement rule and descriptive scope.",
+  "fallback": "Retain Internet Archive metadata and scandata, then seven IIIF page derivatives at zero-based leaf indices 105,205,305,405,505,605,613. OPenn directly labels sequence 0105 as 50r; the later labels are provisional sequence-correspondence hypotheses until independently checked. IA and OPenn derivatives may have different crops/scales.",
+  "gate": "Do not call these confirmed target folios or score a historical/modern matched comparison until the folio correspondence is established. A failed correspondence must be reported; never silently relabel or replace a page to get a favorable alignment.",
+  "public_api": "https://iiif.archivelab.org/iiif/ldpd_14642794_000$105/full/1200,/0/default.jpg",
+  "transport_correction_after_first_image": "The legacy IIIF host has a certificate-hostname failure. Use the working public https://archive.org/download/ldpd_14642794_000/page/n105.jpg route and analogous unchanged leaf indices. The first leaf 105 image was exposed through this route before this transport-only correction; targets and evaluation are unchanged."
+}

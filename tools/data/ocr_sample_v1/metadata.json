@@ -1,0 +1,73 @@
+{
+  "engine": "surya-ocr",
+  "python": "3.12.3",
+  "packages": {
+    "surya-ocr": "0.17.0",
+    "torch": "2.8.0",
+    "transformers": "4.57.1",
+    "pillow": "10.4.0"
+  },
+  "gpu": "NVIDIA RTX A6000",
+  "peak_allocated_bytes": 2160004608,
+  "recognition_batch_size": 8,
+  "detection_checkpoint": "s3://text_detection/2025_05_07",
+  "recognition_checkpoint": "s3://text_recognition/2025_09_23",
+  "model_files": {
+    "text_detection/2025_05_07/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "text_detection/2025_05_07/README.md": "aab5b4ba5afb1d27b08f4dd6ab4900b588050b6d41a3b6ed0448105b08d87f24",
+    "text_detection/2025_05_07/config.json": "0f99d8176e3fc194966659cf6f1c52ab9ca1d573f47ba57aca55036ff5267d69",
+    "text_detection/2025_05_07/manifest.json": "f57a95d3da7d182c4ef556171115a6557455c98f847e81e59a30f37898d994c0",
+    "text_detection/2025_05_07/model.safetensors": "38c3749eeb5f06fc93ed71eeee5cbd86b1945d08f8f74746bda035d41324bd3e",
+    "text_detection/2025_05_07/preprocessor_config.json": "594344843fcd54db03240194c7677b5c459e78d349e68d4a89d7d91e4fa90587",
+    "text_detection/2025_05_07/training_args.bin": "7e605d76a38a3739d8372218370b9d5a008b8ff4299cfe61fb2a46e1fa91b525",
+    "text_recognition/2025_09_23/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+    "text_recognition/2025_09_23/README.md": "0336368f8274a5ed09f54cee8d56a851ecee96026d9f391a6735762c16608a60",
+    "text_recognition/2025_09_23/config.json": "71f612967b4c51fe9d1ec74c2f51639070ce3db7a73f9c1274360f1400021db6",
+    "text_recognition/2025_09_23/manifest.json": "7f683384c9d18cd4b12ad52bfd05fea1c9e7814caa35a2f181a7d1c0ce793721",
+    "text_recognition/2025_09_23/model.safetensors": "dd07d624d42dc1b2f6bd871777c088052635294e1637805304300bc4ec8fb3ed",
+    "text_recognition/2025_09_23/preprocessor_config.json": "d164ad496629e84733225af0d7af0a71e3f0ceecfcceb7e0fd4da960c45caef9",
+    "text_recognition/2025_09_23/processor_config.json": "fba86e949c27a2c02ad8c65ccd321f5d2bc2f1c451e98582debd1c2ca14c497c",
+    "text_recognition/2025_09_23/special_tokens_map.json": "d3399c9cc75ffa4513f4c055673a35bbbc0317218e3c4cd25a3578944d6dbc75",
+    "text_recognition/2025_09_23/specials.json": "ca52649007ff824a61a99da32d5a237f8883807a398c870bf33dc4bf96e51b43",
+    "text_recognition/2025_09_23/specials_dict.json": "e9ef2acbf88b3998a2e4bebc1672e7f10f4ef4dfca74863ce02fac994b3e0936",
+    "text_recognition/2025_09_23/tokenizer_config.json": "96af51d686a557f221d9553ecdfd7c89572a923b433fff90a1604adebf46cbaf",
+    "text_recognition/2025_09_23/training_args.bin": "e72b841abbff68eaf26ecde03b48678ef52085b5d75542d3818391f8cac43be0",
+    "text_recognition/2025_09_23/vocab_math.json": "963a928f2385cea48e29461af980dee3d319d30365088282635a6846aba9861b"
+  },
+  "manual_sha256": "54c1175353411350d100e13be887bc02257042a5a434170dacc98202ab888ac0",
+  "source_sha256": "d794afba4f30fc4b803347079e229634e8e7befb3dcfc7cd84fc0bdbba651f90",
+  "elapsed_seconds": 100.81494869799644,
+  "pages": [
+    {
+      "page": 15,
+      "lines": 15,
+      "elapsed_seconds": 13.853317261004122
+    },
+    {
+      "page": 148,
+      "lines": 15,
+      "elapsed_seconds": 15.750520613000845
+    },
+    {
+      "page": 276,
+      "lines": 15,
+      "elapsed_seconds": 15.556866405007895
+    },
+    {
+      "page": 365,
+      "lines": 13,
+      "elapsed_seconds": 15.517581394000445
+    },
+    {
+      "page": 412,
+      "lines": 15,
+      "elapsed_seconds": 18.329930063002394
+    },
+    {
+      "page": 513,
+      "lines": 15,
+      "elapsed_seconds": 18.894216514992877
+    }
+  ],
+  "status": "Unvalidated OCR hypotheses; compare with exact Quran and independent image annotations."
+}

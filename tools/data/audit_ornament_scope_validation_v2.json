@@ -1,0 +1,112 @@
+{
+  "version": "fresh-masked-corpus-scope-validation-v2",
+  "pages": [
+    {
+      "page": 160,
+      "expected_first": "7:82",
+      "expected_last": "7:87",
+      "possible_first": "7:82",
+      "possible_last": "7:87",
+      "first_correct": true,
+      "last_correct": true,
+      "ornament_bands": [],
+      "head_names": []
+    },
+    {
+      "page": 188,
+      "expected_first": "9:14",
+      "expected_last": "9:20",
+      "possible_first": "9:14",
+      "possible_last": "9:20",
+      "first_correct": true,
+      "last_correct": true,
+      "ornament_bands": [],
+      "head_names": []
+    },
+    {
+      "page": 272,
+      "expected_first": "16:55",
+      "expected_last": "16:64",
+      "possible_first": "16:55",
+      "possible_last": "16:64",
+      "first_correct": true,
+      "last_correct": true,
+      "ornament_bands": [],
+      "head_names": []
+    },
+    {
+      "page": 391,
+      "expected_first": "28:51",
+      "expected_last": "28:59",
+      "possible_first": "28:51",
+      "possible_last": "28:59",
+      "first_correct": true,
+      "last_correct": true,
+      "ornament_bands": [],
+      "head_names": []
+    },
+    {
+      "page": 427,
+      "expected_first": "34:1",
+      "expected_last": "34:7",
+      "possible_first": "34:1",
+      "possible_last": "34:8",
+      "first_correct": true,
+      "last_correct": false,
+      "ornament_bands": [
+        [
+          1,
+          214
+        ]
+      ],
+      "head_names": [
+        {
+          "verse": "34:0",
+          "word_in_verse": 2,
+          "rect": [
+            230,
+            245,
+            330,
+            340
+          ],
+          "bbox": null,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "page": 517,
+      "expected_first": "50:1",
+      "expected_last": "50:15",
+      "possible_first": "50:1",
+      "possible_last": "50:15",
+      "first_correct": true,
+      "last_correct": true,
+      "ornament_bands": [
+        [
+          1,
+          215
+        ]
+      ],
+      "head_names": [
+        {
+          "verse": "50:0",
+          "word_in_verse": 2,
+          "rect": [
+            230,
+            245,
+            330,
+            340
+          ],
+          "bbox": null,
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "correct_page_ranges": 5,
+  "correct_scope_endpoints": 11,
+  "manual_sha256": "1765966e6739dc402124d2e77bfbb692203c2ffd7be1d4f7abebfaf3cbcac233",
+  "mapping_sha256": "ed815a211d14f2e8b89b9bedc23a9f4edc3ba86def920f20336398f82796e9d0",
+  "caveat": "Six independent fresh page scopes, two with gold headers. Conditional mapper range checks, not whole-corpus scope certification or linguistic-null validation."
+}

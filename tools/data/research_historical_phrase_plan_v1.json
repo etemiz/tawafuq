@@ -1,0 +1,10 @@
+{
+  "study": "pre-project-repeated-phrase-case-200r-v1",
+  "date": "2026-10-19",
+  "selection": "Post-hoc candidate spotted while rereading all six exposed historical folios: the two occurrences of من دون الله in 29:17, on physical rows 3 and 4 of Columbia MS Or 422 folio 200r.",
+  "aim": "Test whether this is a complete corresponding-word historical phrase alignment, rather than a color/component or hull-center coincidence. A positive result supports the factual premise that multiword alignment existed before the modern tawafuq project.",
+  "protocol": "Use the shared manual letter-body midpoint and manually read verse-text frame convention of research_historical_center_plan_v1.json. Preserve canonical word order and attached prefixes. Measure all three words in each occurrence from raw scan context. Require each corresponding pair on distinct rows to meet the same 2% width threshold; report 1.5% sensitivity. Use exact rational worst-case coordinate/frame allowances of +/-5px center and +/-3px each frame edge. No retuning after scores.",
+  "comparison": "Also inspect these same six canonical tokens in their existing modern ledger; modern detector midpoints are contextual, not a new manual shared-convention phrase comparison.",
+  "scope": "One selected exposed candidate, not a prevalence or significance study. Catalogue date 1193 AH/1779, previously inspected single-reader colophon; no independent material dating or second reader. Repeated wording, near-line-end positions and normal copying are plausible explanations. No calculated divine-origin likelihood or claim that human calligraphy is excluded.",
+  "output": "research_historical_phrase_review_v1.json"
+}

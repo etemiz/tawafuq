@@ -1,0 +1,385 @@
+{
+  "version": "frozen-physical-position-validation-plan-v5",
+  "seed": "t2-v5-physical-rows-and-x-2026-10-19",
+  "pages": [
+    {
+      "page": 66,
+      "stratum": [
+        2,
+        100
+      ],
+      "eligible_pages": 89,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    },
+    {
+      "page": 157,
+      "stratum": [
+        101,
+        200
+      ],
+      "eligible_pages": 84,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    },
+    {
+      "page": 229,
+      "stratum": [
+        201,
+        300
+      ],
+      "eligible_pages": 77,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    },
+    {
+      "page": 376,
+      "stratum": [
+        301,
+        400
+      ],
+      "eligible_pages": 79,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    },
+    {
+      "page": 445,
+      "stratum": [
+        401,
+        500
+      ],
+      "eligible_pages": 74,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    },
+    {
+      "page": 545,
+      "stratum": [
+        501,
+        603
+      ],
+      "eligible_pages": 44,
+      "positions": [
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 2,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 7,
+          "lexical_position_rtl": 7
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 1
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 4
+        },
+        {
+          "physical_row": 12,
+          "lexical_position_rtl": 7
+        }
+      ]
+    }
+  ],
+  "excluded_pages": [
+    1,
+    11,
+    15,
+    26,
+    49,
+    67,
+    74,
+    79,
+    80,
+    83,
+    105,
+    128,
+    130,
+    148,
+    151,
+    154,
+    160,
+    163,
+    171,
+    186,
+    188,
+    193,
+    199,
+    201,
+    204,
+    206,
+    207,
+    209,
+    227,
+    228,
+    230,
+    231,
+    239,
+    242,
+    252,
+    272,
+    276,
+    286,
+    304,
+    311,
+    315,
+    316,
+    317,
+    321,
+    342,
+    351,
+    355,
+    365,
+    369,
+    378,
+    391,
+    393,
+    402,
+    412,
+    422,
+    427,
+    447,
+    448,
+    457,
+    462,
+    469,
+    470,
+    489,
+    494,
+    510,
+    513,
+    517,
+    529,
+    542,
+    543,
+    556,
+    567,
+    570,
+    574,
+    588,
+    603,
+    604
+  ],
+  "scheduled_positions": 54,
+  "inputs": {
+    "audit_manual_semantic_sample.json": "54c1175353411350d100e13be887bc02257042a5a434170dacc98202ab888ac0",
+    "audit_manual_ocr_heldout.json": "8b8f9db4ca70aae4bf67c93babffc9c0cabdb10a066f1db665a391893f46b988",
+    "audit_manual_word_validation_v2.json": "aae9c715500910d8d98a65d9072d83e8fe074ce02534939986f372b728b5eaeb",
+    "audit_manual_corpus_map_sample_v1.json": "0add0736fe4a58d86c4799496a21d1efcebdf631827cb64533fd0c2c0e619cca",
+    "audit_manual_ornament_scope_v2.json": "1765966e6739dc402124d2e77bfbb692203c2ffd7be1d4f7abebfaf3cbcac233",
+    "audit_manual_row_sample_v4.json": "dc37c52a68dc465a5bc24fc459bfc54a8c229171686a2691ccf5a0d794e03612",
+    "audit_word_union_review_plan_v5.json": "1d98258391d099049bdfac4fed2f08449914688d0e5b7d33b7edb3415e3f32e6",
+    "audit_ocr_ornament_bands_v1.json": "35db46ad7b0113b2a602a77496561f95294c6a8486490b926ad6cdf87c656e17",
+    "audit_word_boundary_sites_v5.json": "14a26d6bffe05c27bce778fa3ac5da87afb770f1a74643f0697e4fd5cd745fd2"
+  },
+  "rule_sources": {
+    "ocr_corpus_map.py": "27fc722f21ca6730ddac6d3e2e76a7aa10360b669d6dd9ca5549c19eb97b0bf0",
+    "ocr_observation_map.py": "6e9aefa90861cdddc878bf8107f38fa5ab896dfc9f8d1b34c60eabd1da8a9335",
+    "ocr_reading_order.py": "74dcc2aa124f055c132c375a83ea13d0e1c7a0947449f5cd8b9cfb934f3bab46",
+    "ocr_row_map.py": "056803eaabe438fab02e9115a2edaa8f713f0d6682d662426b86ee352c44c72e",
+    "ocr_word_boundary_map.py": "cd994bf565a2e6c7d3b78134bec5f20e68698100c26f4449d777a8e171a329de",
+    "ocr_corpus_sites.py": "3e5c96d4cc2ab16fbe86732952d95f1eadf70aa985d4cae20d9960f18b8a3b62",
+    "word_boundary_sites.py": "bb21c1fa79c63b1900b32dc40016c173176833a3a2fedf01b863b4919185276a"
+  },
+  "selection_source_sha256": "772dda3224bbf49c4dafc5c61970eec5cfbda798f6ad11eb0656c111193a649a",
+  "protocol": "Six new non-ornament pages, minimum SHA256(seed:page) in six page strata. Exclude all earlier annotated pages, fixed failure/replay pages and rejected-union review pages. Inference code, policy artifact and selection are frozen before this reader inspects selected pages or their predictions. On physical Quran text rows 2/7/12, independently transcribe lexical positions 1/4/7 from the right, ignoring rosettes. Retain all 54 scheduled slots: if a row/word is unavailable or identity uncertain, record that explicitly without replacement. First record canonical identity and a letter-core rectangle from scans without OCR boxes. Separately partition full word ink and assign overhanging diacritics using scan/context; ambiguous mark ownership means boundary-unscorable, never silent omission. A second reader must be identified if used; one reader cannot claim independent double annotation. Compare frozen broad and conservative v5 outputs only after labels are saved. Report correct centers, wrong accepted centers, abstentions and boundary-scorable denominators separately. Structured physical-position sample, not uniform corpus words or a full-corpus accuracy claim.",
+  "annotation_status": "planned_only_no_scans_read_or_labels_created"
+}

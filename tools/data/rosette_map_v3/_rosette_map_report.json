@@ -1,0 +1,10 @@
+{
+  "version": "global-terminal-rtl-v2",
+  "status": "inferred, not independent ground truth",
+  "digits_sha256": "ed4299a1b81800e53021946a92b7b92440b2f1b855f46e3fdb4a8d3b1a1a28e6",
+  "source_sha256": "e4e92cc86be0eec4acaf23d663f95bc76764a77f29f00b74d31ecc0c49308898",
+  "mapped_rosettes": 6229,
+  "raw_reads_equal_assigned": 6101,
+  "inferred_ghost_verses": 0,
+  "caveat": "Self-trained digit templates, manual anchors, sequence alignment and ghost assignment; no held-out accuracy is measured by this script."
+}

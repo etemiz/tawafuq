@@ -1,0 +1,453 @@
+{
+  "source_images": {
+    "historical:50r": {
+      "sha256": "63bcc48771f49aabf7e98d912fb404b66287b701a20c3ff6a843820d889f1d5d",
+      "width": 3678,
+      "height": 5907,
+      "scale_to_1000": 0.27188689505165853
+    },
+    "historical:100r": {
+      "sha256": "b1df37af1993038236cf66e45666e4bd1e82780e7a3f32772a2f06585a4d8120",
+      "width": 3822,
+      "height": 5958,
+      "scale_to_1000": 0.2616431187859759
+    },
+    "historical:150r": {
+      "sha256": "d282bf1d42418575fecccaf1791ca61915c0c318768c962c60155d67db1c9bde",
+      "width": 3741,
+      "height": 5927,
+      "scale_to_1000": 0.2673082063619353
+    },
+    "historical:200r": {
+      "sha256": "15c671d08d7a10f5d61c2b8e7bde49b3d8fc8f9e0f39826082e27a6ba9efc648",
+      "width": 3855,
+      "height": 5961,
+      "scale_to_1000": 0.2594033722438392
+    },
+    "historical:250r": {
+      "sha256": "a7a70a3d3bdcb45aa06d23d34a1b576482f3051247a9dc11fcbf2bf7fc7442de",
+      "width": 3765,
+      "height": 5940,
+      "scale_to_1000": 0.2656042496679947
+    },
+    "historical:300r": {
+      "sha256": "adebdf47c28820db2bdc91ec8fb09fc8acb3502c8b7dc4ce6b1cc38b678bcb0c",
+      "width": 3697,
+      "height": 5915,
+      "scale_to_1000": 0.2704895861509332
+    },
+    "modern:97": {
+      "sha256": "a2cf4ea8a6d7e2a68787d23494d62a2062513915748ae103f1ffaa383d0d55e4",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:98": {
+      "sha256": "392fdd17dd81ea11c21203fd1cdb2aee1964d9eb425fe3a3996f6c8c6ef6e615",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:197": {
+      "sha256": "1dba6c94e46581de70654e52405e88eae5703b95c3ddf2aa43ad235f4ea753ea",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:297": {
+      "sha256": "0525767e11cacb0058347557baf592d8880b68ed0fee4c3a547e959e8e262838",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:397": {
+      "sha256": "716cce4f52b1db4590d8c6688da731d821a7e1028d588bcbc04a1e965d8c4480",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:497": {
+      "sha256": "a493253c4a33ae64a53a9ed8f25553c37f52038b850459a1a3595d964f6eef04",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:498": {
+      "sha256": "4b895bd628504797bd5173566df873c2119d61550ff1514a26b050788b511449",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    },
+    "modern:597": {
+      "sha256": "2c8b66ecb39cba3691ad78e5a2eb5942a26d56759471a4a3b25bea65c4a1fed8",
+      "width": 1024,
+      "height": 1680,
+      "scale_to_1000": 0.9765625
+    }
+  },
+  "selected_tokens": [
+    {
+      "t": 12323,
+      "verse": "4:123",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 2,
+      "modern_page": 97,
+      "modern_seeded_row": 4,
+      "modern_center": 518.5,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12349,
+      "verse": "4:125",
+      "ordinal": 1,
+      "word": "لله",
+      "historical_row": 5,
+      "modern_page": 97,
+      "modern_seeded_row": 7,
+      "modern_center": 515.0,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12357,
+      "verse": "4:125",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 6,
+      "modern_page": 97,
+      "modern_seeded_row": 8,
+      "modern_center": 526.0,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12360,
+      "verse": "4:126",
+      "ordinal": 1,
+      "word": "ولله",
+      "historical_row": 6,
+      "modern_page": 97,
+      "modern_seeded_row": 8,
+      "modern_center": 78.5,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12368,
+      "verse": "4:126",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 7,
+      "modern_page": 97,
+      "modern_seeded_row": 9,
+      "modern_center": 62.0,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12376,
+      "verse": "4:127",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 8,
+      "modern_page": 97,
+      "modern_seeded_row": 10,
+      "modern_center": 65.0,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12408,
+      "verse": "4:127",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 11,
+      "modern_page": 97,
+      "modern_seeded_row": 14,
+      "modern_center": 518.5,
+      "modern_frame_width": 986.0
+    },
+    {
+      "t": 12436,
+      "verse": "4:128",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 15,
+      "modern_page": 98,
+      "modern_seeded_row": 3,
+      "modern_center": 958.0,
+      "modern_frame_width": 989.0
+    },
+    {
+      "t": 25108,
+      "verse": "9:70",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 8,
+      "modern_page": 197,
+      "modern_seeded_row": 7,
+      "modern_center": 598.5,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 25129,
+      "verse": "9:71",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 11,
+      "modern_page": 197,
+      "modern_seeded_row": 10,
+      "modern_center": 387.0,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 25133,
+      "verse": "9:71",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 12,
+      "modern_page": 197,
+      "modern_seeded_row": 11,
+      "modern_center": 754.0,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 25135,
+      "verse": "9:71",
+      "ordinal": 3,
+      "word": "الله",
+      "historical_row": 12,
+      "modern_page": 197,
+      "modern_seeded_row": 11,
+      "modern_center": 591.0,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 25139,
+      "verse": "9:72",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 13,
+      "modern_page": 197,
+      "modern_seeded_row": 11,
+      "modern_center": 67.0,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 25156,
+      "verse": "9:72",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 15,
+      "modern_page": 197,
+      "modern_seeded_row": 14,
+      "modern_center": 747.0,
+      "modern_frame_width": 992.0
+    },
+    {
+      "t": 38154,
+      "verse": "18:38",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 5,
+      "modern_page": 297,
+      "modern_seeded_row": 4,
+      "modern_center": 804.0,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 38167,
+      "verse": "18:39",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 6,
+      "modern_page": 297,
+      "modern_seeded_row": 5,
+      "modern_center": 442.0,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 38171,
+      "verse": "18:39",
+      "ordinal": 2,
+      "word": "بالله",
+      "historical_row": 6,
+      "modern_page": 297,
+      "modern_seeded_row": 5,
+      "modern_center": 172.5,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 38228,
+      "verse": "18:43",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 12,
+      "modern_page": 297,
+      "modern_seeded_row": 11,
+      "modern_center": 813.0,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 38234,
+      "verse": "18:44",
+      "ordinal": 1,
+      "word": "لله",
+      "historical_row": 13,
+      "modern_page": 297,
+      "modern_seeded_row": 11,
+      "modern_center": 190.5,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 38259,
+      "verse": "18:45",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 15,
+      "modern_page": 297,
+      "modern_seeded_row": 14,
+      "modern_center": 441.5,
+      "modern_frame_width": 997.0
+    },
+    {
+      "t": 51209,
+      "verse": "29:16",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 2,
+      "modern_page": 397,
+      "modern_seeded_row": 1,
+      "modern_center": 664.5,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51221,
+      "verse": "29:17",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 3,
+      "modern_page": 397,
+      "modern_seeded_row": 2,
+      "modern_center": 344.5,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51230,
+      "verse": "29:17",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 4,
+      "modern_page": 397,
+      "modern_seeded_row": 3,
+      "modern_center": 340.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51237,
+      "verse": "29:17",
+      "ordinal": 3,
+      "word": "الله",
+      "historical_row": 5,
+      "modern_page": 397,
+      "modern_seeded_row": 4,
+      "modern_center": 342.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51261,
+      "verse": "29:19",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 8,
+      "modern_page": 397,
+      "modern_seeded_row": 7,
+      "modern_center": 347.5,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51268,
+      "verse": "29:19",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 9,
+      "modern_page": 397,
+      "modern_seeded_row": 8,
+      "modern_center": 662.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51279,
+      "verse": "29:20",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 10,
+      "modern_page": 397,
+      "modern_seeded_row": 9,
+      "modern_center": 343.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51284,
+      "verse": "29:20",
+      "ordinal": 2,
+      "word": "الله",
+      "historical_row": 10,
+      "modern_page": 397,
+      "modern_seeded_row": 10,
+      "modern_center": 665.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51309,
+      "verse": "29:22",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 13,
+      "modern_page": 397,
+      "modern_seeded_row": 12,
+      "modern_center": 338.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 51317,
+      "verse": "29:23",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 14,
+      "modern_page": 397,
+      "modern_seeded_row": 13,
+      "modern_center": 342.0,
+      "modern_frame_width": 993.0
+    },
+    {
+      "t": 64132,
+      "verse": "44:42",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 2,
+      "modern_page": 497,
+      "modern_seeded_row": 1,
+      "modern_center": 70.5,
+      "modern_frame_width": 980.0
+    },
+    {
+      "t": 64222,
+      "verse": "45:2",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 15,
+      "modern_page": 498,
+      "modern_seeded_row": 1,
+      "modern_center": 565.5,
+      "modern_frame_width": 990.0
+    },
+    {
+      "t": 76846,
+      "verse": "95:8",
+      "ordinal": 1,
+      "word": "الله",
+      "historical_row": 9,
+      "modern_page": 597,
+      "modern_seeded_row": 1,
+      "modern_center": 392.0,
+      "modern_frame_width": 985.0
+    }
+  ]
+}

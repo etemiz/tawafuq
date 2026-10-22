@@ -1,0 +1,191 @@
+{
+  "source": "mark_identity_semantic.json",
+  "rows": [
+    {
+      "verse": "9:128",
+      "t": 26251,
+      "word": "لقد",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26252,
+      "word": "جاءكم",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26253,
+      "word": "رسول",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26254,
+      "word": "من",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26255,
+      "word": "انفسكم",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26256,
+      "word": "عزيز",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26257,
+      "word": "عليه",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26258,
+      "word": "ما",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26259,
+      "word": "عنتم",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26260,
+      "word": "حريص",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26261,
+      "word": "عليكم",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26262,
+      "word": "بالمؤمنين",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26263,
+      "word": "رءوف",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:128",
+      "t": 26264,
+      "word": "رحيم",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26265,
+      "word": "فان",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26266,
+      "word": "تولوا",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26267,
+      "word": "فقل",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26268,
+      "word": "حسبي",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26269,
+      "word": "الله",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26270,
+      "word": "لا",
+      "pin": {
+        "word": "لا",
+        "kind": "mag",
+        "t": 26270,
+        "page": 206,
+        "yb": 12,
+        "xb": 29,
+        "yc": 1392.0,
+        "xc": 901.0,
+        "hem": false,
+        "same_word_cell_other_pages": 0
+      }
+    },
+    {
+      "verse": "9:129",
+      "t": 26271,
+      "word": "اله",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26272,
+      "word": "الا",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26273,
+      "word": "هو",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26274,
+      "word": "عليه",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26275,
+      "word": "توكلت",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26276,
+      "word": "وهو",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26277,
+      "word": "رب",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26278,
+      "word": "العرش",
+      "status": "no semantic pin; ink and position not determined"
+    },
+    {
+      "verse": "9:129",
+      "t": 26279,
+      "word": "العظيم",
+      "status": "no semantic pin; ink and position not determined"
+    }
+  ],
+  "verdict": "Descriptive selected-pin inspection only; no inference about insertion, authenticity or absence of alignment is supported."
+}

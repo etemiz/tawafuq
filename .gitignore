@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+logs/
+hayrat-pics/
+tools/data/red_feats.npz
+.~lock.*#
+.DS_Store

@@ -1,0 +1,1829 @@
+{
+  "version": "independent-anchor-corpus-map-validation-v1",
+  "inputs": {
+    "audit_manual_semantic_sample.json": "54c1175353411350d100e13be887bc02257042a5a434170dacc98202ab888ac0",
+    "audit_manual_ocr_heldout.json": "8b8f9db4ca70aae4bf67c93babffc9c0cabdb10a066f1db665a391893f46b988",
+    "audit_manual_word_validation_v2.json": "aae9c715500910d8d98a65d9072d83e8fe074ce02534939986f372b728b5eaeb",
+    "audit_manual_corpus_map_sample_v1.json": "0add0736fe4a58d86c4799496a21d1efcebdf631827cb64533fd0c2c0e619cca"
+  },
+  "mapping_sha256": "cf91e31e46b7897f706240e953bca44b67bed0429c9b5d681b1737c7afdb9292",
+  "groups": {
+    "development": {
+      "total": 80,
+      "correct": 80,
+      "accepted": 80,
+      "details": [
+        {
+          "page": 15,
+          "verse": "2:102",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1766,
+          "bbox": [
+            246,
+            589,
+            323,
+            663
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 15,
+          "verse": "2:103",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1797,
+          "bbox": [
+            447,
+            1032,
+            524,
+            1098
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 15,
+          "verse": "2:105",
+          "occurrence": 1,
+          "form": "والله",
+          "t": 1830,
+          "bbox": [
+            244,
+            1469,
+            381,
+            1541
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 15,
+          "verse": "2:105",
+          "occurrence": 2,
+          "form": "والله",
+          "t": 1835,
+          "bbox": [
+            449,
+            1570,
+            571,
+            1653
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 148,
+          "verse": "6:152",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 18975,
+          "bbox": [
+            610,
+            363,
+            683,
+            443
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 148,
+          "verse": "6:157",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 19060,
+          "bbox": [
+            602,
+            1470,
+            675,
+            1545
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:88",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 35381,
+          "bbox": [
+            323,
+            35,
+            395,
+            112
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:90",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 35414,
+          "bbox": [
+            320,
+            478,
+            398,
+            553
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:91",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 35431,
+          "bbox": [
+            824,
+            810,
+            898,
+            873
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:91",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 35441,
+          "bbox": [
+            817,
+            921,
+            909,
+            992
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:91",
+          "occurrence": 3,
+          "form": "الله",
+          "t": 35445,
+          "bbox": [
+            323,
+            917,
+            401,
+            988
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:92",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 35471,
+          "bbox": [
+            325,
+            1244,
+            400,
+            1325
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 276,
+          "verse": "16:93",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 35483,
+          "bbox": [
+            823,
+            1459,
+            898,
+            1531
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 365,
+          "verse": "25:68",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 47014,
+          "bbox": [
+            618,
+            38,
+            694,
+            108
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 365,
+          "verse": "25:68",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 47022,
+          "bbox": [
+            919,
+            150,
+            995,
+            223
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 365,
+          "verse": "25:70",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 47049,
+          "bbox": [
+            914,
+            482,
+            991,
+            550
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 365,
+          "verse": "25:70",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 47053,
+          "bbox": [
+            305,
+            482,
+            383,
+            550
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 365,
+          "verse": "25:71",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 47063,
+          "bbox": [
+            304,
+            589,
+            379,
+            654
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:20",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53080,
+          "bbox": [
+            702,
+            35,
+            781,
+            100
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:20",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 53099,
+          "bbox": [
+            923,
+            256,
+            995,
+            329
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:21",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53113,
+          "bbox": [
+            715,
+            361,
+            781,
+            436
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:22",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53132,
+          "bbox": [
+            920,
+            587,
+            994,
+            657
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:22",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 53140,
+          "bbox": [
+            923,
+            699,
+            995,
+            768
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:23",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53154,
+          "bbox": [
+            283,
+            806,
+            359,
+            882
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:25",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53172,
+          "bbox": [
+            919,
+            1134,
+            995,
+            1206
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:25",
+          "occurrence": 2,
+          "form": "لله",
+          "t": 53175,
+          "bbox": [
+            703,
+            1135,
+            769,
+            1207
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:26",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 53180,
+          "bbox": [
+            275,
+            1138,
+            338,
+            1210
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:26",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 53186,
+          "bbox": [
+            700,
+            1247,
+            775,
+            1318
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:27",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53206,
+          "bbox": [
+            704,
+            1468,
+            780,
+            1542
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:27",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 53208,
+          "bbox": [
+            545,
+            1468,
+            619,
+            1542
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 412,
+          "verse": "31:28",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 53219,
+          "bbox": [
+            273,
+            1581,
+            354,
+            1659
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:24",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 66280,
+          "bbox": [
+            284,
+            150,
+            353,
+            221
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:25",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 66311,
+          "bbox": [
+            691,
+            593,
+            768,
+            663
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:26",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 66334,
+          "bbox": [
+            278,
+            807,
+            351,
+            879
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:26",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 66348,
+          "bbox": [
+            278,
+            1019,
+            355,
+            1104
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:27",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 66354,
+          "bbox": [
+            688,
+            1135,
+            769,
+            1211
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:27",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 66363,
+          "bbox": [
+            687,
+            1245,
+            768,
+            1320
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 513,
+          "verse": "48:28",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 66392,
+          "bbox": [
+            278,
+            1584,
+            368,
+            1655
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 74,
+          "verse": "3:187",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 9384,
+          "bbox": [
+            718,
+            38,
+            793,
+            109
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 74,
+          "verse": "3:189",
+          "occurrence": 1,
+          "form": "ولله",
+          "t": 9423,
+          "bbox": [
+            711,
+            586,
+            817,
+            662
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 74,
+          "verse": "3:189",
+          "occurrence": 2,
+          "form": "والله",
+          "t": 9427,
+          "bbox": [
+            27,
+            583,
+            151,
+            659
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 74,
+          "verse": "3:191",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 9445,
+          "bbox": [
+            717,
+            923,
+            799,
+            997
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 128,
+          "verse": "6:12",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 16340,
+          "bbox": [
+            440,
+            474,
+            514,
+            548
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 128,
+          "verse": "6:14",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16369,
+          "bbox": [
+            435,
+            809,
+            517,
+            880
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 128,
+          "verse": "6:17",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16411,
+          "bbox": [
+            432,
+            1356,
+            514,
+            1441
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:94",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25559,
+          "bbox": [
+            410,
+            147,
+            485,
+            216
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:94",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 25563,
+          "bbox": [
+            924,
+            259,
+            995,
+            324
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:95",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25577,
+          "bbox": [
+            28,
+            370,
+            113,
+            435
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:96",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25602,
+          "bbox": [
+            916,
+            812,
+            993,
+            882
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:97",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25618,
+          "bbox": [
+            21,
+            917,
+            102,
+            986
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:97",
+          "occurrence": 2,
+          "form": "والله",
+          "t": 25621,
+          "bbox": [
+            659,
+            1029,
+            764,
+            1101
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:98",
+          "occurrence": 1,
+          "form": "والله",
+          "t": 25637,
+          "bbox": [
+            660,
+            1247,
+            759,
+            1320
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:99",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25644,
+          "bbox": [
+            661,
+            1361,
+            751,
+            1429
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:99",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 25652,
+          "bbox": [
+            664,
+            1472,
+            738,
+            1542
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:99",
+          "occurrence": 3,
+          "form": "الله",
+          "t": 25660,
+          "bbox": [
+            666,
+            1576,
+            760,
+            1655
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 201,
+          "verse": "9:99",
+          "occurrence": 4,
+          "form": "الله",
+          "t": 25664,
+          "bbox": [
+            362,
+            1583,
+            447,
+            1662
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 342,
+          "verse": "23:23",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 44037,
+          "bbox": [
+            23,
+            703,
+            99,
+            769
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 342,
+          "verse": "23:24",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 44062,
+          "bbox": [
+            26,
+            911,
+            104,
+            987
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 447,
+          "verse": "37:56",
+          "occurrence": 1,
+          "form": "تالله",
+          "t": 57684,
+          "bbox": [
+            486,
+            254,
+            584,
+            330
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 447,
+          "verse": "37:74",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 57774,
+          "bbox": [
+            497,
+            1462,
+            573,
+            1543
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 26,
+          "verse": "2:177",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 3186,
+          "bbox": [
+            480,
+            148,
+            570,
+            221
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 26,
+          "verse": "2:181",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 3297,
+          "bbox": [
+            459,
+            1578,
+            548,
+            1652
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 130,
+          "verse": "6:31",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16639,
+          "bbox": [
+            519,
+            478,
+            590,
+            549
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 130,
+          "verse": "6:33",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16685,
+          "bbox": [
+            517,
+            1028,
+            593,
+            1099
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 130,
+          "verse": "6:34",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16703,
+          "bbox": [
+            517,
+            1245,
+            593,
+            1314
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 130,
+          "verse": "6:35",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16729,
+          "bbox": [
+            925,
+            1581,
+            997,
+            1647
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:71",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 50685,
+          "bbox": [
+            584,
+            38,
+            660,
+            109
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:71",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 50695,
+          "bbox": [
+            587,
+            151,
+            667,
+            216
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:72",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 50704,
+          "bbox": [
+            585,
+            258,
+            659,
+            328
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:72",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 50714,
+          "bbox": [
+            584,
+            372,
+            679,
+            443
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:75",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 50753,
+          "bbox": [
+            593,
+            918,
+            660,
+            983
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:76",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 50784,
+          "bbox": [
+            366,
+            1248,
+            449,
+            1327
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:77",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 50791,
+          "bbox": [
+            587,
+            1356,
+            664,
+            1439
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:77",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 50802,
+          "bbox": [
+            370,
+            1457,
+            448,
+            1547
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 393,
+          "verse": "28:77",
+          "occurrence": 3,
+          "form": "الله",
+          "t": 50810,
+          "bbox": [
+            362,
+            1579,
+            448,
+            1650
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 462,
+          "verse": "39:42",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 59659,
+          "bbox": [
+            757,
+            255,
+            838,
+            330
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 462,
+          "verse": "39:43",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 59689,
+          "bbox": [
+            754,
+            582,
+            825,
+            654
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 462,
+          "verse": "39:44",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 59700,
+          "bbox": [
+            459,
+            692,
+            525,
+            770
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 462,
+          "verse": "39:45",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 59712,
+          "bbox": [
+            756,
+            918,
+            838,
+            986
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 462,
+          "verse": "39:47",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 59765,
+          "bbox": [
+            462,
+            1576,
+            545,
+            1646
+          ],
+          "correct": true,
+          "status": "correct"
+        }
+      ]
+    },
+    "fresh": {
+      "total": 31,
+      "correct": 31,
+      "accepted": 31,
+      "details": [
+        {
+          "page": 11,
+          "verse": "2:77",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1241,
+          "bbox": [
+            665,
+            38,
+            739,
+            105
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 11,
+          "verse": "2:79",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1268,
+          "bbox": [
+            667,
+            364,
+            744,
+            443
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 11,
+          "verse": "2:80",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1292,
+          "bbox": [
+            662,
+            698,
+            744,
+            766
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 11,
+          "verse": "2:80",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 1296,
+          "bbox": [
+            190,
+            698,
+            273,
+            766
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 11,
+          "verse": "2:80",
+          "occurrence": 3,
+          "form": "الله",
+          "t": 1301,
+          "bbox": [
+            663,
+            813,
+            737,
+            875
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 11,
+          "verse": "2:83",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 1336,
+          "bbox": [
+            206,
+            1252,
+            282,
+            1321
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:80",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25299,
+          "bbox": [
+            822,
+            152,
+            905,
+            220
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:80",
+          "occurrence": 2,
+          "form": "بالله",
+          "t": 25304,
+          "bbox": [
+            319,
+            152,
+            410,
+            220
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:80",
+          "occurrence": 3,
+          "form": "والله",
+          "t": 25306,
+          "bbox": [
+            27,
+            152,
+            137,
+            220
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:81",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25316,
+          "bbox": [
+            818,
+            369,
+            894,
+            440
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:81",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 25324,
+          "bbox": [
+            818,
+            483,
+            900,
+            552
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:83",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25348,
+          "bbox": [
+            29,
+            701,
+            104,
+            775
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:84",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25384,
+          "bbox": [
+            318,
+            1141,
+            405,
+            1209
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:85",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25395,
+          "bbox": [
+            27,
+            1251,
+            97,
+            1325
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 199,
+          "verse": "9:86",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25410,
+          "bbox": [
+            355,
+            1462,
+            445,
+            1543
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 239,
+          "verse": "12:38",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 30616,
+          "bbox": [
+            578,
+            138,
+            672,
+            222
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 239,
+          "verse": "12:38",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 30622,
+          "bbox": [
+            29,
+            145,
+            110,
+            229
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 239,
+          "verse": "12:39",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 30637,
+          "bbox": [
+            26,
+            370,
+            101,
+            441
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 239,
+          "verse": "12:40",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 30651,
+          "bbox": [
+            588,
+            581,
+            667,
+            662
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 239,
+          "verse": "12:40",
+          "occurrence": 2,
+          "form": "لله",
+          "t": 30658,
+          "bbox": [
+            18,
+            583,
+            84,
+            665
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:60",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 51865,
+          "bbox": [
+            922,
+            1022,
+            1009,
+            1102
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:61",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 51881,
+          "bbox": [
+            917,
+            1237,
+            994,
+            1310
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:62",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 51884,
+          "bbox": [
+            560,
+            1241,
+            649,
+            1314
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:62",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 51894,
+          "bbox": [
+            563,
+            1360,
+            641,
+            1439
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:63",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 51912,
+          "bbox": [
+            907,
+            1572,
+            994,
+            1650
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 402,
+          "verse": "29:63",
+          "occurrence": 2,
+          "form": "لله",
+          "t": 51915,
+          "bbox": [
+            571,
+            1572,
+            645,
+            1650
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 570,
+          "verse": "71:13",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 73675,
+          "bbox": [
+            941,
+            253,
+            996,
+            320
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 570,
+          "verse": "71:15",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 73684,
+          "bbox": [
+            31,
+            256,
+            96,
+            324
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 570,
+          "verse": "71:17",
+          "occurrence": 1,
+          "form": "والله",
+          "t": 73695,
+          "bbox": [
+            910,
+            476,
+            1003,
+            551
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 570,
+          "verse": "71:19",
+          "occurrence": 1,
+          "form": "والله",
+          "t": 73705,
+          "bbox": [
+            906,
+            586,
+            1003,
+            662
+          ],
+          "correct": true,
+          "status": "correct"
+        },
+        {
+          "page": 570,
+          "verse": "71:25",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 73761,
+          "bbox": [
+            26,
+            1135,
+            99,
+            1206
+          ],
+          "correct": true,
+          "status": "correct"
+        }
+      ]
+    }
+  },
+  "scope_checks": [
+    {
+      "page": 11,
+      "expected_first": "2:77",
+      "expected_last": "2:83",
+      "possible_first": "2:77",
+      "possible_last": "2:83",
+      "first_correct": true,
+      "last_correct": true,
+      "accepted_outside_scope": [],
+      "head_basmala_names": []
+    },
+    {
+      "page": 199,
+      "expected_first": "9:80",
+      "expected_last": "9:86",
+      "possible_first": "9:80",
+      "possible_last": "9:86",
+      "first_correct": true,
+      "last_correct": true,
+      "accepted_outside_scope": [],
+      "head_basmala_names": []
+    },
+    {
+      "page": 239,
+      "expected_first": "12:38",
+      "expected_last": "12:43",
+      "possible_first": "12:38",
+      "possible_last": "12:43",
+      "first_correct": true,
+      "last_correct": true,
+      "accepted_outside_scope": [],
+      "head_basmala_names": []
+    },
+    {
+      "page": 304,
+      "expected_first": "19:1",
+      "expected_last": "19:11",
+      "possible_first": "18:110",
+      "possible_last": "19:12",
+      "first_correct": false,
+      "last_correct": false,
+      "accepted_outside_scope": [
+        {
+          "t": 39122,
+          "verse": "18:110",
+          "word_in_verse": 22,
+          "form": "بعباده",
+          "normalized": "بعباده",
+          "kind": "verse",
+          "v_id": 39186,
+          "mandatory_regions": [
+            2
+          ],
+          "possible_regions": [
+            2
+          ],
+          "is_allah_form": false,
+          "overlaps_optimal_unique_anchor": false,
+          "bbox": [
+            558,
+            30,
+            644,
+            101
+          ],
+          "surface_match": false
+        },
+        {
+          "t": 39123,
+          "verse": "18:110",
+          "word_in_verse": 23,
+          "form": "ربه",
+          "normalized": "ربه",
+          "kind": "verse",
+          "v_id": 39187,
+          "mandatory_regions": [
+            3
+          ],
+          "possible_regions": [
+            3,
+            4
+          ],
+          "is_allah_form": false,
+          "overlaps_optimal_unique_anchor": false,
+          "bbox": [
+            478,
+            56,
+            570,
+            128
+          ],
+          "surface_match": false
+        }
+      ],
+      "head_basmala_names": [
+        {
+          "verse": "19:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "rect": [
+            289,
+            252,
+            369,
+            331
+          ],
+          "bbox": [
+            287,
+            255,
+            378,
+            335
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "page": 402,
+      "expected_first": "29:53",
+      "expected_last": "29:63",
+      "possible_first": "29:53",
+      "possible_last": "29:63",
+      "first_correct": true,
+      "last_correct": true,
+      "accepted_outside_scope": [],
+      "head_basmala_names": []
+    },
+    {
+      "page": 570,
+      "expected_first": "71:11",
+      "expected_last": "71:28",
+      "possible_first": "71:11",
+      "possible_last": "71:28",
+      "first_correct": true,
+      "last_correct": true,
+      "accepted_outside_scope": [],
+      "head_basmala_names": []
+    }
+  ],
+  "caveat": "Fresh six-page scope/name labels vs independent OCR/corpus matching; earlier 18 pages are exposed development. Support outside labelled bounds and scope errors are reported. No automatic scope ground truth, full-boundary certification or calibrated probability."
+}

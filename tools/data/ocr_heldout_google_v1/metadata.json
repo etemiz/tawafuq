@@ -1,0 +1,43 @@
+{
+  "engine": "google-cloud-vision",
+  "feature": "DOCUMENT_TEXT_DETECTION",
+  "language_hints": [],
+  "source_sha256": "5604634e6275653a3e653e955d901c63ff95412b881c594cc2225c0dc918018d",
+  "manual_sha256": "8b8f9db4ca70aae4bf67c93babffc9c0cabdb10a066f1db665a391893f46b988",
+  "pages": [
+    {
+      "page": 74,
+      "cached": false,
+      "elapsed_seconds": 0.6512082910048775
+    },
+    {
+      "page": 128,
+      "cached": false,
+      "elapsed_seconds": 0.5279327020107303
+    },
+    {
+      "page": 201,
+      "cached": false,
+      "elapsed_seconds": 0.5336378030042397
+    },
+    {
+      "page": 342,
+      "cached": false,
+      "elapsed_seconds": 0.534381196994218
+    },
+    {
+      "page": 447,
+      "cached": false,
+      "elapsed_seconds": 0.5624231050023809
+    },
+    {
+      "page": 529,
+      "cached": false,
+      "elapsed_seconds": 0.5721344409976155
+    }
+  ],
+  "pending_request_estimate_usd": 0.009,
+  "budget_usd": 20,
+  "pricing_url": "https://cloud.google.com/vision/pricing",
+  "status": "Raw service response retained. Model revision is not pinned by this API. Planning estimate is not actual billing. No credentials stored."
+}

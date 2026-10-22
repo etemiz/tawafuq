@@ -1,0 +1,20 @@
+{
+  "version": "color-independent-same-word-plan-v1",
+  "date": "2026-10-19",
+  "stage": "specified_before_first_same_word_count",
+  "identity": "Primary grouping is identical unvowelled Uthmani spelling, removing map_tokens.DIAC marks and normalizing alif-wasla to alif only. Retain prefixes, hamza, ta-marbuta and alif-maqsura distinctions. Verify correspondence to the existing normalized corpus token IDs. Exclude Fatiha, absent from these scans, and synthetic surah-head basmalas; report those exclusions.",
+  "primary_geometry": "Frozen conservative v5 word_boundary_sites inventory. Require a unique page candidate per canonical token, exclusive mandatory OCR regions, all mandatory regions on one seeded row, and a valid word box. No word-ink color or prior semantic pin labels enter selection or scoring. Retain a ledger for every expected token, including missing/ambiguous/rejected positions. Exact OCR surface matching for every word is a separate sensitivity view.",
+  "score": "For each occurrence of word w, flag once if another located occurrence of the identical word is on the same page, on a different seeded row, and at horizontal detector-box center distance <=15 pixels. Use original detector/support boxes, not ink-color-derived trimming. Report matching pairs as well as unique flagged endpoints. No cross-page statistic or tolerance search in this study.",
+  "primary_metrics": ["standalone_allah", "all_identical_words"],
+  "secondary_metrics": ["alrahman", "alrahim", "allah_name_family"],
+  "family_definition": "The explicit existing semantic_validation.is_name predicate applied to the existing canonical normalized form, including its declared prefixed/interrogative forms. This is a family analysis, not exact same-spelling identity; keep it separate.",
+  "comparisons": [
+    "Within each page and seeded row, uniformly permute canonical word identities among the accepted word sites, preserving all per-word per-row counts and all site geometry.",
+    "Within each page, seeded row and floor(box_width/20) stratum, uniformly permute canonical word identities among accepted sites, additionally preserving each word's coarse observed width-bin counts."
+  ],
+  "simulation": {"replicates": 5000, "seed": 20261019, "generator": "numpy.default_rng; independent seed+model_index streams; random ranks lexsorted within fixed strata"},
+  "inference": "Store all replicate scores for the five declared metrics, finite-Monte-Carlo uncertainty, analytic flag expectations under the exact hypergeometric avoidance formula and independent-page bounded-score Hoeffding upper bounds. Do not extrapolate extreme tails, pool methods as independent replications or multiply metric probabilities. Compare analytic expectations with simulation. No semantic or origin probability is claimed.",
+  "missingness": "Located-subset scores are conditional on localization hypotheses. Report total canonical expected occurrences, located occurrences, witnessed alignments and unresolved counts per word. A located occurrence lacking a located partner can gain a partner when missing locations are resolved. Never call missing occurrences absent, black or unaligned. No location accuracy percentage is inferred from coverage.",
+  "evaluation": "Compare the existing frozen word-localization annotations with the accepted inventory for diagnostic center errors and abstentions; do not edit predictions or labels to improve alignment. Input hypotheses and annotations are exposed data. Existing manual name-core corrections are not silently substituted into the automatic primary geometry.",
+  "limitations": "The reference models preserve row counts and optionally width bins but do not preserve text order, syntax, full morphology or the actual writing process. Upstream OCR uses the original scans and gold-ornament exclusions; logical occurrence selection does not depend on word ink color. This is not a new grayscale-OCR validation, a fully verified corpus geometry census, perfect-word-boundary certification, or a probability of divine origin."
+}

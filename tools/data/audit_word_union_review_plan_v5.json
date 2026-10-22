@@ -1,0 +1,631 @@
+{
+  "version": "frozen-rejected-union-review-plan-v5",
+  "seed": "t2-v5-rejected-unions-2026-10-19",
+  "per_ordinary_stratum": 4,
+  "population": 711,
+  "strata": [
+    {
+      "stratum": "head_basmala",
+      "population": 1,
+      "sampled": 1
+    },
+    {
+      "stratum": "ordinary_2regions_1edit",
+      "population": 628,
+      "sampled": 4
+    },
+    {
+      "stratum": "ordinary_2regions_2plus_edits",
+      "population": 72,
+      "sampled": 4
+    },
+    {
+      "stratum": "ordinary_3plus_regions_1edit",
+      "population": 6,
+      "sampled": 4
+    },
+    {
+      "stratum": "ordinary_3plus_regions_2plus_edits",
+      "population": 3,
+      "sampled": 3
+    },
+    {
+      "stratum": "verse_name",
+      "population": 1,
+      "sampled": 1
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "u01",
+      "stratum": "head_basmala",
+      "page": 105,
+      "t": null,
+      "verse": "5:0",
+      "word_in_verse": 1,
+      "form": "بسم",
+      "normalized": "بسم",
+      "kind": "surah_head_basmala",
+      "v_id": 13386,
+      "mandatory_regions": [
+        58,
+        59
+      ],
+      "possible_regions": [
+        58,
+        59
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        369,
+        811,
+        992,
+        876
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "بشهم",
+      "text_distance": 2,
+      "image_sha256": "40d963952967c4abfaf3693e68847a985cb1260d666aaf0da4abd769a6963da5"
+    },
+    {
+      "sample_id": "u02",
+      "stratum": "ordinary_2regions_1edit",
+      "page": 242,
+      "t": 31077,
+      "verse": "12:67",
+      "word_in_verse": 2,
+      "form": "يبني",
+      "normalized": "يبني",
+      "kind": "verse",
+      "v_id": 31117,
+      "mandatory_regions": [
+        73,
+        74
+      ],
+      "possible_regions": [
+        73,
+        74
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        633,
+        805,
+        719,
+        889
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "يابني",
+      "text_distance": 1,
+      "image_sha256": "96e5a426b85fc55d298e75f9dd6ed0ea6cf89a729b986b6b4f41456673721bb2"
+    },
+    {
+      "sample_id": "u03",
+      "stratum": "ordinary_2regions_1edit",
+      "page": 79,
+      "t": 10096,
+      "verse": "4:19",
+      "word_in_verse": 1,
+      "form": "يايها",
+      "normalized": "يايها",
+      "kind": "verse",
+      "v_id": 10108,
+      "mandatory_regions": [
+        84,
+        85
+      ],
+      "possible_regions": [
+        84,
+        85
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        553,
+        1133,
+        701,
+        1211
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "ياايها",
+      "text_distance": 1,
+      "image_sha256": "02f2e82103a1f23dde2819957bee2115ad0fe32f6b7ef0b3e303fefe7137c110"
+    },
+    {
+      "sample_id": "u04",
+      "stratum": "ordinary_2regions_1edit",
+      "page": 556,
+      "t": 71869,
+      "verse": "64:14",
+      "word_in_verse": 1,
+      "form": "يايها",
+      "normalized": "يايها",
+      "kind": "verse",
+      "v_id": 72117,
+      "mandatory_regions": [
+        49,
+        50
+      ],
+      "possible_regions": [
+        49,
+        50
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        404,
+        584,
+        536,
+        655
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "ياايها",
+      "text_distance": 1,
+      "image_sha256": "81779e0a8b69b3f616f28d1933b87ffe3f81379dcf0bfe52cd9684bfa929dafd"
+    },
+    {
+      "sample_id": "u05",
+      "stratum": "ordinary_2regions_1edit",
+      "page": 351,
+      "t": 45305,
+      "verse": "24:27",
+      "word_in_verse": 1,
+      "form": "يايها",
+      "normalized": "يايها",
+      "kind": "verse",
+      "v_id": 45393,
+      "mandatory_regions": [
+        115,
+        116
+      ],
+      "possible_regions": [
+        115,
+        116
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        254,
+        1357,
+        387,
+        1434
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "ياايها",
+      "text_distance": 1,
+      "image_sha256": "6fc41f1cab79e62aae309cc1bc6b8f16cb7c1e440a6e8cd62576373791890ff0"
+    },
+    {
+      "sample_id": "u06",
+      "stratum": "ordinary_2regions_2plus_edits",
+      "page": 227,
+      "t": 29080,
+      "verse": "11:58",
+      "word_in_verse": 11,
+      "form": "ونجينهم",
+      "normalized": "ونجينهم",
+      "kind": "verse",
+      "v_id": 29116,
+      "mandatory_regions": [
+        81,
+        82
+      ],
+      "possible_regions": [
+        81,
+        82
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        759,
+        799,
+        935,
+        876
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وتجيناهم",
+      "text_distance": 2,
+      "image_sha256": "383989110f1ca32ea364f4f4871cee476f6c13f454f3f36e9acbec0f1e02c0ef"
+    },
+    {
+      "sample_id": "u07",
+      "stratum": "ordinary_2regions_2plus_edits",
+      "page": 603,
+      "t": 77344,
+      "verse": "110:2",
+      "word_in_verse": 7,
+      "form": "افواجا",
+      "normalized": "افواجا",
+      "kind": "verse",
+      "v_id": 77776,
+      "mandatory_regions": [
+        63,
+        64
+      ],
+      "possible_regions": [
+        63,
+        64
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        849,
+        1029,
+        1002,
+        1103
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "انواجان",
+      "text_distance": 2,
+      "image_sha256": "065b8632ae8bb568020226de44aa6092e438ffba00cebb153454a5cb432bbc80"
+    },
+    {
+      "sample_id": "u08",
+      "stratum": "ordinary_2regions_2plus_edits",
+      "page": 494,
+      "t": 63785,
+      "verse": "43:80",
+      "word_in_verse": 7,
+      "form": "ونجويهم",
+      "normalized": "ونجويهم",
+      "kind": "verse",
+      "v_id": 63949,
+      "mandatory_regions": [
+        51,
+        52
+      ],
+      "possible_regions": [
+        51,
+        52
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        97,
+        471,
+        254,
+        551
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وتجويهه",
+      "text_distance": 2,
+      "image_sha256": "728b642bbda318da9114c74abba8c6c078aa3e4d28b5a3f401640c1bc600cd9e"
+    },
+    {
+      "sample_id": "u09",
+      "stratum": "ordinary_2regions_2plus_edits",
+      "page": 470,
+      "t": 60706,
+      "verse": "40:36",
+      "word_in_verse": 3,
+      "form": "يهمن",
+      "normalized": "يهمن",
+      "kind": "verse",
+      "v_id": 60858,
+      "mandatory_regions": [
+        59,
+        60
+      ],
+      "possible_regions": [
+        59,
+        60
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        150,
+        589,
+        299,
+        663
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "ياهامان",
+      "text_distance": 3,
+      "image_sha256": "fcc9e2e6a8b7729593568dc5554c4ae4dac02ac54efe8e7bdb6a4469a1dc09cc"
+    },
+    {
+      "sample_id": "u10",
+      "stratum": "ordinary_3plus_regions_1edit",
+      "page": 228,
+      "t": 29183,
+      "verse": "11:64",
+      "word_in_verse": 1,
+      "form": "ويقوم",
+      "normalized": "ويقوم",
+      "kind": "verse",
+      "v_id": 29219,
+      "mandatory_regions": [
+        26,
+        27,
+        28
+      ],
+      "possible_regions": [
+        26,
+        27,
+        28
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        879,
+        255,
+        998,
+        330
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وياقوم",
+      "text_distance": 1,
+      "image_sha256": "2a85f93e1697b2ab48f7f0def73aee17ae5610844c13b984eb31abb0fbdffc1d"
+    },
+    {
+      "sample_id": "u11",
+      "stratum": "ordinary_3plus_regions_1edit",
+      "page": 230,
+      "t": 29485,
+      "verse": "11:85",
+      "word_in_verse": 1,
+      "form": "ويقوم",
+      "normalized": "ويقوم",
+      "kind": "verse",
+      "v_id": 29521,
+      "mandatory_regions": [
+        52,
+        53,
+        54
+      ],
+      "possible_regions": [
+        52,
+        53,
+        54
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        475,
+        588,
+        620,
+        654
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وياقوم",
+      "text_distance": 1,
+      "image_sha256": "ec8b704f295d4bdbf53b71c90ccd16888fb538736658a92e3530690adcfc2407"
+    },
+    {
+      "sample_id": "u12",
+      "stratum": "ordinary_3plus_regions_1edit",
+      "page": 469,
+      "t": 60629,
+      "verse": "40:32",
+      "word_in_verse": 1,
+      "form": "ويقوم",
+      "normalized": "ويقوم",
+      "kind": "verse",
+      "v_id": 60781,
+      "mandatory_regions": [
+        129,
+        130,
+        131
+      ],
+      "possible_regions": [
+        129,
+        130,
+        131
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        372,
+        1357,
+        511,
+        1434
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وياقوم",
+      "text_distance": 1,
+      "image_sha256": "9c4621c57ef849bb03c9afaa56f0fb3fe97d3673d7c9a6ec9e026acb866e3aee"
+    },
+    {
+      "sample_id": "u13",
+      "stratum": "ordinary_3plus_regions_1edit",
+      "page": 151,
+      "t": 19410,
+      "verse": "7:19",
+      "word_in_verse": 1,
+      "form": "ويادم",
+      "normalized": "ويادم",
+      "kind": "verse",
+      "v_id": 19434,
+      "mandatory_regions": [
+        79,
+        80,
+        81
+      ],
+      "possible_regions": [
+        79,
+        80,
+        81
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        205,
+        697,
+        319,
+        769
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وياادم",
+      "text_distance": 1,
+      "image_sha256": "d554653520eef14b28df585c0f598847d102b90cc8b14e73ceba0a41cbbb4f10"
+    },
+    {
+      "sample_id": "u14",
+      "stratum": "ordinary_3plus_regions_2plus_edits",
+      "page": 80,
+      "t": 10181,
+      "verse": "4:23",
+      "word_in_verse": 7,
+      "form": "وخلتكم",
+      "normalized": "وخلتكم",
+      "kind": "verse",
+      "v_id": 10193,
+      "mandatory_regions": [
+        57,
+        58,
+        59
+      ],
+      "possible_regions": [
+        57,
+        58,
+        59
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        235,
+        809,
+        470,
+        877
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "وخالاتكم",
+      "text_distance": 2,
+      "image_sha256": "54a4887b0d1c0fca44c18df2cffb230dab2fbcd649b8e224ffd296b845006213"
+    },
+    {
+      "sample_id": "u15",
+      "stratum": "ordinary_3plus_regions_2plus_edits",
+      "page": 193,
+      "t": 24699,
+      "verse": "9:47",
+      "word_in_verse": 8,
+      "form": "ولاوضعوا",
+      "normalized": "ولاوضعوا",
+      "kind": "verse",
+      "v_id": 24727,
+      "mandatory_regions": [
+        120,
+        121,
+        122
+      ],
+      "possible_regions": [
+        120,
+        121,
+        122
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        608,
+        1469,
+        773,
+        1537
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "لااوضعوا",
+      "text_distance": 2,
+      "image_sha256": "0d03d0d2a3c243d648ed1f08454de44d6f862dfcbc92fd2661730e2a9b935140"
+    },
+    {
+      "sample_id": "u16",
+      "stratum": "ordinary_3plus_regions_2plus_edits",
+      "page": 369,
+      "t": 47611,
+      "verse": "26:76",
+      "word_in_verse": 2,
+      "form": "وءاباؤكم",
+      "normalized": "وءاباؤكم",
+      "kind": "verse",
+      "v_id": 47707,
+      "mandatory_regions": [
+        107,
+        108,
+        109
+      ],
+      "possible_regions": [
+        107,
+        108,
+        109
+      ],
+      "is_allah_form": false,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        608,
+        1138,
+        825,
+        1209
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "واباوكم",
+      "text_distance": 2,
+      "image_sha256": "e244fc1cf1caea1b81b2c5c27d02aef1cf1986e7481811fb5f8465403a849a8b"
+    },
+    {
+      "sample_id": "u17",
+      "stratum": "verse_name",
+      "page": 67,
+      "t": 8595,
+      "verse": "3:148",
+      "word_in_verse": 8,
+      "form": "والله",
+      "normalized": "والله",
+      "kind": "verse",
+      "v_id": 8603,
+      "mandatory_regions": [
+        152,
+        153
+      ],
+      "possible_regions": [
+        152,
+        153
+      ],
+      "is_allah_form": true,
+      "overlaps_optimal_unique_anchor": false,
+      "bbox": [
+        17,
+        1574,
+        239,
+        1649
+      ],
+      "surface_match": false,
+      "geometry_policy": "mapped_support",
+      "recognized": "المحسنينالله",
+      "text_distance": 8,
+      "image_sha256": "c9457233d62212d3d706aee0a413fc83d480787331c4d418778c93bbb41d3e13"
+    }
+  ],
+  "inputs": {
+    "audit_word_boundary_sites_v5.json": "14a26d6bffe05c27bce778fa3ac5da87afb770f1a74643f0697e4fd5cd745fd2",
+    "audit_ocr_word_boundary_map_v5.json": "331b60f641794a45f01b6a173137e77c047c42af22acf38035412bf9e5a07c8f",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c"
+  },
+  "rule_sources": {
+    "ocr_corpus_map.py": "27fc722f21ca6730ddac6d3e2e76a7aa10360b669d6dd9ca5549c19eb97b0bf0",
+    "ocr_observation_map.py": "6e9aefa90861cdddc878bf8107f38fa5ab896dfc9f8d1b34c60eabd1da8a9335",
+    "ocr_reading_order.py": "74dcc2aa124f055c132c375a83ea13d0e1c7a0947449f5cd8b9cfb934f3bab46",
+    "ocr_row_map.py": "056803eaabe438fab02e9115a2edaa8f713f0d6682d662426b86ee352c44c72e",
+    "ocr_word_boundary_map.py": "cd994bf565a2e6c7d3b78134bec5f20e68698100c26f4449d777a8e171a329de",
+    "ocr_corpus_sites.py": "3e5c96d4cc2ab16fbe86732952d95f1eadf70aa985d4cae20d9960f18b8a3b62",
+    "word_boundary_sites.py": "bb21c1fa79c63b1900b32dc40016c173176833a3a2fedf01b863b4919185276a"
+  },
+  "protocol": "Fixed SHA256(seed:page:v_id) ranks within ordinary 2/3plus-region by 1/2plus-edit strata; four per nonempty ordinary stratum, census of excluded verse names and head basmala. Selected before visual inspection. Diagnostic hash sample, no random-design accuracy estimate. One AI reader sees target identities and context crops without predicted-box overlays. Mark a target-letter core independently; center localization and full word extent are separate. No acceptance-policy changes from these labels; previously exposed cases retained as such."
+}

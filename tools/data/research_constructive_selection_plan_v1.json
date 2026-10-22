@@ -1,0 +1,20 @@
+{
+  "version": "fixed-geometry-constructive-selection-plan-v1",
+  "date": "2026-10-19",
+  "stage": "specified_before_first_construction_run",
+  "question": "Does extreme rarity under the audited uniform component-label null imply computational difficulty of selecting a highly aligned subset on the same fixed sites?",
+  "population": "Use reference_controls.prepare on real_boxes_v3 with raw_observed=true, size_filter=true, exclude_gold=true. Retain its existing page eligibility and the original number k of selected red components per page.",
+  "objective": "Maximize the existing ScoreSpec column-only count independently on each eligible page, selecting exactly k distinct reference-site indices. Do not optimize a new tolerance, mirror convention or scoring definition.",
+  "inference_inputs": "The constructor receives only fixed site geometry, ScoreSpec and k. It does not receive observed red-site indices, corpus identities, manual annotations or the exact-PMF artifact.",
+  "algorithm": "Group sites by the existing clipped column bins. For a group with at least two distinct lines, every selection count j>=2 can attain score j by taking two different-line witnesses and filling the remaining j-2 sites. Counts zero/one, and all counts in single-line groups, contribute zero. Dynamic programming over bins and total selected count maximizes the additive column score. Resolve ties by retaining the first maximizer in ascending bin/used/count iteration; use stable original-index order for witnesses.",
+  "verification": "Independently enumerate all subsets in tiny fixtures. Score actual witnesses by scalar pair enumeration and batched occupancy scoring. Check each constructed page maximum against the largest occupied score in audit_exact_columns_raw_wordlike.json, whose exact integer distributions already replay through verify_cpu.py. Check source hashes, exact selected counts, distinct indices and fixed geometry.",
+  "reported_measurements": [
+    "Eligible pages, reference sites and selected components",
+    "Observed and constructed column/mirror/overlap/union counts using the unchanged scorer",
+    "Per-page witness site indices, selected positions, maximum column score and number of DP candidate transitions",
+    "Exact rational probability of attaining the sum of page maxima under independent uniform per-page subsets, computed as the product of the exact maximum-score masses"
+  ],
+  "interpretation": "A constructive witness addresses a logical inference from one-shot rarity to computational difficulty for this component-selection task only. It is not a calibrated generative explanation of this mushaf.",
+  "excluded_claims": "No claim to composing Quranic text, preserving divine-name locations or actual marking semantics, satisfying linguistic/morphological constraints, optimizing calligraphy, reproducing historical production, estimating human work, proving or disproving divine origin, or assigning a probability or irrationality score to a worldview.",
+  "completion_gate": "Publish every eligible-page outcome and a reproducible verified artifact, including any failures, with the fixed model scope. Further constraints require a separately versioned study."
+}

@@ -1,0 +1,831 @@
+{
+  "version": "heldout-semantic-check-v1",
+  "pages": [
+    {
+      "page": 74,
+      "names": [
+        {
+          "verse": "3:187",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 9384,
+          "rect": [
+            714,
+            31,
+            793,
+            106
+          ],
+          "pixels": {
+            "colored_pixels": 901,
+            "crimson_pixels": 626,
+            "magenta_pixels": 275,
+            "ink_bbox": [
+              719,
+              36,
+              787,
+              95
+            ],
+            "cx": 753.0,
+            "cy": 65.5
+          }
+        },
+        {
+          "verse": "3:189",
+          "occurrence": 1,
+          "form": "ولله",
+          "t": 9423,
+          "rect": [
+            712,
+            587,
+            782,
+            663
+          ],
+          "pixels": {
+            "colored_pixels": 944,
+            "crimson_pixels": 655,
+            "magenta_pixels": 289,
+            "ink_bbox": [
+              715,
+              587,
+              781,
+              659
+            ],
+            "cx": 748.0,
+            "cy": 623.0
+          }
+        },
+        {
+          "verse": "3:189",
+          "occurrence": 2,
+          "form": "والله",
+          "t": 9427,
+          "rect": [
+            24,
+            587,
+            107,
+            657
+          ],
+          "pixels": {
+            "colored_pixels": 907,
+            "crimson_pixels": 628,
+            "magenta_pixels": 279,
+            "ink_bbox": [
+              31,
+              587,
+              99,
+              643
+            ],
+            "cx": 65.0,
+            "cy": 615.0
+          }
+        },
+        {
+          "verse": "3:191",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 9445,
+          "rect": [
+            715,
+            914,
+            789,
+            981
+          ],
+          "pixels": {
+            "colored_pixels": 879,
+            "crimson_pixels": 638,
+            "magenta_pixels": 241,
+            "ink_bbox": [
+              718,
+              916,
+              789,
+              973
+            ],
+            "cx": 753.5,
+            "cy": 944.5
+          }
+        }
+      ],
+      "target_names": 4,
+      "column_aligned_names": 3,
+      "distance_aligned_names": 3
+    },
+    {
+      "page": 128,
+      "names": [
+        {
+          "verse": "6:12",
+          "occurrence": 1,
+          "form": "لله",
+          "t": 16340,
+          "rect": [
+            446,
+            468,
+            511,
+            548
+          ],
+          "pixels": {
+            "colored_pixels": 1039,
+            "crimson_pixels": 660,
+            "magenta_pixels": 379,
+            "ink_bbox": [
+              446,
+              470,
+              511,
+              548
+            ],
+            "cx": 478.5,
+            "cy": 509.0
+          }
+        },
+        {
+          "verse": "6:14",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16369,
+          "rect": [
+            437,
+            804,
+            512,
+            874
+          ],
+          "pixels": {
+            "colored_pixels": 859,
+            "crimson_pixels": 640,
+            "magenta_pixels": 219,
+            "ink_bbox": [
+              437,
+              804,
+              505,
+              874
+            ],
+            "cx": 471.0,
+            "cy": 839.0
+          }
+        },
+        {
+          "verse": "6:17",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 16411,
+          "rect": [
+            438,
+            1357,
+            513,
+            1421
+          ],
+          "pixels": {
+            "colored_pixels": 896,
+            "crimson_pixels": 686,
+            "magenta_pixels": 210,
+            "ink_bbox": [
+              439,
+              1357,
+              507,
+              1414
+            ],
+            "cx": 473.0,
+            "cy": 1385.5
+          }
+        }
+      ],
+      "target_names": 3,
+      "column_aligned_names": 2,
+      "distance_aligned_names": 3
+    },
+    {
+      "page": 201,
+      "names": [
+        {
+          "verse": "9:94",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25559,
+          "rect": [
+            413,
+            144,
+            482,
+            212
+          ],
+          "pixels": {
+            "colored_pixels": 852,
+            "crimson_pixels": 627,
+            "magenta_pixels": 225,
+            "ink_bbox": [
+              414,
+              147,
+              480,
+              205
+            ],
+            "cx": 447.0,
+            "cy": 176.0
+          }
+        },
+        {
+          "verse": "9:94",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 25563,
+          "rect": [
+            925,
+            252,
+            999,
+            319
+          ],
+          "pixels": {
+            "colored_pixels": 867,
+            "crimson_pixels": 642,
+            "magenta_pixels": 225,
+            "ink_bbox": [
+              926,
+              259,
+              992,
+              316
+            ],
+            "cx": 959.0,
+            "cy": 287.5
+          }
+        },
+        {
+          "verse": "9:95",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25577,
+          "rect": [
+            22,
+            363,
+            110,
+            439
+          ],
+          "pixels": {
+            "colored_pixels": 1074,
+            "crimson_pixels": 805,
+            "magenta_pixels": 269,
+            "ink_bbox": [
+              25,
+              366,
+              110,
+              438
+            ],
+            "cx": 67.5,
+            "cy": 402.0
+          }
+        },
+        {
+          "verse": "9:96",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25602,
+          "rect": [
+            923,
+            805,
+            997,
+            875
+          ],
+          "pixels": {
+            "colored_pixels": 854,
+            "crimson_pixels": 644,
+            "magenta_pixels": 210,
+            "ink_bbox": [
+              923,
+              806,
+              992,
+              866
+            ],
+            "cx": 957.5,
+            "cy": 836.0
+          }
+        },
+        {
+          "verse": "9:97",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 25618,
+          "rect": [
+            22,
+            916,
+            99,
+            982
+          ],
+          "pixels": {
+            "colored_pixels": 893,
+            "crimson_pixels": 676,
+            "magenta_pixels": 217,
+            "ink_bbox": [
+              27,
+              918,
+              97,
+              975
+            ],
+            "cx": 62.0,
+            "cy": 946.5
+          }
+        },
+        {
+          "verse": "9:97",
+          "occurrence": 2,
+          "form": "والله",
+          "t": 25621,
+          "rect": [
+            658,
+            1024,
+            741,
+            1096
+          ],
+          "pixels": {
+            "colored_pixels": 891,
+            "crimson_pixels": 678,
+            "magenta_pixels": 213,
+            "ink_bbox": [
+              664,
+              1027,
+              733,
+              1085
+            ],
+            "cx": 698.5,
+            "cy": 1056.0
+          }
+        },
+        {
+          "verse": "9:98",
+          "occurrence": 1,
+          "form": "والله",
+          "t": 25637,
+          "rect": [
+            658,
+            1245,
+            743,
+            1320
+          ],
+          "pixels": {
+            "colored_pixels": 876,
+            "crimson_pixels": 633,
+            "magenta_pixels": 243,
+            "ink_bbox": [
+              663,
+              1248,
+              743,
+              1312
+            ],
+            "cx": 703.0,
+            "cy": 1280.0
+          }
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 1,
+          "form": "بالله",
+          "t": 25644,
+          "rect": [
+            658,
+            1356,
+            737,
+            1429
+          ],
+          "pixels": {
+            "colored_pixels": 988,
+            "crimson_pixels": 743,
+            "magenta_pixels": 245,
+            "ink_bbox": [
+              662,
+              1357,
+              737,
+              1429
+            ],
+            "cx": 699.5,
+            "cy": 1393.0
+          }
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 2,
+          "form": "الله",
+          "t": 25652,
+          "rect": [
+            662,
+            1466,
+            735,
+            1536
+          ],
+          "pixels": {
+            "colored_pixels": 819,
+            "crimson_pixels": 611,
+            "magenta_pixels": 208,
+            "ink_bbox": [
+              667,
+              1468,
+              735,
+              1536
+            ],
+            "cx": 701.0,
+            "cy": 1502.0
+          }
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 3,
+          "form": "الله",
+          "t": 25660,
+          "rect": [
+            660,
+            1578,
+            735,
+            1644
+          ],
+          "pixels": {
+            "colored_pixels": 791,
+            "crimson_pixels": 579,
+            "magenta_pixels": 212,
+            "ink_bbox": [
+              672,
+              1578,
+              735,
+              1635
+            ],
+            "cx": 703.5,
+            "cy": 1606.5
+          }
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 4,
+          "form": "الله",
+          "t": 25664,
+          "rect": [
+            364,
+            1576,
+            439,
+            1644
+          ],
+          "pixels": {
+            "colored_pixels": 926,
+            "crimson_pixels": 683,
+            "magenta_pixels": 243,
+            "ink_bbox": [
+              364,
+              1577,
+              437,
+              1635
+            ],
+            "cx": 400.5,
+            "cy": 1606.0
+          }
+        }
+      ],
+      "target_names": 11,
+      "column_aligned_names": 9,
+      "distance_aligned_names": 9
+    },
+    {
+      "page": 342,
+      "names": [
+        {
+          "verse": "23:23",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 44037,
+          "rect": [
+            23,
+            693,
+            96,
+            761
+          ],
+          "pixels": {
+            "colored_pixels": 941,
+            "crimson_pixels": 0,
+            "magenta_pixels": 941,
+            "ink_bbox": [
+              24,
+              700,
+              92,
+              754
+            ],
+            "cx": 58.0,
+            "cy": 727.0
+          }
+        },
+        {
+          "verse": "23:24",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 44062,
+          "rect": [
+            24,
+            914,
+            98,
+            980
+          ],
+          "pixels": {
+            "colored_pixels": 899,
+            "crimson_pixels": 0,
+            "magenta_pixels": 899,
+            "ink_bbox": [
+              28,
+              920,
+              90,
+              974
+            ],
+            "cx": 59.0,
+            "cy": 947.0
+          }
+        }
+      ],
+      "target_names": 2,
+      "column_aligned_names": 2,
+      "distance_aligned_names": 2
+    },
+    {
+      "page": 447,
+      "names": [
+        {
+          "verse": "37:56",
+          "occurrence": 1,
+          "form": "تالله",
+          "t": 57684,
+          "rect": [
+            485,
+            253,
+            587,
+            332
+          ],
+          "pixels": {
+            "colored_pixels": 1302,
+            "crimson_pixels": 0,
+            "magenta_pixels": 1302,
+            "ink_bbox": [
+              487,
+              256,
+              585,
+              329
+            ],
+            "cx": 536.0,
+            "cy": 292.5
+          }
+        },
+        {
+          "verse": "37:74",
+          "occurrence": 1,
+          "form": "الله",
+          "t": 57774,
+          "rect": [
+            497,
+            1466,
+            574,
+            1538
+          ],
+          "pixels": {
+            "colored_pixels": 900,
+            "crimson_pixels": 0,
+            "magenta_pixels": 900,
+            "ink_bbox": [
+              501,
+              1466,
+              570,
+              1538
+            ],
+            "cx": 535.5,
+            "cy": 1502.0
+          }
+        }
+      ],
+      "target_names": 2,
+      "column_aligned_names": 0,
+      "distance_aligned_names": 2
+    },
+    {
+      "page": 529,
+      "names": [],
+      "target_names": 0,
+      "column_aligned_names": 0,
+      "distance_aligned_names": 0
+    }
+  ],
+  "total_names": 22,
+  "colored_names": 22,
+  "column_aligned_names": 16,
+  "distance_aligned_names": 19,
+  "pins_v4": {
+    "predictions": 17,
+    "correct_localized_tokens": 17,
+    "target_tokens": 22,
+    "localized_token_recall": 0.7727272727272727,
+    "localized_prediction_precision": 1.0,
+    "status_counts": {
+      "correct": 17
+    },
+    "missing_token_ids": [
+      16411,
+      44037,
+      44062,
+      57684,
+      57774
+    ],
+    "unlocalized_token_ids": [
+      16411,
+      44037,
+      44062,
+      57684,
+      57774
+    ],
+    "predictions_detail": [
+      {
+        "t": 9384,
+        "page": 74,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 753.0,
+        "cy": 76.5,
+        "x0": 719,
+        "x1": 787,
+        "status": "correct"
+      },
+      {
+        "t": 9423,
+        "page": 74,
+        "form": "ولله",
+        "kind": "cri",
+        "cx": 748.0,
+        "cy": 623.0,
+        "x0": 715,
+        "x1": 781,
+        "status": "correct"
+      },
+      {
+        "t": 9427,
+        "page": 74,
+        "form": "والله",
+        "kind": "cri",
+        "cx": 65.0,
+        "cy": 623.0,
+        "x0": 31,
+        "x1": 99,
+        "status": "correct"
+      },
+      {
+        "t": 9445,
+        "page": 74,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 755.0,
+        "cy": 952.5,
+        "x0": 719,
+        "x1": 791,
+        "status": "correct"
+      },
+      {
+        "t": 16340,
+        "page": 128,
+        "form": "لله",
+        "kind": "cri",
+        "cx": 477.0,
+        "cy": 508.5,
+        "x0": 443,
+        "x1": 511,
+        "status": "correct"
+      },
+      {
+        "t": 16369,
+        "page": 128,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 470.0,
+        "cy": 843.0,
+        "x0": 435,
+        "x1": 505,
+        "status": "correct"
+      },
+      {
+        "t": 25559,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 447.0,
+        "cy": 182.5,
+        "x0": 414,
+        "x1": 480,
+        "status": "correct"
+      },
+      {
+        "t": 25563,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 959.0,
+        "cy": 296.0,
+        "x0": 926,
+        "x1": 992,
+        "status": "correct"
+      },
+      {
+        "t": 25577,
+        "page": 201,
+        "form": "بالله",
+        "kind": "cri",
+        "cx": 72.5,
+        "cy": 403.5,
+        "x0": 26,
+        "x1": 119,
+        "status": "correct"
+      },
+      {
+        "t": 25602,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 955.5,
+        "cy": 843.5,
+        "x0": 919,
+        "x1": 992,
+        "status": "correct"
+      },
+      {
+        "t": 25618,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 62.0,
+        "cy": 951.5,
+        "x0": 27,
+        "x1": 97,
+        "status": "correct"
+      },
+      {
+        "t": 25621,
+        "page": 201,
+        "form": "والله",
+        "kind": "cri",
+        "cx": 716.0,
+        "cy": 1059.5,
+        "x0": 665,
+        "x1": 767,
+        "status": "correct"
+      },
+      {
+        "t": 25637,
+        "page": 201,
+        "form": "والله",
+        "kind": "cri",
+        "cx": 712.5,
+        "cy": 1284.5,
+        "x0": 663,
+        "x1": 762,
+        "status": "correct"
+      },
+      {
+        "t": 25644,
+        "page": 201,
+        "form": "بالله",
+        "kind": "cri",
+        "cx": 708.0,
+        "cy": 1394.0,
+        "x0": 662,
+        "x1": 754,
+        "status": "correct"
+      },
+      {
+        "t": 25652,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 699.5,
+        "cy": 1501.5,
+        "x0": 664,
+        "x1": 735,
+        "status": "correct"
+      },
+      {
+        "t": 25660,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 705.0,
+        "cy": 1603.5,
+        "x0": 672,
+        "x1": 738,
+        "status": "correct"
+      },
+      {
+        "t": 25664,
+        "page": 201,
+        "form": "الله",
+        "kind": "cri",
+        "cx": 401.0,
+        "cy": 1603.5,
+        "x0": 365,
+        "x1": 437,
+        "status": "correct"
+      }
+    ]
+  },
+  "inputs": {
+    "audit_manual_ocr_heldout.json": "8b8f9db4ca70aae4bf67c93babffc9c0cabdb10a066f1db665a391893f46b988",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c",
+    "mark_identity_semantic_v4.json": "f3f7c439f41681fa41f87fa5d6ea6dd44ce100bb5bd456f8d5f181ba1830d898",
+    "real_boxes_v3/page_074.json": "5e4dbcee2a886796d751e345feb2f066ccaedc30b7be969451e322ccb4d50380",
+    "real_boxes_v3/page_128.json": "ca56d4df469992fcdd04f5702182071cac835239ce3609bced65e8f16fcd6a72",
+    "real_boxes_v3/page_201.json": "4c8fd5ba619be7a28d3896f57bf47282d4145fe894f9297f7b8027438794d89e",
+    "real_boxes_v3/page_342.json": "72521a1736a70ee33e23fc59c2db05c92fb64c88e39ae1eb34637fdecd1cd7f9",
+    "real_boxes_v3/page_447.json": "81d0a397b217b85220f57930052f328ced1c64bc96f2d3a52e32e0169262d9f6",
+    "real_boxes_v3/page_529.json": "72ed5ed3b4c7ea0691c872f51f47bd43b4e5abb39e57e3909ee57b7a96a0ac36"
+  },
+  "caveat": "Fresh stratified sample, one AI reader. Windows localize name cores, not boundaries. Alignment rates are descriptive. V4 pin rules were not tuned on these pages. CPU replay uses saved pixel measurements; --scans independently rereads images."
+}

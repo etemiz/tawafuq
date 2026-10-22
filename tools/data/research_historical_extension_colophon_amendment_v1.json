@@ -1,0 +1,8 @@
+{
+  "date":"2026-10-19",
+  "study":"historical-second-copy-1776-ocr-development-v1",
+  "reason":"Original IA n402 acquisition is visibly the back cover, not 199r. All five scored rectos show the requested handwritten foliation. The late sequence cannot be extrapolated from earlier labels without checking missing/jumped foliation.",
+  "action":"Retain original cover and OCR, fetch IA n398 as a provisional endmatter candidate under a separate name/manifest; inspect before asserting folio identity. Target colophon remains 199r; no extra name-rate pages or favorable substitutions.",
+  "candidate_n":398,
+  "inference":"Acquisition correction only; not independent dating. A failed candidate remains a failure."
+}

@@ -1,0 +1,952 @@
+{
+  "version": "fresh-name-and-word-boundary-sample-v2",
+  "seed": "t2-mandatory-word-boundary-v2-2026-10-18",
+  "excluded_pages": [
+    1,
+    15,
+    49,
+    74,
+    128,
+    148,
+    186,
+    201,
+    206,
+    207,
+    276,
+    342,
+    365,
+    412,
+    422,
+    447,
+    513,
+    529,
+    567
+  ],
+  "selection": "minimum SHA256(seed:page) in six fixed strata",
+  "mapper_rule_sha256": "94478a7c5a860e739535f7e8cefd7b0b5b5417eccc2b202a628f812867932eae",
+  "pages": [
+    {
+      "page": 26,
+      "stratum": [
+        1,
+        100
+      ],
+      "first_verse": "2:177",
+      "last_verse": "2:181",
+      "image_sha256": "731da20f35a387b0f63617d00e6b12767e328c3389a2a41be545547a6b7ad25a",
+      "ocr_bottom": 1680,
+      "names": [
+        {
+          "verse": "2:177",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            477,
+            143,
+            572,
+            224
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "2:181",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            468,
+            1572,
+            545,
+            1648
+          ],
+          "visually_colored": true
+        }
+      ],
+      "word_samples": [
+        {
+          "verse": "2:177",
+          "word_in_verse": 18,
+          "form": "والنبين",
+          "rect": [
+            707,
+            246,
+            850,
+            337
+          ],
+          "x_edges": [
+            707,
+            850
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "2:177",
+          "word_in_verse": 21,
+          "form": "علي",
+          "rect": [
+            474,
+            252,
+            543,
+            335
+          ],
+          "x_edges": [
+            474,
+            543
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "2:178",
+          "word_in_verse": 7,
+          "form": "في",
+          "rect": [
+            800,
+            807,
+            846,
+            883
+          ],
+          "x_edges": [
+            800,
+            846
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "2:178",
+          "word_in_verse": 10,
+          "form": "بالحر",
+          "rect": [
+            499,
+            805,
+            605,
+            886
+          ],
+          "x_edges": [
+            499,
+            605
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "2:180",
+          "word_in_verse": 7,
+          "form": "ان",
+          "rect": [
+            853,
+            1354,
+            904,
+            1433
+          ],
+          "x_edges": [
+            853,
+            904
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "2:180",
+          "word_in_verse": 10,
+          "form": "الوصيه",
+          "rect": [
+            546,
+            1350,
+            682,
+            1430
+          ],
+          "x_edges": [
+            546,
+            682
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        }
+      ]
+    },
+    {
+      "page": 130,
+      "stratum": [
+        101,
+        200
+      ],
+      "first_verse": "6:28",
+      "last_verse": "6:35",
+      "image_sha256": "19fe3facc2eaba64caabc1698d70bc49615e258ccab7a63296fc29c85dfe6066",
+      "ocr_bottom": 1680,
+      "names": [
+        {
+          "verse": "6:31",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            517,
+            472,
+            593,
+            548
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "6:33",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            518,
+            1024,
+            594,
+            1099
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "6:34",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            519,
+            1247,
+            595,
+            1320
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "6:35",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            923,
+            1572,
+            999,
+            1646
+          ],
+          "visually_colored": true
+        }
+      ],
+      "word_samples": [
+        {
+          "verse": "6:30",
+          "word_in_verse": 2,
+          "form": "تري",
+          "rect": [
+            817,
+            251,
+            902,
+            334
+          ],
+          "x_edges": [
+            817,
+            902
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "6:30",
+          "word_in_verse": 5,
+          "form": "علي",
+          "rect": [
+            612,
+            250,
+            687,
+            340
+          ],
+          "x_edges": [
+            612,
+            687
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "magenta",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "6:32",
+          "word_in_verse": 8,
+          "form": "الاخره",
+          "rect": [
+            741,
+            800,
+            864,
+            884
+          ],
+          "x_edges": [
+            741,
+            864
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "6:32",
+          "word_in_verse": 11,
+          "form": "يتقون",
+          "rect": [
+            406,
+            798,
+            550,
+            884
+          ],
+          "x_edges": [
+            406,
+            550
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "6:35",
+          "word_in_verse": 2,
+          "form": "كان",
+          "rect": [
+            804,
+            1351,
+            900,
+            1435
+          ],
+          "x_edges": [
+            804,
+            900
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "6:35",
+          "word_in_verse": 5,
+          "form": "اعراضهم",
+          "rect": [
+            451,
+            1351,
+            580,
+            1435
+          ],
+          "x_edges": [
+            451,
+            580
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        }
+      ]
+    },
+    {
+      "page": 286,
+      "stratum": [
+        201,
+        300
+      ],
+      "first_verse": "17:50",
+      "last_verse": "17:58",
+      "image_sha256": "24cae661a461fb7f87c0e073d60e385fc6a4999ece96c3dd39b9ecd0fca8875d",
+      "ocr_bottom": 1680,
+      "names": [],
+      "word_samples": [
+        {
+          "verse": "17:51",
+          "word_in_verse": 17,
+          "form": "رءوسهم",
+          "rect": [
+            745,
+            251,
+            888,
+            337
+          ],
+          "x_edges": [
+            745,
+            888
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "17:51",
+          "word_in_verse": 20,
+          "form": "هو",
+          "rect": [
+            441,
+            265,
+            484,
+            327
+          ],
+          "x_edges": [
+            441,
+            484
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "17:54",
+          "word_in_verse": 11,
+          "form": "وما",
+          "rect": [
+            750,
+            800,
+            820,
+            883
+          ],
+          "x_edges": [
+            750,
+            820
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "17:54",
+          "word_in_verse": 14,
+          "form": "وكيلا",
+          "rect": [
+            385,
+            800,
+            469,
+            883
+          ],
+          "x_edges": [
+            385,
+            469
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "17:57",
+          "word_in_verse": 12,
+          "form": "ويخافون",
+          "rect": [
+            648,
+            1350,
+            816,
+            1438
+          ],
+          "x_edges": [
+            648,
+            816
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "17:57",
+          "word_in_verse": 15,
+          "form": "عذاب",
+          "rect": [
+            408,
+            1350,
+            498,
+            1438
+          ],
+          "x_edges": [
+            408,
+            498
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        }
+      ]
+    },
+    {
+      "page": 393,
+      "stratum": [
+        301,
+        400
+      ],
+      "first_verse": "28:71",
+      "last_verse": "28:77",
+      "image_sha256": "164b0bd63ab47e5f1475c444af5f60e78c12285e3b8cf2411d367d90843fd161",
+      "ocr_bottom": 1680,
+      "names": [
+        {
+          "verse": "28:71",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            584,
+            30,
+            664,
+            105
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:71",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            584,
+            142,
+            664,
+            215
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:72",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            584,
+            252,
+            664,
+            325
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:72",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            584,
+            364,
+            664,
+            437
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:75",
+          "occurrence": 1,
+          "form": "لله",
+          "rect": [
+            585,
+            917,
+            663,
+            988
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:76",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            370,
+            1246,
+            449,
+            1320
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:77",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            584,
+            1357,
+            663,
+            1430
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:77",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            370,
+            1467,
+            449,
+            1539
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "28:77",
+          "occurrence": 3,
+          "form": "الله",
+          "rect": [
+            370,
+            1578,
+            449,
+            1650
+          ],
+          "visually_colored": true
+        }
+      ],
+      "word_samples": [
+        {
+          "verse": "28:72",
+          "word_in_verse": 2,
+          "form": "ارءيتم",
+          "rect": [
+            816,
+            248,
+            923,
+            334
+          ],
+          "x_edges": [
+            816,
+            923
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "magenta",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "28:72",
+          "word_in_verse": 5,
+          "form": "الله",
+          "rect": [
+            584,
+            250,
+            664,
+            327
+          ],
+          "x_edges": [
+            584,
+            664
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "crimson",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "28:75",
+          "word_in_verse": 2,
+          "form": "من",
+          "rect": [
+            744,
+            807,
+            811,
+            884
+          ],
+          "x_edges": [
+            744,
+            811
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "28:75",
+          "word_in_verse": 5,
+          "form": "شهيدا",
+          "rect": [
+            407,
+            799,
+            563,
+            884
+          ],
+          "x_edges": [
+            407,
+            563
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "28:77",
+          "word_in_verse": 2,
+          "form": "فيما",
+          "rect": [
+            784,
+            1350,
+            857,
+            1436
+          ],
+          "x_edges": [
+            784,
+            857
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "28:77",
+          "word_in_verse": 5,
+          "form": "الدار",
+          "rect": [
+            487,
+            1350,
+            573,
+            1436
+          ],
+          "x_edges": [
+            487,
+            573
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        }
+      ]
+    },
+    {
+      "page": 462,
+      "stratum": [
+        401,
+        500
+      ],
+      "first_verse": "39:41",
+      "last_verse": "39:47",
+      "image_sha256": "2b1741a6861cb19a1a92a66bccfd28720596cc6e5cb017f3b13134f467c76aa5",
+      "ocr_bottom": 1680,
+      "names": [
+        {
+          "verse": "39:42",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            751,
+            251,
+            837,
+            324
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "39:43",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            749,
+            584,
+            837,
+            657
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "39:44",
+          "occurrence": 1,
+          "form": "لله",
+          "rect": [
+            451,
+            693,
+            526,
+            766
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "39:45",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            749,
+            915,
+            837,
+            989
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "39:47",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            458,
+            1577,
+            535,
+            1648
+          ],
+          "visually_colored": true
+        }
+      ],
+      "word_samples": [
+        {
+          "verse": "39:42",
+          "word_in_verse": 1,
+          "form": "الله",
+          "rect": [
+            751,
+            250,
+            838,
+            327
+          ],
+          "x_edges": [
+            751,
+            838
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "crimson",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:42",
+          "word_in_verse": 4,
+          "form": "حين",
+          "rect": [
+            417,
+            254,
+            500,
+            335
+          ],
+          "x_edges": [
+            417,
+            500
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:44",
+          "word_in_verse": 7,
+          "form": "السموت",
+          "rect": [
+            687,
+            802,
+            890,
+            885
+          ],
+          "x_edges": [
+            687,
+            890
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:44",
+          "word_in_verse": 10,
+          "form": "اليه",
+          "rect": [
+            278,
+            804,
+            371,
+            884
+          ],
+          "x_edges": [
+            278,
+            371
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:47",
+          "word_in_verse": 1,
+          "form": "ولو",
+          "rect": [
+            727,
+            1350,
+            820,
+            1438
+          ],
+          "x_edges": [
+            727,
+            820
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:47",
+          "word_in_verse": 4,
+          "form": "ظلموا",
+          "rect": [
+            358,
+            1350,
+            485,
+            1438
+          ],
+          "x_edges": [
+            358,
+            485
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "39:46",
+          "word_in_verse": 2,
+          "form": "اللهم",
+          "rect": [
+            750,
+            1137,
+            866,
+            1212
+          ],
+          "x_edges": [
+            750,
+            866
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "crimson",
+          "selection": "supplemental_vocative"
+        }
+      ]
+    },
+    {
+      "page": 588,
+      "stratum": [
+        501,
+        604
+      ],
+      "first_verse": "83:27",
+      "last_verse": "83:36",
+      "image_sha256": "557d7fe8a94e2b90b77a5bcf99897d98b11d2c872b8775f172d34921fbfff15c",
+      "ocr_bottom": 670,
+      "names": [],
+      "word_samples": [
+        {
+          "verse": "83:31",
+          "word_in_verse": 1,
+          "form": "واذا",
+          "rect": [
+            676,
+            251,
+            780,
+            337
+          ],
+          "x_edges": [
+            676,
+            780
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        },
+        {
+          "verse": "83:31",
+          "word_in_verse": 4,
+          "form": "اهلهم",
+          "rect": [
+            362,
+            249,
+            492,
+            341
+          ],
+          "x_edges": [
+            362,
+            492
+          ],
+          "x_edge_tolerance": 12,
+          "ink_class": "black",
+          "selection": "fixed_row_positions"
+        }
+      ]
+    }
+  ],
+  "protocol": "One AI reader inspected unlabelled scans before OCR predictions. All scoped Allah forms plus 2nd/5th lexical words of Quran rows 3/8/13; missing rows omitted. p588 upper block only (83:27-36), before the surah ornament/basmala. Supplemental اللهم at 39:46 is outside the operational Allah-form census. Approximate word extents +/-12px horizontally; not pixel-exact boundaries or independent human double annotation."
+}

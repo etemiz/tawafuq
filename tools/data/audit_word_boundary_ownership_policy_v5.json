@@ -1,0 +1,3375 @@
+{
+  "version": "post-exposure-auxiliary-ownership-policy-v5",
+  "policy": {
+    "mandatory_only": "Exclude only the explicit optional pixels in the prior review; retain mandatory letters and vowels of either ink color. This is a mask convention, not certified linguistic ownership.",
+    "include_optional": "Include all explicitly optional pixels within each reviewed partition; already excluded neighboring words and signs stay excluded.",
+    "all_ownership": "Pass only if every subset between the nonempty mandatory and possible masks passes both horizontal edges, the original line rule and unchanged 12px tolerance. Abstentions remain failures; physical unavailable slots stay separate."
+  },
+  "edge_support": {
+    "66:7:1": [
+      [
+        815
+      ],
+      [
+        988
+      ]
+    ],
+    "157:2:1": [
+      [
+        968
+      ],
+      [
+        992
+      ]
+    ],
+    "157:2:4": [
+      [
+        709
+      ],
+      [
+        799
+      ]
+    ],
+    "157:12:7": [
+      [
+        339
+      ],
+      [
+        388
+      ]
+    ],
+    "229:2:7": [
+      [
+        196
+      ],
+      [
+        264
+      ]
+    ],
+    "229:7:1": [
+      [
+        907
+      ],
+      [
+        994
+      ]
+    ],
+    "229:7:7": [
+      [
+        386
+      ],
+      [
+        460
+      ]
+    ],
+    "229:12:7": [
+      [
+        538
+      ],
+      [
+        577
+      ]
+    ],
+    "376:2:1": [
+      [
+        918
+      ],
+      [
+        991
+      ]
+    ],
+    "376:7:4": [
+      [
+        663
+      ],
+      [
+        756
+      ]
+    ],
+    "376:7:7": [
+      [
+        397
+      ],
+      [
+        485
+      ]
+    ],
+    "376:12:1": [
+      [
+        976
+      ],
+      [
+        1000
+      ]
+    ],
+    "376:12:4": [
+      [
+        663
+      ],
+      [
+        797
+      ]
+    ],
+    "445:7:1": [
+      [
+        884
+      ],
+      [
+        999
+      ]
+    ],
+    "445:7:4": [
+      [
+        410
+      ],
+      [
+        588
+      ]
+    ],
+    "445:12:1": [
+      [
+        910
+      ],
+      [
+        997
+      ]
+    ],
+    "445:12:7": [
+      [
+        285
+      ],
+      [
+        395
+      ]
+    ],
+    "545:2:7": [
+      [
+        310
+      ],
+      [
+        346
+      ]
+    ],
+    "545:7:4": [
+      [
+        460
+      ],
+      [
+        602
+      ]
+    ],
+    "545:7:7": [
+      [
+        23
+      ],
+      [
+        144
+      ]
+    ],
+    "545:12:4": [
+      [
+        506
+      ],
+      [
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607
+      ]
+    ],
+    "545:12:7": [
+      [
+        113
+      ],
+      [
+        222
+      ]
+    ]
+  },
+  "methods": {
+    "broad_v5": {
+      "summary": {
+        "scheduled": 54,
+        "labelled": 52,
+        "unavailable": 2,
+        "all_ownership_evaluable": 52,
+        "nonunique_edge_support": 1,
+        "abstentions": 0,
+        "unscorable": 0,
+        "ownership_sensitive": 0,
+        "accepted_all_fail": 1,
+        "mandatory_only_pass": 51,
+        "include_optional_pass": 51,
+        "all_ownership_pass": 51
+      },
+      "previous_summary": {
+        "scheduled": 54,
+        "labelled": 52,
+        "unavailable": 2,
+        "accepted": 52,
+        "correct_centers": 52,
+        "wrong_accepted": 0,
+        "abstentions": 0,
+        "boundary_evaluable": 51,
+        "boundary_pass": 50
+      },
+      "details": [
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "والارض",
+          "bbox": [
+            863,
+            146,
+            991,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 12,
+          "worst_max_abs_error": 12,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            875,
+            1000
+          ],
+          "include_optional_edges": [
+            875,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "الذين",
+          "bbox": [
+            481,
+            146,
+            579,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            482,
+            577
+          ],
+          "include_optional_edges": [
+            482,
+            577
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "السراء",
+          "bbox": [
+            183,
+            146,
+            295,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            181,
+            284
+          ],
+          "include_optional_edges": [
+            181,
+            284
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "جزاؤهم",
+          "bbox": [
+            813,
+            705,
+            986,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            815,
+            988
+          ],
+          "include_optional_edges": [
+            815,
+            988
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "ربهم",
+          "bbox": [
+            452,
+            705,
+            545,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            456,
+            549
+          ],
+          "include_optional_edges": [
+            456,
+            549
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "من",
+          "bbox": [
+            140,
+            705,
+            193,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            143,
+            194
+          ],
+          "include_optional_edges": [
+            143,
+            194
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "وانتم",
+          "bbox": [
+            853,
+            1245,
+            996,
+            1316
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            855,
+            998
+          ],
+          "include_optional_edges": [
+            855,
+            998
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "كنتم",
+          "bbox": [
+            377,
+            1248,
+            544,
+            1319
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            382,
+            536
+          ],
+          "include_optional_edges": [
+            382,
+            536
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": null,
+          "bbox": null,
+          "original_boundary_eligible": null,
+          "original_boundary_pass": null,
+          "status": "unavailable"
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "لا",
+          "bbox": [
+            962,
+            145,
+            996,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            968,
+            992
+          ],
+          "include_optional_edges": [
+            968,
+            992
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "نكدا",
+          "bbox": [
+            699,
+            145,
+            797,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 10,
+          "worst_max_abs_error": 10,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            709,
+            799
+          ],
+          "include_optional_edges": [
+            709,
+            799
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "الايت",
+          "bbox": [
+            331,
+            145,
+            431,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            335,
+            424
+          ],
+          "include_optional_edges": [
+            335,
+            424
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "ابلغكم",
+          "bbox": [
+            858,
+            701,
+            996,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            859,
+            996
+          ],
+          "include_optional_edges": [
+            859,
+            996
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "وانصح",
+          "bbox": [
+            474,
+            701,
+            600,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            478,
+            604
+          ],
+          "include_optional_edges": [
+            478,
+            604
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "من",
+          "bbox": [
+            124,
+            701,
+            183,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            129,
+            182
+          ],
+          "include_optional_edges": [
+            129,
+            182
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "قوما",
+          "bbox": [
+            927,
+            1253,
+            996,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            930,
+            997
+          ],
+          "include_optional_edges": [
+            930,
+            997
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "عاد",
+          "bbox": [
+            625,
+            1253,
+            681,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            621,
+            684
+          ],
+          "include_optional_edges": [
+            621,
+            684
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "قال",
+          "bbox": [
+            334,
+            1253,
+            386,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            339,
+            388
+          ],
+          "include_optional_edges": [
+            339,
+            388
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "هذا",
+          "bbox": [
+            916,
+            145,
+            986,
+            221
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            918,
+            985
+          ],
+          "include_optional_edges": [
+            918,
+            985
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "قالوا",
+          "bbox": [
+            511,
+            147,
+            581,
+            222
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            515,
+            585
+          ],
+          "include_optional_edges": [
+            515,
+            585
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "امر",
+          "bbox": [
+            207,
+            149,
+            263,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            196,
+            264
+          ],
+          "include_optional_edges": [
+            196,
+            264
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "رسلنا",
+          "bbox": [
+            902,
+            693,
+            990,
+            771
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            907,
+            994
+          ],
+          "include_optional_edges": [
+            907,
+            994
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "بهم",
+          "bbox": [
+            671,
+            696,
+            733,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            674,
+            741
+          ],
+          "include_optional_edges": [
+            674,
+            741
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "ذرعا",
+          "bbox": [
+            387,
+            698,
+            457,
+            774
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            386,
+            460
+          ],
+          "include_optional_edges": [
+            386,
+            460
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "قال",
+          "bbox": [
+            931,
+            1249,
+            987,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            936,
+            990
+          ],
+          "include_optional_edges": [
+            936,
+            990
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "لي",
+          "bbox": [
+            776,
+            1249,
+            801,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            776,
+            805
+          ],
+          "include_optional_edges": [
+            776,
+            805
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "او",
+          "bbox": [
+            535,
+            1249,
+            579,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            538,
+            577
+          ],
+          "include_optional_edges": [
+            538,
+            577
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "طس",
+          "bbox": [
+            911,
+            146,
+            991,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            918,
+            991
+          ],
+          "include_optional_edges": [
+            918,
+            991
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "القرءان",
+          "bbox": [
+            648,
+            146,
+            741,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            650,
+            740
+          ],
+          "include_optional_edges": [
+            650,
+            740
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "هدي",
+          "bbox": [
+            299,
+            146,
+            373,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            301,
+            375
+          ],
+          "include_optional_edges": [
+            301,
+            375
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "عليم",
+          "bbox": [
+            917,
+            693,
+            991,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            909,
+            994
+          ],
+          "include_optional_edges": [
+            909,
+            994
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "موسي",
+          "bbox": [
+            662,
+            693,
+            750,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            663,
+            756
+          ],
+          "include_optional_edges": [
+            663,
+            756
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "ءانست",
+          "bbox": [
+            395,
+            693,
+            484,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            397,
+            485
+          ],
+          "include_optional_edges": [
+            397,
+            485
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "لا",
+          "bbox": [
+            973,
+            1249,
+            1007,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            976,
+            1000
+          ],
+          "include_optional_edges": [
+            976,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "المرسلون",
+          "bbox": [
+            662,
+            1248,
+            805,
+            1321
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            663,
+            797
+          ],
+          "include_optional_edges": [
+            663,
+            797
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "ظلم",
+          "bbox": [
+            437,
+            1247,
+            504,
+            1318
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            436,
+            504
+          ],
+          "include_optional_edges": [
+            436,
+            504
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "والصفت",
+          "bbox": [
+            818,
+            147,
+            987,
+            216
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 12,
+          "worst_max_abs_error": 12,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            819,
+            999
+          ],
+          "include_optional_edges": [
+            819,
+            999
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "زجرا",
+          "bbox": [
+            384,
+            147,
+            466,
+            216
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            395,
+            470
+          ],
+          "include_optional_edges": [
+            395,
+            470
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": null,
+          "bbox": null,
+          "original_boundary_eligible": null,
+          "original_boundary_pass": null,
+          "status": "unavailable"
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "فاتبعه",
+          "bbox": [
+            882,
+            703,
+            988,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            884,
+            999
+          ],
+          "include_optional_edges": [
+            884,
+            999
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "فاستفتهم",
+          "bbox": [
+            410,
+            697,
+            583,
+            765
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            410,
+            588
+          ],
+          "include_optional_edges": [
+            410,
+            588
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "خلقا",
+          "bbox": [
+            141,
+            694,
+            229,
+            761
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            146,
+            223
+          ],
+          "include_optional_edges": [
+            146,
+            223
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "زجره",
+          "bbox": [
+            912,
+            1249,
+            991,
+            1313
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            910,
+            997
+          ],
+          "include_optional_edges": [
+            910,
+            997
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "هم",
+          "bbox": [
+            677,
+            1251,
+            721,
+            1315
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            677,
+            726
+          ],
+          "include_optional_edges": [
+            677,
+            726
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "يويلنا",
+          "bbox": [
+            283,
+            1253,
+            392,
+            1317
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            285,
+            395
+          ],
+          "include_optional_edges": [
+            285,
+            395
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "شديد",
+          "bbox": [
+            896,
+            151,
+            995,
+            229
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            897,
+            995
+          ],
+          "include_optional_edges": [
+            897,
+            995
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "قطعتم",
+          "bbox": [
+            524,
+            148,
+            641,
+            226
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            527,
+            644
+          ],
+          "include_optional_edges": [
+            527,
+            644
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "او",
+          "bbox": [
+            312,
+            147,
+            349,
+            223
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            310,
+            346
+          ],
+          "include_optional_edges": [
+            310,
+            346
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "وللرسول",
+          "bbox": [
+            841,
+            705,
+            996,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            840,
+            1000
+          ],
+          "include_optional_edges": [
+            840,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "واليتمي",
+          "bbox": [
+            458,
+            705,
+            599,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            460,
+            602
+          ],
+          "include_optional_edges": [
+            460,
+            602
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "السبيل",
+          "bbox": [
+            20,
+            705,
+            160,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "all_fail",
+          "best_max_abs_error": 16,
+          "worst_max_abs_error": 16,
+          "ownership_outcome": "all_fail",
+          "mandatory_only_edges": [
+            23,
+            144
+          ],
+          "include_optional_edges": [
+            23,
+            144
+          ],
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "وينصرون",
+          "bbox": [
+            847,
+            1251,
+            998,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            845,
+            1001
+          ],
+          "include_optional_edges": [
+            845,
+            1001
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "اولئك",
+          "bbox": [
+            497,
+            1251,
+            600,
+            1320
+          ],
+          "original_boundary_eligible": false,
+          "original_boundary_pass": false,
+          "status": "all_pass",
+          "best_max_abs_error": 9,
+          "worst_max_abs_error": 9,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            506,
+            597
+          ],
+          "include_optional_edges": [
+            506,
+            607
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "والذين",
+          "bbox": [
+            115,
+            1251,
+            220,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            113,
+            222
+          ],
+          "include_optional_edges": [
+            113,
+            222
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        }
+      ],
+      "retained_failures": [
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "السبيل",
+          "bbox": [
+            20,
+            705,
+            160,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "all_fail",
+          "best_max_abs_error": 16,
+          "worst_max_abs_error": 16,
+          "ownership_outcome": "all_fail",
+          "mandatory_only_edges": [
+            23,
+            144
+          ],
+          "include_optional_edges": [
+            23,
+            144
+          ],
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        }
+      ]
+    },
+    "conservative_v5": {
+      "summary": {
+        "scheduled": 54,
+        "labelled": 52,
+        "unavailable": 2,
+        "all_ownership_evaluable": 52,
+        "nonunique_edge_support": 1,
+        "abstentions": 2,
+        "unscorable": 0,
+        "ownership_sensitive": 0,
+        "accepted_all_fail": 1,
+        "mandatory_only_pass": 49,
+        "include_optional_pass": 49,
+        "all_ownership_pass": 49
+      },
+      "previous_summary": {
+        "scheduled": 54,
+        "labelled": 52,
+        "unavailable": 2,
+        "accepted": 50,
+        "correct_centers": 50,
+        "wrong_accepted": 0,
+        "abstentions": 2,
+        "boundary_evaluable": 51,
+        "boundary_pass": 48
+      },
+      "details": [
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "والارض",
+          "bbox": [
+            863,
+            146,
+            991,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 12,
+          "worst_max_abs_error": 12,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            875,
+            1000
+          ],
+          "include_optional_edges": [
+            875,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "الذين",
+          "bbox": [
+            481,
+            146,
+            579,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            482,
+            577
+          ],
+          "include_optional_edges": [
+            482,
+            577
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "السراء",
+          "bbox": [
+            183,
+            146,
+            295,
+            220
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            181,
+            284
+          ],
+          "include_optional_edges": [
+            181,
+            284
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "جزاؤهم",
+          "bbox": [
+            813,
+            705,
+            986,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            815,
+            988
+          ],
+          "include_optional_edges": [
+            815,
+            988
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "ربهم",
+          "bbox": [
+            452,
+            705,
+            545,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            456,
+            549
+          ],
+          "include_optional_edges": [
+            456,
+            549
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "من",
+          "bbox": [
+            140,
+            705,
+            193,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            143,
+            194
+          ],
+          "include_optional_edges": [
+            143,
+            194
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "وانتم",
+          "bbox": [
+            853,
+            1245,
+            996,
+            1316
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            855,
+            998
+          ],
+          "include_optional_edges": [
+            855,
+            998
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "كنتم",
+          "bbox": [
+            377,
+            1248,
+            544,
+            1319
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            382,
+            536
+          ],
+          "include_optional_edges": [
+            382,
+            536
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 66,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": null,
+          "bbox": null,
+          "original_boundary_eligible": null,
+          "original_boundary_pass": null,
+          "status": "unavailable"
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "لا",
+          "bbox": [
+            962,
+            145,
+            996,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            968,
+            992
+          ],
+          "include_optional_edges": [
+            968,
+            992
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "نكدا",
+          "bbox": [
+            699,
+            145,
+            797,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 10,
+          "worst_max_abs_error": 10,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            709,
+            799
+          ],
+          "include_optional_edges": [
+            709,
+            799
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "الايت",
+          "bbox": [
+            331,
+            145,
+            431,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            335,
+            424
+          ],
+          "include_optional_edges": [
+            335,
+            424
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "ابلغكم",
+          "bbox": [
+            858,
+            701,
+            996,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            859,
+            996
+          ],
+          "include_optional_edges": [
+            859,
+            996
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "وانصح",
+          "bbox": [
+            474,
+            701,
+            600,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            478,
+            604
+          ],
+          "include_optional_edges": [
+            478,
+            604
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "من",
+          "bbox": [
+            124,
+            701,
+            183,
+            775
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            129,
+            182
+          ],
+          "include_optional_edges": [
+            129,
+            182
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "قوما",
+          "bbox": [
+            927,
+            1253,
+            996,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            930,
+            997
+          ],
+          "include_optional_edges": [
+            930,
+            997
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "عاد",
+          "bbox": [
+            625,
+            1253,
+            681,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            621,
+            684
+          ],
+          "include_optional_edges": [
+            621,
+            684
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 157,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "قال",
+          "bbox": [
+            334,
+            1253,
+            386,
+            1322
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            339,
+            388
+          ],
+          "include_optional_edges": [
+            339,
+            388
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "هذا",
+          "bbox": [
+            916,
+            145,
+            986,
+            221
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            918,
+            985
+          ],
+          "include_optional_edges": [
+            918,
+            985
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "قالوا",
+          "bbox": [
+            511,
+            147,
+            581,
+            222
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            515,
+            585
+          ],
+          "include_optional_edges": [
+            515,
+            585
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "امر",
+          "bbox": [
+            207,
+            149,
+            263,
+            224
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            196,
+            264
+          ],
+          "include_optional_edges": [
+            196,
+            264
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "رسلنا",
+          "bbox": [
+            902,
+            693,
+            990,
+            771
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            907,
+            994
+          ],
+          "include_optional_edges": [
+            907,
+            994
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "بهم",
+          "bbox": [
+            671,
+            696,
+            733,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            674,
+            741
+          ],
+          "include_optional_edges": [
+            674,
+            741
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "ذرعا",
+          "bbox": [
+            387,
+            698,
+            457,
+            774
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            386,
+            460
+          ],
+          "include_optional_edges": [
+            386,
+            460
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "قال",
+          "bbox": [
+            931,
+            1249,
+            987,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            936,
+            990
+          ],
+          "include_optional_edges": [
+            936,
+            990
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "لي",
+          "bbox": [
+            776,
+            1249,
+            801,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            776,
+            805
+          ],
+          "include_optional_edges": [
+            776,
+            805
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 229,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "او",
+          "bbox": [
+            535,
+            1249,
+            579,
+            1326
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            538,
+            577
+          ],
+          "include_optional_edges": [
+            538,
+            577
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "طس",
+          "bbox": [
+            911,
+            146,
+            991,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            918,
+            991
+          ],
+          "include_optional_edges": [
+            918,
+            991
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "القرءان",
+          "bbox": [
+            648,
+            146,
+            741,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            650,
+            740
+          ],
+          "include_optional_edges": [
+            650,
+            740
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "هدي",
+          "bbox": [
+            299,
+            146,
+            373,
+            227
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            301,
+            375
+          ],
+          "include_optional_edges": [
+            301,
+            375
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "عليم",
+          "bbox": [
+            917,
+            693,
+            991,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            909,
+            994
+          ],
+          "include_optional_edges": [
+            909,
+            994
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "موسي",
+          "bbox": [
+            662,
+            693,
+            750,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            663,
+            756
+          ],
+          "include_optional_edges": [
+            663,
+            756
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "ءانست",
+          "bbox": [
+            395,
+            693,
+            484,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            397,
+            485
+          ],
+          "include_optional_edges": [
+            397,
+            485
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "لا",
+          "bbox": [
+            973,
+            1249,
+            1007,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 7,
+          "worst_max_abs_error": 7,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            976,
+            1000
+          ],
+          "include_optional_edges": [
+            976,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "المرسلون",
+          "bbox": [
+            662,
+            1248,
+            805,
+            1321
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 8,
+          "worst_max_abs_error": 8,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            663,
+            797
+          ],
+          "include_optional_edges": [
+            663,
+            797
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 376,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "ظلم",
+          "bbox": [
+            437,
+            1247,
+            504,
+            1318
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            436,
+            504
+          ],
+          "include_optional_edges": [
+            436,
+            504
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "والصفت",
+          "bbox": null,
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "abstained",
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "زجرا",
+          "bbox": [
+            384,
+            147,
+            466,
+            216
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            395,
+            470
+          ],
+          "include_optional_edges": [
+            395,
+            470
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": null,
+          "bbox": null,
+          "original_boundary_eligible": null,
+          "original_boundary_pass": null,
+          "status": "unavailable"
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "فاتبعه",
+          "bbox": [
+            882,
+            703,
+            988,
+            770
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 11,
+          "worst_max_abs_error": 11,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            884,
+            999
+          ],
+          "include_optional_edges": [
+            884,
+            999
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "فاستفتهم",
+          "bbox": [
+            410,
+            697,
+            583,
+            765
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            410,
+            588
+          ],
+          "include_optional_edges": [
+            410,
+            588
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "خلقا",
+          "bbox": [
+            141,
+            694,
+            229,
+            761
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            146,
+            223
+          ],
+          "include_optional_edges": [
+            146,
+            223
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "زجره",
+          "bbox": [
+            912,
+            1249,
+            991,
+            1313
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 6,
+          "worst_max_abs_error": 6,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            910,
+            997
+          ],
+          "include_optional_edges": [
+            910,
+            997
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "هم",
+          "bbox": [
+            677,
+            1251,
+            721,
+            1315
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 5,
+          "worst_max_abs_error": 5,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            677,
+            726
+          ],
+          "include_optional_edges": [
+            677,
+            726
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "يويلنا",
+          "bbox": null,
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "abstained",
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "شديد",
+          "bbox": [
+            896,
+            151,
+            995,
+            229
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 1,
+          "worst_max_abs_error": 1,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            897,
+            995
+          ],
+          "include_optional_edges": [
+            897,
+            995
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 4,
+          "form": "قطعتم",
+          "bbox": [
+            524,
+            148,
+            641,
+            226
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            527,
+            644
+          ],
+          "include_optional_edges": [
+            527,
+            644
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 2,
+          "lexical_position_rtl": 7,
+          "form": "او",
+          "bbox": [
+            312,
+            147,
+            349,
+            223
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            310,
+            346
+          ],
+          "include_optional_edges": [
+            310,
+            346
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 1,
+          "form": "وللرسول",
+          "bbox": [
+            841,
+            705,
+            996,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 4,
+          "worst_max_abs_error": 4,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            840,
+            1000
+          ],
+          "include_optional_edges": [
+            840,
+            1000
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 4,
+          "form": "واليتمي",
+          "bbox": [
+            458,
+            705,
+            599,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            460,
+            602
+          ],
+          "include_optional_edges": [
+            460,
+            602
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "السبيل",
+          "bbox": [
+            20,
+            705,
+            160,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "all_fail",
+          "best_max_abs_error": 16,
+          "worst_max_abs_error": 16,
+          "ownership_outcome": "all_fail",
+          "mandatory_only_edges": [
+            23,
+            144
+          ],
+          "include_optional_edges": [
+            23,
+            144
+          ],
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 1,
+          "form": "وينصرون",
+          "bbox": [
+            847,
+            1251,
+            998,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 3,
+          "worst_max_abs_error": 3,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            845,
+            1001
+          ],
+          "include_optional_edges": [
+            845,
+            1001
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 4,
+          "form": "اولئك",
+          "bbox": [
+            497,
+            1251,
+            600,
+            1320
+          ],
+          "original_boundary_eligible": false,
+          "original_boundary_pass": false,
+          "status": "all_pass",
+          "best_max_abs_error": 9,
+          "worst_max_abs_error": 9,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            506,
+            597
+          ],
+          "include_optional_edges": [
+            506,
+            607
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        },
+        {
+          "page": 545,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "والذين",
+          "bbox": [
+            115,
+            1251,
+            220,
+            1320
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": true,
+          "status": "all_pass",
+          "best_max_abs_error": 2,
+          "worst_max_abs_error": 2,
+          "ownership_outcome": "all_pass",
+          "mandatory_only_edges": [
+            113,
+            222
+          ],
+          "include_optional_edges": [
+            113,
+            222
+          ],
+          "mandatory_only_pass": true,
+          "include_optional_pass": true,
+          "all_ownership_pass": true
+        }
+      ],
+      "retained_failures": [
+        {
+          "page": 445,
+          "physical_row": 2,
+          "lexical_position_rtl": 1,
+          "form": "والصفت",
+          "bbox": null,
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "abstained",
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 445,
+          "physical_row": 12,
+          "lexical_position_rtl": 7,
+          "form": "يويلنا",
+          "bbox": null,
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "abstained",
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        },
+        {
+          "page": 545,
+          "physical_row": 7,
+          "lexical_position_rtl": 7,
+          "form": "السبيل",
+          "bbox": [
+            20,
+            705,
+            160,
+            772
+          ],
+          "original_boundary_eligible": true,
+          "original_boundary_pass": false,
+          "status": "all_fail",
+          "best_max_abs_error": 16,
+          "worst_max_abs_error": 16,
+          "ownership_outcome": "all_fail",
+          "mandatory_only_edges": [
+            23,
+            144
+          ],
+          "include_optional_edges": [
+            23,
+            144
+          ],
+          "mandatory_only_pass": false,
+          "include_optional_pass": false,
+          "all_ownership_pass": false
+        }
+      ]
+    }
+  },
+  "inputs": {
+    "audit_word_boundary_extent_labels_v5.json": "d66abb8c46833760430ce223edff8402cb74d90b7649f5efca957daf3d9114f0",
+    "audit_manual_word_boundary_extent_v5.json": "2dd38edabdc86c0cc03028c8e05ebbb4ecfba3b075aaf62667fceecca4396fd8",
+    "audit_word_boundary_extent_validation_v5.json": "1f49308474a62365e49f1f5e302d4dfc34d789bdd724d973aeddd2e415d17ae9",
+    "word_boundary_ownership_policy.py": "0cd50bb4b3d5cca6810ed783a582aed858c185ce16e11eadb0811238230d873c"
+  },
+  "caveat": "Same-reader post-exposure policy sensitivity, conditional on the prior manual partitions and ownership masks. Full mark ownership and exact edges may remain uncertain even when every allowed edge passes. No change to OCR geometry, acceptance, center results, original annotations or fresh-validation report."
+}

@@ -1,0 +1,3335 @@
+{
+  "version": "fresh-frozen-seeded-row-word-comparison-v4",
+  "results": {
+    "preserved_sites_v1": {
+      "groups": {
+        "all": {
+          "total": 20,
+          "accepted": 20,
+          "correct_centers": 20,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "fixed_second_words": {
+          "total": 18,
+          "accepted": 18,
+          "correct_centers": 18,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "basmala_names": {
+          "total": 2,
+          "accepted": 2,
+          "correct_centers": 2,
+          "boundary_evaluable": 0,
+          "boundary_pass": 0
+        }
+      },
+      "details": [
+        {
+          "page": 163,
+          "t": 20932,
+          "kind": "verse",
+          "verse": "7:106",
+          "word_in_verse": 3,
+          "form": "كنت",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            860,
+            225,
+            957,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 948,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              873,
+              225,
+              952,
+              315
+            ]
+          },
+          "rect": [
+            871,
+            223,
+            954,
+            317
+          ],
+          "x_edges": [
+            873,
+            952
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            868,
+            253,
+            946,
+            330
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -5,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 20977,
+          "kind": "verse",
+          "verse": "7:112",
+          "word_in_verse": 2,
+          "form": "بكل",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            742,
+            775,
+            847,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1142,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              746,
+              813,
+              842,
+              886
+            ]
+          },
+          "rect": [
+            744,
+            811,
+            844,
+            888
+          ],
+          "x_edges": [
+            746,
+            842
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            746,
+            810,
+            836,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 21022,
+          "kind": "verse",
+          "verse": "7:117",
+          "word_in_verse": 6,
+          "form": "عصاك",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            790,
+            1325,
+            923,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1556,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              798,
+              1349,
+              916,
+              1416
+            ]
+          },
+          "rect": [
+            796,
+            1347,
+            918,
+            1418
+          ],
+          "x_edges": [
+            798,
+            916
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            797,
+            1356,
+            913,
+            1427
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -1,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32373,
+          "kind": "verse",
+          "verse": "13:30",
+          "word_in_verse": 13,
+          "form": "اوحينا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            786,
+            225,
+            916,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1331,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              786,
+              248,
+              916,
+              325
+            ]
+          },
+          "rect": [
+            784,
+            246,
+            918,
+            327
+          ],
+          "x_edges": [
+            786,
+            916
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            803,
+            256,
+            913,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32429,
+          "kind": "verse",
+          "verse": "13:31",
+          "word_in_verse": 41,
+          "form": "من",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            839,
+            775,
+            906,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 459,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              854,
+              819,
+              903,
+              881
+            ]
+          },
+          "rect": [
+            852,
+            817,
+            905,
+            883
+          ],
+          "x_edges": [
+            854,
+            903
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            851,
+            812,
+            899,
+            880
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32476,
+          "kind": "verse",
+          "verse": "13:33",
+          "word_in_verse": 24,
+          "form": "القول",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            819,
+            1325,
+            932,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1212,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              819,
+              1358,
+              932,
+              1429
+            ]
+          },
+          "rect": [
+            817,
+            1356,
+            934,
+            1431
+          ],
+          "x_edges": [
+            819,
+            932
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            839,
+            1359,
+            939,
+            1428
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            20,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40889,
+          "kind": "verse",
+          "verse": "20:89",
+          "word_in_verse": 7,
+          "form": "ولا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            800,
+            225,
+            918,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 719,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              245,
+              918,
+              328
+            ]
+          },
+          "rect": [
+            798,
+            243,
+            920,
+            330
+          ],
+          "x_edges": [
+            800,
+            918
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            819,
+            259,
+            887,
+            329
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            19,
+            -31
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40932,
+          "kind": "verse",
+          "verse": "20:94",
+          "word_in_verse": 2,
+          "form": "يبنؤم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            806,
+            775,
+            925,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1316,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              814,
+              816,
+              917,
+              878
+            ]
+          },
+          "rect": [
+            812,
+            814,
+            919,
+            880
+          ],
+          "x_edges": [
+            814,
+            917
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            814,
+            812,
+            913,
+            884
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40981,
+          "kind": "verse",
+          "verse": "20:97",
+          "word_in_verse": 13,
+          "form": "موعدا",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            792,
+            1325,
+            920,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1148,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              799,
+              1350,
+              911,
+              1432
+            ]
+          },
+          "rect": [
+            797,
+            1348,
+            913,
+            1434
+          ],
+          "x_edges": [
+            799,
+            911
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            789,
+            1353,
+            909,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -10,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45771,
+          "kind": "verse",
+          "verse": "24:45",
+          "word_in_verse": 13,
+          "form": "من",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            790,
+            225,
+            845,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 514,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              269,
+              845,
+              321
+            ]
+          },
+          "rect": [
+            798,
+            267,
+            847,
+            323
+          ],
+          "x_edges": [
+            800,
+            845
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            798,
+            264,
+            846,
+            341
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45823,
+          "kind": "verse",
+          "verse": "24:48",
+          "word_in_verse": 8,
+          "form": "اذا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            820,
+            775,
+            882,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 639,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              820,
+              813,
+              882,
+              879
+            ]
+          },
+          "rect": [
+            818,
+            811,
+            884,
+            881
+          ],
+          "x_edges": [
+            820,
+            882
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            837,
+            816,
+            886,
+            892
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45870,
+          "kind": "verse",
+          "verse": "24:52",
+          "word_in_verse": 3,
+          "form": "الله",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            832,
+            1325,
+            902,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 867,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              832,
+              1361,
+              902,
+              1416
+            ]
+          },
+          "rect": [
+            830,
+            1359,
+            904,
+            1418
+          ],
+          "x_edges": [
+            832,
+            902
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            836,
+            1364,
+            910,
+            1440
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            4,
+            8
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57806,
+          "kind": "verse",
+          "verse": "37:81",
+          "word_in_verse": 4,
+          "form": "المؤمنين",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            728,
+            225,
+            877,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1659,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              740,
+              258,
+              872,
+              335
+            ]
+          },
+          "rect": [
+            738,
+            256,
+            874,
+            337
+          ],
+          "x_edges": [
+            740,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            737,
+            256,
+            878,
+            332
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57851,
+          "kind": "verse",
+          "verse": "37:92",
+          "word_in_verse": 2,
+          "form": "لكم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            886,
+            775,
+            953,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 832,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              895,
+              797,
+              953,
+              867
+            ]
+          },
+          "rect": [
+            893,
+            795,
+            955,
+            869
+          ],
+          "x_edges": [
+            895,
+            953
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            893,
+            803,
+            960,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57894,
+          "kind": "verse",
+          "verse": "37:101",
+          "word_in_verse": 3,
+          "form": "حليم",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            766,
+            1325,
+            875,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 922,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              772,
+              1366,
+              872,
+              1435
+            ]
+          },
+          "rect": [
+            770,
+            1364,
+            874,
+            1437
+          ],
+          "x_edges": [
+            772,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            777,
+            1362,
+            870,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            5,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70141,
+          "kind": "verse",
+          "verse": "58:13",
+          "word_in_verse": 2,
+          "form": "ان",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            815,
+            225,
+            860,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 414,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              815,
+              264,
+              860,
+              318
+            ]
+          },
+          "rect": [
+            813,
+            262,
+            862,
+            320
+          ],
+          "x_edges": [
+            815,
+            860
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            808,
+            260,
+            860,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -7,
+            0
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70193,
+          "kind": "verse",
+          "verse": "58:16",
+          "word_in_verse": 1,
+          "form": "اتخذوا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            697,
+            775,
+            807,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1396,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              708,
+              797,
+              807,
+              876
+            ]
+          },
+          "rect": [
+            706,
+            795,
+            809,
+            878
+          ],
+          "x_edges": [
+            708,
+            807
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            694,
+            802,
+            806,
+            875
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -14,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70239,
+          "kind": "verse",
+          "verse": "58:19",
+          "word_in_verse": 5,
+          "form": "ذكر",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            736,
+            1325,
+            827,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 881,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              741,
+              1367,
+              827,
+              1428
+            ]
+          },
+          "rect": [
+            739,
+            1365,
+            829,
+            1430
+          ],
+          "x_edges": [
+            741,
+            827
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            740,
+            1356,
+            826,
+            1424
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -1,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 311,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "20:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            250,
+            570,
+            338,
+            674
+          ],
+          "pixels": {
+            "ink_pixels": 1405,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              250,
+              588,
+              338,
+              666
+            ]
+          },
+          "rect": [
+            248,
+            586,
+            340,
+            668
+          ],
+          "x_edges": [
+            250,
+            338
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            255,
+            595,
+            386,
+            663
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            5,
+            48
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 321,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "21:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            225,
+            235,
+            315,
+            340
+          ],
+          "pixels": {
+            "ink_pixels": 1312,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              225,
+              254,
+              315,
+              333
+            ]
+          },
+          "rect": [
+            223,
+            252,
+            317,
+            335
+          ],
+          "x_edges": [
+            225,
+            315
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            228,
+            260,
+            369,
+            338
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            3,
+            54
+          ],
+          "status": "correct_center"
+        }
+      ]
+    },
+    "observations_v3": {
+      "groups": {
+        "all": {
+          "total": 20,
+          "accepted": 20,
+          "correct_centers": 20,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "fixed_second_words": {
+          "total": 18,
+          "accepted": 18,
+          "correct_centers": 18,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "basmala_names": {
+          "total": 2,
+          "accepted": 2,
+          "correct_centers": 2,
+          "boundary_evaluable": 0,
+          "boundary_pass": 0
+        }
+      },
+      "details": [
+        {
+          "page": 163,
+          "t": 20932,
+          "kind": "verse",
+          "verse": "7:106",
+          "word_in_verse": 3,
+          "form": "كنت",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            860,
+            225,
+            957,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 948,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              873,
+              225,
+              952,
+              315
+            ]
+          },
+          "rect": [
+            871,
+            223,
+            954,
+            317
+          ],
+          "x_edges": [
+            873,
+            952
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            868,
+            253,
+            946,
+            330
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -5,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 20977,
+          "kind": "verse",
+          "verse": "7:112",
+          "word_in_verse": 2,
+          "form": "بكل",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            742,
+            775,
+            847,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1142,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              746,
+              813,
+              842,
+              886
+            ]
+          },
+          "rect": [
+            744,
+            811,
+            844,
+            888
+          ],
+          "x_edges": [
+            746,
+            842
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            746,
+            810,
+            836,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 21022,
+          "kind": "verse",
+          "verse": "7:117",
+          "word_in_verse": 6,
+          "form": "عصاك",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            790,
+            1325,
+            923,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1556,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              798,
+              1349,
+              916,
+              1416
+            ]
+          },
+          "rect": [
+            796,
+            1347,
+            918,
+            1418
+          ],
+          "x_edges": [
+            798,
+            916
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            797,
+            1356,
+            913,
+            1427
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -1,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32373,
+          "kind": "verse",
+          "verse": "13:30",
+          "word_in_verse": 13,
+          "form": "اوحينا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            786,
+            225,
+            916,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1331,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              786,
+              248,
+              916,
+              325
+            ]
+          },
+          "rect": [
+            784,
+            246,
+            918,
+            327
+          ],
+          "x_edges": [
+            786,
+            916
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            803,
+            256,
+            913,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32429,
+          "kind": "verse",
+          "verse": "13:31",
+          "word_in_verse": 41,
+          "form": "من",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            839,
+            775,
+            906,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 459,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              854,
+              819,
+              903,
+              881
+            ]
+          },
+          "rect": [
+            852,
+            817,
+            905,
+            883
+          ],
+          "x_edges": [
+            854,
+            903
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            851,
+            812,
+            899,
+            880
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32476,
+          "kind": "verse",
+          "verse": "13:33",
+          "word_in_verse": 24,
+          "form": "القول",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            819,
+            1325,
+            932,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1212,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              819,
+              1358,
+              932,
+              1429
+            ]
+          },
+          "rect": [
+            817,
+            1356,
+            934,
+            1431
+          ],
+          "x_edges": [
+            819,
+            932
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            839,
+            1359,
+            939,
+            1428
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            20,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40889,
+          "kind": "verse",
+          "verse": "20:89",
+          "word_in_verse": 7,
+          "form": "ولا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            800,
+            225,
+            918,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 719,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              245,
+              918,
+              328
+            ]
+          },
+          "rect": [
+            798,
+            243,
+            920,
+            330
+          ],
+          "x_edges": [
+            800,
+            918
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            819,
+            259,
+            887,
+            329
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            19,
+            -31
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40932,
+          "kind": "verse",
+          "verse": "20:94",
+          "word_in_verse": 2,
+          "form": "يبنؤم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            806,
+            775,
+            925,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1316,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              814,
+              816,
+              917,
+              878
+            ]
+          },
+          "rect": [
+            812,
+            814,
+            919,
+            880
+          ],
+          "x_edges": [
+            814,
+            917
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            814,
+            812,
+            913,
+            884
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40981,
+          "kind": "verse",
+          "verse": "20:97",
+          "word_in_verse": 13,
+          "form": "موعدا",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            792,
+            1325,
+            920,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1148,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              799,
+              1350,
+              911,
+              1432
+            ]
+          },
+          "rect": [
+            797,
+            1348,
+            913,
+            1434
+          ],
+          "x_edges": [
+            799,
+            911
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            789,
+            1353,
+            909,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -10,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45771,
+          "kind": "verse",
+          "verse": "24:45",
+          "word_in_verse": 13,
+          "form": "من",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            790,
+            225,
+            845,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 514,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              269,
+              845,
+              321
+            ]
+          },
+          "rect": [
+            798,
+            267,
+            847,
+            323
+          ],
+          "x_edges": [
+            800,
+            845
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            798,
+            264,
+            846,
+            341
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45823,
+          "kind": "verse",
+          "verse": "24:48",
+          "word_in_verse": 8,
+          "form": "اذا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            820,
+            775,
+            882,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 639,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              820,
+              813,
+              882,
+              879
+            ]
+          },
+          "rect": [
+            818,
+            811,
+            884,
+            881
+          ],
+          "x_edges": [
+            820,
+            882
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            837,
+            816,
+            886,
+            892
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45870,
+          "kind": "verse",
+          "verse": "24:52",
+          "word_in_verse": 3,
+          "form": "الله",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            832,
+            1325,
+            902,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 867,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              832,
+              1361,
+              902,
+              1416
+            ]
+          },
+          "rect": [
+            830,
+            1359,
+            904,
+            1418
+          ],
+          "x_edges": [
+            832,
+            902
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            836,
+            1364,
+            910,
+            1440
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            4,
+            8
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57806,
+          "kind": "verse",
+          "verse": "37:81",
+          "word_in_verse": 4,
+          "form": "المؤمنين",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            728,
+            225,
+            877,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1659,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              740,
+              258,
+              872,
+              335
+            ]
+          },
+          "rect": [
+            738,
+            256,
+            874,
+            337
+          ],
+          "x_edges": [
+            740,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            737,
+            256,
+            878,
+            332
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57851,
+          "kind": "verse",
+          "verse": "37:92",
+          "word_in_verse": 2,
+          "form": "لكم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            886,
+            775,
+            953,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 832,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              895,
+              797,
+              953,
+              867
+            ]
+          },
+          "rect": [
+            893,
+            795,
+            955,
+            869
+          ],
+          "x_edges": [
+            895,
+            953
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            893,
+            803,
+            960,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57894,
+          "kind": "verse",
+          "verse": "37:101",
+          "word_in_verse": 3,
+          "form": "حليم",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            766,
+            1325,
+            875,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 922,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              772,
+              1366,
+              872,
+              1435
+            ]
+          },
+          "rect": [
+            770,
+            1364,
+            874,
+            1437
+          ],
+          "x_edges": [
+            772,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            777,
+            1362,
+            870,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            5,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70141,
+          "kind": "verse",
+          "verse": "58:13",
+          "word_in_verse": 2,
+          "form": "ان",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            815,
+            225,
+            860,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 414,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              815,
+              264,
+              860,
+              318
+            ]
+          },
+          "rect": [
+            813,
+            262,
+            862,
+            320
+          ],
+          "x_edges": [
+            815,
+            860
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            808,
+            260,
+            860,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -7,
+            0
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70193,
+          "kind": "verse",
+          "verse": "58:16",
+          "word_in_verse": 1,
+          "form": "اتخذوا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            697,
+            775,
+            807,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1396,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              708,
+              797,
+              807,
+              876
+            ]
+          },
+          "rect": [
+            706,
+            795,
+            809,
+            878
+          ],
+          "x_edges": [
+            708,
+            807
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            694,
+            802,
+            806,
+            875
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -14,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70239,
+          "kind": "verse",
+          "verse": "58:19",
+          "word_in_verse": 5,
+          "form": "ذكر",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            736,
+            1325,
+            827,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 881,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              741,
+              1367,
+              827,
+              1428
+            ]
+          },
+          "rect": [
+            739,
+            1365,
+            829,
+            1430
+          ],
+          "x_edges": [
+            741,
+            827
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            740,
+            1356,
+            826,
+            1424
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -1,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 311,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "20:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            250,
+            570,
+            338,
+            674
+          ],
+          "pixels": {
+            "ink_pixels": 1405,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              250,
+              588,
+              338,
+              666
+            ]
+          },
+          "rect": [
+            248,
+            586,
+            340,
+            668
+          ],
+          "x_edges": [
+            250,
+            338
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            255,
+            595,
+            386,
+            663
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            5,
+            48
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 321,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "21:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            225,
+            235,
+            315,
+            340
+          ],
+          "pixels": {
+            "ink_pixels": 1312,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              225,
+              254,
+              315,
+              333
+            ]
+          },
+          "rect": [
+            223,
+            252,
+            317,
+            335
+          ],
+          "x_edges": [
+            225,
+            315
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            228,
+            260,
+            369,
+            338
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            3,
+            54
+          ],
+          "status": "correct_center"
+        }
+      ]
+    },
+    "seeded_rows_v4": {
+      "groups": {
+        "all": {
+          "total": 20,
+          "accepted": 20,
+          "correct_centers": 20,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "fixed_second_words": {
+          "total": 18,
+          "accepted": 18,
+          "correct_centers": 18,
+          "boundary_evaluable": 8,
+          "boundary_pass": 8
+        },
+        "basmala_names": {
+          "total": 2,
+          "accepted": 2,
+          "correct_centers": 2,
+          "boundary_evaluable": 0,
+          "boundary_pass": 0
+        }
+      },
+      "details": [
+        {
+          "page": 163,
+          "t": 20932,
+          "kind": "verse",
+          "verse": "7:106",
+          "word_in_verse": 3,
+          "form": "كنت",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            860,
+            225,
+            957,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 948,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              873,
+              225,
+              952,
+              315
+            ]
+          },
+          "rect": [
+            871,
+            223,
+            954,
+            317
+          ],
+          "x_edges": [
+            873,
+            952
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            868,
+            253,
+            946,
+            330
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -5,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 20977,
+          "kind": "verse",
+          "verse": "7:112",
+          "word_in_verse": 2,
+          "form": "بكل",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            742,
+            775,
+            847,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1142,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              746,
+              813,
+              842,
+              886
+            ]
+          },
+          "rect": [
+            744,
+            811,
+            844,
+            888
+          ],
+          "x_edges": [
+            746,
+            842
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            746,
+            810,
+            836,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 163,
+          "t": 21022,
+          "kind": "verse",
+          "verse": "7:117",
+          "word_in_verse": 6,
+          "form": "عصاك",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            790,
+            1325,
+            923,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1556,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              798,
+              1349,
+              916,
+              1416
+            ]
+          },
+          "rect": [
+            796,
+            1347,
+            918,
+            1418
+          ],
+          "x_edges": [
+            798,
+            916
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            797,
+            1356,
+            913,
+            1427
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -1,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32373,
+          "kind": "verse",
+          "verse": "13:30",
+          "word_in_verse": 13,
+          "form": "اوحينا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            786,
+            225,
+            916,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1331,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              786,
+              248,
+              916,
+              325
+            ]
+          },
+          "rect": [
+            784,
+            246,
+            918,
+            327
+          ],
+          "x_edges": [
+            786,
+            916
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            803,
+            256,
+            913,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            -3
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32429,
+          "kind": "verse",
+          "verse": "13:31",
+          "word_in_verse": 41,
+          "form": "من",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            839,
+            775,
+            906,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 459,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              854,
+              819,
+              903,
+              881
+            ]
+          },
+          "rect": [
+            852,
+            817,
+            905,
+            883
+          ],
+          "x_edges": [
+            854,
+            903
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            851,
+            812,
+            899,
+            880
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 252,
+          "t": 32476,
+          "kind": "verse",
+          "verse": "13:33",
+          "word_in_verse": 24,
+          "form": "القول",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            819,
+            1325,
+            932,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1212,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              819,
+              1358,
+              932,
+              1429
+            ]
+          },
+          "rect": [
+            817,
+            1356,
+            934,
+            1431
+          ],
+          "x_edges": [
+            819,
+            932
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            839,
+            1359,
+            939,
+            1428
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            20,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40889,
+          "kind": "verse",
+          "verse": "20:89",
+          "word_in_verse": 7,
+          "form": "ولا",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            800,
+            225,
+            918,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 719,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              245,
+              918,
+              328
+            ]
+          },
+          "rect": [
+            798,
+            243,
+            920,
+            330
+          ],
+          "x_edges": [
+            800,
+            918
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            819,
+            259,
+            887,
+            329
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            19,
+            -31
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40932,
+          "kind": "verse",
+          "verse": "20:94",
+          "word_in_verse": 2,
+          "form": "يبنؤم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            806,
+            775,
+            925,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1316,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              814,
+              816,
+              917,
+              878
+            ]
+          },
+          "rect": [
+            812,
+            814,
+            919,
+            880
+          ],
+          "x_edges": [
+            814,
+            917
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            814,
+            812,
+            913,
+            884
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            0,
+            -4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 317,
+          "t": 40981,
+          "kind": "verse",
+          "verse": "20:97",
+          "word_in_verse": 13,
+          "form": "موعدا",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            792,
+            1325,
+            920,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 1148,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              799,
+              1350,
+              911,
+              1432
+            ]
+          },
+          "rect": [
+            797,
+            1348,
+            913,
+            1434
+          ],
+          "x_edges": [
+            799,
+            911
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            789,
+            1353,
+            909,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -10,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45771,
+          "kind": "verse",
+          "verse": "24:45",
+          "word_in_verse": 13,
+          "form": "من",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            790,
+            225,
+            845,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 514,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              800,
+              269,
+              845,
+              321
+            ]
+          },
+          "rect": [
+            798,
+            267,
+            847,
+            323
+          ],
+          "x_edges": [
+            800,
+            845
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            798,
+            264,
+            846,
+            341
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45823,
+          "kind": "verse",
+          "verse": "24:48",
+          "word_in_verse": 8,
+          "form": "اذا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            820,
+            775,
+            882,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 639,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              820,
+              813,
+              882,
+              879
+            ]
+          },
+          "rect": [
+            818,
+            811,
+            884,
+            881
+          ],
+          "x_edges": [
+            820,
+            882
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            837,
+            816,
+            886,
+            892
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            17,
+            4
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 355,
+          "t": 45870,
+          "kind": "verse",
+          "verse": "24:52",
+          "word_in_verse": 3,
+          "form": "الله",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "colored",
+          "partition": [
+            832,
+            1325,
+            902,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 867,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              832,
+              1361,
+              902,
+              1416
+            ]
+          },
+          "rect": [
+            830,
+            1359,
+            904,
+            1418
+          ],
+          "x_edges": [
+            832,
+            902
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            836,
+            1364,
+            910,
+            1440
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            4,
+            8
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57806,
+          "kind": "verse",
+          "verse": "37:81",
+          "word_in_verse": 4,
+          "form": "المؤمنين",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            728,
+            225,
+            877,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 1659,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              740,
+              258,
+              872,
+              335
+            ]
+          },
+          "rect": [
+            738,
+            256,
+            874,
+            337
+          ],
+          "x_edges": [
+            740,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            737,
+            256,
+            878,
+            332
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            -3,
+            6
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57851,
+          "kind": "verse",
+          "verse": "37:92",
+          "word_in_verse": 2,
+          "form": "لكم",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            886,
+            775,
+            953,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 832,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              895,
+              797,
+              953,
+              867
+            ]
+          },
+          "rect": [
+            893,
+            795,
+            955,
+            869
+          ],
+          "x_edges": [
+            895,
+            953
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            893,
+            803,
+            960,
+            883
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -2,
+            7
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 448,
+          "t": 57894,
+          "kind": "verse",
+          "verse": "37:101",
+          "word_in_verse": 3,
+          "form": "حليم",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            766,
+            1325,
+            875,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 922,
+            "horizontal_partition_contact": false,
+            "ink_bbox": [
+              772,
+              1366,
+              872,
+              1435
+            ]
+          },
+          "rect": [
+            770,
+            1364,
+            874,
+            1437
+          ],
+          "x_edges": [
+            772,
+            872
+          ],
+          "boundary_eligible": true,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            777,
+            1362,
+            870,
+            1433
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": true,
+          "signed_x_edge_errors": [
+            5,
+            -2
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70141,
+          "kind": "verse",
+          "verse": "58:13",
+          "word_in_verse": 2,
+          "form": "ان",
+          "row": 3,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            815,
+            225,
+            860,
+            345
+          ],
+          "pixels": {
+            "ink_pixels": 414,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              815,
+              264,
+              860,
+              318
+            ]
+          },
+          "rect": [
+            813,
+            262,
+            862,
+            320
+          ],
+          "x_edges": [
+            815,
+            860
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            808,
+            260,
+            860,
+            328
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -7,
+            0
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70193,
+          "kind": "verse",
+          "verse": "58:16",
+          "word_in_verse": 1,
+          "form": "اتخذوا",
+          "row": 8,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            697,
+            775,
+            807,
+            895
+          ],
+          "pixels": {
+            "ink_pixels": 1396,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              708,
+              797,
+              807,
+              876
+            ]
+          },
+          "rect": [
+            706,
+            795,
+            809,
+            878
+          ],
+          "x_edges": [
+            708,
+            807
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            694,
+            802,
+            806,
+            875
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -14,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 543,
+          "t": 70239,
+          "kind": "verse",
+          "verse": "58:19",
+          "word_in_verse": 5,
+          "form": "ذكر",
+          "row": 13,
+          "selection": "fixed_second_word",
+          "ink_class": "black",
+          "partition": [
+            736,
+            1325,
+            827,
+            1445
+          ],
+          "pixels": {
+            "ink_pixels": 881,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              741,
+              1367,
+              827,
+              1428
+            ]
+          },
+          "rect": [
+            739,
+            1365,
+            829,
+            1430
+          ],
+          "x_edges": [
+            741,
+            827
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            740,
+            1356,
+            826,
+            1424
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            -1,
+            -1
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 311,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "20:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            250,
+            570,
+            338,
+            674
+          ],
+          "pixels": {
+            "ink_pixels": 1405,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              250,
+              588,
+              338,
+              666
+            ]
+          },
+          "rect": [
+            248,
+            586,
+            340,
+            668
+          ],
+          "x_edges": [
+            250,
+            338
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            255,
+            595,
+            386,
+            663
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            5,
+            48
+          ],
+          "status": "correct_center"
+        },
+        {
+          "page": 321,
+          "t": null,
+          "kind": "surah_head_basmala",
+          "verse": "21:0",
+          "word_in_verse": 2,
+          "form": "الله",
+          "row": null,
+          "selection": "supplementary_basmala_name",
+          "ink_class": "colored",
+          "partition": [
+            225,
+            235,
+            315,
+            340
+          ],
+          "pixels": {
+            "ink_pixels": 1312,
+            "horizontal_partition_contact": true,
+            "ink_bbox": [
+              225,
+              254,
+              315,
+              333
+            ]
+          },
+          "rect": [
+            223,
+            252,
+            317,
+            335
+          ],
+          "x_edges": [
+            225,
+            315
+          ],
+          "boundary_eligible": false,
+          "x_edge_tolerance": 12,
+          "accepted": true,
+          "bbox": [
+            228,
+            260,
+            369,
+            338
+          ],
+          "center_correct": true,
+          "correct_line": true,
+          "horizontal_boundary_pass": false,
+          "signed_x_edge_errors": [
+            3,
+            54
+          ],
+          "status": "correct_center"
+        }
+      ]
+    }
+  },
+  "inputs": {
+    "audit_row_sample_plan_v4.json": "438171aa55f144d5e316212a850263f2f957dacd78472d1f787918381243a9af",
+    "audit_manual_row_sample_v4.json": "dc37c52a68dc465a5bc24fc459bfc54a8c229171686a2691ccf5a0d794e03612",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "audit_ocr_corpus_sites_v1.json": "eb753dc7e207dc7f6f73c595372cca667882a4a566efc8f75519dfcac7b70ae3",
+    "audit_ocr_observation_map_v3.json": "5a7816c915913df00611cbf21c05b58ae359986d22934863fc19612e801d36b5",
+    "audit_ocr_row_map_v4.json": "55658c75d2d56175bd5d2557a00fe5afbed8213522fffd1a801e5a323f300612"
+  },
+  "caveat": "Twenty labels on eight deliberately selected fresh pages, one AI reader. Inference source hashes and selection frozen before annotation; no corresponding predicted word locations inspected first. Full predictions existed on disk. Eighteen fixed second words on non-header pages plus two supplementary basmala names, not a representative random sample of all words or pages. Manual partitions and pixel contacts leave many boundaries unscorable; centers and +/-12px horizontal edges do not certify complete ink ownership or semantic census."
+}

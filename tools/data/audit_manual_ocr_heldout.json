@@ -1,0 +1,364 @@
+{
+  "version": "heldout-name-localization-sample-v1",
+  "seed": "t2-heldout-ocr-localization-v1-2026-10-18",
+  "selection": "minimum SHA256(seed:page) within each fixed page-number stratum",
+  "excluded_pages": [
+    1,
+    15,
+    49,
+    148,
+    186,
+    206,
+    207,
+    276,
+    365,
+    412,
+    422,
+    513,
+    567
+  ],
+  "pages": [
+    {
+      "page": 74,
+      "stratum": [
+        1,
+        100
+      ],
+      "first_verse": "3:187",
+      "last_verse": "3:194",
+      "ocr_bottom": 1680,
+      "image_sha256": "fbe9c78606e13a7ee90d2a4225a6a1c1964cd58db76147c8a8b694b47a8941c3",
+      "names": [
+        {
+          "verse": "3:187",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            714,
+            31,
+            793,
+            106
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "3:189",
+          "occurrence": 1,
+          "form": "ولله",
+          "rect": [
+            712,
+            587,
+            782,
+            663
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "3:189",
+          "occurrence": 2,
+          "form": "والله",
+          "rect": [
+            24,
+            587,
+            107,
+            657
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "3:191",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            715,
+            914,
+            789,
+            981
+          ],
+          "visually_colored": true
+        }
+      ]
+    },
+    {
+      "page": 128,
+      "stratum": [
+        101,
+        200
+      ],
+      "first_verse": "6:9",
+      "last_verse": "6:18",
+      "ocr_bottom": 1680,
+      "image_sha256": "ac5d138f009e080199da1596cff19583bf3fdc2f0b09401a8e4561852f7a14ce",
+      "names": [
+        {
+          "verse": "6:12",
+          "occurrence": 1,
+          "form": "لله",
+          "rect": [
+            446,
+            468,
+            511,
+            548
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "6:14",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            437,
+            804,
+            512,
+            874
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "6:17",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            438,
+            1357,
+            513,
+            1421
+          ],
+          "visually_colored": true
+        }
+      ]
+    },
+    {
+      "page": 201,
+      "stratum": [
+        201,
+        300
+      ],
+      "first_verse": "9:94",
+      "last_verse": "9:99",
+      "ocr_bottom": 1680,
+      "image_sha256": "d6f0aed61b7f36f19ff76d6a6f9227adcc67df6edc852b7f08ad0789a6148438",
+      "names": [
+        {
+          "verse": "9:94",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            413,
+            144,
+            482,
+            212
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:94",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            925,
+            252,
+            999,
+            319
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:95",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            22,
+            363,
+            110,
+            439
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:96",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            923,
+            805,
+            997,
+            875
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:97",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            22,
+            916,
+            99,
+            982
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:97",
+          "occurrence": 2,
+          "form": "والله",
+          "rect": [
+            658,
+            1024,
+            741,
+            1096
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:98",
+          "occurrence": 1,
+          "form": "والله",
+          "rect": [
+            658,
+            1245,
+            743,
+            1320
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 1,
+          "form": "بالله",
+          "rect": [
+            658,
+            1356,
+            737,
+            1429
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 2,
+          "form": "الله",
+          "rect": [
+            662,
+            1466,
+            735,
+            1536
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 3,
+          "form": "الله",
+          "rect": [
+            660,
+            1578,
+            735,
+            1644
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "9:99",
+          "occurrence": 4,
+          "form": "الله",
+          "rect": [
+            364,
+            1576,
+            439,
+            1644
+          ],
+          "visually_colored": true
+        }
+      ]
+    },
+    {
+      "page": 342,
+      "stratum": [
+        301,
+        400
+      ],
+      "first_verse": "23:18",
+      "last_verse": "23:27",
+      "ocr_bottom": 1680,
+      "image_sha256": "0408c73197abb8559ec2edb60fa723d61dfe1b6ce0069615ab034829170f8517",
+      "names": [
+        {
+          "verse": "23:23",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            23,
+            693,
+            96,
+            761
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "23:24",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            24,
+            914,
+            98,
+            980
+          ],
+          "visually_colored": true
+        }
+      ]
+    },
+    {
+      "page": 447,
+      "stratum": [
+        401,
+        500
+      ],
+      "first_verse": "37:52",
+      "last_verse": "37:76",
+      "ocr_bottom": 1680,
+      "image_sha256": "de1cc28a1feb8b0be884d62fb08cde0a49d63a30d1c35e9738c48a9e0fcdc46e",
+      "names": [
+        {
+          "verse": "37:56",
+          "occurrence": 1,
+          "form": "تالله",
+          "rect": [
+            485,
+            253,
+            587,
+            332
+          ],
+          "visually_colored": true
+        },
+        {
+          "verse": "37:74",
+          "occurrence": 1,
+          "form": "الله",
+          "rect": [
+            497,
+            1466,
+            574,
+            1538
+          ],
+          "visually_colored": true
+        }
+      ]
+    },
+    {
+      "page": 529,
+      "stratum": [
+        501,
+        604
+      ],
+      "first_verse": "54:28",
+      "last_verse": "54:49",
+      "ocr_bottom": 1680,
+      "image_sha256": "a7bc74de64e45fa7d9abfcd24c0abc4869b36b212ae3f5fb6903e2480ec52af6",
+      "names": []
+    }
+  ],
+  "protocol": "Unlabelled scans read before new OCR predictions. Exact corpus confirms spelling/order. One AI reader, approximate ink-core localization windows, not traced boundaries. The exclusive-region algorithm was developed only on the first sample, before these predictions. p529 contains no Allah forms and is retained as a negative page control."
+}

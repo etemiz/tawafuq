@@ -1,0 +1,42 @@
+{
+  "version": "broad-phrase-plan-v1",
+  "date": "2026-10-19",
+  "question": "Measure actual repeated words/phrases beyond Allah-name forms, without selecting ink colors; test spacing sensitivity preserving actual text/order.",
+  "inputs": {
+    "broad_phrase_alignment.py": "0a1e33495e8011e91d866a72922c2f5924c44561f56b7de5ad574d8ebe914804",
+    "test_broad_phrase_alignment.py": "94b9fe4b915a3d564b8ea43f76356a6ebd9fceaf5a14ded1181b16b7af82d6c4",
+    "research_broad_phrase_feasibility_v1.json": "68431438d06444f1b2169bbcb10671a3b4dc299e88e5963c62c19047836f4bd2",
+    "research_same_word_alignment_v1.json": "43c2f1e4a7e3e881a329f2ea4ce62ef06bbed58b3875db65b2b95dffe9abb909",
+    "audit_ocr_word_boundary_map_v5.json": "331b60f641794a45f01b6a173137e77c047c42af22acf38035412bf9e5a07c8f",
+    "audit_word_boundary_sites_v5.json": "14a26d6bffe05c27bce778fa3ac5da87afb770f1a74643f0697e4fd5cd745fd2",
+    "ocr_google_corpus_v1.json": "ed5e0396993d8bbf592aa8573f57d87393678a1b5bece9c6b5cc3ba2c4fc2913",
+    "quran-uthmani.json": "3754c592dd15d7047d5b4339737ad3171c5c1d431a8c3e4c1eee7781c135d58c",
+    "same_word_alignment.py": "67cacc96aa7cf004ef6a17eb58cb1e36861cd672cdd542142690fdf181636603",
+    "map_tokens.py": "c1a3f14c75519e01c4bd70e53a8901081b7b1642f33192320f10ced238a45dd4",
+    "ocr_corpus_map.py": "27fc722f21ca6730ddac6d3e2e76a7aa10360b669d6dd9ca5549c19eb97b0bf0",
+    "semantic_validation.py": "78dcb3af1289d1b1aa95c93604aaad0ac7ef936133f6cab076d4497579b5a80a",
+    "divine_census.py": "5f1797cf1cbf01cc3b9deaefea4eada3890bfca2b263e1416321ec143730f4d4",
+    "audit_stats.py": "4f835652b212076c46ca915199c5617131efb281fae9ae69b2a3b2d3ac1f0a4f",
+    "research_text_layout_feasibility_v1.json": "31a30429d0a58f5aa33056ddcb93bbbf237e74d5f4b956c911c50abc63f91046"
+  },
+  "inventory": "All canonical scanned verse words, excluding Fatiha and synthetic head basmalas. Exact spelling from the frozen same-word study; prefixes and hamza distinctions retained. Phrases are contiguous 2..6-word windows inside a single verse, with at least two canonical occurrences anywhere. Single words include the full canonical inventory.",
+  "location": "All constituent words must be mapped on one page and one seeded row, in strictly decreasing RTL centers. Missing, page-split, row-split and reversed-order windows remain explicitly accounted for. Partners must be on distinct rows of one page.",
+  "scoring": {
+    "primary": "Each phrase occurrence is aligned once iff an identical phrase has ALL corresponding word centers within 15px. Single words use the same endpoint rule.",
+    "secondary": "Phrase-hull center within 15px, reported descriptively; does not certify individual word correspondence.",
+    "primary_groups": "Six separate lengths 1..6 excluding any occurrence whose identity contains an Allah-name form under the canonical name predicate. Other divine words, ordinary words and phrases remain included.",
+    "all_words": "Report inclusive counts separately, plus complete per-type tables. Overlapping windows and lengths are not independent evidence."
+  },
+  "comparison": {
+    "population": "Only complete eligible rows under unchanged six-page interval feasibility rules, extended corpus-wide at the user's request. Full mapped geometry is reported separately and not assigned this subset's tail.",
+    "fixed": "Actual text/order, page/row assignments, detector widths and outer row edges. Permute the observed nonnegative gap multiset independently within each eligible row. No phrase-identity relabeling or target-score optimization.",
+    "limitations": "An exposed development spacing-sensitivity model, not a validated historical renderer. Inherits print widths and line breaks; omits glyph/marker ownership. Gap exchangeability is not independently validated. No origin likelihood.",
+    "replicates": 5000,
+    "seed": 20261021,
+    "rng": "numpy.default_rng/PCG64",
+    "multiple_tests": "Bonferroni factor six for the six primary non-Allah-form length metrics; report unadjusted and adjusted plus-one MC summaries. No individual-type significance claims or multiplication of tails."
+  },
+  "sensitivity": "Require every constituent's normalized OCR surface to match the exact canonical form, using the frozen exact-surface view; report descriptive outcomes without refitting or new simulations.",
+  "diagnostics": "For each length, select earliest six aligned non-Allah-form pairs with distinct identities and pages, plus earliest two unpaired non-Allah-form occurrences on other pages. Inspect scan-backed side-by-side crops as exposed diagnostics, not fresh annotation. Report unpaired counts and full per-type outcomes, including failures.",
+  "completion": "Finish the full exact-word/phrase inventory, coherence-preserving spacing comparison, independent small-ground-truth tests, replay, scan diagnostics and origin assessment. Do not extrapolate spacing tails into divinity probabilities."
+}
